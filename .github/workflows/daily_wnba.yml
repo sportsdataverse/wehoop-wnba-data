@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       start_year:
-        required: true
+        required: false
         type: string
       end_year:
-        required: true
+        required: false
         type: string
       rescrape:
-        required: true
+        required: false
         default: true
         type: boolean
 
@@ -27,8 +27,20 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       R_KEEP_PKG_SOURCE: yes
+      START_YEAR: ${{ inputs.start_year }}
+      END_YEAR: ${{ inputs.end_year }}
+      RESCRAPE: ${{ inputs.rescrape }}
 
     steps:
+      - name: Check for Inputs
+        if: ${{ env.START_YEAR == ''}}
+        run: |
+          echo {START_YEAR}={$(date +'%Y')} >> $GITHUB_ENV
+          echo {END_YEAR}={$(date +'%Y')} >> $GITHUB_ENV
+      - name: Print New Env Vars
+        run: |
+          echo ${{ env.START_YEAR }}
+          echo ${{ env.END_YEAR }}
       - name: Checkout repo
         uses: actions/checkout@v2
 
@@ -59,31 +71,31 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Getting Schedules
         run: |
-          python python/scrape_wnba_schedules.py -s ${{inputs.start_year}} -e ${{inputs.end_year}}
+          python python/scrape_wnba_schedules.py -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }}
       - name: Getting PBP
         run: |
-          python python/scrape_wnba_json.py -s ${{inputs.start_year}} -e ${{inputs.end_year}} -r ${{inputs.rescrape}}
+          python python/scrape_wnba_json.py -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }} -r ${{ env.RESCRAPE }}
       - name: Compiling PBP data
         env:
           GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
-          Rscript R/espn_wnba_01_pbp_creation.R -s ${{inputs.start_year}} -e ${{inputs.end_year}}
+          Rscript R/espn_wnba_01_pbp_creation.R -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }}
       - name: Compiling Team Boxscore data
         env:
           GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
-          Rscript R/espn_wnba_02_team_box_creation.R -s ${{inputs.start_year}} -e ${{inputs.end_year}}
+          Rscript R/espn_wnba_02_team_box_creation.R -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }}
       - name: Compiling Player Boxscore data
         env:
           GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
-          Rscript R/espn_wnba_03_player_box_creation.R -s ${{inputs.start_year}} -e ${{inputs.end_year}}
+          Rscript R/espn_wnba_03_player_box_creation.R -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }}
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
           git add .
-          git commit -m "WNBA Data Updated (Start: ${{inputs.start_year}} End: ${{inputs.end_year}})" || echo "No changes to commit"
+          git commit -m "WNBA Data Updated (Start: ${{ env.START_YEAR }} End: ${{ env.END_YEAR }})" || echo "No changes to commit"
           git pull --rebase
       - name: Push changes
         uses: ad-m/github-push-action@master
