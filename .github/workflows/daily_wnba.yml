@@ -20,7 +20,7 @@ on:
 jobs:
   update_wnba_data:
     runs-on: ${{ matrix.config.os }}
-    name: Update WNBA Data
+    name: Update WNBA Data ${{ inputs.start_year }}-${{ inputs.end_year }} (Rescrape? ${{ inputs.rescrape }})
     strategy:
       fail-fast: false
       matrix:
