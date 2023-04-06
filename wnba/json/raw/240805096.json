@@ -1,0 +1,693 @@
+{
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "97",
+"uid": "s:40~l:59~t:97",
+"slug": "team-usa",
+"location": "Team USA",
+"name": "Team Usa",
+"abbreviation": "USA",
+"displayName": "Team Usa",
+"shortDisplayName": "Team Usa"
+},
+"statistics": []
+},
+{
+"team": {
+"id": "96",
+"uid": "s:40~l:59~t:96",
+"slug": "team-wnba",
+"location": "Team WNBA",
+"name": "Team WNBA",
+"abbreviation": "ALL",
+"displayName": "Team WNBA",
+"shortDisplayName": "Team WNBA"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"id": "97",
+"uid": "s:40~l:59~t:97",
+"slug": "team-usa",
+"location": "Team USA",
+"name": "Team Usa",
+"abbreviation": "USA",
+"displayName": "Team Usa",
+"shortDisplayName": "Team Usa"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [],
+"totals": []
+}
+]
+},
+{
+"team": {
+"id": "96",
+"uid": "s:40~l:59~t:96",
+"slug": "team-wnba",
+"location": "Team WNBA",
+"name": "Team WNBA",
+"abbreviation": "ALL",
+"displayName": "Team WNBA",
+"shortDisplayName": "Team WNBA"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [],
+"totals": []
+}
+]
+}
+]
+},
+"format": {
+"regulation": {
+"periods": 2,
+"displayName": "Half",
+"slug": "half",
+"clock": 1200.0
+},
+"overtime": {
+"clock": 300.0
+}
+},
+"gameInfo": {
+"attendance": 0
+},
+"leaders": [
+{
+"team": {
+"id": "96",
+"uid": "s:40~l:59~t:96",
+"displayName": "Team WNBA",
+"abbreviation": "ALL",
+"logos": []
+},
+"leaders": []
+},
+{
+"team": {
+"id": "97",
+"uid": "s:40~l:59~t:97",
+"displayName": "Team Usa",
+"abbreviation": "USA",
+"logos": []
+},
+"leaders": []
+}
+],
+"seasonseries": [],
+"broadcasts": [],
+"predictor": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "97",
+"uid": "s:40~l:59~t:97",
+"displayName": "Team Usa",
+"abbreviation": "USA",
+"logos": []
+},
+"records": []
+},
+{
+"team": {
+"id": "96",
+"uid": "s:40~l:59~t:96",
+"displayName": "Team WNBA",
+"abbreviation": "ALL",
+"logos": []
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
+"header": {
+"id": "240805096",
+"uid": "s:40~l:59~e:240805096",
+"season": {
+"year": 2004,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "240805096",
+"uid": "s:40~l:59~e:240805096~c:240805096",
+"date": "2004-08-05T23:00Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"shotChartAvailable": false,
+"timeoutsAvailable": true,
+"possessionArrowAvailable": false,
+"onWatchESPN": true,
+"recent": false,
+"boxscoreSource": "full",
+"playByPlaySource": "none",
+"competitors": [
+{
+"id": "96",
+"uid": "s:40~l:59~t:96",
+"order": 0,
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "96",
+"uid": "s:40~l:59~t:96",
+"location": "Team WNBA",
+"name": "Team WNBA",
+"abbreviation": "ALL",
+"displayName": "Team WNBA",
+"links": []
+},
+"score": "58",
+"linescores": [
+{
+"displayValue": "20"
+},
+{
+"displayValue": "38"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "0-1",
+"displayValue": "0-1"
+},
+{
+"type": "home",
+"summary": "0-1",
+"displayValue": "0-1"
+}
+],
+"possession": false
+},
+{
+"id": "97",
+"uid": "s:40~l:59~t:97",
+"order": 1,
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "97",
+"uid": "s:40~l:59~t:97",
+"location": "Team USA",
+"name": "Team Usa",
+"abbreviation": "USA",
+"displayName": "Team Usa",
+"links": []
+},
+"score": "74",
+"linescores": [
+{
+"displayValue": "39"
+},
+{
+"displayValue": "35"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "1-0",
+"displayValue": "1-0"
+},
+{
+"type": "road",
+"summary": "1-0",
+"displayValue": "1-0"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": [
+{
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN"
+},
+"lang": "en",
+"region": "us"
+}
+]
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/240805096",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/recap?gameId=240805096",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/boxscore/_/gameId/240805096",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/matchup?gameId=240805096",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"week": 11,
+"league": {
+"id": "59",
+"uid": "s:40~l:59",
+"name": "Women's National Basketball Association",
+"abbreviation": "WNBA",
+"slug": "wnba",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/injuries",
+"text": "Injuries"
+}
+]
+}
+},
+"plays": [],
+"article": {
+"keywords": [],
+"description": "USA BASKETBALL 74, WNBA ALL",
+"video": [],
+"type": "Recap",
+"nowId": "1-1853081",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/1853081"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/events/240805096"
+}
+},
+"web": {
+"href": "http://www.espn.com/wnba/recap?gameId=240805096",
+"short": {}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=1853081"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/wnba/gamecast?gameId=240805096&version=mobile"
+}
+},
+"id": 1853081,
+"categories": [
+{
+"id": 15112,
+"description": "All Stars All-Stars",
+"type": "team",
+"sportId": 59,
+"teamId": 96,
+"team": {
+"id": 96,
+"description": "All Stars All-Stars",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/teams/96"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/wnba/team/_/name/all/team-wnba-team-wnba"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/wnba/clubhouse?teamId=96"
+}
+}
+}
+},
+"uid": "s:40~l:59~t:96"
+},
+{
+"id": 15165,
+"description": "USA All-Stars",
+"type": "team",
+"sportId": 59,
+"teamId": 97,
+"team": {
+"id": 97,
+"description": "USA All-Stars",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/teams/97"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/wnba/team/_/name/usa/team-usa-team-usa"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/wnba/clubhouse?teamId=97"
+}
+}
+}
+},
+"uid": "s:40~l:59~t:97"
+}
+],
+"headline": "USA BASKETBALL 74, WNBA ALL",
+"gameId": "240805096",
+"images": [],
+"linkText": "USA BASKETBALL 74, WNBA ALL",
+"published": "2004-08-06T01:11:09Z",
+"allowComments": true,
+"lastModified": "2004-08-06T01:11:52Z",
+"inlines": [],
+"story": "NEW YORK (Ticker) -- Even without Sheryl Swoopes and Katie \nSmith, Team USA had more than enough firepower to down the WNBA\nAll-Stars.\n\nLisa Leslie collected 15 points and 12 rebounds and Yolanda\nGriffith added 11 and 15 to lead Team USA to an easy 74-58\ntriumph over the WNBA All-Stars at Radio City Music Hall.\n\nTamika Catchings had 12 points and 11 rebounds for Team USA,\nwhich was missing stars Swoopes (sore right foot) and Smith\n(bruised right knee).\n\nThe Olympic team dominated the glass, outrebounding the\nAll-Stars, 62-30.  Team USA shot just 38 percent (30-of-80) but\nlimited the All-Stars to 29 percent (21-of-72), including an\nembarrassing 1-of-20 from the arc.\n\nTeam USA took a 9-8 lead 4 1/2 minutes into the contest before\nclosing the half on a 30-12 run.  Griffith had nine points and\nnine rebounds in 12 minutes in the half.\n\nMwadi Mabika had 11 points and Cheryl Ford 10 to pace the\nAll-Stars."
+},
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/wnba/standings"
+},
+"groups": []
+},
+"teamInfo": [],
+"espnWP": [],
+"season": {},
+"timeouts": []
+}
