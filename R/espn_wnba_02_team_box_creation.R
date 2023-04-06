@@ -42,32 +42,35 @@ wnba_team_box_games <- function(y) {
     dplyr::filter(.data$game_id %in% team_box_game_ids) %>%
     dplyr::pull("game_id")
 
-  cli::cli_progress_step(msg = "Compiling {y} ESPN WNBA Team Boxscores ({length(season_team_box_list)} games)",
-                         msg_done = "Compiled {y} ESPN WNBA Team Boxscores!")
+  if (length(season_team_box_list) > 0) {
 
-  future::plan("multisession")
-  espn_df <- furrr::future_map_dfr(season_team_box_list, function(x) {
-    tryCatch(
-      expr = {
-        resp <- glue::glue("wnba/json/final/{x}.json")
-        team_box_score <- wehoop:::helper_espn_wnba_team_box(resp)
-        return(team_box_score)
-      },
-      error = function(e) {
-         message(glue::glue("{Sys.time()}: Team box score data issue for {x}!"))
-      }
-    )
-  }, .options = furrr::furrr_options(seed = TRUE))
+    cli::cli_progress_step(msg = "Compiling {y} ESPN WNBA Team Boxscores ({length(season_team_box_list)} games)",
+                          msg_done = "Compiled {y} ESPN WNBA Team Boxscores!")
 
-  if (nrow(espn_df) > 0 && !("largest_lead" %in% colnames(espn_df))) {
-    espn_df$largest_lead <- NA_character_
-    espn_df <- espn_df %>%
-      dplyr::relocate("largest_lead", .after = last_col())
+    future::plan("multisession")
+    espn_df <- furrr::future_map_dfr(season_team_box_list, function(x) {
+      tryCatch(
+        expr = {
+          resp <- glue::glue("wnba/json/final/{x}.json")
+          team_box_score <- wehoop:::helper_espn_wnba_team_box(resp)
+          return(team_box_score)
+        },
+        error = function(e) {
+          message(glue::glue("{Sys.time()}: Team box score data issue for {x}!"))
+        }
+      )
+    }, .options = furrr::furrr_options(seed = TRUE))
+
+    if (nrow(espn_df) > 0 && !("largest_lead" %in% colnames(espn_df))) {
+      espn_df$largest_lead <- NA_character_
+      espn_df <- espn_df %>%
+        dplyr::relocate("largest_lead", .after = last_col())
+    }
+
+    cli::cli_progress_step(msg = "Updating {y} ESPN WNBA Team Boxscores GitHub Release",
+                          msg_done = "Updated {y} ESPN WNBA Team Boxscores GitHub Release!")
+
   }
-
-  cli::cli_progress_step(msg = "Updating {y} ESPN WNBA Team Boxscores GitHub Release",
-                         msg_done = "Updated {y} ESPN WNBA Team Boxscores GitHub Release!")
-
   if (nrow(espn_df) > 0) {
 
     espn_df <- espn_df %>%
@@ -90,9 +93,11 @@ wnba_team_box_games <- function(y) {
       file_name =  glue::glue("team_box_{y}"),
       sportsdataverse_type = "team boxscores data",
       release_tag = "espn_wnba_team_boxscores",
+      pkg_function = "wehoop::load_wnba_team_box()",
       file_types = c("rds", "csv", "parquet"),
       .token = Sys.getenv("GITHUB_PAT")
     )
+
   }
 
   sched <- sched %>%
@@ -112,6 +117,7 @@ wnba_team_box_games <- function(y) {
 
   } else {
 
+    cli::cli_alert_info("{length(season_team_box_list)} ESPN WNBA Team Boxscores to be compiled for {y}, skipping Team Boxscores compilation")
     sched$team_box <- FALSE
 
   }

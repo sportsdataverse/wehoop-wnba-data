@@ -41,26 +41,29 @@ wnba_player_box_games <- function(y) {
     dplyr::filter(.data$game_id %in% player_box_game_ids) %>%
     dplyr::pull("game_id")
 
-  cli::cli_progress_step(msg = "Compiling {y} ESPN WNBA Player Boxscores ({length(season_player_box_list)} games)",
-                         msg_done = "Compiled {y} ESPN WNBA Player Boxscores!")
+  if (length(season_player_box_list) > 0) {
 
-  future::plan("multisession")
-  espn_df <- furrr::future_map_dfr(season_player_box_list, function(x) {
-    tryCatch(
-      expr = {
-        resp <- glue::glue("wnba/json/final/{x}.json")
-        player_box_score <- wehoop:::helper_espn_wnba_player_box(resp)
-        return(player_box_score)
-      },
-      error = function(e) {
-         message(glue::glue("{Sys.time()}: Player box score data for {x} issue!"))
-      }
-    )
-  }, .options = furrr::furrr_options(seed = TRUE))
+    cli::cli_progress_step(msg = "Compiling {y} ESPN WNBA Player Boxscores ({length(season_player_box_list)} games)",
+                           msg_done = "Compiled {y} ESPN WNBA Player Boxscores!")
 
-  cli::cli_progress_step(msg = "Updating {y} ESPN WNBA Player Boxscores GitHub Release",
-                         msg_done = "Updated {y} ESPN WNBA Player Boxscores GitHub Release!")
+    future::plan("multisession")
+    espn_df <- furrr::future_map_dfr(season_player_box_list, function(x) {
+      tryCatch(
+        expr = {
+          resp <- glue::glue("wnba/json/final/{x}.json")
+          player_box_score <- wehoop:::helper_espn_wnba_player_box(resp)
+          return(player_box_score)
+        },
+        error = function(e) {
+          message(glue::glue("{Sys.time()}: Player box score data for {x} issue!"))
+        }
+      )
+    }, .options = furrr::furrr_options(seed = TRUE))
 
+    cli::cli_progress_step(msg = "Updating {y} ESPN WNBA Player Boxscores GitHub Release",
+                          msg_done = "Updated {y} ESPN WNBA Player Boxscores GitHub Release!")
+
+  }
   if (nrow(espn_df) > 1) {
 
     espn_df <- espn_df %>%
@@ -83,6 +86,7 @@ wnba_player_box_games <- function(y) {
       file_name =  glue::glue("player_box_{y}"),
       sportsdataverse_type = "player boxscores data",
       release_tag = "espn_wnba_player_boxscores",
+      pkg_function = "wehoop::load_wnba_player_box()",
       file_types = c("rds", "csv", "parquet"),
       .token = Sys.getenv("GITHUB_PAT")
     )
@@ -105,6 +109,7 @@ wnba_player_box_games <- function(y) {
 
   } else {
 
+    cli::cli_alert_info("{length(season_player_box_list)} ESPN WNBA Player Boxscores to be compiled for {y}, skipping Player Boxscores compilation")
     sched$player_box <- FALSE
 
   }

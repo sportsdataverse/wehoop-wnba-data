@@ -42,43 +42,46 @@ wnba_pbp_games <- function(y) {
     dplyr::filter(.data$game_id %in% pbp_game_ids) %>%
     dplyr::pull("game_id")
 
-  cli::cli_progress_step(msg = "Compiling {y} ESPN WNBA pbps ({length(season_pbp_list)} games)",
-                         msg_done = "Compiled {y} ESPN WNBA pbps!")
+  if (length(season_pbp_list) > 0) {
 
-  future::plan("multisession")
-  espn_df <- furrr::future_map_dfr(season_pbp_list, function(x) {
-    tryCatch(
-      expr = {
-        resp <- glue::glue("wnba/json/final/{x}.json")
-        pbp <- wehoop:::helper_espn_wnba_pbp(resp)
-        return(pbp)
-      },
-      error = function(e) {
-         message(glue::glue("{Sys.time()}: PBP data issue for {x}!"))
-      }
-    )
-  }, .options = furrr::furrr_options(seed = TRUE))
+    cli::cli_progress_step(msg = "Compiling {y} ESPN WNBA pbps ({length(season_pbp_list)} games)",
+                           msg_done = "Compiled {y} ESPN WNBA pbps!")
 
-  if (!("coordinate_x" %in% colnames(espn_df)) && length(espn_df) > 1) {
-    espn_df <- espn_df %>%
-      dplyr::mutate(
-        coordinate_x = NA_real_,
-        coordinate_y = NA_real_,
-        coordinate_x_raw = NA_real_,
-        coordinate_y_raw = NA_real_
+    future::plan("multisession")
+    espn_df <- furrr::future_map_dfr(season_pbp_list, function(x) {
+      tryCatch(
+        expr = {
+          resp <- glue::glue("wnba/json/final/{x}.json")
+          pbp <- wehoop:::helper_espn_wnba_pbp(resp)
+          return(pbp)
+        },
+        error = function(e) {
+          message(glue::glue("{Sys.time()}: PBP data issue for {x}!"))
+        }
       )
+    }, .options = furrr::furrr_options(seed = TRUE))
+
+    if (!("coordinate_x" %in% colnames(espn_df)) && length(espn_df) > 1) {
+      espn_df <- espn_df %>%
+        dplyr::mutate(
+          coordinate_x = NA_real_,
+          coordinate_y = NA_real_,
+          coordinate_x_raw = NA_real_,
+          coordinate_y_raw = NA_real_
+        )
+    }
+
+    if (!("type_abbreviation" %in% colnames(espn_df)) && length(espn_df) > 1) {
+      espn_df <- espn_df %>%
+        dplyr::mutate(
+          type_abbreviation = NA_character_
+        )
+    }
+
+      cli::cli_progress_step(msg = "Updating {y} ESPN WNBA PBP GitHub Release",
+                             msg_done = "Updated {y} ESPN WNBA PBP GitHub Release!")
+
   }
-
-  if (!("type_abbreviation" %in% colnames(espn_df)) && length(espn_df) > 1) {
-    espn_df <- espn_df %>%
-      dplyr::mutate(
-        type_abbreviation = NA_character_
-      )
-  }
-
-    cli::cli_progress_step(msg = "Updating {y} ESPN WNBA PBP GitHub Release",
-                         msg_done = "Updated {y} ESPN WNBA PBP GitHub Release!")
-
   if (nrow(espn_df) > 1) {
 
     espn_df <- espn_df %>%
@@ -100,16 +103,21 @@ wnba_pbp_games <- function(y) {
       file_name =  glue::glue("play_by_play_{y}"),
       sportsdataverse_type = "play-by-play data",
       release_tag = "espn_wnba_pbp",
+      pkg_function = "wehoop::load_wnba_pbp()",
       file_types = c("rds", "csv", "parquet"),
       .token = Sys.getenv("GITHUB_PAT")
     )
+
   }
 
   sched <- sched %>%
     dplyr::mutate(
       game_id = as.integer(.data$id),
       id = as.integer(.data$id),
-      status_display_clock = as.character(.data$status_display_clock)
+      status_display_clock = as.character(.data$status_display_clock),
+      game_date_time = lubridate::ymd_hm(substr(.data$date, 1, nchar(.data$date) - 1)) %>%
+        lubridate::with_tz(tzone = "America/New_York"),
+      game_date = as.Date(substr(.data$game_date_time, 1, 10))
     )
 
   if (nrow(espn_df) > 0) {
@@ -120,6 +128,7 @@ wnba_pbp_games <- function(y) {
 
   } else {
 
+    cli::cli_alert_info("{length(season_pbp_list)} ESPN WNBA pbps to be compiled for {y}, skipping PBP compilation")
     sched$PBP <- FALSE
 
   }
