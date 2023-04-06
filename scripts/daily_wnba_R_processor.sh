@@ -15,7 +15,7 @@ do
     Rscript R/espn_wnba_02_team_box_creation.R -s $i -e $i
     Rscript R/espn_wnba_03_player_box_creation.R -s $i -e $i
     git pull  >> /dev/null
-    git add wnba/* wnba_schedule_master.csv wnba_schedule_master.parquet  >> /dev/null
+    git add wnba/*  >> /dev/null
     git pull  >> /dev/null
     git commit -m "WNBA Play-by-Play and Schedules update (Start: $i End: $i)"  >> /dev/null || echo "No changes to commit"
     git pull  >> /dev/null

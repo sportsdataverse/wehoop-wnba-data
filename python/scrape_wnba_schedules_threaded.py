@@ -42,10 +42,9 @@ def download_schedule(season, path_to_schedules=None):
     ev = ev.drop('competitors', axis=1)
     ev = ev.drop_duplicates(subset=['game_id'], ignore_index=True)
 
-    Path(path_to_schedules).mkdir(parents=True, exist_ok=True)
-    Path(path_to_schedules+'/csv').mkdir(parents=True, exist_ok=True)
-    Path(path_to_schedules+'/parquet').mkdir(parents=True, exist_ok=True)
-    Path(path_to_schedules+'/rds').mkdir(parents=True, exist_ok=True)
+    Path(f"{path_to_schedules}/csv").mkdir(parents=True, exist_ok=True)
+    Path(f"{path_to_schedules}/parquet").mkdir(parents=True, exist_ok=True)
+    Path(f"{path_to_schedules}/rds").mkdir(parents=True, exist_ok=True)
     if path_to_schedules is not None:
         ev.to_csv(f"{path_to_schedules}/csv/wnba_schedule_{season}.csv", index = False)
         ev.to_parquet(f"{path_to_schedules}/parquet/wnba_schedule_{season}.parquet", index = False)
