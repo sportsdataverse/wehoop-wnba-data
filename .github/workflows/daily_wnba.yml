@@ -80,10 +80,10 @@ jobs:
       - name: Check for Inputs
         if: ${{ env.START_YEAR == ''}}
         run: |
-          echo START_YEAR=$(Rscript -e "hoopR::most_recent_nba_season()") >> $GITHUB_ENV
-          echo END_YEAR=$(Rscript -e "hoopR::most_recent_nba_season()") >> $GITHUB_ENV
+          echo START_YEAR=$(Rscript -e "wehoop::most_recent_wnba_season()") >> $GITHUB_ENV
+          echo END_YEAR=$(Rscript -e "wehoop::most_recent_wnba_season()") >> $GITHUB_ENV
       - name: Run Python and R Process scripts
         env:
           GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
-          bash scripts/daily_nba_scraper.sh -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }} -r ${{ env.RESCRAPE }}
+          bash scripts/daily_wnba_scraper.sh -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }} -r ${{ env.RESCRAPE }}
