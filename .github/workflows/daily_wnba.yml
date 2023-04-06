@@ -35,8 +35,8 @@ jobs:
       - name: Check for Inputs
         if: ${{ env.START_YEAR == ''}}
         run: |
-          echo {START_YEAR}={$(date +'%Y')} >> $GITHUB_ENV
-          echo {END_YEAR}={$(date +'%Y')} >> $GITHUB_ENV
+          echo START_YEAR=$(date +'%Y') >> $GITHUB_ENV
+          echo END_YEAR=$(date +'%Y') >> $GITHUB_ENV
       - name: Print New Env Vars
         run: |
           echo ${{ env.START_YEAR }}
