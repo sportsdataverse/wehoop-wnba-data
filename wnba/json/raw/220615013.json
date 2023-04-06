@@ -1,0 +1,5826 @@
+{
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"slug": "los-angeles-sparks",
+"location": "Los Angeles",
+"name": "Sparks",
+"abbreviation": "LOS",
+"displayName": "Los Angeles Sparks",
+"shortDisplayName": "Sparks",
+"color": "532481",
+"alternateColor": "49ac9c",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png"
+},
+"statistics": []
+},
+{
+"team": {
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"slug": "sacramento-monarchs",
+"location": "Sacramento",
+"name": "Monarchs",
+"abbreviation": "SAC",
+"displayName": "Sacramento Monarchs",
+"shortDisplayName": "Monarchs",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"slug": "los-angeles-sparks",
+"location": "Los Angeles",
+"name": "Sparks",
+"abbreviation": "LOS",
+"displayName": "Los Angeles Sparks",
+"shortDisplayName": "Sparks",
+"color": "532481",
+"alternateColor": "49ac9c",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": true,
+"athlete": {
+"id": "1",
+"uid": "s:40~l:59~a:1",
+"guid": "43cdf63ec9e2b90fc5383a86c3984043",
+"displayName": "Latasha Byears",
+"shortName": "L. Byears",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/1/latasha-byears",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/1/latasha-byears",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/1/latasha-byears",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/1/latasha-byears",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/1/latasha-byears",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/1/latasha-byears",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "3",
+"uid": "s:40~l:59~a:3",
+"guid": "751f8cb0701c3d43c76aac9989351dba",
+"displayName": "Tamecka Dixon",
+"shortName": "T. Dixon",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3/tamecka-dixon",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3/tamecka-dixon",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3/tamecka-dixon",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3/tamecka-dixon",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3/tamecka-dixon",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3/tamecka-dixon",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "6",
+"uid": "s:40~l:59~a:6",
+"guid": "62bdd85c2d0bf2abb9475bce833d8949",
+"displayName": "Lisa Leslie",
+"shortName": "L. Leslie",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/6/lisa-leslie",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/6/lisa-leslie",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/6/lisa-leslie",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/6/lisa-leslie",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/6/lisa-leslie",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/6/lisa-leslie",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "7",
+"uid": "s:40~l:59~a:7",
+"guid": "8924bb38a7821cca2d48cbbec372a429",
+"displayName": "Mwadi Mabika",
+"shortName": "M. Mabika",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/7/mwadi-mabika",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/7/mwadi-mabika",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/7/mwadi-mabika",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/7/mwadi-mabika",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/7/mwadi-mabika",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/7/mwadi-mabika",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "10",
+"uid": "s:40~l:59~a:10",
+"guid": "e105ac647a9ad71d0f59cc2be20af42e",
+"displayName": "Nikki Teasley",
+"shortName": "N. Teasley",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/10/nikki-teasley",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/10/nikki-teasley",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/10/nikki-teasley",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/10/nikki-teasley",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/10/nikki-teasley",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/10/nikki-teasley",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2",
+"uid": "s:40~l:59~a:2",
+"guid": "6bf735e46a85fe34f3e280283fe7e1da",
+"displayName": "Erika de Souza",
+"shortName": "E. de Souza",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2/erika-de-souza",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2/erika-de-souza",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2/erika-de-souza",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2/erika-de-souza",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2/erika-de-souza",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2/erika-de-souza",
+"text": "Overview"
+}
+],
+"jersey": "14",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "9",
+"uid": "s:40~l:59~a:9",
+"guid": "6a2ce15c522d89cb5c733852b9bfba4d",
+"displayName": "DeLisha Milton-Jones",
+"shortName": "D. Milton-Jones",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/9/delisha-milton-jones",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/9/delisha-milton-jones",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/9/delisha-milton-jones",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/9/delisha-milton-jones",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/9/delisha-milton-jones",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/9/delisha-milton-jones",
+"text": "Overview"
+}
+],
+"jersey": "1",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4",
+"uid": "s:40~l:59~a:4",
+"guid": "31e614341e948eba1859d827db58de1e",
+"displayName": "Vedrana Grgin Fonseca",
+"shortName": "V. Grgin Fonseca",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4/vedrana-grgin-fonseca",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/4/vedrana-grgin-fonseca",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/4/vedrana-grgin-fonseca",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/4/vedrana-grgin-fonseca",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/4/vedrana-grgin-fonseca",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/4/vedrana-grgin-fonseca",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "8",
+"uid": "s:40~l:59~a:8",
+"guid": "f667dca56aa32e41abfae60b82c7c9fa",
+"displayName": "Nicky McCrimmon",
+"shortName": "N. McCrimmon",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/8/nicky-mccrimmon",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/8/nicky-mccrimmon",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/8/nicky-mccrimmon",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/8/nicky-mccrimmon",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/8/nicky-mccrimmon",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/8/nicky-mccrimmon",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "11",
+"uid": "s:40~l:59~a:11",
+"guid": "838552becbfe666351e6b0f550fbe18a",
+"displayName": "Sophia Witherspoon",
+"shortName": "S. Witherspoon",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/11/sophia-witherspoon",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/11/sophia-witherspoon",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/11/sophia-witherspoon",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/11/sophia-witherspoon",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/11/sophia-witherspoon",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/11/sophia-witherspoon",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "182",
+"uid": "s:40~l:59~a:182",
+"guid": "886aeef9a0d5fc63f0cbecc3447514d0",
+"displayName": "Katryna Gaither",
+"shortName": "K. Gaither",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/182/katryna-gaither",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/182/katryna-gaither",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/182/katryna-gaither",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/182/katryna-gaither",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/182/katryna-gaither",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/182/katryna-gaither",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+}
+],
+"totals": [
+"",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"",
+"--"
+]
+}
+]
+},
+{
+"team": {
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"slug": "sacramento-monarchs",
+"location": "Sacramento",
+"name": "Monarchs",
+"abbreviation": "SAC",
+"displayName": "Sacramento Monarchs",
+"shortDisplayName": "Monarchs",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": false,
+"athlete": {
+"id": "369",
+"uid": "s:40~l:59~a:369",
+"guid": "ae914f0a2301f15d5b8ca9a40690c0bf",
+"displayName": "Tangela  Smith",
+"shortName": "T. Smith",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/369/tangela-smith",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/369/tangela-smith",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/369/tangela-smith",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/369/tangela-smith",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/369/tangela-smith",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/369/tangela-smith",
+"text": "Overview"
+}
+],
+"jersey": "50",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "321",
+"uid": "s:40~l:59~a:321",
+"guid": "fa884071e923c734224eca85c5fedb0e",
+"displayName": "Ticha  Penicheiro",
+"shortName": "T. Penicheiro",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/321/ticha-penicheiro",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/321/ticha-penicheiro",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/321/ticha-penicheiro",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/321/ticha-penicheiro",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/321/ticha-penicheiro",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/321/ticha-penicheiro",
+"text": "Overview"
+}
+],
+"jersey": "21",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "180",
+"uid": "s:40~l:59~a:180",
+"guid": "8a9718bc2e628571d228281713527de3",
+"displayName": "La'Keshia Frett",
+"shortName": "L. Frett",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/180/lakeshia-frett",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/180/lakeshia-frett",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/180/lakeshia-frett",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/180/lakeshia-frett",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/180/lakeshia-frett",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/180/lakeshia-frett",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "214",
+"uid": "s:40~l:59~a:214",
+"guid": "306b3771e32a8e856bba348cbf67b2e9",
+"displayName": "Kedra Holland-Corn",
+"shortName": "K. Holland-Corn",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/214/kedra-holland-corn",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/214/kedra-holland-corn",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/214/kedra-holland-corn",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/214/kedra-holland-corn",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/214/kedra-holland-corn",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/214/kedra-holland-corn",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "270",
+"uid": "s:40~l:59~a:270",
+"guid": "da9a62fafbfdac0b1334eb6399ad4395",
+"displayName": "Hamchetou Maiga-Ba",
+"shortName": "H. Maiga-Ba",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/270/hamchetou-maiga-ba",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/270/hamchetou-maiga-ba",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/270/hamchetou-maiga-ba",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/270/hamchetou-maiga-ba",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/270/hamchetou-maiga-ba",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/270/hamchetou-maiga-ba",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "73",
+"uid": "s:40~l:59~a:73",
+"guid": "80996e7bec798fd07bb081f831943394",
+"displayName": "Cass Bauer-Bilodeau",
+"shortName": "C. Bauer-Bilodeau",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/73/cass-bauer-bilodeau",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/73/cass-bauer-bilodeau",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/73/cass-bauer-bilodeau",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/73/cass-bauer-bilodeau",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/73/cass-bauer-bilodeau",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/73/cass-bauer-bilodeau",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "95",
+"uid": "s:40~l:59~a:95",
+"guid": "0389fff65fc8dfa7390d8b845c700d66",
+"displayName": "Ruthie Bolton",
+"shortName": "R. Bolton",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/95/ruthie-bolton",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/95/ruthie-bolton",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/95/ruthie-bolton",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/95/ruthie-bolton",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/95/ruthie-bolton",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/95/ruthie-bolton",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "174",
+"uid": "s:40~l:59~a:174",
+"guid": "50ded34ca4644e5dc46b4f9f9225321c",
+"displayName": "Stacey Ford",
+"shortName": "S. Ford",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/174/stacey-ford",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/174/stacey-ford",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/174/stacey-ford",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/174/stacey-ford",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/174/stacey-ford",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/174/stacey-ford",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "194",
+"uid": "s:40~l:59~a:194",
+"guid": "f77d23c520dc86a2aa5804833e3423fb",
+"displayName": "Lady Grooms",
+"shortName": "L. Grooms",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/194/lady-grooms",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/194/lady-grooms",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/194/lady-grooms",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/194/lady-grooms",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/194/lady-grooms",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/194/lady-grooms",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "306",
+"uid": "s:40~l:59~a:306",
+"guid": "440357f82b340d48196cfd9124355100",
+"displayName": "Andrea Nagy",
+"shortName": "A. Nagy",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/306/andrea-nagy",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/306/andrea-nagy",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/306/andrea-nagy",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/306/andrea-nagy",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/306/andrea-nagy",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/306/andrea-nagy",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "439",
+"uid": "s:40~l:59~a:439",
+"guid": "596e9598f0dba597656fb3b74135b52e",
+"displayName": "Kara Wolters",
+"shortName": "K. Wolters",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/439/kara-wolters",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/439/kara-wolters",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/439/kara-wolters",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/439/kara-wolters",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/439/kara-wolters",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/439/kara-wolters",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+}
+],
+"totals": [
+"",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"",
+"--"
+]
+}
+]
+}
+]
+},
+"format": {
+"regulation": {
+"periods": 2,
+"displayName": "Half",
+"slug": "half",
+"clock": 1200.0
+},
+"overtime": {
+"clock": 300.0
+}
+},
+"gameInfo": {
+"attendance": 0
+},
+"leaders": [
+{
+"team": {
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"displayName": "Sacramento Monarchs",
+"abbreviation": "SAC",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"leaders": []
+},
+{
+"team": {
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"displayName": "Los Angeles Sparks",
+"abbreviation": "LOS",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/la",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-05-20T14:50Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-05-20T14:51Z"
+}
+]
+},
+"leaders": []
+}
+],
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "LOS leads series 1-0",
+"completed": false,
+"totalCompetitions": 3,
+"events": [
+{
+"id": "220615013",
+"uid": "s:40~l:59~e:220615013~c:220615013",
+"date": "2002-06-15T20:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"displayName": "Sacramento Monarchs",
+"abbreviation": "SAC",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "66"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"displayName": "Los Angeles Sparks",
+"abbreviation": "LOS",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/la",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-05-20T14:50Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-05-20T14:51Z"
+}
+]
+},
+"score": "72"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/220615013",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=220615013",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "220705006",
+"uid": "s:40~l:59~e:220705006~c:220705006",
+"date": "2002-07-06T02:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"displayName": "Los Angeles Sparks",
+"abbreviation": "LOS",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/la",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-05-20T14:50Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-05-20T14:51Z"
+}
+]
+},
+"score": "87"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"displayName": "Sacramento Monarchs",
+"abbreviation": "SAC",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "65"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/220705006",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=220705006",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "220803013",
+"uid": "s:40~l:59~e:220803013~c:220803013",
+"date": "2002-08-03T20:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"displayName": "Sacramento Monarchs",
+"abbreviation": "SAC",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "71"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"displayName": "Los Angeles Sparks",
+"abbreviation": "LOS",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/la",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-05-20T14:50Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-05-20T14:51Z"
+}
+]
+},
+"score": "81"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/220803013",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=220803013",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"broadcasts": [],
+"predictor": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"displayName": "Los Angeles Sparks",
+"abbreviation": "LOS",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/la",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-05-20T14:50Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-05-20T14:51Z"
+}
+]
+},
+"records": []
+},
+{
+"team": {
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"displayName": "Sacramento Monarchs",
+"abbreviation": "SAC",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
+"header": {
+"id": "220615013",
+"uid": "s:40~l:59~e:220615013",
+"season": {
+"year": 2002,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "220615013",
+"uid": "s:40~l:59~e:220615013~c:220615013",
+"date": "2002-06-15T20:00Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"shotChartAvailable": true,
+"timeoutsAvailable": true,
+"possessionArrowAvailable": false,
+"onWatchESPN": true,
+"recent": false,
+"boxscoreSource": "basic",
+"playByPlaySource": "full",
+"competitors": [
+{
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"order": 0,
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"location": "Sacramento",
+"name": "Monarchs",
+"abbreviation": "SAC",
+"displayName": "Sacramento Monarchs",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sac.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+],
+"links": []
+},
+"score": "66",
+"linescores": [
+{
+"displayValue": "24"
+},
+{
+"displayValue": "33"
+},
+{
+"displayValue": "9"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "14-18",
+"displayValue": "14-18"
+},
+{
+"type": "home",
+"summary": "10-6",
+"displayValue": "10-6"
+}
+],
+"possession": false
+},
+{
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"order": 1,
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"location": "Los Angeles",
+"name": "Sparks",
+"abbreviation": "LOS",
+"displayName": "Los Angeles Sparks",
+"color": "532481",
+"alternateColor": "49ac9c",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-05-20T14:50Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/los.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-05-20T14:51Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"text": "Clubhouse"
+}
+]
+},
+"score": "72",
+"linescores": [
+{
+"displayValue": "20"
+},
+{
+"displayValue": "37"
+},
+{
+"displayValue": "15"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "2-0",
+"displayValue": "2-0"
+},
+{
+"type": "road",
+"summary": "13-3",
+"displayValue": "13-3"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": [
+{
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "ESPN"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"series": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "LOS leads series 1-0",
+"completed": false,
+"totalCompetitions": 3,
+"competitors": [
+{
+"id": "13",
+"uid": "s:40~l:59~t:13",
+"wins": 0,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2002/teams/13?lang=en&region=us"
+}
+},
+{
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"wins": 1,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2002/teams/6?lang=en&region=us"
+}
+}
+],
+"events": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/220615013?lang=en&region=us",
+"id": "220615013"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/220705006?lang=en&region=us",
+"id": "220705006"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/220803013?lang=en&region=us",
+"id": "220803013"
+}
+]
+}
+]
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/220615013",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/recap?gameId=220615013",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/boxscore/_/gameId/220615013",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"pbp",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/playbyplay/_/gameId/220615013",
+"text": "Play-by-Play",
+"shortText": "Play-by-Play",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/matchup?gameId=220615013",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"league": {
+"id": "59",
+"uid": "s:40~l:59",
+"name": "Women's National Basketball Association",
+"abbreviation": "WNBA",
+"slug": "wnba",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/injuries",
+"text": "Injuries"
+}
+]
+}
+},
+"plays": [
+{
+"id": "22061501300000",
+"sequenceNumber": "1",
+"type": {
+"id": "411",
+"text": "Start Period"
+},
+"text": "Start of the 1st Half.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "20:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300002",
+"sequenceNumber": "2",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "LaKeshia Frett missed 4 ft Jumper. Blocked by Lisa Leslie.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "180"
+}
+},
+{
+"athlete": {
+"id": "6"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 28,
+"y": 3
+}
+},
+{
+"id": "22061501300003",
+"sequenceNumber": "3",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Lisa Leslie Defensive Rebound.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "6"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300135",
+"sequenceNumber": "4",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Mwadi Mabika made Layup.",
+"awayScore": 2,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:13"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "7"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 28,
+"y": 0
+}
+},
+{
+"id": "22061501300136",
+"sequenceNumber": "5",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Tangela Smith Shooting Foul",
+"awayScore": 2,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "369"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300138",
+"sequenceNumber": "6",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "LaKeshia Frett enters the game for Tangela Smith.",
+"awayScore": 2,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "180"
+}
+},
+{
+"athlete": {
+"id": "369"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300139",
+"sequenceNumber": "7",
+"type": {
+"id": "559",
+"text": "Free Throw 1 of 1"
+},
+"text": "Mwadi Mabika missed Free Throw 1 of 1.",
+"awayScore": 2,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "7"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22061501300140",
+"sequenceNumber": "8",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "LaKeshia Frett Defensive Rebound.",
+"awayScore": 2,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "180"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300141",
+"sequenceNumber": "9",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Kedra Holland-Corn Bad Pass. Stolen by Nicky Mccrimmon.",
+"awayScore": 2,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:58"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "8"
+}
+},
+{
+"athlete": {
+"id": "214"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300142",
+"sequenceNumber": "10",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Lisa Leslie made 8 ft Two Point Shot.",
+"awayScore": 4,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:41"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "6"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 32,
+"y": 3
+}
+},
+{
+"id": "22061501300143",
+"sequenceNumber": "11",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Cass Bauer-Bilodeau made 18 ft Jumper. Assisted by Kedra Holland-Corn.",
+"awayScore": 4,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:22"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "73"
+}
+},
+{
+"athlete": {
+"id": "214"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 12,
+"y": 12
+}
+},
+{
+"id": "22061501300144",
+"sequenceNumber": "12",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Nicky Mccrimmon missed 18 ft Jumper.",
+"awayScore": 4,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "8"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 43,
+"y": 3
+}
+},
+{
+"id": "22061501300145",
+"sequenceNumber": "13",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Los Angeles Defensive Rebound.",
+"awayScore": 4,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300146",
+"sequenceNumber": "14",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Kedra Holland-Corn made 22 ft Three Point Jumper. Assisted by Lady Grooms.",
+"awayScore": 4,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:41"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "214"
+}
+},
+{
+"athlete": {
+"id": "194"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 6,
+"y": 11
+}
+},
+{
+"id": "22061501300147",
+"sequenceNumber": "15",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "LaKeshia Frett Personal Foul",
+"awayScore": 4,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "180"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300148",
+"sequenceNumber": "16",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Lady Grooms Shooting Foul",
+"awayScore": 4,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "194"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300149",
+"sequenceNumber": "17",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Mwadi Mabika made Free Throw 1 of 2.",
+"awayScore": 5,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:24"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "7"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22061501300150",
+"sequenceNumber": "18",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Tamecka Dixon enters the game for Sophia Witherspoon.",
+"awayScore": 5,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "3"
+}
+},
+{
+"athlete": {
+"id": "11"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300151",
+"sequenceNumber": "19",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Sacramento 20 Sec. Timeout.",
+"awayScore": 5,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300153",
+"sequenceNumber": "20",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Mwadi Mabika missed Free Throw 2 of 2.",
+"awayScore": 5,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "7"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22061501300154",
+"sequenceNumber": "21",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ticha Penicheiro Defensive Rebound.",
+"awayScore": 5,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "321"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300155",
+"sequenceNumber": "22",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Kedra Holland-Corn missed 23 ft Three Point Jumper.",
+"awayScore": 5,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "214"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 10,
+"y": 17
+}
+},
+{
+"id": "22061501300156",
+"sequenceNumber": "23",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Delisha Milton Defensive Rebound.",
+"awayScore": 5,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "9"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300157",
+"sequenceNumber": "24",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Nicky Mccrimmon made Jumper. Assisted by Delisha Milton.",
+"awayScore": 7,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:52"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "8"
+}
+},
+{
+"athlete": {
+"id": "9"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 6,
+"y": 0
+}
+},
+{
+"id": "22061501300158",
+"sequenceNumber": "25",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Ticha Penicheiro made 17 ft Jumper.",
+"awayScore": 7,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:28"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "321"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 35,
+"y": 14
+}
+},
+{
+"id": "22061501300159",
+"sequenceNumber": "26",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Delisha Milton made 12 ft Jumper.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:11"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "9"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 35,
+"y": 6
+}
+},
+{
+"id": "22061501300160",
+"sequenceNumber": "27",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Kedra Holland-Corn Bad Pass",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "214"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300161",
+"sequenceNumber": "28",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300164",
+"sequenceNumber": "29",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Ruthie Bolton enters the game for Lady Grooms.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "95"
+}
+},
+{
+"athlete": {
+"id": "194"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300165",
+"sequenceNumber": "30",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Nicky Mccrimmon missed 13 ft Jumper.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "8"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 38,
+"y": 3
+}
+},
+{
+"id": "22061501300166",
+"sequenceNumber": "31",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "LaKeshia Frett Defensive Rebound.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "180"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300167",
+"sequenceNumber": "32",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Cass Bauer-Bilodeau Lost Ball",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "73"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300168",
+"sequenceNumber": "33",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Mwadi Mabika missed Jumper.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "7"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 38,
+"y": 0
+}
+},
+{
+"id": "22061501300169",
+"sequenceNumber": "34",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ruthie Bolton Defensive Rebound.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "95"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300170",
+"sequenceNumber": "35",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Kedra Holland-Corn missed 21 ft Three Point Jumper.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "214"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 40,
+"y": 15
+}
+},
+{
+"id": "22061501300171",
+"sequenceNumber": "36",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Delisha Milton Defensive Rebound.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "9"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300172",
+"sequenceNumber": "37",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Cass Bauer-Bilodeau Personal Foul",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:36"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "73"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300173",
+"sequenceNumber": "38",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Tamecka Dixon Lost Ball. Stolen by Kedra Holland-Corn.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "214"
+}
+},
+{
+"athlete": {
+"id": "3"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300174",
+"sequenceNumber": "39",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Kedra Holland-Corn made Two Point Shot.",
+"awayScore": 9,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:29"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "214"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22061501300175",
+"sequenceNumber": "40",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Tamecka Dixon missed 22 ft Three Point Jumper.",
+"awayScore": 9,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "3"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 45,
+"y": 9
+}
+},
+{
+"id": "22061501300176",
+"sequenceNumber": "41",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Ruthie Bolton Defensive Rebound.",
+"awayScore": 9,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:06"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "95"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300177",
+"sequenceNumber": "42",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Ruthie Bolton made Jumper. Assisted by Ticha Penicheiro.",
+"awayScore": 9,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:55"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "95"
+}
+},
+{
+"athlete": {
+"id": "321"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 10,
+"y": 0
+}
+},
+{
+"id": "22061501300178",
+"sequenceNumber": "43",
+"type": {
+"id": "520",
+"text": "Double Personal Foul"
+},
+"text": "Cass Bauer-Bilodeau Double Personal Foul. Lisa Leslie gains possession.",
+"awayScore": 9,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:51"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "73"
+}
+},
+{
+"athlete": {
+"id": "6"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300179",
+"sequenceNumber": "44",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Cass Bauer-Bilodeau Shooting Foul",
+"awayScore": 9,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "73"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300180",
+"sequenceNumber": "45",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Lisa Leslie missed Free Throw 1 of 2.",
+"awayScore": 9,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "6"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22061501300181",
+"sequenceNumber": "46",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Los Angeles Offensive Rebound.",
+"awayScore": 9,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300182",
+"sequenceNumber": "47",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Kara Wolters enters the game for Cass Bauer-Bilodeau.",
+"awayScore": 9,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "439"
+}
+},
+{
+"athlete": {
+"id": "73"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300183",
+"sequenceNumber": "48",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Lisa Leslie made Free Throw 2 of 2.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:40"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "6"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22061501300184",
+"sequenceNumber": "49",
+"type": {
+"id": "578",
+"text": "RegularTimeOut"
+},
+"text": "Sacramento Full Timeout.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300187",
+"sequenceNumber": "50",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kara Wolters missed 15 ft Jumper.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "439"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 15
+}
+},
+{
+"id": "22061501300188",
+"sequenceNumber": "51",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Lisa Leslie Defensive Rebound.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "6"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300189",
+"sequenceNumber": "52",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Tamecka Dixon Bad Pass",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "56.6"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "3"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300190",
+"sequenceNumber": "53",
+"type": {
+"id": "20439",
+"text": "Hook Shot"
+},
+"text": "Kara Wolters missed 9 ft Hook Shot.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "35.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "439"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 34,
+"y": 3
+}
+},
+{
+"id": "22061501300191",
+"sequenceNumber": "54",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tamecka Dixon Defensive Rebound.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "32.9"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "3"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300192",
+"sequenceNumber": "55",
+"type": {
+"id": "600",
+"text": "Traveling Turnover"
+},
+"text": "Tamecka Dixon Traveling",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "29.8"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "3"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300193",
+"sequenceNumber": "56",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Ruthie Bolton missed 16 ft Jumper.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"participants": [
+{
+"athlete": {
+"id": "95"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 15,
+"y": 12
+}
+},
+{
+"id": "22061501300194",
+"sequenceNumber": "57",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Sacramento Defensive Rebound.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "13"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300195",
+"sequenceNumber": "58",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Mwadi Mabika missed 46 ft Three Point Jumper.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"participants": [
+{
+"athlete": {
+"id": "7"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 18,
+"y": 45
+}
+},
+{
+"id": "22061501300197",
+"sequenceNumber": "59",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Los Angeles Offensive Rebound.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "6"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22061501300196",
+"sequenceNumber": "60",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of the 1st Half.",
+"awayScore": 10,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+}
+],
+"article": {
+"keywords": [],
+"description": "LOS ANGELES 72, SACRAMENTO 66 (OT)",
+"video": [],
+"type": "Recap",
+"nowId": "1-1395359",
+"premium": false,
+"related": [],
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/1395359"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/events/220615013"
+}
+},
+"web": {
+"href": "http://espn.go.com/wnba/2001/20020615/recap/losangelessacramento.html",
+"short": {}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=1395359"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/wnba/gamecast?gameId=220615013&version=mobile"
+}
+},
+"id": 1395359,
+"categories": [],
+"headline": "Sparks show champions' compusure in OT",
+"gameId": "220615013",
+"images": [],
+"linkText": "Mabika's touch in OT lifts Sparks past Monarchs",
+"published": "2002-06-15T22:43:48Z",
+"lastModified": "2002-06-15T23:07:31Z",
+"story": "SACRAMENTO, Calif. (AP) -- Mwadi Mabika scored 19 points and\nDeLisha Milton had 17 as the Los Angeles Sparks rallied Saturday to\ndefeat the Sacramento Monarchs 72-66 in overtime.\n\n\t   Mabika hit two 3-pointers in overtime and DeLisha Milton made\ntwo shots from close range as the Sparks took a 67-59 lead with\n2:34 left.\n\n\t   Tamecka Dixon helped bring the Sparks back late in regulation.\nShe made consecutive 3-pointers to conclude a 9-0 run, which tied\nthe game at 57 with 31.8 seconds remaining. She missed a jumper\nwith 2 seconds left that would have won the game.\n\n\t   \"That's why we're the defending champs,'' Los Angeles coach\nMichael Cooper said. \"We know how to win.''\n\n\t   Dixon finished with 15 points for Los Angeles (7-1), which beat\nSacramento for the sixth straight time during the regular season.\nLisa Leslie, who fouled out in overtime, had 13 points and 11\nrebounds and four blocks.\n\n\t   \"We knew we were going to win in overtime,'' Dixon said. \"It\nwas our game. We were confident in that situation.''\n\n\t   Ruthie Bolton scored 17 points, Kedra Holland-Corn had 12 points\nand Ticha Penicheiro had 11 points and 10 assists for Sacramento\n(1-5), which went scoreless in the final 3:08 of regulation.\nTangela Smith added nine points.\n\n\t   Sacramento appeared to take control of the game midway through\nthe second half, running off nine straight points. Bolton scored a\nfast-break layup to start the run and Smith ended it by banking in\na shot from close range, putting the Monarchs ahead 44-35 with 8:38\nleft.\n\n\t   \"We had the momentum, we had the game for the first 36\nminutes,'' Bolton said. \"We played the hardest, but we gave it to\nthem in the final two or three minutes.''\n\n\t   The Sparks shot 9-of-31 in the first half.\n\n\t   Sacramento played its fifth straight game without All-Star\ncenter Yolanda Griffith, who has a bulging disc in her neck and is\nexpected to miss the next four weeks.\n\t"
+},
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/wnba/standings"
+},
+"groups": [
+{
+"standings": {
+"entries": [
+{
+"team": "Las Vegas",
+"link": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 4.0,
+"displayValue": "W4"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.7222222,
+"displayValue": ".722"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 26.0,
+"displayValue": "26"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+{
+"team": "Seattle",
+"link": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 4.0,
+"displayValue": "4"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 14.0,
+"displayValue": "14"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1.0,
+"displayValue": "L1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6111111,
+"displayValue": ".611"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 22.0,
+"displayValue": "22"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/scoreboard/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:25Z"
+}
+]
+},
+{
+"team": "Dallas",
+"link": "http://www.espn.com/wnba/team/_/name/dal/dallas-wings",
+"id": "3",
+"uid": "s:40~l:59~t:3",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 8.0,
+"displayValue": "8"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 18.0,
+"displayValue": "18"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1.0,
+"displayValue": "W1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5,
+"displayValue": ".500"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 18.0,
+"displayValue": "18"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:36Z"
+}
+]
+},
+{
+"team": "Phoenix",
+"link": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1.0,
+"displayValue": "L1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.41666666,
+"displayValue": ".417"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 15.0,
+"displayValue": "15"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/phx.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T19:45Z"
+}
+]
+},
+{
+"team": "Minnesota",
+"link": "http://www.espn.com/wnba/team/_/name/min/minnesota-lynx",
+"id": "8",
+"uid": "s:40~l:59~t:8",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 12.0,
+"displayValue": "12"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 22.0,
+"displayValue": "22"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -2.0,
+"displayValue": "L2"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3888889,
+"displayValue": ".389"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 14.0,
+"displayValue": "14"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:04Z"
+}
+]
+},
+{
+"team": "Los Angeles",
+"link": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 13.0,
+"displayValue": "13"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 23.0,
+"displayValue": "23"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -3.0,
+"displayValue": "L3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3611111,
+"displayValue": ".361"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 13.0,
+"displayValue": "13"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-05-20T14:35Z"
+}
+]
+}
+]
+},
+"header": "2021-22 Western Conference Standings",
+"href": "https://www.espn.com/wnba/standings/_/group/2"
+}
+]
+},
+"teamInfo": [],
+"espnWP": [],
+"season": {},
+"timeouts": []
+}

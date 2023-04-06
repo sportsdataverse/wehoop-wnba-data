@@ -1,0 +1,11044 @@
+{
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"slug": "charlotte-sting",
+"location": "Charlotte",
+"name": "Sting",
+"abbreviation": "CHA",
+"displayName": "Charlotte Sting",
+"shortDisplayName": "Sting",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png"
+},
+"statistics": [
+{
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"displayValue": "27-60",
+"label": "FG"
+},
+{
+"name": "fieldGoalPct",
+"displayValue": "0.0",
+"abbreviation": "FG%",
+"label": "Field Goal %"
+},
+{
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"displayValue": "5-16",
+"label": "3PT"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayValue": "31.3",
+"abbreviation": "3P%",
+"label": "Three Point %"
+},
+{
+"name": "freeThrowsMade-freeThrowsAttempted",
+"displayValue": "11-16",
+"label": "FT"
+},
+{
+"name": "freeThrowPct",
+"displayValue": "0.0",
+"abbreviation": "FT%",
+"label": "Free Throw %"
+},
+{
+"name": "totalRebounds",
+"displayValue": "26",
+"abbreviation": "REB",
+"label": "Rebounds"
+},
+{
+"name": "offensiveRebounds",
+"displayValue": "11",
+"abbreviation": "OR",
+"label": "Offensive Rebounds"
+},
+{
+"name": "defensiveRebounds",
+"displayValue": "15",
+"abbreviation": "DR",
+"label": "Defensive Rebounds"
+},
+{
+"name": "assists",
+"displayValue": "23",
+"abbreviation": "AST",
+"label": "Assists"
+},
+{
+"name": "steals",
+"displayValue": "6",
+"abbreviation": "STL",
+"label": "Steals"
+},
+{
+"name": "blocks",
+"displayValue": "1",
+"abbreviation": "BLK",
+"label": "Blocks"
+},
+{
+"name": "turnovers",
+"displayValue": "6",
+"abbreviation": "TO",
+"label": "Turnovers"
+},
+{
+"name": "teamTurnovers",
+"displayValue": "1",
+"abbreviation": "TTO",
+"label": "Team Turnovers"
+},
+{
+"name": "totalTurnovers",
+"displayValue": "7",
+"abbreviation": "ToTO",
+"label": "Total Turnovers"
+},
+{
+"name": "technicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Technical Fouls"
+},
+{
+"name": "totalTechnicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Total Technical Fouls"
+},
+{
+"name": "flagrantFouls",
+"displayValue": "0",
+"abbreviation": "FLAG",
+"label": "Flagrant Fouls"
+},
+{
+"name": "fouls",
+"displayValue": "25",
+"abbreviation": "PF",
+"label": "Fouls"
+}
+]
+},
+{
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"slug": "connecticut-sun",
+"location": "Connecticut",
+"name": "Sun",
+"abbreviation": "CT",
+"displayName": "Connecticut Sun",
+"shortDisplayName": "Sun",
+"color": "de6b36",
+"alternateColor": "002d62",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png"
+},
+"statistics": [
+{
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"displayValue": "26-49",
+"label": "FG"
+},
+{
+"name": "fieldGoalPct",
+"displayValue": "0.0",
+"abbreviation": "FG%",
+"label": "Field Goal %"
+},
+{
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"displayValue": "5-12",
+"label": "3PT"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayValue": "41.7",
+"abbreviation": "3P%",
+"label": "Three Point %"
+},
+{
+"name": "freeThrowsMade-freeThrowsAttempted",
+"displayValue": "17-22",
+"label": "FT"
+},
+{
+"name": "freeThrowPct",
+"displayValue": "0.0",
+"abbreviation": "FT%",
+"label": "Free Throw %"
+},
+{
+"name": "totalRebounds",
+"displayValue": "28",
+"abbreviation": "REB",
+"label": "Rebounds"
+},
+{
+"name": "offensiveRebounds",
+"displayValue": "8",
+"abbreviation": "OR",
+"label": "Offensive Rebounds"
+},
+{
+"name": "defensiveRebounds",
+"displayValue": "20",
+"abbreviation": "DR",
+"label": "Defensive Rebounds"
+},
+{
+"name": "assists",
+"displayValue": "15",
+"abbreviation": "AST",
+"label": "Assists"
+},
+{
+"name": "steals",
+"displayValue": "3",
+"abbreviation": "STL",
+"label": "Steals"
+},
+{
+"name": "blocks",
+"displayValue": "2",
+"abbreviation": "BLK",
+"label": "Blocks"
+},
+{
+"name": "turnovers",
+"displayValue": "9",
+"abbreviation": "TO",
+"label": "Turnovers"
+},
+{
+"name": "teamTurnovers",
+"displayValue": "0",
+"abbreviation": "TTO",
+"label": "Team Turnovers"
+},
+{
+"name": "totalTurnovers",
+"displayValue": "9",
+"abbreviation": "ToTO",
+"label": "Total Turnovers"
+},
+{
+"name": "technicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Technical Fouls"
+},
+{
+"name": "totalTechnicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Total Technical Fouls"
+},
+{
+"name": "flagrantFouls",
+"displayValue": "0",
+"abbreviation": "FLAG",
+"label": "Flagrant Fouls"
+},
+{
+"name": "fouls",
+"displayValue": "18",
+"abbreviation": "PF",
+"label": "Fouls"
+}
+]
+}
+],
+"players": [
+{
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"slug": "charlotte-sting",
+"location": "Charlotte",
+"name": "Sting",
+"abbreviation": "CHA",
+"displayName": "Charlotte Sting",
+"shortDisplayName": "Sting",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": true,
+"athlete": {
+"id": "384",
+"uid": "s:40~l:59~a:384",
+"guid": "1bf5e087c0878698d198f91d77788a89",
+"displayName": "Tammy  Sutton-Brown",
+"shortName": "T. Sutton-Brown",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/384/tammy-sutton-brown",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/384/tammy-sutton-brown",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/384/tammy-sutton-brown",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/384/tammy-sutton-brown",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/384/tammy-sutton-brown",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/384/tammy-sutton-brown",
+"text": "Overview"
+}
+],
+"jersey": "8",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"33",
+"8-15",
+"0-0",
+"5-9",
+"4",
+"3",
+"7",
+"1",
+"1",
+"1",
+"0",
+"4",
+"-1",
+"21"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "110",
+"uid": "s:40~l:59~a:110",
+"guid": "29b855d7a301ee4b155a38db364505e6",
+"displayName": "Rushia Brown",
+"shortName": "R. Brown",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/110/rushia-brown",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/110/rushia-brown",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/110/rushia-brown",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/110/rushia-brown",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/110/rushia-brown",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/110/rushia-brown",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"29",
+"5-6",
+"0-0",
+"0-0",
+"1",
+"4",
+"5",
+"2",
+"2",
+"0",
+"1",
+"2",
+"-1",
+"10"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "167",
+"uid": "s:40~l:59~a:167",
+"guid": "05f02d5b2b6b58d6d4ac504b615e3c00",
+"displayName": "Allison Feaster",
+"shortName": "A. Feaster",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/167/allison-feaster",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/167/allison-feaster",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/167/allison-feaster",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/167/allison-feaster",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/167/allison-feaster",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/167/allison-feaster",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"33",
+"2-12",
+"2-8",
+"3-4",
+"1",
+"3",
+"4",
+"5",
+"0",
+"0",
+"3",
+"3",
+"-1",
+"9"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "375",
+"uid": "s:40~l:59~a:375",
+"guid": "eb6d912c947a6ccbcafb9d01b2dba9bd",
+"displayName": "Dawn Staley",
+"shortName": "D. Staley",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/375/dawn-staley",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/375/dawn-staley",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/375/dawn-staley",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/375/dawn-staley",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/375/dawn-staley",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/375/dawn-staley",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"33",
+"4-7",
+"2-5",
+"0-0",
+"1",
+"1",
+"2",
+"5",
+"1",
+"0",
+"1",
+"3",
+"-1",
+"10"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "380",
+"uid": "s:40~l:59~a:380",
+"guid": "a096d1f9fc76a91e43c8107f8f4a6d5c",
+"displayName": "Andrea Stinson",
+"shortName": "A. Stinson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/380/andrea-stinson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/380/andrea-stinson",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/380/andrea-stinson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/380/andrea-stinson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/380/andrea-stinson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/380/andrea-stinson",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"20",
+"2-6",
+"0-1",
+"0-0",
+"1",
+"2",
+"3",
+"5",
+"0",
+"0",
+"0",
+"3",
+"-1",
+"4"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "260",
+"uid": "s:40~l:59~a:260",
+"guid": "3ab094022462dde1df15297c90f23216",
+"displayName": "Tynesha  Lewis",
+"shortName": "T. Lewis",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/260/tynesha-lewis",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/260/tynesha-lewis",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/260/tynesha-lewis",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/260/tynesha-lewis",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/260/tynesha-lewis",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/260/tynesha-lewis",
+"text": "Overview"
+}
+],
+"jersey": "25",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"8",
+"0-1",
+"0-0",
+"0-0",
+"1",
+"1",
+"2",
+"1",
+"0",
+"0",
+"0",
+"4",
+"-1",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "292",
+"uid": "s:40~l:59~a:292",
+"guid": "d586536b37903611267fa0385d334014",
+"displayName": "Kelly  Miller",
+"shortName": "K. Miller",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/292/kelly-miller",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/292/kelly-miller",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/292/kelly-miller",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/292/kelly-miller",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/292/kelly-miller",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/292/kelly-miller",
+"text": "Overview"
+}
+],
+"jersey": "2",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"22",
+"3-5",
+"0-0",
+"3-3",
+"0",
+"0",
+"0",
+"4",
+"0",
+"0",
+"0",
+"2",
+"-1",
+"9"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "111",
+"uid": "s:40~l:59~a:111",
+"guid": "ec1a62f84d70dc0f8cc0dd311a313f75",
+"displayName": "Marla Brumfield",
+"shortName": "M. Brumfield",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/111/marla-brumfield",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/111/marla-brumfield",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/111/marla-brumfield",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/111/marla-brumfield",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/111/marla-brumfield",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/111/marla-brumfield",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "162",
+"uid": "s:40~l:59~a:162",
+"guid": "86151cdc0cf30f9b131a255ee8b71562",
+"displayName": "Shalonda Enis",
+"shortName": "S. Enis",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/162/shalonda-enis",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/162/shalonda-enis",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/162/shalonda-enis",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/162/shalonda-enis",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/162/shalonda-enis",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/162/shalonda-enis",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "364",
+"uid": "s:40~l:59~a:364",
+"guid": "557a4cf2cf0fe857110751d49d865ab0",
+"displayName": "Charlotte Smith",
+"shortName": "C. Smith",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/364/charlotte-smith",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/364/charlotte-smith",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/364/charlotte-smith",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/364/charlotte-smith",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/364/charlotte-smith",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/364/charlotte-smith",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"7",
+"2-3",
+"1-2",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"2",
+"3",
+"-1",
+"5"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "520",
+"uid": "s:40~l:59~a:520",
+"guid": "073a2127a80cc3460b87fd359994870e",
+"displayName": "Teana Miller",
+"shortName": "T. Miller",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/520/teana-miller",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/520/teana-miller",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/520/teana-miller",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/520/teana-miller",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/520/teana-miller",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/520/teana-miller",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"10",
+"1-5",
+"0-0",
+"0-0",
+"2",
+"1",
+"3",
+"0",
+"2",
+"0",
+"0",
+"1",
+"-1",
+"2"
+]
+}
+],
+"totals": [
+"",
+"27-60",
+"5-16",
+"11-16",
+"11",
+"15",
+"26",
+"23",
+"6",
+"1",
+"6",
+"25",
+"",
+"70"
+]
+}
+]
+},
+{
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"slug": "connecticut-sun",
+"location": "Connecticut",
+"name": "Sun",
+"abbreviation": "CT",
+"displayName": "Connecticut Sun",
+"shortDisplayName": "Sun",
+"color": "de6b36",
+"alternateColor": "002d62",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": true,
+"athlete": {
+"id": "286",
+"uid": "s:40~l:59~a:286",
+"guid": "581fa9f3a67ec4f304df790dcbcb798e",
+"displayName": "Taj McWilliams-Franklin",
+"shortName": "T. McWilliams-Franklin",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/286/taj-mcwilliams-franklin",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/286/taj-mcwilliams-franklin",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/286/taj-mcwilliams-franklin",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/286/taj-mcwilliams-franklin",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/286/taj-mcwilliams-franklin",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/286/taj-mcwilliams-franklin",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"24",
+"3-9",
+"0-1",
+"4-4",
+"2",
+"5",
+"7",
+"0",
+"1",
+"0",
+"2",
+"5",
+"-1",
+"10"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "156",
+"uid": "s:40~l:59~a:156",
+"guid": "c930fd89bb9da605612093b2ed6331a6",
+"displayName": "Katie Douglas",
+"shortName": "K. Douglas",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/156/katie-douglas",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/156/katie-douglas",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/156/katie-douglas",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/156/katie-douglas",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/156/katie-douglas",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/156/katie-douglas",
+"text": "Overview"
+}
+],
+"jersey": "23",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"22",
+"4-7",
+"1-3",
+"2-2",
+"1",
+"5",
+"6",
+"1",
+"0",
+"0",
+"0",
+"0",
+"-1",
+"11"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "230",
+"uid": "s:40~l:59~a:230",
+"guid": "ce7892ae73cb3037b83b61afc05705c5",
+"displayName": "Shannon Johnson",
+"shortName": "S. Johnson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/230/shannon-johnson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/230/shannon-johnson",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/230/shannon-johnson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/230/shannon-johnson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/230/shannon-johnson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/230/shannon-johnson",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"27",
+"1-4",
+"1-1",
+"2-4",
+"1",
+"0",
+"1",
+"8",
+"1",
+"0",
+"2",
+"2",
+"-1",
+"5"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "349",
+"uid": "s:40~l:59~a:349",
+"guid": "fbcfa5a20e721c2d29410f71bc732382",
+"displayName": "Nykesha Sales",
+"shortName": "N. Sales",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/349/nykesha-sales",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/349/nykesha-sales",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/349/nykesha-sales",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/349/nykesha-sales",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/349/nykesha-sales",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/349/nykesha-sales",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"36",
+"9-13",
+"1-2",
+"4-6",
+"0",
+"3",
+"3",
+"2",
+"0",
+"0",
+"2",
+"5",
+"-1",
+"23"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "442",
+"uid": "s:40~l:59~a:442",
+"guid": "2d949ad3248c67d4767e6948c9397613",
+"displayName": "Brooke Wyckoff",
+"shortName": "B. Wyckoff",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/442/brooke-wyckoff",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/442/brooke-wyckoff",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/442/brooke-wyckoff",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/442/brooke-wyckoff",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/442/brooke-wyckoff",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/442/brooke-wyckoff",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"21",
+"1-3",
+"0-1",
+"0-0",
+"1",
+"4",
+"5",
+"1",
+"1",
+"1",
+"0",
+"2",
+"-1",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "93",
+"uid": "s:40~l:59~a:93",
+"guid": "e467ed47d98c0e9824fa6d8e3b1f1bf3",
+"displayName": "Debbie Black",
+"shortName": "D. Black",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/93/debbie-black",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/93/debbie-black",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/93/debbie-black",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/93/debbie-black",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/93/debbie-black",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/93/debbie-black",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"6",
+"1-2",
+"0-0",
+"0-0",
+"0",
+"1",
+"1",
+"2",
+"0",
+"0",
+"0",
+"1",
+"-1",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "209",
+"uid": "s:40~l:59~a:209",
+"guid": "7b4d78ef67e2063fe00084bee025de36",
+"displayName": "Jessie Hicks",
+"shortName": "J. Hicks",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/209/jessie-hicks",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/209/jessie-hicks",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/209/jessie-hicks",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/209/jessie-hicks",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/209/jessie-hicks",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/209/jessie-hicks",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"16",
+"1-3",
+"0-0",
+"4-4",
+"1",
+"1",
+"2",
+"0",
+"0",
+"1",
+"2",
+"2",
+"-1",
+"6"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "226",
+"uid": "s:40~l:59~a:226",
+"guid": "b90a9295031ab1d0e51cc29532fec862",
+"displayName": "Adrienne Johnson",
+"shortName": "A. Johnson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/226/adrienne-johnson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/226/adrienne-johnson",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/226/adrienne-johnson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/226/adrienne-johnson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/226/adrienne-johnson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/226/adrienne-johnson",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"8",
+"3-3",
+"2-2",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"-1",
+"8"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "263",
+"uid": "s:40~l:59~a:263",
+"guid": "6afc876c350925a7b8b295d04dc66323",
+"displayName": "Rebecca Lobo",
+"shortName": "R. Lobo",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/263/rebecca-lobo",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/263/rebecca-lobo",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/263/rebecca-lobo",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/263/rebecca-lobo",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/263/rebecca-lobo",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/263/rebecca-lobo",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"4",
+"1-1",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"0",
+"-1",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "317",
+"uid": "s:40~l:59~a:317",
+"guid": "4540cc5300b7f56195db6e1ab43ee1f3",
+"displayName": "Wendy Palmer",
+"shortName": "W. Palmer",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/317/wendy-palmer",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/317/wendy-palmer",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/317/wendy-palmer",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/317/wendy-palmer",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/317/wendy-palmer",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/317/wendy-palmer",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"12",
+"2-4",
+"0-2",
+"1-2",
+"2",
+"1",
+"3",
+"1",
+"0",
+"0",
+"0",
+"1",
+"-1",
+"5"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "474",
+"uid": "s:40~l:59~a:474",
+"guid": "2ac43e232f7c5979679c761583b24373",
+"displayName": "Courtney Coleman",
+"shortName": "C. Coleman",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/474/courtney-coleman",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/474/courtney-coleman",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/474/courtney-coleman",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/474/courtney-coleman",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/474/courtney-coleman",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/474/courtney-coleman",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+}
+],
+"totals": [
+"",
+"26-49",
+"5-12",
+"17-22",
+"8",
+"20",
+"28",
+"15",
+"3",
+"2",
+"9",
+"18",
+"",
+"74"
+]
+}
+]
+}
+]
+},
+"format": {
+"regulation": {
+"periods": 2,
+"displayName": "Half",
+"slug": "half",
+"clock": 1200.0
+},
+"overtime": {
+"clock": 300.0
+}
+},
+"gameInfo": {
+"attendance": 0
+},
+"leaders": [
+{
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"displayName": "Connecticut Sun",
+"abbreviation": "CT",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/conn",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:37Z"
+}
+]
+},
+"leaders": [
+{
+"name": "points",
+"displayName": "Points",
+"leaders": [
+{
+"displayValue": "23",
+"athlete": {
+"id": "349",
+"uid": "s:40~l:59~a:349",
+"guid": "fbcfa5a20e721c2d29410f71bc732382",
+"lastName": "Sales",
+"fullName": "Nykesha Sales",
+"displayName": "Nykesha Sales",
+"shortName": "N. Sales",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/349/nykesha-sales",
+"text": "Player Card"
+}
+],
+"position": {
+"abbreviation": "NA"
+}
+},
+"statistics": [
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 23.0,
+"displayValue": "23"
+},
+{
+"name": "fieldGoals",
+"displayName": "Field Goals",
+"shortDisplayName": "FG",
+"description": "Field Goal makes and attempts.",
+"abbreviation": "FG",
+"value": 0.692308,
+"displayValue": "9/13"
+},
+{
+"name": "freeThrows",
+"displayName": "Free Throws",
+"shortDisplayName": "FT",
+"description": "Free Throw makes and attempts.",
+"abbreviation": "FT",
+"value": 0.666667,
+"displayValue": "4/6"
+}
+]
+}
+]
+},
+{
+"name": "assists",
+"displayName": "Assists",
+"leaders": [
+{
+"displayValue": "8",
+"athlete": {
+"id": "230",
+"uid": "s:40~l:59~a:230",
+"guid": "ce7892ae73cb3037b83b61afc05705c5",
+"lastName": "Johnson",
+"fullName": "Shannon Johnson",
+"displayName": "Shannon Johnson",
+"shortName": "S. Johnson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/230/shannon-johnson",
+"text": "Player Card"
+}
+],
+"position": {
+"abbreviation": "NA"
+}
+},
+"statistics": [
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 8.0,
+"displayValue": "8"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 2.0,
+"displayValue": "2"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 27.0,
+"displayValue": "27"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 4.0,
+"displayValue": "4.0"
+}
+]
+}
+]
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"leaders": [
+{
+"displayValue": "7",
+"athlete": {
+"id": "286",
+"uid": "s:40~l:59~a:286",
+"guid": "581fa9f3a67ec4f304df790dcbcb798e",
+"lastName": "McWilliams-Franklin",
+"fullName": "Taj McWilliams-Franklin",
+"displayName": "Taj McWilliams-Franklin",
+"shortName": "T. McWilliams-Franklin",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/286/taj-mcwilliams-franklin",
+"text": "Player Card"
+}
+],
+"position": {
+"abbreviation": "F"
+}
+},
+"statistics": [
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 7.0,
+"displayValue": "7"
+},
+{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"abbreviation": "DR",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 2.0,
+"displayValue": "2"
+}
+]
+}
+]
+}
+]
+},
+{
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"displayName": "Charlotte Sting",
+"abbreviation": "CHA",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"leaders": [
+{
+"name": "points",
+"displayName": "Points",
+"leaders": [
+{
+"displayValue": "21",
+"athlete": {
+"id": "384",
+"uid": "s:40~l:59~a:384",
+"guid": "1bf5e087c0878698d198f91d77788a89",
+"lastName": "Sutton-Brown",
+"fullName": "Tammy  Sutton-Brown",
+"displayName": "Tammy  Sutton-Brown",
+"shortName": "T. Sutton-Brown",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/384/tammy-sutton-brown",
+"text": "Player Card"
+}
+],
+"jersey": "8",
+"position": {
+"abbreviation": "C"
+}
+},
+"statistics": [
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "fieldGoals",
+"displayName": "Field Goals",
+"shortDisplayName": "FG",
+"description": "Field Goal makes and attempts.",
+"abbreviation": "FG",
+"value": 0.533333,
+"displayValue": "8/15"
+},
+{
+"name": "freeThrows",
+"displayName": "Free Throws",
+"shortDisplayName": "FT",
+"description": "Free Throw makes and attempts.",
+"abbreviation": "FT",
+"value": 0.555556,
+"displayValue": "5/9"
+}
+]
+}
+]
+},
+{
+"name": "assists",
+"displayName": "Assists",
+"leaders": [
+{
+"displayValue": "5",
+"athlete": {
+"id": "375",
+"uid": "s:40~l:59~a:375",
+"guid": "eb6d912c947a6ccbcafb9d01b2dba9bd",
+"lastName": "Staley",
+"fullName": "Dawn Staley",
+"displayName": "Dawn Staley",
+"shortName": "D. Staley",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/375/dawn-staley",
+"text": "Player Card"
+}
+],
+"position": {
+"abbreviation": "NA"
+}
+},
+"statistics": [
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 33.0,
+"displayValue": "33"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 5.0,
+"displayValue": "5.0"
+}
+]
+}
+]
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"leaders": [
+{
+"displayValue": "7",
+"athlete": {
+"id": "384",
+"uid": "s:40~l:59~a:384",
+"guid": "1bf5e087c0878698d198f91d77788a89",
+"lastName": "Sutton-Brown",
+"fullName": "Tammy  Sutton-Brown",
+"displayName": "Tammy  Sutton-Brown",
+"shortName": "T. Sutton-Brown",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/384/tammy-sutton-brown",
+"text": "Player Card"
+}
+],
+"jersey": "8",
+"position": {
+"abbreviation": "C"
+}
+},
+"statistics": [
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 7.0,
+"displayValue": "7"
+},
+{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"abbreviation": "DR",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 4.0,
+"displayValue": "4"
+}
+]
+}
+]
+}
+]
+}
+],
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "Series tied 1-1",
+"completed": false,
+"totalCompetitions": 4,
+"events": [
+{
+"id": "230628001",
+"uid": "s:40~l:59~e:230628001~c:230628001",
+"date": "2003-06-28T22:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"displayName": "Charlotte Sting",
+"abbreviation": "CHA",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "69"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"displayName": "Connecticut Sun",
+"abbreviation": "CT",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/conn",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:37Z"
+}
+]
+},
+"score": "55"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/230628001",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=230628001",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "230726018",
+"uid": "s:40~l:59~e:230726018~c:230726018",
+"date": "2003-07-26T23:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"displayName": "Connecticut Sun",
+"abbreviation": "CT",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/conn",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:37Z"
+}
+]
+},
+"score": "74"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"displayName": "Charlotte Sting",
+"abbreviation": "CHA",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "70"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/230726018",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=230726018",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "230809001",
+"uid": "s:40~l:59~e:230809001~c:230809001",
+"date": "2003-08-09T20:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"displayName": "Charlotte Sting",
+"abbreviation": "CHA",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "69"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"displayName": "Connecticut Sun",
+"abbreviation": "CT",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/conn",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:37Z"
+}
+]
+},
+"score": "68"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/230809001",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=230809001",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "230822018",
+"uid": "s:40~l:59~e:230822018~c:230822018",
+"date": "2003-08-22T23:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"displayName": "Connecticut Sun",
+"abbreviation": "CT",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/conn",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:37Z"
+}
+]
+},
+"score": "63"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"displayName": "Charlotte Sting",
+"abbreviation": "CHA",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "55"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/230822018",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=230822018",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+},
+{
+"type": "playoff",
+"title": "Playoff Series",
+"description": "Playoff Series",
+"summary": "CT Wins series 2-0",
+"completed": true,
+"totalCompetitions": 3,
+"events": [
+{
+"id": "230828018",
+"uid": "s:40~l:59~e:230828018~c:230828018",
+"date": "2003-08-28T23:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"displayName": "Connecticut Sun",
+"abbreviation": "CT",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/conn",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:37Z"
+}
+]
+},
+"score": "68"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"displayName": "Charlotte Sting",
+"abbreviation": "CHA",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "66"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/230828018",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=230828018",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "230830001",
+"uid": "s:40~l:59~e:230830001~c:230830001",
+"date": "2003-08-30T19:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"displayName": "Charlotte Sting",
+"abbreviation": "CHA",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "62"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"displayName": "Connecticut Sun",
+"abbreviation": "CT",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/conn",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:37Z"
+}
+]
+},
+"score": "68"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/230830001",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=230830001",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"broadcasts": [],
+"predictor": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"displayName": "Charlotte Sting",
+"abbreviation": "CHA",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"records": []
+},
+{
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"displayName": "Connecticut Sun",
+"abbreviation": "CT",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/conn",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:37Z"
+}
+]
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
+"header": {
+"id": "230726018",
+"uid": "s:40~l:59~e:230726018",
+"season": {
+"year": 2003,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "230726018",
+"uid": "s:40~l:59~e:230726018~c:230726018",
+"date": "2003-07-26T23:00Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"shotChartAvailable": true,
+"timeoutsAvailable": true,
+"possessionArrowAvailable": false,
+"onWatchESPN": false,
+"recent": false,
+"boxscoreSource": "full",
+"playByPlaySource": "full",
+"competitors": [
+{
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"order": 0,
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"location": "Connecticut",
+"name": "Sun",
+"abbreviation": "CT",
+"displayName": "Connecticut Sun",
+"color": "de6b36",
+"alternateColor": "002d62",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:36Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ct.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:37Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"text": "Clubhouse"
+}
+]
+},
+"score": "74",
+"linescores": [
+{
+"displayValue": "30"
+},
+{
+"displayValue": "44"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "13-11",
+"displayValue": "13-11"
+},
+{
+"type": "home",
+"summary": "8-4",
+"displayValue": "8-4"
+}
+],
+"possession": false
+},
+{
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"order": 1,
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"location": "Charlotte",
+"name": "Sting",
+"abbreviation": "CHA",
+"displayName": "Charlotte Sting",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/cha.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+],
+"links": []
+},
+"score": "70",
+"linescores": [
+{
+"displayValue": "30"
+},
+{
+"displayValue": "40"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "13-10",
+"displayValue": "13-10"
+},
+{
+"type": "road",
+"summary": "4-7",
+"displayValue": "4-7"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": [
+{
+"type": {
+"id": "1",
+"shortName": "TV"
+},
+"market": {
+"id": "1",
+"type": "National"
+},
+"media": {
+"shortName": "NBA TV"
+},
+"lang": "en",
+"region": "us"
+}
+],
+"series": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "Series tied 1-1",
+"completed": false,
+"totalCompetitions": 4,
+"competitors": [
+{
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"wins": 1,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2003/teams/18?lang=en&region=us"
+}
+},
+{
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"wins": 1,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2003/teams/1?lang=en&region=us"
+}
+}
+],
+"events": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/230628001?lang=en&region=us",
+"id": "230628001"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/230726018?lang=en&region=us",
+"id": "230726018"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/230809001?lang=en&region=us",
+"id": "230809001"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/230822018?lang=en&region=us",
+"id": "230822018"
+}
+]
+},
+{
+"type": "playoff",
+"title": "Playoff Series",
+"description": "Playoff Series",
+"summary": "CT Wins series 2-0",
+"completed": true,
+"totalCompetitions": 3,
+"competitors": [
+{
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"wins": 2,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2003/teams/18?lang=en&region=us"
+}
+},
+{
+"id": "1",
+"uid": "s:40~l:59~t:1",
+"wins": 0,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2003/teams/1?lang=en&region=us"
+}
+}
+],
+"events": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/230828018?lang=en&region=us",
+"id": "230828018"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/230830001?lang=en&region=us",
+"id": "230830001"
+}
+]
+}
+]
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/230726018",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/recap?gameId=230726018",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/boxscore/_/gameId/230726018",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"pbp",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/playbyplay/_/gameId/230726018",
+"text": "Play-by-Play",
+"shortText": "Play-by-Play",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/matchup?gameId=230726018",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"league": {
+"id": "59",
+"uid": "s:40~l:59",
+"name": "Women's National Basketball Association",
+"abbreviation": "WNBA",
+"slug": "wnba",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/injuries",
+"text": "Injuries"
+}
+]
+}
+},
+"plays": [
+{
+"id": "23072601800000",
+"sequenceNumber": "1",
+"type": {
+"id": "411",
+"text": "Start Period"
+},
+"text": "Start of the 1st Half.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "20:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800001",
+"sequenceNumber": "2",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"text": "Jumpball. Tammy Sutton-Brown vs. Taj McWilliams-Franklin. Nykesha Sales gains possession.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "20:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+},
+{
+"athlete": {
+"id": "286"
+}
+},
+{
+"athlete": {
+"id": "349"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800002",
+"sequenceNumber": "3",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Nykesha Sales made Two Point Shot.",
+"awayScore": 0,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:54"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "349"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 1
+}
+},
+{
+"id": "23072601800003",
+"sequenceNumber": "4",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Dawn Staley made 21 ft Three Point Jumper. Assisted by Rushia Brown.",
+"awayScore": 3,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:32"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "375"
+}
+},
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 4,
+"y": -3
+}
+},
+{
+"id": "23072601800004",
+"sequenceNumber": "5",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Brooke Wyckoff missed 20 ft Three Point Jumper.",
+"awayScore": 3,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "442"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 33,
+"y": 18
+}
+},
+{
+"id": "23072601800005",
+"sequenceNumber": "6",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Dawn Staley Defensive Rebound.",
+"awayScore": 3,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "375"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800006",
+"sequenceNumber": "7",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Allison Feaster missed 12 ft Jumper.",
+"awayScore": 3,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 13,
+"y": -1
+}
+},
+{
+"id": "23072601800007",
+"sequenceNumber": "8",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Rushia Brown Offensive Rebound.",
+"awayScore": 3,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800008",
+"sequenceNumber": "9",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Rushia Brown made Layup.",
+"awayScore": 5,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:04"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 1
+}
+},
+{
+"id": "23072601800009",
+"sequenceNumber": "10",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Taj McWilliams-Franklin made Layup. Assisted by Shannon Johnson.",
+"awayScore": 5,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:53"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+},
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 2
+}
+},
+{
+"id": "23072601800010",
+"sequenceNumber": "11",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Tammy Sutton-Brown missed Layup.",
+"awayScore": 5,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 3
+}
+},
+{
+"id": "23072601800011",
+"sequenceNumber": "12",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Brooke Wyckoff Defensive Rebound.",
+"awayScore": 5,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "442"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800012",
+"sequenceNumber": "13",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Taj McWilliams-Franklin missed 22 ft Three Point Jumper.",
+"awayScore": 5,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 22
+}
+},
+{
+"id": "23072601800013",
+"sequenceNumber": "14",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Connecticut Defensive Rebound.",
+"awayScore": 5,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800014",
+"sequenceNumber": "15",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Dawn Staley missed Three Point Jumper.",
+"awayScore": 5,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "375"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 24
+}
+},
+{
+"id": "23072601800015",
+"sequenceNumber": "16",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Katie Douglas Defensive Rebound.",
+"awayScore": 5,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "156"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800016",
+"sequenceNumber": "17",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Nykesha Sales Lost Ball. Stolen by Rushia Brown.",
+"awayScore": 5,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+},
+{
+"athlete": {
+"id": "349"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800017",
+"sequenceNumber": "18",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Tammy Sutton-Brown made Jumper. Assisted by Rushia Brown.",
+"awayScore": 7,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:28"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+},
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 15
+}
+},
+{
+"id": "23072601800018",
+"sequenceNumber": "19",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Katie Douglas made 19 ft Jumper. Assisted by Shannon Johnson.",
+"awayScore": 7,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:21"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "156"
+}
+},
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 12,
+"y": 14
+}
+},
+{
+"id": "23072601800019",
+"sequenceNumber": "20",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Taj McWilliams-Franklin Shooting Foul",
+"awayScore": 7,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800020",
+"sequenceNumber": "21",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Tammy Sutton-Brown made Free Throw 1 of 2.",
+"awayScore": 8,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:52"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800022",
+"sequenceNumber": "22",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Tammy Sutton-Brown made Free Throw 2 of 2.",
+"awayScore": 9,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:52"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800023",
+"sequenceNumber": "23",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Taj McWilliams-Franklin missed 6 ft Jumper.",
+"awayScore": 9,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 1
+}
+},
+{
+"id": "23072601800024",
+"sequenceNumber": "24",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Rushia Brown Defensive Rebound.",
+"awayScore": 9,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800025",
+"sequenceNumber": "25",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Allison Feaster missed 21 ft Three Point Jumper.",
+"awayScore": 9,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 15,
+"y": 18
+}
+},
+{
+"id": "23072601800026",
+"sequenceNumber": "26",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Andrea Stinson Offensive Rebound.",
+"awayScore": 9,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:12"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800027",
+"sequenceNumber": "27",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Andrea Stinson made Layup. Assisted by Tammy Sutton-Brown.",
+"awayScore": 11,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:52"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "380"
+}
+},
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 2
+}
+},
+{
+"id": "23072601800028",
+"sequenceNumber": "28",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Katie Douglas missed 20 ft Three Point Jumper.",
+"awayScore": 11,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:36"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "156"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 20
+}
+},
+{
+"id": "23072601800029",
+"sequenceNumber": "29",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Andrea Stinson Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800030",
+"sequenceNumber": "30",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Andrea Stinson missed 22 ft Three Point Jumper.",
+"awayScore": 11,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 40,
+"y": 16
+}
+},
+{
+"id": "23072601800031",
+"sequenceNumber": "31",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Katie Douglas Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 6,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "156"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800032",
+"sequenceNumber": "32",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Taj McWilliams-Franklin made 2 ft Two Point Shot. Assisted by Nykesha Sales.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:10"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+},
+{
+"athlete": {
+"id": "349"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 1
+}
+},
+{
+"id": "23072601800033",
+"sequenceNumber": "33",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Shannon Johnson Shooting Foul",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800034",
+"sequenceNumber": "34",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800036",
+"sequenceNumber": "35",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Tynesha Lewis enters the game for Andrea Stinson.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "260"
+}
+},
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800037",
+"sequenceNumber": "36",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Tammy Sutton-Brown missed Free Throw 1 of 2.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800038",
+"sequenceNumber": "37",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800039",
+"sequenceNumber": "38",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Tammy Sutton-Brown missed Free Throw 2 of 2.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800040",
+"sequenceNumber": "39",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Katie Douglas Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "156"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800041",
+"sequenceNumber": "40",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Allison Feaster Personal Foul",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800042",
+"sequenceNumber": "41",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Tynesha Lewis Personal Foul",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "260"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800043",
+"sequenceNumber": "42",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Shannon Johnson missed 17 ft Jumper.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 41,
+"y": 6
+}
+},
+{
+"id": "23072601800044",
+"sequenceNumber": "43",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tynesha Lewis Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "260"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800045",
+"sequenceNumber": "44",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Rushia Brown missed 8 ft Jumper.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 19,
+"y": 5
+}
+},
+{
+"id": "23072601800046",
+"sequenceNumber": "45",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tammy Sutton-Brown Offensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800047",
+"sequenceNumber": "46",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"text": "Jumpball. Tammy Sutton-Brown vs. Brooke Wyckoff. Tynesha Lewis gains possession.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+},
+{
+"athlete": {
+"id": "442"
+}
+},
+{
+"athlete": {
+"id": "260"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800048",
+"sequenceNumber": "47",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Tynesha Lewis missed Layup. Blocked by Brooke Wyckoff.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "260"
+}
+},
+{
+"athlete": {
+"id": "442"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800049",
+"sequenceNumber": "48",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Taj McWilliams-Franklin Defensive Re.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:25"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800050",
+"sequenceNumber": "49",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Taj McWilliams-Franklin missed 7 ft Jumper.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 7
+}
+},
+{
+"id": "23072601800051",
+"sequenceNumber": "50",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Rushia Brown Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:17"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800052",
+"sequenceNumber": "51",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"text": "Jumpball. Rushia Brown vs. Shannon Johnson. Tynesha Lewis gains possession.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+},
+{
+"athlete": {
+"id": "230"
+}
+},
+{
+"athlete": {
+"id": "260"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800053",
+"sequenceNumber": "52",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Dawn Staley missed 21 ft Three Point Jumper.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "375"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 46,
+"y": -3
+}
+},
+{
+"id": "23072601800054",
+"sequenceNumber": "53",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tammy Sutton-Brown Offensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800055",
+"sequenceNumber": "54",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Tammy Sutton-Brown missed Layup.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 2
+}
+},
+{
+"id": "23072601800056",
+"sequenceNumber": "55",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Brooke Wyckoff Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "442"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800057",
+"sequenceNumber": "56",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Nykesha Sales missed 22 ft Three Point Jumper.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:25"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "349"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 12,
+"y": 18
+}
+},
+{
+"id": "23072601800058",
+"sequenceNumber": "57",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Allison Feaster Defensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800059",
+"sequenceNumber": "58",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Allison Feaster Bad Pass. Stolen by Taj McWilliams-Franklin.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+},
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800060",
+"sequenceNumber": "59",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Taj McWilliams-Franklin missed 4 ft Jumper. Blocked by Tammy Sutton-Brown.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:51"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+},
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 4
+}
+},
+{
+"id": "23072601800061",
+"sequenceNumber": "60",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Katie Douglas Offensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "156"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800062",
+"sequenceNumber": "61",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Tynesha Lewis Personal Foul",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "260"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800063",
+"sequenceNumber": "62",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800066",
+"sequenceNumber": "63",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Charlotte Smith-Taylor enters the game for Allison Feaster.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "364"
+}
+},
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800067",
+"sequenceNumber": "64",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Teana McKiver enters the game for Tammy Sutton-Brown.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "520"
+}
+},
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800068",
+"sequenceNumber": "65",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Wendy Palmer enters the game for Brooke Wyckoff.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "317"
+}
+},
+{
+"athlete": {
+"id": "442"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800069",
+"sequenceNumber": "66",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Adrienne Johnson enters the game for Nykesha Sales.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "226"
+}
+},
+{
+"athlete": {
+"id": "349"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800077",
+"sequenceNumber": "74",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Andrea Stinson enters the game for Rushia Brown.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "380"
+}
+},
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800070",
+"sequenceNumber": "67",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Katie Douglas missed 21 ft Three Point Jumper.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "156"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 21
+}
+},
+{
+"id": "23072601800071",
+"sequenceNumber": "68",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Connecticut Offensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800072",
+"sequenceNumber": "69",
+"type": {
+"id": "530",
+"text": "LooseBallFoul"
+},
+"text": "Tynesha Lewis Loose Ball Foul",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "260"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800073",
+"sequenceNumber": "70",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Taj McWilliams-Franklin missed Layup.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 3
+}
+},
+{
+"id": "23072601800074",
+"sequenceNumber": "71",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Shannon Johnson Offensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800075",
+"sequenceNumber": "72",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Andrea Stinson Shooting Foul",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800076",
+"sequenceNumber": "73",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Kelly Miller enters the game for Tynesha Lewis.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "292"
+}
+},
+{
+"athlete": {
+"id": "260"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800078",
+"sequenceNumber": "75",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Shannon Johnson missed Free Throw 2 of 2.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800080",
+"sequenceNumber": "76",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Wendy Palmer Offensive Rebound.",
+"awayScore": 11,
+"homeScore": 8,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "317"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800082",
+"sequenceNumber": "78",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Shannon Johnson made Free Throw 1 of 2.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:14"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800081",
+"sequenceNumber": "77",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Wendy Palmer made Layup.",
+"awayScore": 11,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:57"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "317"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 3
+}
+},
+{
+"id": "23072601800083",
+"sequenceNumber": "79",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Andrea Stinson missed 4 ft Jumper.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 22,
+"y": 2
+}
+},
+{
+"id": "23072601800084",
+"sequenceNumber": "80",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Taj McWilliams-Franklin Defensive Re.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800086",
+"sequenceNumber": "81",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"text": "Jumpball. Teana McKiver vs. Taj McWilliams-Franklin. Andrea Stinson gains possession.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "520"
+}
+},
+{
+"athlete": {
+"id": "286"
+}
+},
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800087",
+"sequenceNumber": "82",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Taj McWilliams-Franklin Lost Ball. Stolen by Teana McKiver.",
+"awayScore": 11,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "520"
+}
+},
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800088",
+"sequenceNumber": "83",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Charlotte Smith-Taylor made Layup. Assisted by Andrea Stinson.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:15"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "364"
+}
+},
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 0
+}
+},
+{
+"id": "23072601800089",
+"sequenceNumber": "84",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Dawn Staley Personal Foul",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:57"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "375"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800090",
+"sequenceNumber": "85",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Jessie Hicks enters the game for Katie Douglas.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:57"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "209"
+}
+},
+{
+"athlete": {
+"id": "156"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800091",
+"sequenceNumber": "86",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Nykesha Sales enters the game for Taj McWilliams-Franklin.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:57"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "349"
+}
+},
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800092",
+"sequenceNumber": "87",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Teana McKiver Personal Foul",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "520"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800093",
+"sequenceNumber": "88",
+"type": {
+"id": "20439",
+"text": "Hook Shot"
+},
+"text": "Jessie Hicks made Hook Shot. Assisted by Wendy Palmer.",
+"awayScore": 13,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:22"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "209"
+}
+},
+{
+"athlete": {
+"id": "317"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 1
+}
+},
+{
+"id": "23072601800094",
+"sequenceNumber": "89",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Charlotte Smith-Taylor made Three Point Jumper. Assisted by Dawn Staley.",
+"awayScore": 16,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:04"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "364"
+}
+},
+{
+"athlete": {
+"id": "375"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 21
+}
+},
+{
+"id": "23072601800095",
+"sequenceNumber": "90",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Adrienne Johnson made 20 ft Three Point Jumper. Assisted by Shannon Johnson.",
+"awayScore": 16,
+"homeScore": 16,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:48"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "226"
+}
+},
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 43,
+"y": 9
+}
+},
+{
+"id": "23072601800096",
+"sequenceNumber": "91",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Andrea Stinson missed Jumper.",
+"awayScore": 16,
+"homeScore": 16,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 16
+}
+},
+{
+"id": "23072601800097",
+"sequenceNumber": "92",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Wendy Palmer Defensive Rebound.",
+"awayScore": 16,
+"homeScore": 16,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:12"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "317"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800098",
+"sequenceNumber": "93",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Nykesha Sales made 21 ft Three Point Jumper. Assisted by Shannon Johnson.",
+"awayScore": 16,
+"homeScore": 19,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:03"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "349"
+}
+},
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 7,
+"y": 10
+}
+},
+{
+"id": "23072601800099",
+"sequenceNumber": "94",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Kelly Miller made 13 ft Two Point Shot. Assisted by Dawn Staley.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:54"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "292"
+}
+},
+{
+"athlete": {
+"id": "375"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 14,
+"y": 6
+}
+},
+{
+"id": "23072601800100",
+"sequenceNumber": "95",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Charlotte Smith-Taylor Personal Foul",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "364"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800102",
+"sequenceNumber": "96",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 18,
+"homeScore": 19,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800104",
+"sequenceNumber": "97",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Shannon Johnson made Free Throw 1 of 2.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800105",
+"sequenceNumber": "98",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Tammy Sutton-Brown enters the game for Charlotte Smith-Taylor.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+},
+{
+"athlete": {
+"id": "364"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800106",
+"sequenceNumber": "99",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Allison Feaster enters the game for Dawn Staley.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+},
+{
+"athlete": {
+"id": "375"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800107",
+"sequenceNumber": "100",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Shannon Johnson missed Free Throw 2 of 2.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800108",
+"sequenceNumber": "101",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Teana McKiver Defensive Rebound.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "520"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800109",
+"sequenceNumber": "102",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Shannon Johnson Personal Foul",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800110",
+"sequenceNumber": "103",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Debbie Black enters the game for Shannon Johnson.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "93"
+}
+},
+{
+"athlete": {
+"id": "230"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800111",
+"sequenceNumber": "104",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Teana McKiver missed 14 ft Jumper.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "520"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 17,
+"y": 11
+}
+},
+{
+"id": "23072601800112",
+"sequenceNumber": "105",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Allison Feaster Offensive Rebound.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800113",
+"sequenceNumber": "106",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Tammy Sutton-Brown missed Jumper.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 17,
+"y": 0
+}
+},
+{
+"id": "23072601800114",
+"sequenceNumber": "107",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Teana McKiver Offensive Rebound.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "520"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800115",
+"sequenceNumber": "108",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"participants": [
+{
+"athlete": {
+"id": "520"
+}
+},
+{
+"athlete": {
+"id": "93"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800116",
+"sequenceNumber": "109",
+"type": {
+"id": "463",
+"text": "Jumpball Violation"
+},
+"text": "Jump Ball",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "349"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800117",
+"sequenceNumber": "110",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Tammy Sutton-Brown missed 7 ft Jumper.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 32,
+"y": 1
+}
+},
+{
+"id": "23072601800118",
+"sequenceNumber": "111",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Debbie Black Defensive Rebound.",
+"awayScore": 18,
+"homeScore": 20,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "93"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800119",
+"sequenceNumber": "112",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Adrienne Johnson made 9 ft Jumper. Assisted by Debbie Black.",
+"awayScore": 18,
+"homeScore": 22,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:24"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "226"
+}
+},
+{
+"athlete": {
+"id": "93"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 34,
+"y": 3
+}
+},
+{
+"id": "23072601800121",
+"sequenceNumber": "113",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Rushia Brown enters the game for Teana McKiver.",
+"awayScore": 18,
+"homeScore": 22,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+},
+{
+"athlete": {
+"id": "520"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800122",
+"sequenceNumber": "114",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Tammy Sutton-Brown made Layup. Assisted by Kelly Miller.",
+"awayScore": 20,
+"homeScore": 22,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:54"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+},
+{
+"athlete": {
+"id": "292"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 1
+}
+},
+{
+"id": "23072601800123",
+"sequenceNumber": "115",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Rushia Brown Shooting Foul",
+"awayScore": 20,
+"homeScore": 22,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800124",
+"sequenceNumber": "116",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Wendy Palmer missed Free Throw 1 of 2.",
+"awayScore": 20,
+"homeScore": 22,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "317"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800125",
+"sequenceNumber": "117",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Connecticut Offensive Rebound.",
+"awayScore": 20,
+"homeScore": 22,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800126",
+"sequenceNumber": "118",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Dawn Staley enters the game for Andrea Stinson.",
+"awayScore": 20,
+"homeScore": 22,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "375"
+}
+},
+{
+"athlete": {
+"id": "380"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800127",
+"sequenceNumber": "119",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Wendy Palmer made Free Throw 2 of 2.",
+"awayScore": 20,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:37"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "317"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800128",
+"sequenceNumber": "120",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Nykesha Sales Shooting Foul",
+"awayScore": 20,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "349"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800129",
+"sequenceNumber": "121",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Allison Feaster made Free Throw 1 of 2.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:20"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800130",
+"sequenceNumber": "122",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Allison Feaster missed Free Throw 2 of 2.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800131",
+"sequenceNumber": "123",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jessie Hicks Defensive Rebound.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "209"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800132",
+"sequenceNumber": "124",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Wendy Palmer missed 22 ft Three Point Jumper.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "317"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 22
+}
+},
+{
+"id": "23072601800133",
+"sequenceNumber": "125",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Rushia Brown Defensive Rebound.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800134",
+"sequenceNumber": "126",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Wendy Palmer Personal Foul",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "317"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800135",
+"sequenceNumber": "127",
+"type": {
+"id": "531",
+"text": "Offensive Foul"
+},
+"text": "Allison Feaster Offensive Foul",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800136",
+"sequenceNumber": "128",
+"type": {
+"id": "601",
+"text": "Foul Turnover"
+},
+"text": "Allison Feaster Foul",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800137",
+"sequenceNumber": "129",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Taj McWilliams-Franklin enters the game for Wendy Palmer.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+},
+{
+"athlete": {
+"id": "317"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800138",
+"sequenceNumber": "130",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Rebecca Lobo enters the game for Jessie Hicks.",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "263"
+}
+},
+{
+"athlete": {
+"id": "209"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800139",
+"sequenceNumber": "131",
+"type": {
+"id": "531",
+"text": "Offensive Foul"
+},
+"text": "Taj McWilliams-Franklin Offensive Foul",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800140",
+"sequenceNumber": "132",
+"type": {
+"id": "601",
+"text": "Foul Turnover"
+},
+"text": "Taj McWilliams-Franklin Foul",
+"awayScore": 21,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800141",
+"sequenceNumber": "133",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Rushia Brown made Layup. Assisted by Allison Feaster.",
+"awayScore": 23,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:15"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+},
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 28,
+"y": 0
+}
+},
+{
+"id": "23072601800142",
+"sequenceNumber": "134",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Rebecca Lobo Bad Pass. Stolen by Rushia Brown.",
+"awayScore": 23,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+},
+{
+"athlete": {
+"id": "263"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800143",
+"sequenceNumber": "135",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kelly Miller made 18 ft Jumper. Assisted by Allison Feaster.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:05"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "292"
+}
+},
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 7,
+"y": -1
+}
+},
+{
+"id": "23072601800144",
+"sequenceNumber": "136",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Nykesha Sales missed 17 ft Jumper.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "349"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 16
+}
+},
+{
+"id": "23072601800145",
+"sequenceNumber": "137",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Taj McWilliams-Franklin Offensive Re.",
+"awayScore": 25,
+"homeScore": 23,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800146",
+"sequenceNumber": "138",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Adrienne Johnson made 21 ft Three Point Jumper. Assisted by Debbie Black.",
+"awayScore": 25,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:24"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "226"
+}
+},
+{
+"athlete": {
+"id": "93"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 42,
+"y": 12
+}
+},
+{
+"id": "23072601800147",
+"sequenceNumber": "139",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kelly Miller missed 17 ft Jumper.",
+"awayScore": 25,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "292"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 42,
+"y": 1
+}
+},
+{
+"id": "23072601800148",
+"sequenceNumber": "140",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tammy Sutton-Brown Offensive Rebound.",
+"awayScore": 25,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800149",
+"sequenceNumber": "141",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Tammy Sutton-Brown made Layup. Assisted by Kelly Miller.",
+"awayScore": 27,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:47"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+},
+{
+"athlete": {
+"id": "292"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 1
+}
+},
+{
+"id": "23072601800150",
+"sequenceNumber": "142",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Debbie Black missed 11 ft Jumper.",
+"awayScore": 27,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "93"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 14,
+"y": 2
+}
+},
+{
+"id": "23072601800151",
+"sequenceNumber": "143",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Rushia Brown Defensive Rebound.",
+"awayScore": 27,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800152",
+"sequenceNumber": "144",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Dawn Staley made Layup.",
+"awayScore": 29,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:03"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "375"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 1
+}
+},
+{
+"id": "23072601800153",
+"sequenceNumber": "145",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Connecticut 20 Sec. Timeout.",
+"awayScore": 29,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800155",
+"sequenceNumber": "146",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Marla Brumfield enters the game for Dawn Staley.",
+"awayScore": 29,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "111"
+}
+},
+{
+"athlete": {
+"id": "375"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800156",
+"sequenceNumber": "147",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Debbie Black made 10 ft Jumper.",
+"awayScore": 29,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:47"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "93"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 10
+}
+},
+{
+"id": "23072601800157",
+"sequenceNumber": "148",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Debbie Black Personal Foul",
+"awayScore": 29,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "93"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800158",
+"sequenceNumber": "149",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 29,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800160",
+"sequenceNumber": "150",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Allison Feaster missed 10 ft Jumper.",
+"awayScore": 29,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "167"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 35,
+"y": 3
+}
+},
+{
+"id": "23072601800161",
+"sequenceNumber": "151",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Taj McWilliams-Franklin Defensive Re.",
+"awayScore": 29,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800162",
+"sequenceNumber": "152",
+"type": {
+"id": "20439",
+"text": "Hook Shot"
+},
+"text": "Rebecca Lobo made 8 ft Hook Shot.",
+"awayScore": 29,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "46.7"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "263"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 32,
+"y": 3
+}
+},
+{
+"id": "23072601800163",
+"sequenceNumber": "153",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Taj McWilliams-Franklin Shooting Foul",
+"awayScore": 29,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "29.2"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800164",
+"sequenceNumber": "154",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Tammy Sutton-Brown made Free Throw 1 of 2.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "29.2"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800165",
+"sequenceNumber": "155",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Wendy Palmer enters the game for Taj McWilliams-Franklin.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "29.2"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "317"
+}
+},
+{
+"athlete": {
+"id": "286"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800167",
+"sequenceNumber": "156",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Charlotte Smith-Taylor enters the game for Rushia Brown.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "29.2"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "364"
+}
+},
+{
+"athlete": {
+"id": "110"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800168",
+"sequenceNumber": "157",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Tammy Sutton-Brown missed Free Throw 2 of 2.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "29.2"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "23072601800169",
+"sequenceNumber": "158",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Charlotte Offensive Rebound.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "28.6"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800170",
+"sequenceNumber": "159",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Charlotte 20 Sec. Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "27.6"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800171",
+"sequenceNumber": "160",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Jessie Hicks enters the game for Rebecca Lobo.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "27.6"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "209"
+}
+},
+{
+"athlete": {
+"id": "263"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800172",
+"sequenceNumber": "161",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kelly Miller missed 19 ft Jumper.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5.2"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "292"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 6,
+"y": 2
+}
+},
+{
+"id": "23072601800173",
+"sequenceNumber": "162",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Charlotte Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1.2"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800174",
+"sequenceNumber": "163",
+"type": {
+"id": "578",
+"text": "RegularTimeOut"
+},
+"text": "Connecticut Full Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1.2"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800176",
+"sequenceNumber": "164",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Teana McKiver enters the game for Tammy Sutton-Brown.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1.2"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"participants": [
+{
+"athlete": {
+"id": "520"
+}
+},
+{
+"athlete": {
+"id": "384"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800177",
+"sequenceNumber": "165",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Katie Douglas enters the game for Debbie Black.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1.2"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"participants": [
+{
+"athlete": {
+"id": "156"
+}
+},
+{
+"athlete": {
+"id": "93"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800178",
+"sequenceNumber": "166",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of the 1st Half.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800180",
+"sequenceNumber": "167",
+"type": {
+"id": "411",
+"text": "Start Period"
+},
+"text": "Start of the 2nd Half.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "20:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800207",
+"sequenceNumber": "168",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "15:36"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800227",
+"sequenceNumber": "169",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Charlotte 20 Sec. Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "13:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800247",
+"sequenceNumber": "170",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "11:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800283",
+"sequenceNumber": "171",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "7:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800319",
+"sequenceNumber": "172",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800342",
+"sequenceNumber": "173",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Connecticut 20 Sec. Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800361",
+"sequenceNumber": "174",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Charlotte 20 Sec. Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "16.4"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800364",
+"sequenceNumber": "175",
+"type": {
+"id": "578",
+"text": "RegularTimeOut"
+},
+"text": "Connecticut Full Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4.3"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "18"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800373",
+"sequenceNumber": "176",
+"type": {
+"id": "578",
+"text": "RegularTimeOut"
+},
+"text": "Charlotte Full Timeout.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3.6"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "1"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800379",
+"sequenceNumber": "177",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of the 2nd Half.",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "23072601800381",
+"sequenceNumber": "178",
+"type": {
+"id": "402",
+"text": "End Game"
+},
+"text": "End Game",
+"awayScore": 30,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+}
+],
+"article": {
+"keywords": [],
+"description": "Nykesha Sales scored 18 of her 23 points in the second half to lead the Connecticut Sun to a 74-70 win over the Charlotte Sting on Saturday night.\r\n",
+"video": [],
+"type": "Recap",
+"nowId": "1-1585988",
+"premium": false,
+"related": [],
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/1585988"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/events/230726018"
+}
+},
+"web": {
+"href": "http://sports.espn.go.com/wnba/recap?gameId=230726018",
+"short": {}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=1585988"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/wnba/gamecast?gameId=230726018&version=mobile"
+}
+},
+"id": 1585988,
+"categories": [],
+"headline": "Connecticut's 10-0 run in second half puts game away",
+"gameId": "230726018",
+"images": [],
+"linkText": "Sales leads Sun's second-half surge past Sting",
+"published": "2003-07-27T02:16:51Z",
+"lastModified": "2003-07-27T02:51:25Z",
+"story": "HARTFORD, Conn. (AP) -- Nykesha Sales scored 18 of her 23 points\nin the second half to lead the Connecticut Sun to a 74-70 win over\nthe Charlotte Sting on Saturday night.\n\nKatie Douglas scored nine of her 11 points in the second half as\nthe Sun (13-11) extended their winning streak to a season-high four\ngames. Taj McWilliams-Franklin added 10 points and seven rebounds.\n\nTammy Sutton-Brown led the Sting (13-11) with a season-high 21\npoints and seven rebounds in Charlotte's fourth loss in five games.\nIt beat the Sun 69-55 in the teams' previous meeting June 28.\n\nWith 10 games remaining -- all against the Eastern Conference --\nthe Sun moved within a half-game of the second-place Sting.\n\nThe Sun played at the Hartford Civic Center, the only home game\nthey'll play away from Mohegan Sun Arena this season.\n\nSales shot 7-for-9 in the second half and 9-for-13 overall, and\nthe Sun shot 53.1 percent (26-for-49) as a team. Connecticut is\nshooting 49.6 percent in the last four games, compared to 36\npercent in the previous five, resulting in three losses.\n\nRushia Brown and Dawn Staley each added 10 points for the Sting."
+},
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/wnba/standings"
+},
+"groups": [
+{
+"standings": {
+"entries": [
+{
+"team": "Chicago",
+"link": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1.0,
+"displayValue": "W1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.7222222,
+"displayValue": ".722"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 26.0,
+"displayValue": "26"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+{
+"team": "Connecticut",
+"link": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 3.0,
+"displayValue": "W3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6944444,
+"displayValue": ".694"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 25.0,
+"displayValue": "25"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/conn.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-02-01T18:05Z"
+}
+]
+},
+{
+"team": "Washington",
+"link": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 4.0,
+"displayValue": "4"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 14.0,
+"displayValue": "14"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2.0,
+"displayValue": "W2"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6111111,
+"displayValue": ".611"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 22.0,
+"displayValue": "22"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+}
+]
+},
+{
+"team": "New York",
+"link": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 20.0,
+"displayValue": "20"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 3.0,
+"displayValue": "W3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.44444445,
+"displayValue": ".444"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 16.0,
+"displayValue": "16"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+{
+"team": "Atlanta",
+"link": "http://www.espn.com/wnba/team/_/name/atl/atlanta-dream",
+"id": "20",
+"uid": "s:40~l:59~t:20",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 12.0,
+"displayValue": "12"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 22.0,
+"displayValue": "22"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -4.0,
+"displayValue": "L4"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3888889,
+"displayValue": ".389"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 14.0,
+"displayValue": "14"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:43Z"
+}
+]
+},
+{
+"team": "Indiana",
+"link": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 31.0,
+"displayValue": "31"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -18.0,
+"displayValue": "L18"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.1388889,
+"displayValue": ".139"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 5.0,
+"displayValue": "5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+}
+]
+},
+"header": "2021-22 Eastern Conference Standings",
+"href": "https://www.espn.com/wnba/standings/_/group/1"
+}
+]
+},
+"teamInfo": [],
+"espnWP": [],
+"season": {},
+"timeouts": []
+}

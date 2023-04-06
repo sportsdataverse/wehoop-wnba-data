@@ -1,0 +1,12458 @@
+{
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"slug": "phoenix-mercury",
+"location": "Phoenix",
+"name": "Mercury",
+"abbreviation": "PHO",
+"displayName": "Phoenix Mercury",
+"shortDisplayName": "Mercury",
+"color": "3a267d",
+"alternateColor": "e56020",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png"
+},
+"statistics": []
+},
+{
+"team": {
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"slug": "seattle-storm",
+"location": "Seattle",
+"name": "Storm",
+"abbreviation": "SEA",
+"displayName": "Seattle Storm",
+"shortDisplayName": "Storm",
+"color": "05452a",
+"alternateColor": "f7c43c",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"slug": "phoenix-mercury",
+"location": "Phoenix",
+"name": "Mercury",
+"abbreviation": "PHO",
+"displayName": "Phoenix Mercury",
+"shortDisplayName": "Mercury",
+"color": "3a267d",
+"alternateColor": "e56020",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": true,
+"athlete": {
+"id": "202",
+"uid": "s:40~l:59~a:202",
+"guid": "ed2da827a69ef0ab9418560d103e85fe",
+"displayName": "Lisa Harrison",
+"shortName": "L. Harrison",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/202/lisa-harrison",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/202/lisa-harrison",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/202/lisa-harrison",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/202/lisa-harrison",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/202/lisa-harrison",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/202/lisa-harrison",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "188",
+"uid": "s:40~l:59~a:188",
+"guid": "4a04c4f6067db593dbbf32cc9f46143c",
+"displayName": "Jennifer Gillom",
+"shortName": "J. Gillom",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/188/jennifer-gillom",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/188/jennifer-gillom",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/188/jennifer-gillom",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/188/jennifer-gillom",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/188/jennifer-gillom",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/188/jennifer-gillom",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "195",
+"uid": "s:40~l:59~a:195",
+"guid": "7febcfeb561f23e4d49fc8fdaa972410",
+"displayName": "Gordana Grubin",
+"shortName": "G. Grubin",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/195/gordana-grubin",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/195/gordana-grubin",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/195/gordana-grubin",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/195/gordana-grubin",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/195/gordana-grubin",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/195/gordana-grubin",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "338",
+"uid": "s:40~l:59~a:338",
+"guid": "d8338cd7f41aabebd5bbd4e970f3f887",
+"displayName": "Tracy Reid",
+"shortName": "T. Reid",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/338/tracy-reid",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/338/tracy-reid",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/338/tracy-reid",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/338/tracy-reid",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/338/tracy-reid",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/338/tracy-reid",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "428",
+"uid": "s:40~l:59~a:428",
+"guid": "71feac24f4e094bd8404c13d2c9b62c7",
+"displayName": "Adrian Williams-Strong",
+"shortName": "A. Williams-Strong",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/428/adrian-williams-strong",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/428/adrian-williams-strong",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/428/adrian-williams-strong",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/428/adrian-williams-strong",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/428/adrian-williams-strong",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/428/adrian-williams-strong",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "45",
+"uid": "s:40~l:59~a:45",
+"guid": "4ad8427dfb3e6a868e5cf03bbf39c1d1",
+"displayName": "Michele Van Gorp",
+"shortName": "M. Van Gorp",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/45/michele-van-gorp",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/45/michele-van-gorp",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/45/michele-van-gorp",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/45/michele-van-gorp",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/45/michele-van-gorp",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/45/michele-van-gorp",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "131",
+"uid": "s:40~l:59~a:131",
+"guid": "6ff1b63ac753045487fcd2bc4a708532",
+"displayName": "Kayte Christensen",
+"shortName": "K. Christensen",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/131/kayte-christensen",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/131/kayte-christensen",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/131/kayte-christensen",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/131/kayte-christensen",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/131/kayte-christensen",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/131/kayte-christensen",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "296",
+"uid": "s:40~l:59~a:296",
+"guid": "9d3b35ffa72099e291b51e96941f0a98",
+"displayName": "Adriana Moises Pinto",
+"shortName": "A. Moises Pinto",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/296/adriana-moises-pinto",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/296/adriana-moises-pinto",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/296/adriana-moises-pinto",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/296/adriana-moises-pinto",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/296/adriana-moises-pinto",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/296/adriana-moises-pinto",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "356",
+"uid": "s:40~l:59~a:356",
+"guid": "a2825e29e7d2748e8c7baf4e1f0a59a1",
+"displayName": "Jaynetta Saunders",
+"shortName": "J. Saunders",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/356/jaynetta-saunders",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/356/jaynetta-saunders",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/356/jaynetta-saunders",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/356/jaynetta-saunders",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/356/jaynetta-saunders",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/356/jaynetta-saunders",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "404",
+"uid": "s:40~l:59~a:404",
+"guid": "6e7b1f8d45329461dce9e74bd6dca17d",
+"displayName": "Slobodanka Tuvic",
+"shortName": "S. Tuvic",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/404/slobodanka-tuvic",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/404/slobodanka-tuvic",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/404/slobodanka-tuvic",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/404/slobodanka-tuvic",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/404/slobodanka-tuvic",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/404/slobodanka-tuvic",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "409",
+"uid": "s:40~l:59~a:409",
+"guid": "bc371571ca74b903f04c1c418eb55bb4",
+"displayName": "Kristen Veal",
+"shortName": "K. Veal",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/409/kristen-veal",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/409/kristen-veal",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/409/kristen-veal",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/409/kristen-veal",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/409/kristen-veal",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/409/kristen-veal",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+}
+],
+"totals": [
+"",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"",
+"--"
+]
+}
+]
+},
+{
+"team": {
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"slug": "seattle-storm",
+"location": "Seattle",
+"name": "Storm",
+"abbreviation": "SEA",
+"displayName": "Seattle Storm",
+"shortDisplayName": "Storm",
+"color": "05452a",
+"alternateColor": "f7c43c",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": true,
+"athlete": {
+"id": "222",
+"uid": "s:40~l:59~a:222",
+"guid": "852e5dceace7653f270402f16aa0a38f",
+"displayName": "Lauren  Jackson",
+"shortName": "L. Jackson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/222/lauren-jackson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/222/lauren-jackson",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/222/lauren-jackson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/222/lauren-jackson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/222/lauren-jackson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/222/lauren-jackson",
+"text": "Overview"
+}
+],
+"jersey": "15",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "91",
+"uid": "s:40~l:59~a:91",
+"guid": "e28a886c1b4a8c9ec42768ab9d0927ed",
+"displayName": "Sue Bird",
+"shortName": "S. Bird",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/91/sue-bird",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/91/sue-bird",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/91/sue-bird",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/91/sue-bird",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/91/sue-bird",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/91/sue-bird",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/91.png",
+"alt": "Sue Bird"
+},
+"jersey": "10",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "70",
+"uid": "s:40~l:59~a:70",
+"guid": "e98563960ea3f6877abf54eb367cf97f",
+"displayName": "Adia Oshun Barnes",
+"shortName": "A. Barnes",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/70/adia-oshun-barnes",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/70/adia-oshun-barnes",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/70/adia-oshun-barnes",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/70/adia-oshun-barnes",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/70/adia-oshun-barnes",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/70/adia-oshun-barnes",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "255",
+"uid": "s:40~l:59~a:255",
+"guid": "0b7de9d72761ed02b38ac900e103656f",
+"displayName": "Amanda Lassiter",
+"shortName": "A. Lassiter",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/255/amanda-lassiter",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/255/amanda-lassiter",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/255/amanda-lassiter",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/255/amanda-lassiter",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/255/amanda-lassiter",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/255/amanda-lassiter",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "411",
+"uid": "s:40~l:59~a:411",
+"guid": "de50df0390e1792dfc3753edbfd51ad7",
+"displayName": "Kamila Vodichkova",
+"shortName": "K. Vodichkova",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/411/kamila-vodichkova",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/411/kamila-vodichkova",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/411/kamila-vodichkova",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/411/kamila-vodichkova",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/411/kamila-vodichkova",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/411/kamila-vodichkova",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "159",
+"uid": "s:40~l:59~a:159",
+"guid": "53cc4ff2e03f6d42e45a6364bf6b5824",
+"displayName": "Simone Edwards",
+"shortName": "S. Edwards",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/159/simone-edwards",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/159/simone-edwards",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/159/simone-edwards",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/159/simone-edwards",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/159/simone-edwards",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/159/simone-edwards",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "259",
+"uid": "s:40~l:59~a:259",
+"guid": "c1a0bf7325efc6794f17a4585418219a",
+"displayName": "Takeisha Lewis",
+"shortName": "T. Lewis",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/259/takeisha-lewis",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/259/takeisha-lewis",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/259/takeisha-lewis",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/259/takeisha-lewis",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/259/takeisha-lewis",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/259/takeisha-lewis",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "275",
+"uid": "s:40~l:59~a:275",
+"guid": "f19089c69f410b0a7956d4be5390d77f",
+"displayName": "Michelle Marciniak",
+"shortName": "M. Marciniak",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/275/michelle-marciniak",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/275/michelle-marciniak",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/275/michelle-marciniak",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/275/michelle-marciniak",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/275/michelle-marciniak",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/275/michelle-marciniak",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "319",
+"uid": "s:40~l:59~a:319",
+"guid": "d1cd6effd4ecd14f6fb763011009ae7d",
+"displayName": "Kate  Paye",
+"shortName": "K. Paye",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/319/kate-paye",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/319/kate-paye",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/319/kate-paye",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/319/kate-paye",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/319/kate-paye",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/319/kate-paye",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "331",
+"uid": "s:40~l:59~a:331",
+"guid": "759f49cb95b1e77b169b235e8da944c2",
+"displayName": "Felicia Ragland",
+"shortName": "F. Ragland",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/331/felicia-ragland",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/331/felicia-ragland",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/331/felicia-ragland",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/331/felicia-ragland",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/331/felicia-ragland",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/331/felicia-ragland",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "333",
+"uid": "s:40~l:59~a:333",
+"guid": "c7e11c565c3af8a0b5c82ffba24cc235",
+"displayName": "Semeka Randall",
+"shortName": "S. Randall",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/333/semeka-randall",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/333/semeka-randall",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/333/semeka-randall",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/333/semeka-randall",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/333/semeka-randall",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/333/semeka-randall",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Not Available",
+"displayName": "Not Available",
+"abbreviation": "NA"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"--",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--"
+]
+}
+],
+"totals": [
+"",
+"-----",
+"-----",
+"-----",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"--",
+"",
+"--"
+]
+}
+]
+}
+]
+},
+"format": {
+"regulation": {
+"periods": 2,
+"displayName": "Half",
+"slug": "half",
+"clock": 1200.0
+},
+"overtime": {
+"clock": 300.0
+}
+},
+"gameInfo": {
+"venue": {
+"id": "2184",
+"fullName": "KeyArena",
+"shortName": "Key Arena",
+"address": {
+"city": "Seattle",
+"state": "WA"
+},
+"capacity": 17459,
+"grass": false,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/wnba/day/2184.jpg",
+"width": 2000,
+"height": 1125,
+"alt": "",
+"rel": [
+"full",
+"day"
+]
+}
+]
+},
+"attendance": 0
+},
+"leaders": [
+{
+"team": {
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"displayName": "Seattle Storm",
+"abbreviation": "SEA",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/sea",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-03-08T15:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+}
+]
+},
+"leaders": []
+},
+{
+"team": {
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"displayName": "Phoenix Mercury",
+"abbreviation": "PHO",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/phx",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"leaders": []
+}
+],
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "SEA Wins series 2-1",
+"completed": true,
+"totalCompetitions": 3,
+"events": [
+{
+"id": "220614011",
+"uid": "s:40~l:59~e:220614011~c:220614011",
+"date": "2002-06-15T02:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"displayName": "Phoenix Mercury",
+"abbreviation": "PHO",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/phx",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "82"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"displayName": "Seattle Storm",
+"abbreviation": "SEA",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/sea",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-03-08T15:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+}
+]
+},
+"score": "90"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/220614011",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=220614011",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "220626011",
+"uid": "s:40~l:59~e:220626011~c:220626011",
+"date": "2002-06-27T02:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"displayName": "Phoenix Mercury",
+"abbreviation": "PHO",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/phx",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "62"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"displayName": "Seattle Storm",
+"abbreviation": "SEA",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/sea",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-03-08T15:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+}
+]
+},
+"score": "53"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/220626011",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=220626011",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "220719014",
+"uid": "s:40~l:59~e:220719014~c:220719014",
+"date": "2002-07-20T02:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"displayName": "Seattle Storm",
+"abbreviation": "SEA",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/sea",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-03-08T15:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+}
+]
+},
+"score": "89"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"displayName": "Phoenix Mercury",
+"abbreviation": "PHO",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/phx",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"score": "48"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/220719014",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=220719014",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"broadcasts": [],
+"predictor": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"displayName": "Phoenix Mercury",
+"abbreviation": "PHO",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/phx",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+]
+},
+"records": []
+},
+{
+"team": {
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"displayName": "Seattle Storm",
+"abbreviation": "SEA",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/sea",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-03-08T15:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+}
+]
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
+"header": {
+"id": "220719014",
+"uid": "s:40~l:59~e:220719014",
+"season": {
+"year": 2002,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "220719014",
+"uid": "s:40~l:59~e:220719014~c:220719014",
+"date": "2002-07-20T02:00Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"shotChartAvailable": true,
+"timeoutsAvailable": true,
+"possessionArrowAvailable": false,
+"onWatchESPN": false,
+"recent": false,
+"boxscoreSource": "basic",
+"playByPlaySource": "full",
+"competitors": [
+{
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"order": 0,
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"location": "Seattle",
+"name": "Storm",
+"abbreviation": "SEA",
+"displayName": "Seattle Storm",
+"color": "05452a",
+"alternateColor": "f7c43c",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-03-08T15:23Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/scoreboard/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:25Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
+"text": "Clubhouse"
+}
+]
+},
+"score": "89",
+"linescores": [
+{
+"displayValue": "46"
+},
+{
+"displayValue": "43"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "17-15",
+"displayValue": "17-15"
+},
+{
+"type": "home",
+"summary": "10-6",
+"displayValue": "10-6"
+}
+],
+"possession": false
+},
+{
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"order": 1,
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"location": "Phoenix",
+"name": "Mercury",
+"abbreviation": "PHO",
+"displayName": "Phoenix Mercury",
+"color": "3a267d",
+"alternateColor": "e56020",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/pho.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2018-06-05T12:14Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"text": "Clubhouse"
+}
+]
+},
+"score": "48",
+"linescores": [
+{
+"displayValue": "22"
+},
+{
+"displayValue": "26"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "11-21",
+"displayValue": "11-21"
+},
+{
+"type": "road",
+"summary": "1-15",
+"displayValue": "1-15"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": [],
+"series": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "SEA Wins series 2-1",
+"completed": true,
+"totalCompetitions": 3,
+"competitors": [
+{
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"wins": 2,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2002/teams/14?lang=en&region=us"
+}
+},
+{
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"wins": 1,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2002/teams/11?lang=en&region=us"
+}
+}
+],
+"events": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/220614011?lang=en&region=us",
+"id": "220614011"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/220626011?lang=en&region=us",
+"id": "220626011"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/220719014?lang=en&region=us",
+"id": "220719014"
+}
+]
+}
+]
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/220719014",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/recap?gameId=220719014",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/boxscore/_/gameId/220719014",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"pbp",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/playbyplay/_/gameId/220719014",
+"text": "Play-by-Play",
+"shortText": "Play-by-Play",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/matchup?gameId=220719014",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"league": {
+"id": "59",
+"uid": "s:40~l:59",
+"name": "Women's National Basketball Association",
+"abbreviation": "WNBA",
+"slug": "wnba",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/injuries",
+"text": "Injuries"
+}
+]
+}
+},
+"plays": [
+{
+"id": "22071901400000",
+"sequenceNumber": "1",
+"type": {
+"id": "411",
+"text": "Start Period"
+},
+"text": "Start of the 1st Half.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "20:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400001",
+"sequenceNumber": "2",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"text": "Jumpball. Adrain Williams vs. Lauren Jackson. Sue Bird gains possession.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "20:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "428"
+}
+},
+{
+"athlete": {
+"id": "222"
+}
+},
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400002",
+"sequenceNumber": "3",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Lauren Jackson missed Layup.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 29,
+"y": 3
+}
+},
+{
+"id": "22071901400003",
+"sequenceNumber": "4",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Kamila Vodichkova Offensive Rebound.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400004",
+"sequenceNumber": "5",
+"type": {
+"id": "531",
+"text": "Offensive Foul"
+},
+"text": "Kamila Vodichkova Offensive Foul",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400005",
+"sequenceNumber": "6",
+"type": {
+"id": "601",
+"text": "Foul Turnover"
+},
+"text": "Kamila Vodichkova Foul",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400006",
+"sequenceNumber": "7",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Tracy Reid missed 5 ft Jumper.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 30,
+"y": 2
+}
+},
+{
+"id": "22071901400007",
+"sequenceNumber": "8",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Adia Barnes Defensive Rebound.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400008",
+"sequenceNumber": "9",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lauren Jackson missed 8 ft Jumper.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 17,
+"y": 2
+}
+},
+{
+"id": "22071901400009",
+"sequenceNumber": "10",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jennifer Gillom Defensive Rebound.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400010",
+"sequenceNumber": "11",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jennifer Gillom missed 4 ft Jumper.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 4
+}
+},
+{
+"id": "22071901400011",
+"sequenceNumber": "12",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Adrain Williams Offensive Rebound.",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:58"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "428"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400012",
+"sequenceNumber": "13",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Jennifer Gillom made 22 ft Three Point Jumper. Assisted by Tracy Reid.",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:51"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+},
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 37,
+"y": 19
+}
+},
+{
+"id": "22071901400013",
+"sequenceNumber": "14",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Adia Barnes Bad Pass. Stolen by Tracy Reid.",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+},
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400014",
+"sequenceNumber": "15",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Gordana Grubin made 7 ft Two Point Shot.",
+"awayScore": 5,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:36"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 22,
+"y": 6
+}
+},
+{
+"id": "22071901400015",
+"sequenceNumber": "16",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Kamila Vodichkova made 9 ft Two Point Shot. Assisted by Amanda Lassiter.",
+"awayScore": 5,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "18:13"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+},
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 7
+}
+},
+{
+"id": "22071901400016",
+"sequenceNumber": "17",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jennifer Gillom made 7 ft Jumper.",
+"awayScore": 7,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:39"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 7
+}
+},
+{
+"id": "22071901400017",
+"sequenceNumber": "18",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Sue Bird missed Two Point Shot.",
+"awayScore": 7,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400018",
+"sequenceNumber": "19",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Adrain Williams Defensive Rebound.",
+"awayScore": 7,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "428"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400019",
+"sequenceNumber": "20",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Gordana Grubin missed Layup.",
+"awayScore": 7,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400020",
+"sequenceNumber": "21",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tracy Reid Offensive Rebound.",
+"awayScore": 7,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400021",
+"sequenceNumber": "22",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Lauren Jackson Shooting Foul",
+"awayScore": 7,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400022",
+"sequenceNumber": "23",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Adrain Williams made Free Throw 1 of 2.",
+"awayScore": 8,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:19"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "428"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400023",
+"sequenceNumber": "24",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Adrain Williams made Free Throw 2 of 2.",
+"awayScore": 9,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:19"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "428"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400024",
+"sequenceNumber": "25",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lauren Jackson missed 7 ft Jumper.",
+"awayScore": 9,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 32,
+"y": 1
+}
+},
+{
+"id": "22071901400025",
+"sequenceNumber": "26",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Lauren Jackson Offensive Rebound.",
+"awayScore": 9,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400026",
+"sequenceNumber": "27",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lauren Jackson made 4 ft Jumper.",
+"awayScore": 9,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:00"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 4
+}
+},
+{
+"id": "22071901400027",
+"sequenceNumber": "28",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Jennifer Gillom Shooting Foul",
+"awayScore": 9,
+"homeScore": 4,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400028",
+"sequenceNumber": "29",
+"type": {
+"id": "559",
+"text": "Free Throw 1 of 1"
+},
+"text": "Lauren Jackson made Free Throw 1 of 1.",
+"awayScore": 9,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "17:00"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400029",
+"sequenceNumber": "30",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Tracy Reid missed 14 ft Jumper.",
+"awayScore": 9,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 11,
+"y": 2
+}
+},
+{
+"id": "22071901400030",
+"sequenceNumber": "31",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Amanda Lassiter Defensive Rebound.",
+"awayScore": 9,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400031",
+"sequenceNumber": "32",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lauren Jackson made 12 ft Jumper. Assisted by Sue Bird.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "16:23"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+},
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 37,
+"y": 3
+}
+},
+{
+"id": "22071901400032",
+"sequenceNumber": "33",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jennifer Gillom missed Jumper.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 7
+}
+},
+{
+"id": "22071901400033",
+"sequenceNumber": "34",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tracy Reid Offensive Rebound.",
+"awayScore": 9,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400034",
+"sequenceNumber": "35",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Tracy Reid made Layup.",
+"awayScore": 11,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:52"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400035",
+"sequenceNumber": "36",
+"type": {
+"id": "459",
+"text": "Delay Of Game Violation"
+},
+"text": "Delay of Game",
+"awayScore": 11,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400037",
+"sequenceNumber": "37",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lauren Jackson missed 9 ft Jumper.",
+"awayScore": 11,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 33,
+"y": 4
+}
+},
+{
+"id": "22071901400038",
+"sequenceNumber": "38",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Adia Barnes Offensive Rebound.",
+"awayScore": 11,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400039",
+"sequenceNumber": "39",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Adia Barnes Bad Pass. Stolen by Gordana Grubin.",
+"awayScore": 11,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+},
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400040",
+"sequenceNumber": "40",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Gordana Grubin made Two Point Shot.",
+"awayScore": 13,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:26"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400041",
+"sequenceNumber": "41",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kamila Vodichkova made 17 ft Jumper. Assisted by Adia Barnes.",
+"awayScore": 13,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "15:15"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+},
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 14,
+"y": 13
+}
+},
+{
+"id": "22071901400042",
+"sequenceNumber": "42",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Lauren Jackson Personal Foul",
+"awayScore": 13,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400043",
+"sequenceNumber": "43",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 13,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400045",
+"sequenceNumber": "44",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Kayte Christensen enters the game for Adrain Williams.",
+"awayScore": 13,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "131"
+}
+},
+{
+"athlete": {
+"id": "428"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400046",
+"sequenceNumber": "45",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Simone Edwards enters the game for Kamila Vodichkova.",
+"awayScore": 13,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+},
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400047",
+"sequenceNumber": "46",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jennifer Gillom missed 15 ft Jumper.",
+"awayScore": 13,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 21,
+"y": 14
+}
+},
+{
+"id": "22071901400048",
+"sequenceNumber": "47",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Amanda Lassiter Defensive Rebound.",
+"awayScore": 13,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400049",
+"sequenceNumber": "48",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Lauren Jackson missed 22 ft Three Point Jumper.",
+"awayScore": 13,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:10"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 6,
+"y": 12
+}
+},
+{
+"id": "22071901400050",
+"sequenceNumber": "49",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Adia Barnes Offensive Rebound.",
+"awayScore": 13,
+"homeScore": 9,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400051",
+"sequenceNumber": "50",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lauren Jackson made 12 ft Jumper. Assisted by Adia Barnes.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "14:04"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+},
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 22,
+"y": 12
+}
+},
+{
+"id": "22071901400052",
+"sequenceNumber": "51",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Gordana Grubin missed 21 ft Three Point Jumper.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:32"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 21
+}
+},
+{
+"id": "22071901400053",
+"sequenceNumber": "52",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Lauren Jackson Defensive Rebound.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400054",
+"sequenceNumber": "53",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lauren Jackson missed 11 ft Jumper.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:06"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 36,
+"y": 2
+}
+},
+{
+"id": "22071901400055",
+"sequenceNumber": "55",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Michelle Marciniak enters the game for Amanda Lassiter.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "275"
+}
+},
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400057",
+"sequenceNumber": "56",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Kamila Vodichkova enters the game for Lauren Jackson.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+},
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400058",
+"sequenceNumber": "57",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Kristen Veal enters the game for Tracy Reid.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "409"
+}
+},
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400059",
+"sequenceNumber": "58",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"text": "Jumpball. Kayte Christensen vs. Adia Barnes. Gordana Grubin gains possession.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "13:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "131"
+}
+},
+{
+"athlete": {
+"id": "70"
+}
+},
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400062",
+"sequenceNumber": "61",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Adia Barnes Defensive Rebound.",
+"awayScore": 13,
+"homeScore": 11,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400076",
+"sequenceNumber": "77",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Lisa Harrison missed 10 ft Two Point Shot.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 18,
+"y": 7
+}
+},
+{
+"id": "22071901400102",
+"sequenceNumber": "98",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Seattle Defensive Rebound.",
+"awayScore": 17,
+"homeScore": 24,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400063",
+"sequenceNumber": "62",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Michelle Marciniak made Layup. Assisted by Sue Bird.",
+"awayScore": 13,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:37"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "275"
+}
+},
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400064",
+"sequenceNumber": "63",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Lisa Harrison missed Layup.",
+"awayScore": 13,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400065",
+"sequenceNumber": "64",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Lisa Harrison Offensive Rebound.",
+"awayScore": 13,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400066",
+"sequenceNumber": "65",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lisa Harrison made 6 ft Jumper.",
+"awayScore": 15,
+"homeScore": 13,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:25"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 20,
+"y": 3
+}
+},
+{
+"id": "22071901400067",
+"sequenceNumber": "66",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Adia Barnes made Two Point Shot.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "12:04"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400068",
+"sequenceNumber": "67",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Gordana Grubin missed 15 ft Jumper.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 40,
+"y": 2
+}
+},
+{
+"id": "22071901400069",
+"sequenceNumber": "68",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Adia Barnes Defensive Rebound.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400070",
+"sequenceNumber": "69",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Sue Bird missed 11 ft Jumper.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 36,
+"y": 2
+}
+},
+{
+"id": "22071901400071",
+"sequenceNumber": "70",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Simone Edwards Offensive Rebound.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400072",
+"sequenceNumber": "71",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Kamila Vodichkova Bad Pass. Stolen by Jennifer Gillom.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+},
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400073",
+"sequenceNumber": "72",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Lisa Harrison missed Layup.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400074",
+"sequenceNumber": "73",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Phoenix Offensive Rebound.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400075",
+"sequenceNumber": "74",
+"type": {
+"id": "530",
+"text": "LooseBallFoul"
+},
+"text": "Kamila Vodichkova Loose Ball Foul",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400077",
+"sequenceNumber": "76",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Lauren Jackson enters the game for Simone Edwards.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+},
+{
+"athlete": {
+"id": "159"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400079",
+"sequenceNumber": "78",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Jaynetta Saunders enters the game for Jennifer Gillom.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+},
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400080",
+"sequenceNumber": "79",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Michele Van Gorp enters the game for Gordana Grubin.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "45"
+}
+},
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400081",
+"sequenceNumber": "80",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jaynetta Saunders missed 16 ft Jumper.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 38,
+"y": 9
+}
+},
+{
+"id": "22071901400082",
+"sequenceNumber": "81",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Adia Barnes Defensive Rebound.",
+"awayScore": 15,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "11:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400083",
+"sequenceNumber": "82",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Lauren Jackson made 22 ft Three Point Jumper. Assisted by Michelle Marciniak.",
+"awayScore": 15,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:53"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+},
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 47,
+"y": 3
+}
+},
+{
+"id": "22071901400084",
+"sequenceNumber": "83",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Kayte Christensen made Layup. Assisted by Kristen Veal.",
+"awayScore": 17,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:30"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "131"
+}
+},
+{
+"athlete": {
+"id": "409"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400085",
+"sequenceNumber": "84",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Lauren Jackson missed Layup.",
+"awayScore": 17,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400086",
+"sequenceNumber": "85",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Michelle Marciniak Offensive Rebound.",
+"awayScore": 17,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400087",
+"sequenceNumber": "86",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Adia Barnes missed Layup.",
+"awayScore": 17,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400088",
+"sequenceNumber": "87",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Kamila Vodichkova Offensive Rebound.",
+"awayScore": 17,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400089",
+"sequenceNumber": "88",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Sue Bird missed 6 ft Jumper.",
+"awayScore": 17,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 6
+}
+},
+{
+"id": "22071901400090",
+"sequenceNumber": "89",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Kristen Veal Defensive Rebound.",
+"awayScore": 17,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "409"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400091",
+"sequenceNumber": "90",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Jaynetta Saunders Lost Ball",
+"awayScore": 17,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400092",
+"sequenceNumber": "91",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Amanda Lassiter enters the game for Adia Barnes.",
+"awayScore": 17,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+},
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400093",
+"sequenceNumber": "92",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Kamila Vodichkova made 24 ft Three Point Jumper. Assisted by Michelle Marciniak.",
+"awayScore": 17,
+"homeScore": 21,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:37"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+},
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 20,
+"y": 23
+}
+},
+{
+"id": "22071901400095",
+"sequenceNumber": "93",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Kristen Veal Bad Pass. Stolen by Kamila Vodichkova.",
+"awayScore": 17,
+"homeScore": 21,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+},
+{
+"athlete": {
+"id": "409"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400097",
+"sequenceNumber": "94",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kamila Vodichkova missed 5 ft Jumper.",
+"awayScore": 17,
+"homeScore": 21,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:12"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 22,
+"y": 4
+}
+},
+{
+"id": "22071901400098",
+"sequenceNumber": "95",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Lauren Jackson Offensive Rebound.",
+"awayScore": 17,
+"homeScore": 21,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400099",
+"sequenceNumber": "96",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Amanda Lassiter made 24 ft Three Point Jumper. Assisted by Lauren Jackson.",
+"awayScore": 17,
+"homeScore": 24,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:08"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+},
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 24
+}
+},
+{
+"id": "22071901400100",
+"sequenceNumber": "97",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Phoenix 20 Sec. Timeout.",
+"awayScore": 17,
+"homeScore": 24,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400103",
+"sequenceNumber": "99",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Felicia Ragland enters the game for Sue Bird.",
+"awayScore": 17,
+"homeScore": 24,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "331"
+}
+},
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400105",
+"sequenceNumber": "100",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Jennifer Gillom enters the game for Michele Van Gorp.",
+"awayScore": 17,
+"homeScore": 24,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+},
+{
+"athlete": {
+"id": "45"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400106",
+"sequenceNumber": "101",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kristen Veal missed 7 ft Jumper. Blocked by Lauren Jackson.",
+"awayScore": 17,
+"homeScore": 24,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "409"
+}
+},
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 3
+}
+},
+{
+"id": "22071901400107",
+"sequenceNumber": "102",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Lauren Jackson Defensive Rebound.",
+"awayScore": 17,
+"homeScore": 24,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400108",
+"sequenceNumber": "103",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Amanda Lassiter made 9 ft Two Point Shot.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:27"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 17,
+"y": 3
+}
+},
+{
+"id": "22071901400109",
+"sequenceNumber": "104",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jennifer Gillom missed 12 ft Jumper.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 13,
+"y": 2
+}
+},
+{
+"id": "22071901400110",
+"sequenceNumber": "105",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Lauren Jackson Defensive Rebound.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400111",
+"sequenceNumber": "106",
+"type": {
+"id": "531",
+"text": "Offensive Foul"
+},
+"text": "Kamila Vodichkova Offensive Foul",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400112",
+"sequenceNumber": "107",
+"type": {
+"id": "601",
+"text": "Foul Turnover"
+},
+"text": "Kamila Vodichkova Foul",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400113",
+"sequenceNumber": "108",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Simone Edwards enters the game for Kamila Vodichkova.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+},
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400114",
+"sequenceNumber": "109",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Gordana Grubin enters the game for Lisa Harrison.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+},
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400115",
+"sequenceNumber": "110",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Tracy Reid enters the game for Kristen Veal.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+},
+{
+"athlete": {
+"id": "409"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400116",
+"sequenceNumber": "111",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Jennifer Gillom missed 21 ft Three Point Jumper.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 10,
+"y": 15
+}
+},
+{
+"id": "22071901400117",
+"sequenceNumber": "112",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Amanda Lassiter Defensive Rebound.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400118",
+"sequenceNumber": "113",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Simone Edwards missed Layup.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400119",
+"sequenceNumber": "114",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jaynetta Saunders Defensive Rebound.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:18"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400120",
+"sequenceNumber": "115",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Jennifer Gillom missed Layup.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400121",
+"sequenceNumber": "116",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Lauren Jackson Defensive Rebound.",
+"awayScore": 17,
+"homeScore": 26,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400122",
+"sequenceNumber": "117",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Simone Edwards made Layup. Assisted by Michelle Marciniak.",
+"awayScore": 17,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:00"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+},
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400123",
+"sequenceNumber": "118",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Tracy Reid missed Jumper. Blocked by Amanda Lassiter.",
+"awayScore": 17,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+},
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 6
+}
+},
+{
+"id": "22071901400124",
+"sequenceNumber": "119",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Simone Edwards Defensive Rebound.",
+"awayScore": 17,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400125",
+"sequenceNumber": "120",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Kayte Christensen Shooting Foul",
+"awayScore": 17,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "131"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400126",
+"sequenceNumber": "121",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 17,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400128",
+"sequenceNumber": "122",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Adrain Williams enters the game for Kayte Christensen.",
+"awayScore": 17,
+"homeScore": 28,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "428"
+}
+},
+{
+"athlete": {
+"id": "131"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400129",
+"sequenceNumber": "123",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Michelle Marciniak made Free Throw 1 of 2.",
+"awayScore": 17,
+"homeScore": 29,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:30"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400130",
+"sequenceNumber": "124",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Michelle Marciniak made Free Throw 2 of 2.",
+"awayScore": 17,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:30"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400131",
+"sequenceNumber": "125",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Felicia Ragland Personal Foul",
+"awayScore": 17,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "331"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400132",
+"sequenceNumber": "126",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Amanda Lassiter Shooting Foul",
+"awayScore": 17,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400133",
+"sequenceNumber": "127",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Jaynetta Saunders missed Free Throw 1 of 2.",
+"awayScore": 17,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400134",
+"sequenceNumber": "128",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Phoenix Offensive Rebound.",
+"awayScore": 17,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400135",
+"sequenceNumber": "129",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Jaynetta Saunders made Free Throw 2 of 2.",
+"awayScore": 18,
+"homeScore": 30,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:03"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400136",
+"sequenceNumber": "130",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lauren Jackson made 7 ft Jumper. Assisted by Amanda Lassiter.",
+"awayScore": 18,
+"homeScore": 32,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:39"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+},
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 18,
+"y": 2
+}
+},
+{
+"id": "22071901400137",
+"sequenceNumber": "131",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Tracy Reid missed 7 ft Jumper.",
+"awayScore": 18,
+"homeScore": 32,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 3
+}
+},
+{
+"id": "22071901400138",
+"sequenceNumber": "132",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Simone Edwards Defensive Rebound.",
+"awayScore": 18,
+"homeScore": 32,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400139",
+"sequenceNumber": "133",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Sue Bird enters the game for Felicia Ragland.",
+"awayScore": 18,
+"homeScore": 32,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "91"
+}
+},
+{
+"athlete": {
+"id": "331"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400140",
+"sequenceNumber": "134",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Adia Barnes enters the game for Amanda Lassiter.",
+"awayScore": 18,
+"homeScore": 32,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+},
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400141",
+"sequenceNumber": "135",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Lauren Jackson made 23 ft Three Point Jumper. Assisted by Michelle Marciniak.",
+"awayScore": 18,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:03"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+},
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 8,
+"y": 15
+}
+},
+{
+"id": "22071901400142",
+"sequenceNumber": "136",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jennifer Gillom missed 7 ft Jumper. Blocked by Lauren Jackson.",
+"awayScore": 18,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+},
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 3
+}
+},
+{
+"id": "22071901400143",
+"sequenceNumber": "137",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Jennifer Gillom Offensive Rebound.",
+"awayScore": 18,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400144",
+"sequenceNumber": "138",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Jennifer Gillom made Layup.",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:37"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400145",
+"sequenceNumber": "139",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Simone Edwards missed Layup.",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400146",
+"sequenceNumber": "140",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Simone Edwards Offensive Rebound.",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400147",
+"sequenceNumber": "141",
+"type": {
+"id": "600",
+"text": "Traveling Turnover"
+},
+"text": "Simone Edwards Traveling",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400148",
+"sequenceNumber": "142",
+"type": {
+"id": "531",
+"text": "Offensive Foul"
+},
+"text": "Adrain Williams Offensive Foul",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "428"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400149",
+"sequenceNumber": "143",
+"type": {
+"id": "601",
+"text": "Foul Turnover"
+},
+"text": "Adrain Williams Foul",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "428"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400150",
+"sequenceNumber": "144",
+"type": {
+"id": "581",
+"text": "Official Time Out"
+},
+"text": " Official Timeout.",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:57"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400151",
+"sequenceNumber": "145",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Lisa Harrison enters the game for Jaynetta Saunders.",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:57"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+},
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400152",
+"sequenceNumber": "146",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Adia Barnes missed Jumper.",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 39,
+"y": 0
+}
+},
+{
+"id": "22071901400153",
+"sequenceNumber": "147",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Tracy Reid Defensive Rebound.",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400154",
+"sequenceNumber": "148",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Gordana Grubin Lost Ball. Stolen by Adia Barnes.",
+"awayScore": 20,
+"homeScore": 35,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+},
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400155",
+"sequenceNumber": "149",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Adia Barnes made Two Point Shot.",
+"awayScore": 20,
+"homeScore": 37,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:34"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400156",
+"sequenceNumber": "150",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Lisa Harrison Lost Ball",
+"awayScore": 20,
+"homeScore": 37,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400157",
+"sequenceNumber": "151",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Takeisha Lewis enters the game for Simone Edwards.",
+"awayScore": 20,
+"homeScore": 37,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "259"
+}
+},
+{
+"athlete": {
+"id": "159"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400158",
+"sequenceNumber": "152",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Lauren Jackson made 22 ft Three Point Jumper. Assisted by Sue Bird.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:56"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+},
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 4,
+"y": 5
+}
+},
+{
+"id": "22071901400159",
+"sequenceNumber": "153",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lisa Harrison missed 16 ft Jumper.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 9,
+"y": 2
+}
+},
+{
+"id": "22071901400160",
+"sequenceNumber": "154",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Tracy Reid Offensive Rebound.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400161",
+"sequenceNumber": "155",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Tracy Reid missed Layup.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 3
+}
+},
+{
+"id": "22071901400162",
+"sequenceNumber": "156",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Phoenix Defensive Rebound.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400163",
+"sequenceNumber": "157",
+"type": {
+"id": "530",
+"text": "LooseBallFoul"
+},
+"text": "Tracy Reid Loose Ball Foul",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400164",
+"sequenceNumber": "158",
+"type": {
+"id": "531",
+"text": "Offensive Foul"
+},
+"text": "Takeisha Lewis Offensive Foul",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "259"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400165",
+"sequenceNumber": "159",
+"type": {
+"id": "601",
+"text": "Foul Turnover"
+},
+"text": "Takeisha Lewis Foul",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "259"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400167",
+"sequenceNumber": "160",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Jaynetta Saunders enters the game for Adrain Williams.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+},
+{
+"athlete": {
+"id": "428"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400168",
+"sequenceNumber": "161",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jaynetta Saunders missed 10 ft Jumper.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:06"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 16,
+"y": 4
+}
+},
+{
+"id": "22071901400169",
+"sequenceNumber": "162",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Takeisha Lewis Defensive Rebound.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "259"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400170",
+"sequenceNumber": "163",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Sue Bird missed 12 ft Jumper. Blocked by Jaynetta Saunders.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "91"
+}
+},
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 15,
+"y": 7
+}
+},
+{
+"id": "22071901400171",
+"sequenceNumber": "164",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Seattle Offensive Rebound.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400172",
+"sequenceNumber": "165",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Amanda Lassiter enters the game for Lauren Jackson.",
+"awayScore": 20,
+"homeScore": 40,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:46"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+},
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400173",
+"sequenceNumber": "166",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Amanda Lassiter made 22 ft Three Point Jumper. Assisted by Adia Barnes.",
+"awayScore": 20,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:43"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+},
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 35,
+"y": 20
+}
+},
+{
+"id": "22071901400174",
+"sequenceNumber": "167",
+"type": {
+"id": "578",
+"text": "RegularTimeOut"
+},
+"text": "Phoenix Full Timeout.",
+"awayScore": 20,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400176",
+"sequenceNumber": "168",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"awayScore": 20,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+},
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400177",
+"sequenceNumber": "169",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Gordana Grubin made 13 ft Jumper. Assisted by Tracy Reid.",
+"awayScore": 22,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:08"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+},
+{
+"athlete": {
+"id": "338"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 37,
+"y": 4
+}
+},
+{
+"id": "22071901400178",
+"sequenceNumber": "170",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Amanda Lassiter missed Three Point Jumper.",
+"awayScore": 22,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "45.9"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 4,
+"y": 0
+}
+},
+{
+"id": "22071901400179",
+"sequenceNumber": "171",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jaynetta Saunders Defensive Rebound.",
+"awayScore": 22,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "43.7"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400180",
+"sequenceNumber": "172",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lisa Harrison missed 6 ft Jumper.",
+"awayScore": 22,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "39.4"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 30,
+"y": 4
+}
+},
+{
+"id": "22071901400181",
+"sequenceNumber": "173",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Phoenix Defensive Rebound.",
+"awayScore": 22,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "38.7"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400182",
+"sequenceNumber": "174",
+"type": {
+"id": "579",
+"text": "ShortTimeOut"
+},
+"text": "Seattle 20 Sec. Timeout.",
+"awayScore": 22,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "38.7"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400183",
+"sequenceNumber": "175",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Kristen Veal enters the game for Gordana Grubin.",
+"awayScore": 22,
+"homeScore": 43,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "38.7"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "409"
+}
+},
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400184",
+"sequenceNumber": "176",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Sue Bird made 23 ft Three Point Jumper.",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "33.5"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 23
+}
+},
+{
+"id": "22071901400185",
+"sequenceNumber": "177",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Kristen Veal Bad Pass",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19.3"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "409"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400186",
+"sequenceNumber": "178",
+"type": {
+"id": "578",
+"text": "RegularTimeOut"
+},
+"text": "Seattle Full Timeout.",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "19.3"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400187",
+"sequenceNumber": "179",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Michelle Marciniak Bad Pass",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0.7"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400188",
+"sequenceNumber": "180",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of the 1st Half.",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400190",
+"sequenceNumber": "181",
+"type": {
+"id": "411",
+"text": "Start Period"
+},
+"text": "Start of the 2nd Half.",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "20:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400191",
+"sequenceNumber": "182",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"text": "Jumpball. Jennifer Gillom vs. Lauren Jackson. Sue Bird gains possession.",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "20:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+},
+{
+"athlete": {
+"id": "222"
+}
+},
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400192",
+"sequenceNumber": "183",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Amanda Lassiter missed 23 ft Three Point Jumper.",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 23
+}
+},
+{
+"id": "22071901400193",
+"sequenceNumber": "184",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Adia Barnes Offensive Rebound.",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400194",
+"sequenceNumber": "185",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kamila Vodichkova missed 4 ft Jumper.",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 29,
+"y": 2
+}
+},
+{
+"id": "22071901400195",
+"sequenceNumber": "186",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Seattle Offensive Rebound.",
+"awayScore": 22,
+"homeScore": 46,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400196",
+"sequenceNumber": "187",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lauren Jackson made 16 ft Jumper.",
+"awayScore": 22,
+"homeScore": 48,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:38"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 41,
+"y": 2
+}
+},
+{
+"id": "22071901400197",
+"sequenceNumber": "188",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Adriana Moises missed 5 ft Jumper. Blocked by Amanda Lassiter.",
+"awayScore": 22,
+"homeScore": 48,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:28"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "296"
+}
+},
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 30,
+"y": 2
+}
+},
+{
+"id": "22071901400198",
+"sequenceNumber": "189",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Adriana Moises Offensive Rebound.",
+"awayScore": 22,
+"homeScore": 48,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "296"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400199",
+"sequenceNumber": "190",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jennifer Gillom missed 16 ft Jumper.",
+"awayScore": 22,
+"homeScore": 48,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 15
+}
+},
+{
+"id": "22071901400200",
+"sequenceNumber": "191",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Kamila Vodichkova Defensive Rebound.",
+"awayScore": 22,
+"homeScore": 48,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400201",
+"sequenceNumber": "192",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Amanda Lassiter made Two Point Shot.",
+"awayScore": 22,
+"homeScore": 50,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "19:12"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400202",
+"sequenceNumber": "193",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jaynetta Saunders missed 13 ft Jumper.",
+"awayScore": 22,
+"homeScore": 50,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 12
+}
+},
+{
+"id": "22071901400203",
+"sequenceNumber": "194",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Amanda Lassiter Defensive Rebound.",
+"awayScore": 22,
+"homeScore": 50,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "255"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400204",
+"sequenceNumber": "195",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Jaynetta Saunders Personal Foul",
+"awayScore": 22,
+"homeScore": 50,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:43"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400205",
+"sequenceNumber": "196",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kamila Vodichkova made 8 ft Jumper. Assisted by Sue Bird.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:34"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+},
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 18,
+"y": 3
+}
+},
+{
+"id": "22071901400206",
+"sequenceNumber": "197",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"text": "Jumpball. Adriana Moises vs. Adia Barnes. Sue Bird gains possession.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "296"
+}
+},
+{
+"athlete": {
+"id": "70"
+}
+},
+{
+"athlete": {
+"id": "91"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400207",
+"sequenceNumber": "198",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Adriana Moises Lost Ball. Stolen by Adia Barnes.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:31"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+},
+{
+"athlete": {
+"id": "296"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400208",
+"sequenceNumber": "199",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Adia Barnes missed 6 ft Jumper. Blocked by Jaynetta Saunders.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+},
+{
+"athlete": {
+"id": "356"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 29,
+"y": 4
+}
+},
+{
+"id": "22071901400209",
+"sequenceNumber": "200",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Lauren Jackson Offensive Rebound.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400210",
+"sequenceNumber": "201",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Lauren Jackson missed Layup.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400211",
+"sequenceNumber": "202",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Seattle Offensive Rebound.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400212",
+"sequenceNumber": "203",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kamila Vodichkova missed 9 ft Jumper.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:14"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 17,
+"y": 3
+}
+},
+{
+"id": "22071901400213",
+"sequenceNumber": "204",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Jennifer Gillom Defensive Rebound.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:13"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400214",
+"sequenceNumber": "205",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Jennifer Gillom Bad Pass. Stolen by Sue Bird.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:10"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "91"
+}
+},
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400215",
+"sequenceNumber": "206",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Lauren Jackson missed 22 ft Three Point Jumper.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "222"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 47,
+"y": 4
+}
+},
+{
+"id": "22071901400216",
+"sequenceNumber": "207",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Kamila Vodichkova Offensive Rebound.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "18:04"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400222",
+"sequenceNumber": "208",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Adia Barnes missed 9 ft Jumper.",
+"awayScore": 22,
+"homeScore": 52,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "17:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "70"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 18,
+"y": 5
+}
+},
+{
+"id": "22071901400257",
+"sequenceNumber": "209",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Felicia Ragland made Free Throw 1 of 2.",
+"awayScore": 22,
+"homeScore": 53,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "14:53"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "331"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400258",
+"sequenceNumber": "210",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Felicia Ragland made Free Throw 2 of 2.",
+"awayScore": 22,
+"homeScore": 54,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "14:53"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "331"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400259",
+"sequenceNumber": "211",
+"type": {
+"id": "519",
+"text": "PersonalFoul"
+},
+"text": "Michelle Marciniak Personal Foul",
+"awayScore": 22,
+"homeScore": 54,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "14:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400260",
+"sequenceNumber": "212",
+"type": {
+"id": "20429",
+"text": "RegularJumpShot"
+},
+"text": "Gordana Grubin made 8 ft Two Point Shot.",
+"awayScore": 24,
+"homeScore": 54,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "14:30"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 18,
+"y": 4
+}
+},
+{
+"id": "22071901400261",
+"sequenceNumber": "213",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Kamila Vodichkova missed 8 ft Jumper.",
+"awayScore": 24,
+"homeScore": 54,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "14:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 8
+}
+},
+{
+"id": "22071901400262",
+"sequenceNumber": "214",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Lisa Harrison Defensive Rebound.",
+"awayScore": 24,
+"homeScore": 54,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "14:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400263",
+"sequenceNumber": "215",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Jennifer Gillom Lost Ball. Stolen by Michelle Marciniak.",
+"awayScore": 24,
+"homeScore": 54,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "13:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "275"
+}
+},
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400264",
+"sequenceNumber": "216",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Kamila Vodichkova made Layup. Assisted by Felicia Ragland.",
+"awayScore": 24,
+"homeScore": 56,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "13:37"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+},
+{
+"athlete": {
+"id": "331"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400265",
+"sequenceNumber": "217",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Lisa Harrison made Layup. Assisted by Gordana Grubin.",
+"awayScore": 26,
+"homeScore": 56,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "13:18"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+},
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400266",
+"sequenceNumber": "218",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Semeka Randall Lost Ball. Stolen by Jaynetta Saunders.",
+"awayScore": 26,
+"homeScore": 56,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "12:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+},
+{
+"athlete": {
+"id": "333"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400267",
+"sequenceNumber": "219",
+"type": {
+"id": "578",
+"text": "RegularTimeOut"
+},
+"text": "Phoenix Full Timeout.",
+"awayScore": 26,
+"homeScore": 56,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "12:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400268",
+"sequenceNumber": "220",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Kayte Christensen enters the game for Jennifer Gillom.",
+"awayScore": 26,
+"homeScore": 56,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "12:52"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "131"
+}
+},
+{
+"athlete": {
+"id": "188"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400269",
+"sequenceNumber": "221",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Gordana Grubin Bad Pass. Stolen by Semeka Randall.",
+"awayScore": 26,
+"homeScore": 56,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "12:40"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "333"
+}
+},
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400270",
+"sequenceNumber": "222",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Kayte Christensen Shooting Foul",
+"awayScore": 26,
+"homeScore": 56,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "12:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "131"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400271",
+"sequenceNumber": "223",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Kamila Vodichkova made Free Throw 1 of 2.",
+"awayScore": 26,
+"homeScore": 57,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "12:19"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400273",
+"sequenceNumber": "224",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Kamila Vodichkova missed Free Throw 2 of 2.",
+"awayScore": 26,
+"homeScore": 57,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "12:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400274",
+"sequenceNumber": "225",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Slobodanka Tuvic Defensive Rebound.",
+"awayScore": 26,
+"homeScore": 57,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "12:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "404"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400275",
+"sequenceNumber": "226",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Gordana Grubin made 10 ft Jumper.",
+"awayScore": 28,
+"homeScore": 57,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "12:15"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 33,
+"y": 6
+}
+},
+{
+"id": "22071901400276",
+"sequenceNumber": "227",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Simone Edwards made 7 ft Jumper. Assisted by Kamila Vodichkova.",
+"awayScore": 28,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "11:56"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "159"
+}
+},
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 3
+}
+},
+{
+"id": "22071901400277",
+"sequenceNumber": "228",
+"type": {
+"id": "598",
+"text": "Lost Ball Turnover"
+},
+"text": "Slobodanka Tuvic Lost Ball. Stolen by Kamila Vodichkova.",
+"awayScore": 28,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "11:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+},
+{
+"athlete": {
+"id": "404"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400278",
+"sequenceNumber": "229",
+"type": {
+"id": "30558",
+"text": "Three Point Jump Shot"
+},
+"text": "Kamila Vodichkova missed 22 ft Three Point Jumper.",
+"awayScore": 28,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "11:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 28,
+"y": 22
+}
+},
+{
+"id": "22071901400279",
+"sequenceNumber": "230",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Gordana Grubin Defensive Rebound.",
+"awayScore": 28,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "11:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400280",
+"sequenceNumber": "231",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Jaynetta Saunders made 8 ft Jumper. Assisted by Gordana Grubin.",
+"awayScore": 30,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "11:14"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "356"
+}
+},
+{
+"athlete": {
+"id": "195"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 30,
+"y": 6
+}
+},
+{
+"id": "22071901400281",
+"sequenceNumber": "232",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Felicia Ragland Bad Pass. Stolen by Kayte Christensen.",
+"awayScore": 30,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "131"
+}
+},
+{
+"athlete": {
+"id": "331"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400282",
+"sequenceNumber": "233",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lisa Harrison missed 7 ft Jumper.",
+"awayScore": 30,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 19,
+"y": 4
+}
+},
+{
+"id": "22071901400283",
+"sequenceNumber": "234",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Phoenix Offensive Rebound.",
+"awayScore": 30,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400284",
+"sequenceNumber": "235",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Takeisha Lewis enters the game for Kamila Vodichkova.",
+"awayScore": 30,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "259"
+}
+},
+{
+"athlete": {
+"id": "411"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400285",
+"sequenceNumber": "236",
+"type": {
+"id": "600",
+"text": "Traveling Turnover"
+},
+"text": "Lisa Harrison Traveling",
+"awayScore": 30,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400286",
+"sequenceNumber": "237",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Slobodanka Tuvic Shooting Foul",
+"awayScore": 30,
+"homeScore": 59,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "404"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400287",
+"sequenceNumber": "238",
+"type": {
+"id": "560",
+"text": "Free Throw 1 of 2"
+},
+"text": "Takeisha Lewis made Free Throw 1 of 2.",
+"awayScore": 30,
+"homeScore": 60,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:23"
+},
+"scoringPlay": true,
+"scoreValue": 1,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "259"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400288",
+"sequenceNumber": "239",
+"type": {
+"id": "561",
+"text": "Free Throw 2 of 2"
+},
+"text": "Takeisha Lewis missed Free Throw 2 of 2.",
+"awayScore": 30,
+"homeScore": 60,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "259"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400289",
+"sequenceNumber": "240",
+"type": {
+"id": "587",
+"text": "Defensive Rebound"
+},
+"text": "Kayte Christensen Defensive Rebound.",
+"awayScore": 30,
+"homeScore": 60,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "131"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400290",
+"sequenceNumber": "241",
+"type": {
+"id": "20558",
+"text": "JumpShot"
+},
+"text": "Lisa Harrison missed 11 ft Jumper.",
+"awayScore": 30,
+"homeScore": 60,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 16,
+"y": 6
+}
+},
+{
+"id": "22071901400291",
+"sequenceNumber": "242",
+"type": {
+"id": "586",
+"text": "Offensive Rebound"
+},
+"text": "Lisa Harrison Offensive Rebound.",
+"awayScore": 30,
+"homeScore": 60,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400292",
+"sequenceNumber": "243",
+"type": {
+"id": "20424",
+"text": "LayupShot"
+},
+"text": "Lisa Harrison made Layup.",
+"awayScore": 32,
+"homeScore": 60,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "10:12"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "11"
+},
+"participants": [
+{
+"athlete": {
+"id": "202"
+}
+}
+],
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 0
+}
+},
+{
+"id": "22071901400293",
+"sequenceNumber": "244",
+"type": {
+"id": "583",
+"text": "Bad Pass Turnover"
+},
+"text": "Michelle Marciniak Bad Pass. Stolen by Slobodanka Tuvic.",
+"awayScore": 32,
+"homeScore": 60,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "404"
+}
+},
+{
+"athlete": {
+"id": "275"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+},
+{
+"id": "22071901400294",
+"sequenceNumber": "245",
+"type": {
+"id": "529",
+"text": "ShootingFoul"
+},
+"text": "Takeisha Lewis Shooting Foul",
+"awayScore": 32,
+"homeScore": 60,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "9:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "14"
+},
+"participants": [
+{
+"athlete": {
+"id": "259"
+}
+}
+],
+"shootingPlay": false,
+"coordinate": {
+"x": 0,
+"y": 0
+}
+}
+],
+"article": {
+"keywords": [],
+"description": "Lauren Jackson scored 18 of her 22 points in the first half as the Seattle Storm routed the Phoenix Mercury 89-48 Friday night.",
+"video": [],
+"type": "Recap",
+"nowId": "1-1407919",
+"premium": false,
+"related": [],
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/1407919"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/events/220719014"
+}
+},
+"web": {
+"href": "http://espn.go.com/wnba/2001/20020719/recap/PHOENIXSEATTLE.html",
+"short": {}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=1407919"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/wnba/gamecast?gameId=220719014&version=mobile"
+}
+},
+"id": 1407919,
+"categories": [],
+"headline": "Storm set records for victory margin (41), rebounds (49)",
+"gameId": "220719014",
+"images": [],
+"linkText": "Storm set team records in 41-point rout of Mercury",
+"published": "2002-07-20T04:43:09Z",
+"lastModified": "2002-07-20T05:34:04Z",
+"story": "SEATTLE (AP) -- Lauren Jackson scored 18 of her 22 points in the\nfirst half as the Seattle Storm routed Phoenix 89-48 on Friday\nnight for the Mercury's WNBA-record 17th consecutive road loss.\n\n\t   Phoenix, which has not won a road game since last July 27 at\nSeattle, broke the mark of 16 straight road losses set by\nWashington in the 1998 and 1999 seasons.\n\n\t   \"It was our worst nightmare,'' Phoenix coach Linda Sharp said.\n\"We started out with a lead, and we were playing OK when all of\nsudden Seattle stepped up.''\n\n\t   Seattle's Kamila Vodichkova added 14 points, and Amanda Lassiter\nhad 10 for the Storm (10-11).\n\n\t   Seattle's 41-point victory margin was a team record, besting its\n26-point margin over Sacramento last month. The Storm also set a\nteam record with 49 rebounds, better than the 45 they grabbed last\nsummer against Washington.\n\n\t   \"Hopefully we can take this momentum and carry it into the rest\nof our games,'' Jackson said.\n\n\t   The Storm shot 51 percent from the floor in the first half,\nerasing an early 9-2 deficit, and cruised to victory from there.\n\n\t   \"At the 16-minute mark, I challenged them in the huddle,''\nStorm coach Lin Dunn said. \"Jackson took the team to a higher\nlevel from there and we were able to get some quality minutes off\nthe bench.''\n\n\t   The Storm's Adia Barnes added eight points and had career highs\nwith nine rebounds and four assists.\n\n\t   Gordana Grubin scored 10 points for Phoenix (8-13) and\n38-year-old Jennifer Gillom had seven. The Mercury have lost three\nin a row.\n"
+},
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/wnba/standings"
+},
+"groups": [
+{
+"standings": {
+"entries": [
+{
+"team": "Las Vegas",
+"link": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 4.0,
+"displayValue": "W4"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.7222222,
+"displayValue": ".722"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 26.0,
+"displayValue": "26"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+{
+"team": "Seattle",
+"link": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 4.0,
+"displayValue": "4"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 14.0,
+"displayValue": "14"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1.0,
+"displayValue": "L1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6111111,
+"displayValue": ".611"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 22.0,
+"displayValue": "22"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/scoreboard/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:25Z"
+}
+]
+},
+{
+"team": "Dallas",
+"link": "http://www.espn.com/wnba/team/_/name/dal/dallas-wings",
+"id": "3",
+"uid": "s:40~l:59~t:3",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 8.0,
+"displayValue": "8"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 18.0,
+"displayValue": "18"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1.0,
+"displayValue": "W1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5,
+"displayValue": ".500"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 18.0,
+"displayValue": "18"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:36Z"
+}
+]
+},
+{
+"team": "Phoenix",
+"link": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1.0,
+"displayValue": "L1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.41666666,
+"displayValue": ".417"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 15.0,
+"displayValue": "15"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/phx.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T19:45Z"
+}
+]
+},
+{
+"team": "Minnesota",
+"link": "http://www.espn.com/wnba/team/_/name/min/minnesota-lynx",
+"id": "8",
+"uid": "s:40~l:59~t:8",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 12.0,
+"displayValue": "12"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 22.0,
+"displayValue": "22"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -2.0,
+"displayValue": "L2"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3888889,
+"displayValue": ".389"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 14.0,
+"displayValue": "14"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:04Z"
+}
+]
+},
+{
+"team": "Los Angeles",
+"link": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 13.0,
+"displayValue": "13"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 23.0,
+"displayValue": "23"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -3.0,
+"displayValue": "L3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3611111,
+"displayValue": ".361"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 13.0,
+"displayValue": "13"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-05-20T14:35Z"
+}
+]
+}
+]
+},
+"header": "2021-22 Western Conference Standings",
+"href": "https://www.espn.com/wnba/standings/_/group/2"
+}
+]
+},
+"teamInfo": [],
+"espnWP": [],
+"season": {},
+"timeouts": []
+}
