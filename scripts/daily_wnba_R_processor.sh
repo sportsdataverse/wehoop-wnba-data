@@ -11,6 +11,8 @@ for i in $(seq "${START_YEAR}" "${END_YEAR}")
 do
     echo "$i"
     git pull  >> /dev/null
+    git config --local user.email "action@github.com"
+    git config --local user.name "Github Action"
     Rscript R/espn_wnba_01_pbp_creation.R -s $i -e $i
     Rscript R/espn_wnba_02_team_box_creation.R -s $i -e $i
     Rscript R/espn_wnba_03_player_box_creation.R -s $i -e $i
