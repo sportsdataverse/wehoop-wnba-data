@@ -126,6 +126,7 @@ wnba_player_box_games <- function(y) {
     file_name =  glue::glue("wnba_schedule_{y}"),
     sportsdataverse_type = "schedule data",
     release_tag = "espn_wnba_schedules",
+    pkg_function = "wehoop::load_wnba_schedules()",
     file_types = c("rds", "csv", "parquet"),
     .token = Sys.getenv("GITHUB_PAT")
   )
