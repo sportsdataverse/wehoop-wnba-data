@@ -64,12 +64,18 @@ jobs:
         run: |
           python python/scrape_wnba_json.py -s ${{inputs.start_year}} -e ${{inputs.end_year}} -r ${{inputs.rescrape}}
       - name: Compiling PBP data
+        env:
+          GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
           Rscript R/espn_wnba_01_pbp_creation.R -s ${{inputs.start_year}} -e ${{inputs.end_year}}
       - name: Compiling Team Boxscore data
+        env:
+          GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
           Rscript R/espn_wnba_02_team_box_creation.R -s ${{inputs.start_year}} -e ${{inputs.end_year}}
       - name: Compiling Player Boxscore data
+        env:
+          GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
           Rscript R/espn_wnba_03_player_box_creation.R -s ${{inputs.start_year}} -e ${{inputs.end_year}}
       - name: Commit files
