@@ -37,7 +37,6 @@ Remotes:
     sportsdataverse/wehoop,
     sportsdataverse/sportsdataverse-data,
     ropensci/piggyback
-
 Suggests:
     crayon (>= 1.3.4),
     curl,
