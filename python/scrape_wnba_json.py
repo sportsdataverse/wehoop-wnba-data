@@ -121,7 +121,7 @@ def main():
         games = schedule[(schedule["season"] == year)].reset_index()["game_id"].tolist()
         if len(games) == 0:
             print(f"{len(games)} Games to be scraped, skipping")
-            pass
+            continue
         print(f"Number of Games: {len(games)}")
         bad_schedule_keys = pd.DataFrame()
 
