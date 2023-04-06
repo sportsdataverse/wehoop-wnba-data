@@ -18,4 +18,3 @@ pyarrow
 argparse
 tqdm
 pathlib
-multiprocessing
