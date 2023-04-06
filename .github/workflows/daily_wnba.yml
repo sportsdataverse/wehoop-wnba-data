@@ -1,0 +1,92 @@
+name: Update WNBA Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_year:
+        required: true
+        type: string
+      end_year:
+        required: true
+        type: string
+      rescrape:
+        required: true
+        default: true
+        type: boolean
+
+jobs:
+  update_wnba_data:
+    runs-on: ${{ matrix.config.os }}
+    name: ${{ matrix.config.os }} (${{ matrix.config.r }})
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {os: ubuntu-latest,   r: 'release'}
+
+    env:
+      GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
+      R_KEEP_PKG_SOURCE: yes
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Setting up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: ${{ matrix.config.r }}
+          http-user-agent: ${{ matrix.config.http-user-agent }}
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-pandoc@v2
+      - name: Setting up R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: any::rcmdcheck
+      - name: Install extra R dependencies
+        run: |
+          install.packages("pak")
+          pak::pkg_install("sportsdataverse/wehoop")
+          pak::pkg_install("sportsdataverse/sportsdataverse-data")
+          pak::pkg_install("ropensci/piggyback")
+          pak::pkg_install(c("arrow", "cli", "data", "dplyr", "future",
+            "furrr", "glue", "httr", "janitor", "jsonlite", "lubridate",
+            "magrittr", "optparse", "progressr", "purrr", "Rcpp", "RcppParallel",
+            "rlang", "rvest", "stringr", "tidyr", "usethis"))
+        shell: Rscript {0}
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      # Tells Github to run the file `scraper.py` from your repository
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -r requirements.txt
+      - name: Getting Schedules
+        run: |
+          python python/scrape_wnba_schedules.py -s ${{inputs.start_year}} -e ${{inputs.end_year}}
+      - name: Getting PBP
+        run: |
+          python python/scrape_wnba_json.py -s ${{inputs.start_year}} -e ${{inputs.end_year}} -r ${{inputs.rescrape}}
+      - name: Compiling PBP data
+        run: |
+          Rscript R/espn_wnba_01_pbp_creation.R -s ${{inputs.start_year}} -e ${{inputs.end_year}}
+      - name: Compiling Team Boxscore data
+        run: |
+          Rscript R/espn_wnba_02_team_box_creation.R -s ${{inputs.start_year}} -e ${{inputs.end_year}}
+      - name: Compiling Player Boxscore data
+        run: |
+          Rscript R/espn_wnba_03_player_box_creation.R -s ${{inputs.start_year}} -e ${{inputs.end_year}}
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Github Action"
+          git add .
+          git commit -m "WNBA Data Updated (Start: ${{inputs.start_year}} End: ${{inputs.end_year}})" || echo "No changes to commit"
+          git pull --rebase
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.SDV_GH_TOKEN }}

@@ -10,7 +10,6 @@ suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc = lib_
 suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc = lib_path)))
-suppressPackageStartupMessages(suppressMessages(library(qs, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc = lib_path)))
 suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc = lib_path)))
@@ -157,6 +156,7 @@ sched_g <- sched_g %>%
 
 data.table::fwrite(sched_g %>%
                      dplyr::arrange(dplyr::desc(.data$date)), "wnba/wnba_schedule_master.csv")
+
 data.table::fwrite(sched_g %>%
                      dplyr::filter(.data$PBP == TRUE) %>%
                      dplyr::arrange(dplyr::desc(.data$date)), "wnba/wnba_games_in_data_repo.csv")
