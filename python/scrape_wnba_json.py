@@ -102,7 +102,7 @@ def main():
         end_year = args.end_year
     process = args.process
     years_arr = range(start_year, end_year + 1)
-    schedule = pd.read_parquet("wnba_schedule_master.parquet", engine = "auto", columns = None)
+    schedule = pd.read_parquet("wnba/wnba_schedule_master.parquet", engine = "auto", columns = None)
     schedule = schedule.sort_values(by = ["season", "season_type"], ascending = True)
     schedule["game_id"] = schedule["game_id"].astype(int)
     schedule = schedule[schedule["status_type_completed"] == True]
