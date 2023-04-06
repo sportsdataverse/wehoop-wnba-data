@@ -42,18 +42,10 @@ jobs:
       - name: Setting up R dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck
-      - name: Install extra R dependencies
-        run: |
-          install.packages("pak")
-          pak::pkg_install("sportsdataverse/wehoop")
-          pak::pkg_install("sportsdataverse/sportsdataverse-data")
-          pak::pkg_install("ropensci/piggyback")
-          pak::pkg_install(c("arrow", "cli", "data", "dplyr", "future",
-            "furrr", "glue", "httr", "janitor", "jsonlite", "lubridate",
-            "magrittr", "optparse", "progressr", "purrr", "Rcpp", "RcppParallel",
-            "rlang", "rvest", "stringr", "tidyr", "usethis"))
-        shell: Rscript {0}
+          extra-packages: |
+            sportsdataverse/wehoop
+            sportsdataverse/sportsdataverse-data
+            ropensci/piggyback
 
       - name: Setup Python
         uses: actions/setup-python@v2
