@@ -17,7 +17,7 @@ do
     git pull  >> /dev/null
     git add wnba/*  >> /dev/null
     git pull  >> /dev/null
-    git commit -m "WNBA Play-by-Play and Schedules update (Start: $i End: $i)"  >> /dev/null || echo "No changes to commit"
+    git commit -m "WNBA Data Update (Start: $i End: $i)"  >> /dev/null || echo "No changes to commit"
     git pull  >> /dev/null
     git push  >> /dev/null
 done
