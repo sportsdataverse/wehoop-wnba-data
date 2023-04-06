@@ -28,7 +28,7 @@ def download_game_schedules(seasons, path_to_schedules):
     threads = min(MAX_THREADS, len(seasons))
 
     with concurrent.futures.ThreadPoolExecutor(max_workers = threads) as executor:
-        result = list(tqdm(executor.map(download_schedule, seasons, repeat(path_to_schedules)), total = len(seasons)))
+        result = list(executor.map(download_schedule, seasons, repeat(path_to_schedules)))
         return result
 
 def download_schedule(season, path_to_schedules = None):

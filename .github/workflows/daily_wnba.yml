@@ -1,6 +1,9 @@
 name: Update WNBA Data
 
 on:
+  schedule:
+    - cron: '0 7 * 5-9 *'
+    - cron: '0 7 1-20 10 *'
   workflow_dispatch:
     inputs:
       start_year:
@@ -32,18 +35,8 @@ jobs:
       RESCRAPE: ${{ inputs.rescrape }}
 
     steps:
-      - name: Check for Inputs
-        if: ${{ env.START_YEAR == ''}}
-        run: |
-          echo START_YEAR=$(date +'%Y') >> $GITHUB_ENV
-          echo END_YEAR=$(date +'%Y') >> $GITHUB_ENV
-      - name: Print New Env Vars
-        run: |
-          echo ${{ env.START_YEAR }}
-          echo ${{ env.END_YEAR }}
       - name: Checkout repo
-        uses: actions/checkout@v2
-
+        uses: actions/checkout@v3
       - name: Setting up R
         uses: r-lib/actions/setup-r@v2
         with:
@@ -64,11 +57,15 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.10'
-      # Tells Github to run the file `scraper.py` from your repository
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip setuptools wheel
           python -m pip install -r requirements.txt
+      - name: Check for Inputs
+        if: ${{ env.START_YEAR == ''}}
+        run: |
+            echo START_YEAR=$(Rscript -e "wehoop::most_recent_wnba_season()") >> $GITHUB_ENV
+            echo END_YEAR=$(Rscript -e "wehoop::most_recent_wnba_season()") >> $GITHUB_ENV
       - name: Getting Schedules
         run: |
           python python/scrape_wnba_schedules.py -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }}

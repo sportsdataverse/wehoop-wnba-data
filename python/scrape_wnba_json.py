@@ -30,8 +30,8 @@ MAX_THREADS = 30
 def download_game_pbps(games, process, path_to_raw, path_to_final):
     threads = min(MAX_THREADS, len(games))
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=threads) as executor:
-        result = list(tqdm(executor.map(download_game, games, repeat(process), repeat(path_to_raw), repeat(path_to_final)), total = len(games)))
+    with concurrent.futures.ThreadPoolExecutor(max_workers = threads) as executor:
+        result = list(executor.map(download_game, games, repeat(process), repeat(path_to_raw), repeat(path_to_final)))
         return result
 
 def download_game(game, process, path_to_raw, path_to_final):
@@ -43,7 +43,7 @@ def download_game(game, process, path_to_raw, path_to_final):
     Path(path_to_final_json).mkdir(parents = True, exist_ok = True)
     try:
         g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
-        with open(f"{path_to_raw_json}{game}.json","w") as f:
+        with open(f"{path_to_raw_json}{game}.json", "w") as f:
             json.dump(g, f, indent = 0, sort_keys = False)
     except (TypeError) as e:
         print(f"TypeError: game_id = {game}\n {e}")
@@ -72,7 +72,7 @@ def download_game(game, process, path_to_raw, path_to_final):
                 pbp_txt = processed_data
             )
             fp = f"{path_to_final_json}{game}.json"
-            with open(fp,"w") as f:
+            with open(fp, "w") as f:
                 json.dump(result, f, indent = 0, sort_keys = False)
         except (FileNotFoundError) as e:
             print(f"FileNotFoundError: game_id = {game}\n {e}")
@@ -92,7 +92,9 @@ def download_game(game, process, path_to_raw, path_to_final):
         except (AttributeError) as e:
             print(f"AttributeError: game_id = {game}\n {e}")
             pass
+
     time.sleep(0.5)
+
 def main():
 
     if args.start_year < 2002:
@@ -119,22 +121,21 @@ def main():
     for year in years_arr:
         print(f"Scraping WNBA PBP for {year}...")
         games = schedule[(schedule["season"] == year)].reset_index()["game_id"].tolist()
+
         if len(games) == 0:
             print(f"{len(games)} Games to be scraped, skipping")
             continue
+
         print(f"Number of Games: {len(games)}")
         bad_schedule_keys = pd.DataFrame()
-
-        # json_files = [pos_json.replace(".json", "") for pos_json in os.listdir(path_to_raw_json) if pos_json.endswith(".json")]
-
 
         t0 = time.time()
         download_game_pbps(games, process, path_to_raw, path_to_final)
         t1 = time.time()
         print(f"{(t1-t0)/60} minutes to download {len(games)} game play-by-plays.")
 
-
         print(f"Finished WNBA PBP for {year}...")
+
     gc.collect()
 
 if __name__ == "__main__":
