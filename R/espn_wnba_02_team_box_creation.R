@@ -1,18 +1,18 @@
 rm(list = ls())
 gcol <- gc()
-lib_path <- Sys.getenv("R_LIBS")
-if (!requireNamespace("pacman", quietly = TRUE)) {
-  install.packages("pacman", lib = Sys.getenv("R_LIBS"), repos = "http://cran.us.r-project.org")
-}
-suppressPackageStartupMessages(suppressMessages(library(dplyr, lib.loc = lib_path)))
-suppressPackageStartupMessages(suppressMessages(library(magrittr, lib.loc = lib_path)))
-suppressPackageStartupMessages(suppressMessages(library(jsonlite, lib.loc = lib_path)))
-suppressPackageStartupMessages(suppressMessages(library(purrr, lib.loc = lib_path)))
-suppressPackageStartupMessages(suppressMessages(library(progressr, lib.loc = lib_path)))
-suppressPackageStartupMessages(suppressMessages(library(data.table, lib.loc = lib_path)))
-suppressPackageStartupMessages(suppressMessages(library(arrow, lib.loc = lib_path)))
-suppressPackageStartupMessages(suppressMessages(library(glue, lib.loc = lib_path)))
-suppressPackageStartupMessages(suppressMessages(library(optparse, lib.loc = lib_path)))
+# lib_path <- Sys.getenv("R_LIBS")
+# if (!requireNamespace("pacman", quietly = TRUE)) {
+#   install.packages("pacman", lib = Sys.getenv("R_LIBS"), repos = "http://cran.us.r-project.org")
+# }
+suppressPackageStartupMessages(suppressMessages(library(dplyr)))
+suppressPackageStartupMessages(suppressMessages(library(magrittr)))
+suppressPackageStartupMessages(suppressMessages(library(jsonlite)))
+suppressPackageStartupMessages(suppressMessages(library(purrr)))
+suppressPackageStartupMessages(suppressMessages(library(progressr)))
+suppressPackageStartupMessages(suppressMessages(library(data.table)))
+suppressPackageStartupMessages(suppressMessages(library(arrow)))
+suppressPackageStartupMessages(suppressMessages(library(glue)))
+suppressPackageStartupMessages(suppressMessages(library(optparse)))
 
 option_list <- list(
   make_option(c("-s", "--start_year"),
