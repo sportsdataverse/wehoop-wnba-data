@@ -1,0 +1,1957 @@
+{
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"slug": "indiana-fever",
+"location": "Indiana",
+"name": "Fever",
+"abbreviation": "IND",
+"displayName": "Indiana Fever",
+"shortDisplayName": "Fever",
+"color": "e2382f",
+"alternateColor": "08265b",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png"
+},
+"statistics": []
+},
+{
+"team": {
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"slug": "chicago-sky",
+"location": "Chicago",
+"name": "Sky",
+"abbreviation": "CHI",
+"displayName": "Chicago Sky",
+"shortDisplayName": "Sky",
+"color": "4f91cd",
+"alternateColor": "f1f2f3",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png"
+},
+"statistics": []
+}
+],
+"players": [
+{
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"slug": "indiana-fever",
+"location": "Indiana",
+"name": "Fever",
+"abbreviation": "IND",
+"displayName": "Indiana Fever",
+"shortDisplayName": "Fever",
+"color": "e2382f",
+"alternateColor": "08265b",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [],
+"totals": []
+}
+]
+},
+{
+"team": {
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"slug": "chicago-sky",
+"location": "Chicago",
+"name": "Sky",
+"abbreviation": "CHI",
+"displayName": "Chicago Sky",
+"shortDisplayName": "Sky",
+"color": "4f91cd",
+"alternateColor": "f1f2f3",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [],
+"totals": []
+}
+]
+}
+]
+},
+"format": {
+"regulation": {
+"periods": 4,
+"displayName": "Quarter",
+"slug": "quarter",
+"clock": 600.0
+},
+"overtime": {
+"clock": 300.0
+}
+},
+"gameInfo": {
+"attendance": 0
+},
+"leaders": [
+{
+"team": {
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"displayName": "Chicago Sky",
+"abbreviation": "CHI",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/chi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+"leaders": []
+},
+{
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"leaders": []
+}
+],
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "IND leads series 1-0",
+"completed": false,
+"totalCompetitions": 4,
+"events": [
+{
+"id": "260526019",
+"uid": "s:40~l:59~e:260526019~c:260526019",
+"date": "2006-05-27T00:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"displayName": "Chicago Sky",
+"abbreviation": "CHI",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/chi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+"score": "60"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"score": "75"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/260526019",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=260526019",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "260621005",
+"uid": "s:40~l:59~e:260621005~c:260621005",
+"date": "2006-06-21T23:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"score": "77"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"displayName": "Chicago Sky",
+"abbreviation": "CHI",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/chi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+"score": "55"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/260621005",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=260621005",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "260730019",
+"uid": "s:40~l:59~e:260730019~c:260730019",
+"date": "2006-07-30T23:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"displayName": "Chicago Sky",
+"abbreviation": "CHI",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/chi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+"score": "64"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"score": "69"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/260730019",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=260730019",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "260813005",
+"uid": "s:40~l:59~e:260813005~c:260813005",
+"date": "2006-08-13T22:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"score": "73"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"displayName": "Chicago Sky",
+"abbreviation": "CHI",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/chi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+"score": "80"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/260813005",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=260813005",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"broadcasts": [],
+"predictor": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"records": []
+},
+{
+"team": {
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"displayName": "Chicago Sky",
+"abbreviation": "CHI",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/chi",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
+"header": {
+"id": "260526019",
+"uid": "s:40~l:59~e:260526019",
+"season": {
+"year": 2006,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "260526019",
+"uid": "s:40~l:59~e:260526019~c:260526019",
+"date": "2006-05-27T00:30Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"shotChartAvailable": false,
+"timeoutsAvailable": true,
+"possessionArrowAvailable": false,
+"onWatchESPN": false,
+"recent": false,
+"boxscoreSource": "full",
+"playByPlaySource": "none",
+"competitors": [
+{
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"order": 0,
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"location": "Chicago",
+"name": "Sky",
+"abbreviation": "CHI",
+"displayName": "Chicago Sky",
+"color": "4f91cd",
+"alternateColor": "f1f2f3",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"text": "Clubhouse"
+}
+]
+},
+"score": "60",
+"linescores": [
+{
+"displayValue": "17"
+},
+{
+"displayValue": "17"
+},
+{
+"displayValue": "8"
+},
+{
+"displayValue": "18"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "1-2",
+"displayValue": "1-2"
+},
+{
+"type": "home",
+"summary": "0-2",
+"displayValue": "0-2"
+}
+],
+"possession": false
+},
+{
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"order": 1,
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"location": "Indiana",
+"name": "Fever",
+"abbreviation": "IND",
+"displayName": "Indiana Fever",
+"color": "e2382f",
+"alternateColor": "08265b",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+}
+]
+},
+"score": "75",
+"linescores": [
+{
+"displayValue": "16"
+},
+{
+"displayValue": "22"
+},
+{
+"displayValue": "18"
+},
+{
+"displayValue": "19"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "3-0",
+"displayValue": "3-0"
+},
+{
+"type": "road",
+"summary": "2-0",
+"displayValue": "2-0"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": [],
+"series": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "IND leads series 1-0",
+"completed": false,
+"totalCompetitions": 4,
+"competitors": [
+{
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"wins": 0,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2006/teams/19?lang=en&region=us"
+}
+},
+{
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"wins": 1,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2006/teams/5?lang=en&region=us"
+}
+}
+],
+"events": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/260526019?lang=en&region=us",
+"id": "260526019"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/260621005?lang=en&region=us",
+"id": "260621005"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/260730019?lang=en&region=us",
+"id": "260730019"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/260813005?lang=en&region=us",
+"id": "260813005"
+}
+]
+}
+]
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/260526019",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/recap?gameId=260526019",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/boxscore/_/gameId/260526019",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/matchup?gameId=260526019",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"week": 2,
+"league": {
+"id": "59",
+"uid": "s:40~l:59",
+"name": "Women's National Basketball Association",
+"abbreviation": "WNBA",
+"slug": "wnba",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/injuries",
+"text": "Injuries"
+}
+]
+}
+},
+"plays": [],
+"article": {
+"keywords": [],
+"description": "Tamika Catchings had 11 points and nine rebounds\r\nto lead a balanced attack for the Indiana Fever in their 75-60 victory over the Chicago Sky on Friday night.",
+"video": [],
+"type": "Recap",
+"nowId": "1-2460031",
+"premium": false,
+"related": [],
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/2460031"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/events/260526019"
+}
+},
+"web": {
+"href": "http://sports.espn.go.com/wnba/recap?gameId=260526019",
+"short": {}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=2460031"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/wnba/gamecast?gameId=260526019&version=mobile"
+}
+},
+"id": 2460031,
+"categories": [
+{
+"id": 20948,
+"description": "Chicago Sky",
+"type": "team",
+"sportId": 59,
+"teamId": 19,
+"team": {
+"id": 19,
+"description": "Chicago Sky",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/teams/19"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/wnba/team/_/name/chi/chicago-sky"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/wnba/clubhouse?teamId=19"
+}
+}
+}
+},
+"uid": "s:40~l:59~t:19"
+},
+{
+"id": 5840,
+"description": "Indiana Fever",
+"type": "team",
+"sportId": 59,
+"teamId": 5,
+"team": {
+"id": 5,
+"description": "Indiana Fever",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/teams/5"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/wnba/team/_/name/ind/indiana-fever"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/wnba/clubhouse?teamId=5"
+}
+}
+}
+},
+"uid": "s:40~l:59~t:5"
+}
+],
+"headline": "Versatile Catchings fuels Fever past Sky",
+"gameId": "260526019",
+"images": [],
+"linkText": "Sky's not the limit in 15-point drubbing by Fever",
+"published": "2006-05-27T04:17:48Z",
+"lastModified": "2006-05-27T04:18:27Z",
+"inlines": [],
+"story": "CHICAGO (AP) -- Tamika Catchings wanted to put on a good show for\nher hometown fans.\n\nCatchings scored 11 points with seven rebounds, six assists and\nfour steals to help keep the Indiana Fever undefeated with a 75-60\nvictory over the Chicago Sky on Friday night.\n\n\"Tonight I wanted to make so much happen because I want some of\nthe people who haven't had the chance to go to Indiana to get a\nchance to see me,\" Catchings said.\n\nThe Fever (3-0) shot 50 percent from the field in the first half\n-- including 9-for-13 in the second quarter -- but only took a\nfour-point lead into halftime. The Sky (1-2) was able to stay close\nby outrebounding the Fever by eight in the first half.\n\n\"We hang our hat on our defense and our rebounding,\" Fever\ncoach Brian Winters said. \"In the first half I felt that we didn't\nrebound.\"\n\nThe Fever came out strong in the third quarter, limiting Chicago\nto 3-for-20 from the field. Indiana also out rebounded the Sky 18-8\nin the third and were able to get some easy baskets in transition.\n\n\"In the second half we didn't allow them those second-chance\npoints and we got out in transition,\" Winters said.\n\nFour Indiana players joined Catchings in double-figures.\n\nTamika Whitmore had 10 points, seven rebounds and four steals\nfor Indiana. Tan White had 14 points while Linda Frohlich and Anna\nDeForge each added 10.\n\nJia Perkins scored 16 points to lead the Sky (1-2). Candice\nDupree added 11 points and five rebounds.\n\n\"I think they were playing good defense but I just think that\nwe were missing shots that we normally would hit,\" Perkins said.\n\"We were missing some pretty wide open stuff.\"\n\nThe Sky shot 32.9 percent from the field and were 3-of-14 from\nbehind the 3-point arc.\n\n\"This game looks pretty good when you make shots and looks\npretty ugly when you don't,\" Sky coach Dave Cowens said.\n\nWhitmore keyed a 9-0 run with six straight points as Indiana\ntook a 49-38 lead with 3:52 remaining in the third quarter.\n\nThe Fever closed out the third quarter with a 7-2 run to make it\n56-42."
+},
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/wnba/standings"
+},
+"groups": [
+{
+"standings": {
+"entries": [
+{
+"team": "Chicago",
+"link": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1.0,
+"displayValue": "W1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.7222222,
+"displayValue": ".722"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 26.0,
+"displayValue": "26"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+{
+"team": "Connecticut",
+"link": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 3.0,
+"displayValue": "W3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6944444,
+"displayValue": ".694"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 25.0,
+"displayValue": "25"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/conn.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-02-01T18:05Z"
+}
+]
+},
+{
+"team": "Washington",
+"link": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 4.0,
+"displayValue": "4"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 14.0,
+"displayValue": "14"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2.0,
+"displayValue": "W2"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6111111,
+"displayValue": ".611"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 22.0,
+"displayValue": "22"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+}
+]
+},
+{
+"team": "New York",
+"link": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 20.0,
+"displayValue": "20"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 3.0,
+"displayValue": "W3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.44444445,
+"displayValue": ".444"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 16.0,
+"displayValue": "16"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+{
+"team": "Atlanta",
+"link": "http://www.espn.com/wnba/team/_/name/atl/atlanta-dream",
+"id": "20",
+"uid": "s:40~l:59~t:20",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 12.0,
+"displayValue": "12"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 22.0,
+"displayValue": "22"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -4.0,
+"displayValue": "L4"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3888889,
+"displayValue": ".389"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 14.0,
+"displayValue": "14"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:43Z"
+}
+]
+},
+{
+"team": "Indiana",
+"link": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 31.0,
+"displayValue": "31"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -18.0,
+"displayValue": "L18"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.1388889,
+"displayValue": ".139"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 5.0,
+"displayValue": "5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+}
+]
+},
+"header": "2021-22 Eastern Conference Standings",
+"href": "https://www.espn.com/wnba/standings/_/group/1"
+}
+]
+},
+"teamInfo": [],
+"espnWP": [],
+"season": {},
+"timeouts": []
+}
