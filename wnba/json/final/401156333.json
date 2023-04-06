@@ -1,0 +1,5792 @@
+{
+"gameId": 401156333,
+"plays": [],
+"winprobability": [],
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"slug": "washington-mystics",
+"location": "Washington",
+"name": "Mystics",
+"abbreviation": "WSH",
+"displayName": "Washington Mystics",
+"shortDisplayName": "Mystics",
+"color": "e03a3e",
+"alternateColor": "09295a",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png"
+},
+"statistics": [
+{
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"displayValue": "40-73",
+"label": "FG"
+},
+{
+"name": "fieldGoalPct",
+"displayValue": "54.8",
+"abbreviation": "FG%",
+"label": "Field Goal %"
+},
+{
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"displayValue": "10-29",
+"label": "3PT"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayValue": "34.5",
+"abbreviation": "3P%",
+"label": "Three Point %"
+},
+{
+"name": "freeThrowsMade-freeThrowsAttempted",
+"displayValue": "9-13",
+"label": "FT"
+},
+{
+"name": "freeThrowPct",
+"displayValue": "69.2",
+"abbreviation": "FT%",
+"label": "Free Throw %"
+},
+{
+"name": "totalRebounds",
+"displayValue": "37",
+"abbreviation": "REB",
+"label": "Rebounds"
+},
+{
+"name": "offensiveRebounds",
+"displayValue": "11",
+"abbreviation": "OR",
+"label": "Offensive Rebounds"
+},
+{
+"name": "defensiveRebounds",
+"displayValue": "26",
+"abbreviation": "DR",
+"label": "Defensive Rebounds"
+},
+{
+"name": "assists",
+"displayValue": "28",
+"abbreviation": "AST",
+"label": "Assists"
+},
+{
+"name": "steals",
+"displayValue": "4",
+"abbreviation": "STL",
+"label": "Steals"
+},
+{
+"name": "blocks",
+"displayValue": "5",
+"abbreviation": "BLK",
+"label": "Blocks"
+},
+{
+"name": "turnovers",
+"displayValue": "9",
+"abbreviation": "TO",
+"label": "Turnovers"
+},
+{
+"name": "teamTurnovers",
+"displayValue": "0",
+"abbreviation": "TTO",
+"label": "Team Turnovers"
+},
+{
+"name": "totalTurnovers",
+"displayValue": "9",
+"abbreviation": "ToTO",
+"label": "Total Turnovers"
+},
+{
+"name": "technicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Technical Fouls"
+},
+{
+"name": "totalTechnicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Total Technical Fouls"
+},
+{
+"name": "flagrantFouls",
+"displayValue": "0",
+"abbreviation": "FLAG",
+"label": "Flagrant Fouls"
+},
+{
+"name": "fouls",
+"displayValue": "17",
+"abbreviation": "PF",
+"label": "Fouls"
+}
+]
+},
+{
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"slug": "las-vegas-aces",
+"location": "Las Vegas",
+"name": "Aces",
+"abbreviation": "LV",
+"displayName": "Las Vegas Aces",
+"shortDisplayName": "Aces",
+"color": "000000",
+"alternateColor": "c7cfd4",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png"
+},
+"statistics": [
+{
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"displayValue": "28-72",
+"label": "FG"
+},
+{
+"name": "fieldGoalPct",
+"displayValue": "38.9",
+"abbreviation": "FG%",
+"label": "Field Goal %"
+},
+{
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"displayValue": "6-13",
+"label": "3PT"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayValue": "46.2",
+"abbreviation": "3P%",
+"label": "Three Point %"
+},
+{
+"name": "freeThrowsMade-freeThrowsAttempted",
+"displayValue": "8-9",
+"label": "FT"
+},
+{
+"name": "freeThrowPct",
+"displayValue": "88.9",
+"abbreviation": "FT%",
+"label": "Free Throw %"
+},
+{
+"name": "totalRebounds",
+"displayValue": "26",
+"abbreviation": "REB",
+"label": "Rebounds"
+},
+{
+"name": "offensiveRebounds",
+"displayValue": "9",
+"abbreviation": "OR",
+"label": "Offensive Rebounds"
+},
+{
+"name": "defensiveRebounds",
+"displayValue": "17",
+"abbreviation": "DR",
+"label": "Defensive Rebounds"
+},
+{
+"name": "assists",
+"displayValue": "22",
+"abbreviation": "AST",
+"label": "Assists"
+},
+{
+"name": "steals",
+"displayValue": "3",
+"abbreviation": "STL",
+"label": "Steals"
+},
+{
+"name": "blocks",
+"displayValue": "1",
+"abbreviation": "BLK",
+"label": "Blocks"
+},
+{
+"name": "turnovers",
+"displayValue": "11",
+"abbreviation": "TO",
+"label": "Turnovers"
+},
+{
+"name": "teamTurnovers",
+"displayValue": "0",
+"abbreviation": "TTO",
+"label": "Team Turnovers"
+},
+{
+"name": "totalTurnovers",
+"displayValue": "11",
+"abbreviation": "ToTO",
+"label": "Total Turnovers"
+},
+{
+"name": "technicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Technical Fouls"
+},
+{
+"name": "totalTechnicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Total Technical Fouls"
+},
+{
+"name": "flagrantFouls",
+"displayValue": "0",
+"abbreviation": "FLAG",
+"label": "Flagrant Fouls"
+},
+{
+"name": "fouls",
+"displayValue": "17",
+"abbreviation": "PF",
+"label": "Fouls"
+}
+]
+}
+],
+"players": [
+{
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"slug": "washington-mystics",
+"location": "Washington",
+"name": "Mystics",
+"abbreviation": "WSH",
+"displayName": "Washington Mystics",
+"shortDisplayName": "Mystics",
+"color": "e03a3e",
+"alternateColor": "09295a",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": false,
+"athlete": {
+"id": "798",
+"uid": "s:40~l:59~a:798",
+"guid": "82ad799c6a4c6217d70cdeb7d9779b4e",
+"displayName": "LaToya Sanders",
+"shortName": "L. Sanders",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/798/latoya-sanders",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/798/latoya-sanders",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/798/latoya-sanders",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/798/latoya-sanders",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/798/latoya-sanders",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/798/latoya-sanders",
+"text": "Overview"
+}
+],
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"29",
+"7-11",
+"0-0",
+"4-4",
+"2",
+"5",
+"7",
+"3",
+"1",
+"2",
+"0",
+"1",
+"+27",
+"18"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2491877",
+"uid": "s:40~l:59~a:2491877",
+"guid": "5312c2f9a5a069df5f8e2e75ebbdc600",
+"displayName": "Elena Delle Donne",
+"shortName": "E. Delle Donne",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2491877/elena-delle-donne",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2491877/elena-delle-donne",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2491877/elena-delle-donne",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2491877/elena-delle-donne",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2491877/elena-delle-donne",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2491877/elena-delle-donne",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2491877.png",
+"alt": "Elena Delle Donne"
+},
+"jersey": "11",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"29",
+"8-16",
+"2-6",
+"3-3",
+"1",
+"4",
+"5",
+"3",
+"1",
+"1",
+"1",
+"2",
+"+18",
+"21"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "856",
+"uid": "s:40~l:59~a:856",
+"guid": "06f5a686cc19277ee9714ac54c2ded8f",
+"displayName": "Kristi Toliver",
+"shortName": "K. Toliver",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/856/kristi-toliver",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/856/kristi-toliver",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/856/kristi-toliver",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/856/kristi-toliver",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/856/kristi-toliver",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/856/kristi-toliver",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/856.png",
+"alt": "Kristi Toliver"
+},
+"jersey": "20",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"32",
+"6-9",
+"1-3",
+"1-2",
+"0",
+"3",
+"3",
+"8",
+"0",
+"0",
+"2",
+"3",
+"+26",
+"14"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2529137",
+"uid": "s:40~l:59~a:2529137",
+"guid": "c3d35267feddd8d28c2464ee7aa144ac",
+"displayName": "Natasha Cloud",
+"shortName": "N. Cloud",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2529137/natasha-cloud",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2529137/natasha-cloud",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2529137/natasha-cloud",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2529137/natasha-cloud",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2529137/natasha-cloud",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2529137/natasha-cloud",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2529137.png",
+"alt": "Natasha Cloud"
+},
+"jersey": "9",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"31",
+"3-7",
+"3-5",
+"0-0",
+"0",
+"2",
+"2",
+"9",
+"0",
+"0",
+"1",
+"2",
+"+22",
+"9"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3146151",
+"uid": "s:40~l:59~a:3146151",
+"guid": "3bcbeadc7ef5ea771b702392df149627",
+"displayName": "Ariel Atkins",
+"shortName": "A. Atkins",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3146151/ariel-atkins",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3146151/ariel-atkins",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3146151/ariel-atkins",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3146151/ariel-atkins",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3146151/ariel-atkins",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3146151/ariel-atkins",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3146151.png",
+"alt": "Ariel Atkins"
+},
+"jersey": "7",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"28",
+"4-10",
+"1-6",
+"1-2",
+"1",
+"3",
+"4",
+"0",
+"1",
+"0",
+"0",
+"3",
+"+24",
+"10"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2490514",
+"uid": "s:40~l:59~a:2490514",
+"guid": "787237451c9598134e5168c2adc7bd5e",
+"displayName": "Tianna Hawkins",
+"shortName": "T. Hawkins",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2490514/tianna-hawkins",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2490514/tianna-hawkins",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2490514/tianna-hawkins",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2490514/tianna-hawkins",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2490514/tianna-hawkins",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2490514/tianna-hawkins",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2490514.png",
+"alt": "Tianna Hawkins"
+},
+"jersey": "21",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"12",
+"4-9",
+"0-4",
+"0-0",
+"3",
+"3",
+"6",
+"0",
+"0",
+"1",
+"1",
+"2",
+"+4",
+"8"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2999035",
+"uid": "s:40~l:59~a:2999035",
+"guid": "c673e938b68c77873f367c3ca34ee5cc",
+"displayName": "Aerial Powers",
+"shortName": "A. Powers",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2999035/aerial-powers",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2999035/aerial-powers",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2999035/aerial-powers",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2999035/aerial-powers",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2999035/aerial-powers",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2999035/aerial-powers",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2999035.png",
+"alt": "Aerial Powers"
+},
+"jersey": "3",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"18",
+"4-6",
+"1-3",
+"0-2",
+"2",
+"1",
+"3",
+"2",
+"0",
+"0",
+"3",
+"2",
+"+11",
+"9"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3027368",
+"uid": "s:40~l:59~a:3027368",
+"guid": "b5a9e2158f79c37d7a13876e010d1555",
+"displayName": "Emma Meesseman",
+"shortName": "E. Meesseman",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3027368/emma-meesseman",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3027368/emma-meesseman",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3027368/emma-meesseman",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3027368/emma-meesseman",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3027368/emma-meesseman",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3027368/emma-meesseman",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3027368.png",
+"alt": "Emma Meesseman"
+},
+"jersey": "33",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"8",
+"3-3",
+"1-1",
+"0-0",
+"2",
+"4",
+"6",
+"3",
+"1",
+"0",
+"0",
+"1",
+"+5",
+"7"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3142055",
+"uid": "s:40~l:59~a:3142055",
+"guid": "d493cd463ebadd858dc5fa80389abd03",
+"displayName": "Myisha Hines-Allen",
+"shortName": "M. Hines-Allen",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142055/myisha-hines-allen",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3142055/myisha-hines-allen",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3142055/myisha-hines-allen",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3142055/myisha-hines-allen",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3142055/myisha-hines-allen",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3142055/myisha-hines-allen",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3142055.png",
+"alt": "Myisha Hines-Allen"
+},
+"jersey": "2",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"2",
+"1-1",
+"1-1",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"0",
+"+4",
+"3"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2327208",
+"uid": "s:40~l:59~a:2327208",
+"guid": "939945902e8abed24c6c85c04ea875e3",
+"displayName": "Kim Mestdagh",
+"shortName": "K. Mestdagh",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2327208/kim-mestdagh",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2327208/kim-mestdagh",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2327208/kim-mestdagh",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2327208/kim-mestdagh",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2327208/kim-mestdagh",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2327208/kim-mestdagh",
+"text": "Overview"
+}
+],
+"jersey": "6",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"2",
+"0-0",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"+1",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3058893",
+"uid": "s:40~l:59~a:3058893",
+"guid": "29cc312aeb11a49b60a63f4595b2d36c",
+"displayName": "Shatori Walker-Kimbrough",
+"shortName": "S. Walker-Kimbrough",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3058893/shatori-walker-kimbrough",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3058893/shatori-walker-kimbrough",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3058893/shatori-walker-kimbrough",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3058893/shatori-walker-kimbrough",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3058893/shatori-walker-kimbrough",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3058893/shatori-walker-kimbrough",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3058893.png",
+"alt": "Shatori Walker-Kimbrough"
+},
+"jersey": "32",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"9",
+"0-1",
+"0-0",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"1",
+"0",
+"1",
+"+3",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "1107",
+"uid": "s:40~l:59~a:1107",
+"guid": "5530f9d2de572f0b338f0d4fd3c3d180",
+"displayName": "Shey Peddy",
+"shortName": "S. Peddy",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/1107/shey-peddy",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/1107/shey-peddy",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/1107/shey-peddy",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/1107/shey-peddy",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/1107/shey-peddy",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/1107/shey-peddy",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/1107.png",
+"alt": "Shey Peddy"
+},
+"jersey": "11",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "3142149",
+"uid": "s:40~l:59~a:3142149",
+"guid": "b613783fd4654dc95cb769562af29508",
+"displayName": "Kiara Leslie",
+"shortName": "K. Leslie",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142149/kiara-leslie",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3142149/kiara-leslie",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3142149/kiara-leslie",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3142149/kiara-leslie",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3142149/kiara-leslie",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3142149/kiara-leslie",
+"text": "Overview"
+}
+],
+"jersey": "1",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"reason": "RIGHT KNEE INJURY",
+"ejected": false,
+"stats": []
+}
+],
+"totals": [
+"",
+"40-73",
+"10-29",
+"9-13",
+"11",
+"26",
+"37",
+"28",
+"4",
+"5",
+"9",
+"17",
+"",
+"99"
+]
+}
+]
+},
+{
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"slug": "las-vegas-aces",
+"location": "Las Vegas",
+"name": "Aces",
+"abbreviation": "LV",
+"displayName": "Las Vegas Aces",
+"shortDisplayName": "Aces",
+"color": "000000",
+"alternateColor": "c7cfd4",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": false,
+"athlete": {
+"id": "3149391",
+"uid": "s:40~l:59~a:3149391",
+"guid": "9d049a8730bfa7180206b47ef02f57df",
+"displayName": "A'ja Wilson",
+"shortName": "A. Wilson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3149391/aja-wilson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3149391/aja-wilson",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3149391/aja-wilson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3149391/aja-wilson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3149391/aja-wilson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3149391/aja-wilson",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3149391.png",
+"alt": "A'ja Wilson"
+},
+"jersey": "22",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"17",
+"4-11",
+"0-0",
+"1-1",
+"2",
+"3",
+"5",
+"0",
+"0",
+"0",
+"0",
+"1",
+"-10",
+"9"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "1017",
+"uid": "s:40~l:59~a:1017",
+"guid": "d4c22d5152c2da50d02e2a47bbc748c2",
+"displayName": "Liz Cambage",
+"shortName": "L. Cambage",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/1017/liz-cambage",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/1017/liz-cambage",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/1017/liz-cambage",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/1017/liz-cambage",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/1017/liz-cambage",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/1017/liz-cambage",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/1017.png",
+"alt": "Liz Cambage"
+},
+"jersey": "1",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"15",
+"6-8",
+"0-0",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"0",
+"1",
+"3",
+"-17",
+"12"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2529205",
+"uid": "s:40~l:59~a:2529205",
+"guid": "d1fad434241092671759f76f7d43929f",
+"displayName": "Kayla McBride",
+"shortName": "K. McBride",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2529205/kayla-mcbride",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2529205/kayla-mcbride",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2529205/kayla-mcbride",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2529205/kayla-mcbride",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2529205/kayla-mcbride",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2529205/kayla-mcbride",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2529205.png",
+"alt": "Kayla McBride"
+},
+"jersey": "21",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"30",
+"2-7",
+"1-2",
+"0-0",
+"1",
+"3",
+"4",
+"4",
+"1",
+"0",
+"1",
+"3",
+"-15",
+"5"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3065570",
+"uid": "s:40~l:59~a:3065570",
+"guid": "2e8112d2f7f533dd0ab17a41c4134037",
+"displayName": "Kelsey Plum",
+"shortName": "K. Plum",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3065570/kelsey-plum",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3065570/kelsey-plum",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3065570/kelsey-plum",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3065570/kelsey-plum",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3065570/kelsey-plum",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3065570/kelsey-plum",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3065570.png",
+"alt": "Kelsey Plum"
+},
+"jersey": "10",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"25",
+"6-13",
+"3-5",
+"2-2",
+"0",
+"1",
+"1",
+"5",
+"0",
+"0",
+"1",
+"4",
+"-18",
+"17"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4065870",
+"uid": "s:40~l:59~a:4065870",
+"guid": "549665e173d4f906467003961ea95464",
+"displayName": "Jackie Young",
+"shortName": "J. Young",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4065870/jackie-young",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/4065870/jackie-young",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/4065870/jackie-young",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/4065870/jackie-young",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/4065870/jackie-young",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/4065870/jackie-young",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4065870.png",
+"alt": "Jackie Young"
+},
+"jersey": "0",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"17",
+"1-8",
+"0-3",
+"0-0",
+"1",
+"2",
+"3",
+"5",
+"0",
+"1",
+"1",
+"0",
+"-11",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "819",
+"uid": "s:40~l:59~a:819",
+"guid": "74f3644865d09d42c53b442b1d13a0cc",
+"displayName": "Tamera Young",
+"shortName": "T. Young",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/819/tamera-young",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/819/tamera-young",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/819/tamera-young",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/819/tamera-young",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/819/tamera-young",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/819/tamera-young",
+"text": "Overview"
+}
+],
+"jersey": "1",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"24",
+"3-7",
+"0-0",
+"2-2",
+"3",
+"0",
+"3",
+"4",
+"1",
+"0",
+"2",
+"3",
+"-15",
+"8"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2566106",
+"uid": "s:40~l:59~a:2566106",
+"guid": "a69b3a042e2f42bf6ef50b8260cc09bb",
+"displayName": "Dearica Hamby",
+"shortName": "D. Hamby",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2566106/dearica-hamby",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2566106/dearica-hamby",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2566106/dearica-hamby",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2566106/dearica-hamby",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2566106/dearica-hamby",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2566106/dearica-hamby",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2566106.png",
+"alt": "Dearica Hamby"
+},
+"jersey": "5",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"24",
+"3-6",
+"1-1",
+"1-2",
+"1",
+"4",
+"5",
+"3",
+"0",
+"0",
+"1",
+"1",
+"-10",
+"8"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "982",
+"uid": "s:40~l:59~a:982",
+"guid": "13b22c0e14ce9ce467f349ba2e059c76",
+"displayName": "Carolyn Swords",
+"shortName": "C. Swords",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/982/carolyn-swords",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/982/carolyn-swords",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/982/carolyn-swords",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/982/carolyn-swords",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/982/carolyn-swords",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/982/carolyn-swords",
+"text": "Overview"
+}
+],
+"jersey": "4",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"15",
+"2-6",
+"0-0",
+"2-2",
+"1",
+"2",
+"3",
+"1",
+"0",
+"0",
+"1",
+"0",
+"-10",
+"6"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4329389",
+"uid": "s:40~l:59~a:4329389",
+"guid": "707daa180edc8587b753be1817a84b11",
+"displayName": "Ji-Su Park",
+"shortName": "J. Park",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4329389/ji-su-park",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/4329389/ji-su-park",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/4329389/ji-su-park",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/4329389/ji-su-park",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/4329389/ji-su-park",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/4329389/ji-su-park",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4329389.png",
+"alt": "Ji-Su Park"
+},
+"jersey": "19",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"5",
+"0-1",
+"0-0",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"-7",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "1004",
+"uid": "s:40~l:59~a:1004",
+"guid": "c2a562146a4c5140b8a173a0e76932de",
+"displayName": "Sydney Colson",
+"shortName": "S. Colson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/1004/sydney-colson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/1004/sydney-colson",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/1004/sydney-colson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/1004/sydney-colson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/1004/sydney-colson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/1004/sydney-colson",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/1004.png",
+"alt": "Sydney Colson"
+},
+"jersey": "51",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"14",
+"1-3",
+"1-1",
+"0-0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"-14",
+"3"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2491197",
+"uid": "s:40~l:59~a:2491197",
+"guid": "1a46a3b556529f7581b728f10227358c",
+"displayName": "Sugar Rodgers",
+"shortName": "S. Rodgers",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2491197/sugar-rodgers",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2491197/sugar-rodgers",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2491197/sugar-rodgers",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2491197/sugar-rodgers",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2491197/sugar-rodgers",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2491197/sugar-rodgers",
+"text": "Overview"
+}
+],
+"jersey": "14",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"ejected": false,
+"stats": [
+"14",
+"0-2",
+"0-1",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"1",
+"0",
+"3",
+"0",
+"-18",
+"0"
+]
+}
+],
+"totals": [
+"",
+"28-72",
+"6-13",
+"8-9",
+"9",
+"17",
+"26",
+"22",
+"3",
+"1",
+"11",
+"17",
+"",
+"70"
+]
+}
+]
+}
+]
+},
+"header": {
+"id": "401156333",
+"uid": "s:40~l:59~e:401156333",
+"season": {
+"year": 2019,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "401156333",
+"uid": "s:40~l:59~e:401156333~c:401156333",
+"date": "2019-08-06T02:00Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"shotChartAvailable": false,
+"timeoutsAvailable": true,
+"possessionArrowAvailable": false,
+"onWatchESPN": false,
+"recent": false,
+"boxscoreSource": "full",
+"playByPlaySource": "none",
+"competitors": [
+{
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"order": 0,
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"location": "Las Vegas",
+"name": "Aces",
+"abbreviation": "LV",
+"displayName": "Las Vegas Aces",
+"color": "000000",
+"alternateColor": "c7cfd4",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+}
+]
+},
+"score": "70",
+"linescores": [
+{
+"displayValue": "18"
+},
+{
+"displayValue": "18"
+},
+{
+"displayValue": "23"
+},
+{
+"displayValue": "11"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "15-8",
+"displayValue": "15-8"
+},
+{
+"type": "home",
+"summary": "9-3",
+"displayValue": "9-3"
+}
+],
+"possession": false
+},
+{
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"order": 1,
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"location": "Washington",
+"name": "Mystics",
+"abbreviation": "WSH",
+"displayName": "Washington Mystics",
+"color": "e03a3e",
+"alternateColor": "09295a",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+}
+]
+},
+"score": "99",
+"linescores": [
+{
+"displayValue": "30"
+},
+{
+"displayValue": "21"
+},
+{
+"displayValue": "24"
+},
+{
+"displayValue": "24"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "15-7",
+"displayValue": "15-7"
+},
+{
+"type": "road",
+"summary": "9-4",
+"displayValue": "9-4"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": [],
+"series": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "WSH Wins series 2-1",
+"completed": true,
+"totalCompetitions": 3,
+"competitors": [
+{
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"wins": 1,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2019/teams/17?lang=en&region=us"
+}
+},
+{
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"wins": 2,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2019/teams/16?lang=en&region=us"
+}
+}
+],
+"events": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401104961?lang=en&region=us",
+"id": "401104961"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401105007?lang=en&region=us",
+"id": "401105007"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401156333?lang=en&region=us",
+"id": "401156333"
+}
+]
+},
+{
+"type": "playoff",
+"title": "Playoff Series",
+"description": "Playoff Series",
+"summary": "WSH Wins series 3-1",
+"completed": true,
+"totalCompetitions": 5,
+"competitors": [
+{
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"wins": 1,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2019/teams/17?lang=en&region=us"
+}
+},
+{
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"wins": 3,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2019/teams/16?lang=en&region=us"
+}
+}
+],
+"events": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401165797?lang=en&region=us",
+"id": "401165797"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401165798?lang=en&region=us",
+"id": "401165798"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401165887?lang=en&region=us",
+"id": "401165887"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401165888?lang=en&region=us",
+"id": "401165888"
+}
+]
+}
+],
+"home": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"location": "Las Vegas",
+"name": "Aces",
+"abbreviation": "LV",
+"displayName": "Las Vegas Aces",
+"color": "000000",
+"alternateColor": "c7cfd4",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+}
+]
+},
+"away": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"location": "Washington",
+"name": "Mystics",
+"abbreviation": "WSH",
+"displayName": "Washington Mystics",
+"color": "e03a3e",
+"alternateColor": "09295a",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+}
+]
+}
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401156333",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/recap?gameId=401156333",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/boxscore/_/gameId/401156333",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/matchup?gameId=401156333",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"league": {
+"id": "59",
+"uid": "s:40~l:59",
+"name": "Women's National Basketball Association",
+"abbreviation": "WNBA",
+"slug": "wnba",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/injuries",
+"text": "Injuries"
+}
+]
+},
+"gameNote": "RESUMED FROM JULY 5"
+},
+"broadcasts": [],
+"videos": [],
+"playByPlaySource": "none",
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/wnba/standings"
+},
+"groups": [
+{
+"standings": {
+"entries": [
+{
+"team": "Chicago",
+"link": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1.0,
+"displayValue": "W1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.7222222,
+"displayValue": ".722"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 26.0,
+"displayValue": "26"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+{
+"team": "Connecticut",
+"link": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 3.0,
+"displayValue": "W3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6944444,
+"displayValue": ".694"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 25.0,
+"displayValue": "25"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/conn.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-02-01T18:05Z"
+}
+]
+},
+{
+"team": "Washington",
+"link": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 4.0,
+"displayValue": "4"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 14.0,
+"displayValue": "14"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2.0,
+"displayValue": "W2"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6111111,
+"displayValue": ".611"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 22.0,
+"displayValue": "22"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+}
+]
+},
+{
+"team": "New York",
+"link": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 20.0,
+"displayValue": "20"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 3.0,
+"displayValue": "W3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.44444445,
+"displayValue": ".444"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 16.0,
+"displayValue": "16"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+{
+"team": "Atlanta",
+"link": "http://www.espn.com/wnba/team/_/name/atl/atlanta-dream",
+"id": "20",
+"uid": "s:40~l:59~t:20",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 12.0,
+"displayValue": "12"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 22.0,
+"displayValue": "22"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -4.0,
+"displayValue": "L4"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3888889,
+"displayValue": ".389"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 14.0,
+"displayValue": "14"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:43Z"
+}
+]
+},
+{
+"team": "Indiana",
+"link": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 31.0,
+"displayValue": "31"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -18.0,
+"displayValue": "L18"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.1388889,
+"displayValue": ".139"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 5.0,
+"displayValue": "5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+}
+]
+},
+"header": "2021-22 Eastern Conference Standings",
+"href": "https://www.espn.com/wnba/standings/_/group/1"
+},
+{
+"standings": {
+"entries": [
+{
+"team": "Las Vegas",
+"link": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 4.0,
+"displayValue": "W4"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.7222222,
+"displayValue": ".722"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 26.0,
+"displayValue": "26"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+{
+"team": "Seattle",
+"link": "http://www.espn.com/wnba/team/_/name/sea/seattle-storm",
+"id": "14",
+"uid": "s:40~l:59~t:14",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 4.0,
+"displayValue": "4"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 14.0,
+"displayValue": "14"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1.0,
+"displayValue": "L1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6111111,
+"displayValue": ".611"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 22.0,
+"displayValue": "22"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard"
+],
+"lastUpdated": "2021-03-08T15:24Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/scoreboard/sea.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"scoreboard",
+"dark"
+],
+"lastUpdated": "2021-03-08T15:25Z"
+}
+]
+},
+{
+"team": "Dallas",
+"link": "http://www.espn.com/wnba/team/_/name/dal/dallas-wings",
+"id": "3",
+"uid": "s:40~l:59~t:3",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 8.0,
+"displayValue": "8"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 18.0,
+"displayValue": "18"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1.0,
+"displayValue": "W1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.5,
+"displayValue": ".500"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 18.0,
+"displayValue": "18"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:36Z"
+}
+]
+},
+{
+"team": "Phoenix",
+"link": "http://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -1.0,
+"displayValue": "L1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.41666666,
+"displayValue": ".417"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 15.0,
+"displayValue": "15"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/phx.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T19:45Z"
+}
+]
+},
+{
+"team": "Minnesota",
+"link": "http://www.espn.com/wnba/team/_/name/min/minnesota-lynx",
+"id": "8",
+"uid": "s:40~l:59~t:8",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 12.0,
+"displayValue": "12"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 22.0,
+"displayValue": "22"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -2.0,
+"displayValue": "L2"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3888889,
+"displayValue": ".389"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 14.0,
+"displayValue": "14"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:04Z"
+}
+]
+},
+{
+"team": "Los Angeles",
+"link": "http://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 13.0,
+"displayValue": "13"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 23.0,
+"displayValue": "23"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -3.0,
+"displayValue": "L3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3611111,
+"displayValue": ".361"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 13.0,
+"displayValue": "13"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-05-20T14:35Z"
+}
+]
+}
+]
+},
+"header": "2021-22 Western Conference Standings",
+"href": "https://www.espn.com/wnba/standings/_/group/2"
+}
+]
+},
+"leaders": [
+{
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"displayName": "Las Vegas Aces",
+"abbreviation": "LV",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/lv",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+"leaders": [
+{
+"name": "points",
+"displayName": "Points",
+"leaders": [
+{
+"displayValue": "17",
+"athlete": {
+"id": "3065570",
+"uid": "s:40~l:59~a:3065570",
+"guid": "2e8112d2f7f533dd0ab17a41c4134037",
+"lastName": "Plum",
+"fullName": "Kelsey Plum",
+"displayName": "Kelsey Plum",
+"shortName": "K. Plum",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3065570/kelsey-plum",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3065570.png",
+"alt": "Kelsey Plum"
+},
+"jersey": "10",
+"position": {
+"abbreviation": "G"
+}
+},
+"statistics": [
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 17.0,
+"displayValue": "17"
+},
+{
+"name": "fieldGoals",
+"displayName": "Field Goals",
+"shortDisplayName": "FG",
+"description": "Field Goal makes and attempts.",
+"abbreviation": "FG",
+"value": 0.461538,
+"displayValue": "6/13"
+},
+{
+"name": "freeThrows",
+"displayName": "Free Throws",
+"shortDisplayName": "FT",
+"description": "Free Throw makes and attempts.",
+"abbreviation": "FT",
+"value": 1.0,
+"displayValue": "2/2"
+}
+]
+}
+]
+},
+{
+"name": "assists",
+"displayName": "Assists",
+"leaders": [
+{
+"displayValue": "5",
+"athlete": {
+"id": "3065570",
+"uid": "s:40~l:59~a:3065570",
+"guid": "2e8112d2f7f533dd0ab17a41c4134037",
+"lastName": "Plum",
+"fullName": "Kelsey Plum",
+"displayName": "Kelsey Plum",
+"shortName": "K. Plum",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3065570/kelsey-plum",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3065570.png",
+"alt": "Kelsey Plum"
+},
+"jersey": "10",
+"position": {
+"abbreviation": "G"
+}
+},
+"statistics": [
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 25.0,
+"displayValue": "25"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 5.0,
+"displayValue": "5.0"
+}
+]
+}
+]
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"leaders": [
+{
+"displayValue": "5",
+"athlete": {
+"id": "3149391",
+"uid": "s:40~l:59~a:3149391",
+"guid": "9d049a8730bfa7180206b47ef02f57df",
+"lastName": "Wilson",
+"fullName": "A'ja Wilson",
+"displayName": "A'ja Wilson",
+"shortName": "A. Wilson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3149391/aja-wilson",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3149391.png",
+"alt": "A'ja Wilson"
+},
+"jersey": "22",
+"position": {
+"abbreviation": "F"
+}
+},
+"statistics": [
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"abbreviation": "DR",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 2.0,
+"displayValue": "2"
+}
+]
+}
+]
+}
+]
+},
+{
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"displayName": "Washington Mystics",
+"abbreviation": "WSH",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+]
+},
+"leaders": [
+{
+"name": "points",
+"displayName": "Points",
+"leaders": [
+{
+"displayValue": "21",
+"athlete": {
+"id": "2491877",
+"uid": "s:40~l:59~a:2491877",
+"guid": "5312c2f9a5a069df5f8e2e75ebbdc600",
+"lastName": "Delle Donne",
+"fullName": "Elena Delle Donne",
+"displayName": "Elena Delle Donne",
+"shortName": "E. Delle Donne",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2491877/elena-delle-donne",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2491877.png",
+"alt": "Elena Delle Donne"
+},
+"jersey": "11",
+"position": {
+"abbreviation": "F"
+}
+},
+"statistics": [
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "fieldGoals",
+"displayName": "Field Goals",
+"shortDisplayName": "FG",
+"description": "Field Goal makes and attempts.",
+"abbreviation": "FG",
+"value": 0.5,
+"displayValue": "8/16"
+},
+{
+"name": "freeThrows",
+"displayName": "Free Throws",
+"shortDisplayName": "FT",
+"description": "Free Throw makes and attempts.",
+"abbreviation": "FT",
+"value": 1.0,
+"displayValue": "3/3"
+}
+]
+}
+]
+},
+{
+"name": "assists",
+"displayName": "Assists",
+"leaders": [
+{
+"displayValue": "9",
+"athlete": {
+"id": "2529137",
+"uid": "s:40~l:59~a:2529137",
+"guid": "c3d35267feddd8d28c2464ee7aa144ac",
+"lastName": "Cloud",
+"fullName": "Natasha Cloud",
+"displayName": "Natasha Cloud",
+"shortName": "N. Cloud",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2529137/natasha-cloud",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2529137.png",
+"alt": "Natasha Cloud"
+},
+"jersey": "9",
+"position": {
+"abbreviation": "G"
+}
+},
+"statistics": [
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 9.0,
+"displayValue": "9"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 31.0,
+"displayValue": "31"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 9.0,
+"displayValue": "9.0"
+}
+]
+}
+]
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"leaders": [
+{
+"displayValue": "7",
+"athlete": {
+"id": "798",
+"uid": "s:40~l:59~a:798",
+"guid": "82ad799c6a4c6217d70cdeb7d9779b4e",
+"lastName": "Sanders",
+"fullName": "LaToya Sanders",
+"displayName": "LaToya Sanders",
+"shortName": "L. Sanders",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/798/latoya-sanders",
+"text": "Player Card"
+}
+],
+"position": {
+"abbreviation": "F"
+}
+},
+"statistics": [
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 7.0,
+"displayValue": "7"
+},
+{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"abbreviation": "DR",
+"value": 5.0,
+"displayValue": "5"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 2.0,
+"displayValue": "2"
+}
+]
+}
+]
+}
+]
+}
+],
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "WSH Wins series 2-1",
+"completed": true,
+"totalCompetitions": 3,
+"events": [
+{
+"id": "401104961",
+"uid": "s:40~l:59~e:401104961~c:401104961",
+"date": "2019-06-21T02:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"displayName": "Las Vegas Aces",
+"abbreviation": "LV",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/lv",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+"score": "72"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"displayName": "Washington Mystics",
+"abbreviation": "WSH",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+]
+},
+"score": "95"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401104961",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401104961",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401105007",
+"uid": "s:40~l:59~e:401105007~c:401105007",
+"date": "2019-07-13T23:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"displayName": "Washington Mystics",
+"abbreviation": "WSH",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+]
+},
+"score": "81"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"displayName": "Las Vegas Aces",
+"abbreviation": "LV",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/lv",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+"score": "85"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401105007",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401105007",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401156333",
+"uid": "s:40~l:59~e:401156333~c:401156333",
+"date": "2019-08-06T02:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"displayName": "Las Vegas Aces",
+"abbreviation": "LV",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/lv",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+"score": "70"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"displayName": "Washington Mystics",
+"abbreviation": "WSH",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+]
+},
+"score": "99"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401156333",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401156333",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+},
+{
+"type": "playoff",
+"title": "Playoff Series",
+"description": "Playoff Series",
+"summary": "WSH Wins series 3-1",
+"completed": true,
+"totalCompetitions": 5,
+"events": [
+{
+"id": "401165797",
+"uid": "s:40~l:59~e:401165797~c:401165797",
+"date": "2019-09-18T00:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"displayName": "Washington Mystics",
+"abbreviation": "WSH",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+]
+},
+"score": "97"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"displayName": "Las Vegas Aces",
+"abbreviation": "LV",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/lv",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+"score": "95"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401165797",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401165797",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401165798",
+"uid": "s:40~l:59~e:401165798~c:401165798",
+"date": "2019-09-20T00:30:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"displayName": "Washington Mystics",
+"abbreviation": "WSH",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+]
+},
+"score": "103"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"displayName": "Las Vegas Aces",
+"abbreviation": "LV",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/lv",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+"score": "91"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401165798",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401165798",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401165887",
+"uid": "s:40~l:59~e:401165887~c:401165887",
+"date": "2019-09-22T21:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"displayName": "Las Vegas Aces",
+"abbreviation": "LV",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/lv",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+"score": "92"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"displayName": "Washington Mystics",
+"abbreviation": "WSH",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+]
+},
+"score": "75"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401165887",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401165887",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401165888",
+"uid": "s:40~l:59~e:401165888~c:401165888",
+"date": "2019-09-25T01:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"displayName": "Las Vegas Aces",
+"abbreviation": "LV",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/lv",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+"score": "90"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"displayName": "Washington Mystics",
+"abbreviation": "WSH",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+]
+},
+"score": "94"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401165888",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401165888",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"timeouts": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"displayName": "Washington Mystics",
+"abbreviation": "WSH",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-28T16:47Z"
+}
+]
+},
+"records": []
+},
+{
+"team": {
+"id": "17",
+"uid": "s:40~l:59~t:17",
+"displayName": "Las Vegas Aces",
+"abbreviation": "LV",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/lv",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:18Z"
+}
+]
+},
+"records": []
+}
+],
+"odds": [],
+"predictor": {},
+"espnWP": [],
+"gameInfo": {
+"venue": {
+"id": "5060",
+"fullName": "T-Mobile Arena",
+"address": {
+"city": "Las Vegas",
+"state": "NV"
+},
+"capacity": 19000,
+"grass": false,
+"images": []
+},
+"attendance": 5024,
+"officials": [
+{
+"fullName": "Tiara Cruse",
+"displayName": "Tiara Cruse",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 1
+},
+{
+"fullName": "Cheryl Flores",
+"displayName": "Cheryl Flores",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 2
+},
+{
+"fullName": "Eric Brewton",
+"displayName": "Eric Brewton",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 3
+}
+]
+},
+"season": {
+"year": 2019,
+"type": 2
+}
+}

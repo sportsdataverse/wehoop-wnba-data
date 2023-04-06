@@ -1,0 +1,11411 @@
+{
+"boxscore": {
+"teams": [
+{
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"slug": "indiana-fever",
+"location": "Indiana",
+"name": "Fever",
+"abbreviation": "IND",
+"displayName": "Indiana Fever",
+"shortDisplayName": "Fever",
+"color": "e2382f",
+"alternateColor": "08265b",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png"
+},
+"statistics": [
+{
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"displayValue": "30-71",
+"label": "FG"
+},
+{
+"name": "fieldGoalPct",
+"displayValue": "42.3",
+"abbreviation": "FG%",
+"label": "Field Goal %"
+},
+{
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"displayValue": "7-18",
+"label": "3PT"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayValue": "38.9",
+"abbreviation": "3P%",
+"label": "Three Point %"
+},
+{
+"name": "freeThrowsMade-freeThrowsAttempted",
+"displayValue": "19-28",
+"label": "FT"
+},
+{
+"name": "freeThrowPct",
+"displayValue": "67.9",
+"abbreviation": "FT%",
+"label": "Free Throw %"
+},
+{
+"name": "totalRebounds",
+"displayValue": "37",
+"abbreviation": "REB",
+"label": "Rebounds"
+},
+{
+"name": "offensiveRebounds",
+"displayValue": "12",
+"abbreviation": "OR",
+"label": "Offensive Rebounds"
+},
+{
+"name": "defensiveRebounds",
+"displayValue": "25",
+"abbreviation": "DR",
+"label": "Defensive Rebounds"
+},
+{
+"name": "assists",
+"displayValue": "22",
+"abbreviation": "AST",
+"label": "Assists"
+},
+{
+"name": "steals",
+"displayValue": "9",
+"abbreviation": "STL",
+"label": "Steals"
+},
+{
+"name": "blocks",
+"displayValue": "3",
+"abbreviation": "BLK",
+"label": "Blocks"
+},
+{
+"name": "turnovers",
+"displayValue": "16",
+"abbreviation": "TO",
+"label": "Turnovers"
+},
+{
+"name": "teamTurnovers",
+"displayValue": "-13",
+"abbreviation": "TTO",
+"label": "Team Turnovers"
+},
+{
+"name": "totalTurnovers",
+"displayValue": "3",
+"abbreviation": "ToTO",
+"label": "Total Turnovers"
+},
+{
+"name": "technicalFouls",
+"displayValue": "1",
+"abbreviation": "TECH",
+"label": "Technical Fouls"
+},
+{
+"name": "totalTechnicalFouls",
+"displayValue": "1",
+"abbreviation": "TECH",
+"label": "Total Technical Fouls"
+},
+{
+"name": "flagrantFouls",
+"displayValue": "0",
+"abbreviation": "FLAG",
+"label": "Flagrant Fouls"
+},
+{
+"name": "fouls",
+"displayValue": "16",
+"abbreviation": "PF",
+"label": "Fouls"
+},
+{
+"name": "largestLead",
+"displayValue": "5",
+"abbreviation": "LL",
+"label": "Largest Lead"
+}
+]
+},
+{
+"team": {
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"slug": "new-york-liberty",
+"location": "New York",
+"name": "Liberty",
+"abbreviation": "NY",
+"displayName": "New York Liberty",
+"shortDisplayName": "Liberty",
+"color": "0d79b9",
+"alternateColor": "89c9bf",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
+},
+"statistics": [
+{
+"name": "fieldGoalsMade-fieldGoalsAttempted",
+"displayValue": "33-75",
+"label": "FG"
+},
+{
+"name": "fieldGoalPct",
+"displayValue": "44.0",
+"abbreviation": "FG%",
+"label": "Field Goal %"
+},
+{
+"name": "threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"displayValue": "8-22",
+"label": "3PT"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayValue": "36.4",
+"abbreviation": "3P%",
+"label": "Three Point %"
+},
+{
+"name": "freeThrowsMade-freeThrowsAttempted",
+"displayValue": "7-10",
+"label": "FT"
+},
+{
+"name": "freeThrowPct",
+"displayValue": "70.0",
+"abbreviation": "FT%",
+"label": "Free Throw %"
+},
+{
+"name": "totalRebounds",
+"displayValue": "39",
+"abbreviation": "REB",
+"label": "Rebounds"
+},
+{
+"name": "offensiveRebounds",
+"displayValue": "10",
+"abbreviation": "OR",
+"label": "Offensive Rebounds"
+},
+{
+"name": "defensiveRebounds",
+"displayValue": "29",
+"abbreviation": "DR",
+"label": "Defensive Rebounds"
+},
+{
+"name": "assists",
+"displayValue": "25",
+"abbreviation": "AST",
+"label": "Assists"
+},
+{
+"name": "steals",
+"displayValue": "8",
+"abbreviation": "STL",
+"label": "Steals"
+},
+{
+"name": "blocks",
+"displayValue": "3",
+"abbreviation": "BLK",
+"label": "Blocks"
+},
+{
+"name": "turnovers",
+"displayValue": "19",
+"abbreviation": "TO",
+"label": "Turnovers"
+},
+{
+"name": "teamTurnovers",
+"displayValue": "-16",
+"abbreviation": "TTO",
+"label": "Team Turnovers"
+},
+{
+"name": "totalTurnovers",
+"displayValue": "3",
+"abbreviation": "ToTO",
+"label": "Total Turnovers"
+},
+{
+"name": "technicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Technical Fouls"
+},
+{
+"name": "totalTechnicalFouls",
+"displayValue": "0",
+"abbreviation": "TECH",
+"label": "Total Technical Fouls"
+},
+{
+"name": "flagrantFouls",
+"displayValue": "0",
+"abbreviation": "FLAG",
+"label": "Flagrant Fouls"
+},
+{
+"name": "fouls",
+"displayValue": "29",
+"abbreviation": "PF",
+"label": "Fouls"
+},
+{
+"name": "largestLead",
+"displayValue": "13",
+"abbreviation": "LL",
+"label": "Largest Lead"
+}
+]
+}
+],
+"players": [
+{
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"slug": "indiana-fever",
+"location": "Indiana",
+"name": "Fever",
+"abbreviation": "IND",
+"displayName": "Indiana Fever",
+"shortDisplayName": "Fever",
+"color": "e2382f",
+"alternateColor": "08265b",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": false,
+"athlete": {
+"id": "689",
+"uid": "s:40~l:59~a:689",
+"guid": "99914daf240a2fbaff01ea59c0902860",
+"displayName": "Candice Dupree",
+"shortName": "C. Dupree",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/689/candice-dupree",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/689/candice-dupree",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/689/candice-dupree",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/689/candice-dupree",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/689/candice-dupree",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/689/candice-dupree",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/689.png",
+"alt": "Candice Dupree"
+},
+"jersey": "24",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"31",
+"6-11",
+"0-0",
+"5-6",
+"0",
+"6",
+"6",
+"4",
+"0",
+"1",
+"3",
+"1",
+"+11",
+"17"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3922628",
+"uid": "s:40~l:59~a:3922628",
+"guid": "27bec061e73ea474742344597e74cce5",
+"displayName": "Kennedy Burke",
+"shortName": "K. Burke",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3922628/kennedy-burke",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3922628/kennedy-burke",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3922628/kennedy-burke",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3922628/kennedy-burke",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3922628/kennedy-burke",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3922628/kennedy-burke",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3922628.png",
+"alt": "Kennedy Burke"
+},
+"jersey": "25",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"26",
+"1-5",
+"1-2",
+"2-4",
+"4",
+"1",
+"5",
+"2",
+"0",
+"0",
+"1",
+"1",
+"-8",
+"5"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "3913903",
+"uid": "s:40~l:59~a:3913903",
+"guid": "78c47f7b0e8d5fb0159b86591b85ad23",
+"displayName": "Teaira McCowan",
+"shortName": "T. McCowan",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3913903/teaira-mccowan",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3913903/teaira-mccowan",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3913903/teaira-mccowan",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3913903/teaira-mccowan",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3913903/teaira-mccowan",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3913903/teaira-mccowan",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3913903.png",
+"alt": "Teaira McCowan"
+},
+"jersey": "7",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"31",
+"5-14",
+"0-0",
+"4-7",
+"3",
+"10",
+"13",
+"0",
+"1",
+"2",
+"4",
+"4",
+"+11",
+"14"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2491214",
+"uid": "s:40~l:59~a:2491214",
+"guid": "10a2cf097845e376c86e0fa06cbdd524",
+"displayName": "Erica Wheeler",
+"shortName": "E. Wheeler",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2491214/erica-wheeler",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2491214/erica-wheeler",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2491214/erica-wheeler",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2491214/erica-wheeler",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2491214/erica-wheeler",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2491214/erica-wheeler",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2491214.png",
+"alt": "Erica Wheeler"
+},
+"jersey": "17",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"26",
+"2-7",
+"2-5",
+"0-0",
+"0",
+"1",
+"1",
+"6",
+"4",
+"0",
+"1",
+"1",
+"+8",
+"6"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "2984741",
+"uid": "s:40~l:59~a:2984741",
+"guid": "32ef69df77e3d0424d5a7c210c3256b9",
+"displayName": "Tiffany Mitchell",
+"shortName": "T. Mitchell",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2984741/tiffany-mitchell",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2984741/tiffany-mitchell",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2984741/tiffany-mitchell",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2984741/tiffany-mitchell",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2984741/tiffany-mitchell",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2984741/tiffany-mitchell",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2984741.png",
+"alt": "Tiffany Mitchell"
+},
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"24",
+"5-11",
+"1-3",
+"4-4",
+"1",
+"1",
+"2",
+"3",
+"0",
+"0",
+"2",
+"4",
+"+5",
+"15"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "2529203",
+"uid": "s:40~l:59~a:2529203",
+"guid": "ad2010b575f015ccfef816cbd803e305",
+"displayName": "Natalie Achonwa",
+"shortName": "N. Achonwa",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2529203/natalie-achonwa",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2529203/natalie-achonwa",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2529203/natalie-achonwa",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2529203/natalie-achonwa",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2529203/natalie-achonwa",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2529203/natalie-achonwa",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2529203.png",
+"alt": "Natalie Achonwa"
+},
+"jersey": "11",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"14",
+"0-0",
+"0-0",
+"2-2",
+"2",
+"1",
+"3",
+"2",
+"1",
+"0",
+"0",
+"0",
+"-9",
+"2"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "2593770",
+"uid": "s:40~l:59~a:2593770",
+"guid": "08d9f7a2c92a1db66556b5598083d713",
+"displayName": "Betnijah Laney",
+"shortName": "B. Laney",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2593770/betnijah-laney",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2593770/betnijah-laney",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2593770/betnijah-laney",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2593770/betnijah-laney",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2593770/betnijah-laney",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2593770/betnijah-laney",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2593770.png",
+"alt": "Betnijah Laney"
+},
+"jersey": "44",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"20",
+"2-3",
+"0-0",
+"1-3",
+"0",
+"2",
+"2",
+"2",
+"3",
+"0",
+"1",
+"2",
+"+3",
+"5"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3058900",
+"uid": "s:40~l:59~a:3058900",
+"guid": "052659bb375fb98419a21e56309a3f1d",
+"displayName": "Stephanie Mavunga",
+"shortName": "S. Mavunga",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3058900/stephanie-mavunga",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3058900/stephanie-mavunga",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3058900/stephanie-mavunga",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3058900/stephanie-mavunga",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3058900/stephanie-mavunga",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3058900/stephanie-mavunga",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3058900.png",
+"alt": "Stephanie Mavunga"
+},
+"jersey": "23",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"4",
+"0-3",
+"0-0",
+"0-0",
+"2",
+"0",
+"2",
+"0",
+"0",
+"0",
+"0",
+"0",
+"-3",
+"0"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "3142191",
+"uid": "s:40~l:59~a:3142191",
+"guid": "65441aabbd32abeff1f96a95b381c955",
+"displayName": "Kelsey Mitchell",
+"shortName": "K. Mitchell",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142191/kelsey-mitchell",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3142191/kelsey-mitchell",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3142191/kelsey-mitchell",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3142191/kelsey-mitchell",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3142191/kelsey-mitchell",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3142191/kelsey-mitchell",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3142191.png",
+"alt": "Kelsey Mitchell"
+},
+"jersey": "0",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"24",
+"9-17",
+"3-8",
+"1-2",
+"0",
+"3",
+"3",
+"3",
+"0",
+"0",
+"4",
+"3",
+"+7",
+"22"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3056728",
+"uid": "s:40~l:59~a:3056728",
+"guid": "50b9d7bc0b9a9ff093402bb67f7b5b46",
+"displayName": "Erica McCall",
+"shortName": "E. McCall",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3056728/erica-mccall",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3056728/erica-mccall",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3056728/erica-mccall",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3056728/erica-mccall",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3056728/erica-mccall",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3056728/erica-mccall",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3056728.png",
+"alt": "Erica McCall"
+},
+"jersey": "24",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "1074",
+"uid": "s:40~l:59~a:1074",
+"guid": "1326e3b6ff21a9e47dda0d9fdc75a3f8",
+"displayName": "Shenise Johnson",
+"shortName": "S. Johnson",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/1074/shenise-johnson",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/1074/shenise-johnson",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/1074/shenise-johnson",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/1074/shenise-johnson",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/1074/shenise-johnson",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/1074/shenise-johnson",
+"text": "Overview"
+}
+],
+"jersey": "42",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"reason": "ANKLE INJURY",
+"ejected": false,
+"stats": []
+},
+{
+"active": false,
+"athlete": {
+"id": "3143149",
+"uid": "s:40~l:59~a:3143149",
+"guid": "d8086a93f4026571a5fd5b85b36d7c32",
+"displayName": "Paris Kea",
+"shortName": "P. Kea",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3143149/paris-kea",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3143149/paris-kea",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3143149/paris-kea",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3143149/paris-kea",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3143149/paris-kea",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3143149/paris-kea",
+"text": "Overview"
+}
+],
+"jersey": "22",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": []
+}
+],
+"totals": [
+"",
+"30-71",
+"7-18",
+"19-28",
+"12",
+"25",
+"37",
+"22",
+"9",
+"3",
+"16",
+"16",
+"",
+"86"
+]
+}
+]
+},
+{
+"team": {
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"slug": "new-york-liberty",
+"location": "New York",
+"name": "Liberty",
+"abbreviation": "NY",
+"displayName": "New York Liberty",
+"shortDisplayName": "Liberty",
+"color": "0d79b9",
+"alternateColor": "89c9bf",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
+},
+"statistics": [
+{
+"names": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"keys": [
+"minutes",
+"fieldGoalsMade-fieldGoalsAttempted",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"freeThrowsMade-freeThrowsAttempted",
+"offensiveRebounds",
+"defensiveRebounds",
+"rebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fouls",
+"plusMinus",
+"points"
+],
+"labels": [
+"MIN",
+"FG",
+"3PT",
+"FT",
+"OREB",
+"DREB",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"PF",
+"+/-",
+"PTS"
+],
+"descriptions": [
+"Minutes",
+"Field Goals Made/Attempted",
+"3-Point Field Goals Made/Attempted",
+"Free Throws Made/Attempted",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Personal Fouls",
+"Teams net points while player is on the court.",
+"Points"
+],
+"athletes": [
+{
+"active": true,
+"athlete": {
+"id": "918",
+"uid": "s:40~l:59~a:918",
+"guid": "ae8d41855dc2d522e8edfb219a1130d4",
+"displayName": "Tina Charles",
+"shortName": "T. Charles",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/918/tina-charles",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/918/tina-charles",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/918/tina-charles",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/918/tina-charles",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/918/tina-charles",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/918/tina-charles",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/918.png",
+"alt": "Tina Charles"
+},
+"jersey": "31",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"31",
+"9-23",
+"0-1",
+"1-1",
+"3",
+"8",
+"11",
+"4",
+"1",
+"0",
+"1",
+"3",
+"-8",
+"19"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3007473",
+"uid": "s:40~l:59~a:3007473",
+"guid": "c01d4d1ed2aac81ad317ed515c42978d",
+"displayName": "Amanda Zahui B.",
+"shortName": "A. Zahui B.",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3007473/amanda-zahui-b",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3007473/amanda-zahui-b",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3007473/amanda-zahui-b",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3007473/amanda-zahui-b",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3007473/amanda-zahui-b",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3007473/amanda-zahui-b",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3007473.png",
+"alt": "Amanda Zahui B."
+},
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"15",
+"0-2",
+"0-1",
+"0-0",
+"1",
+"5",
+"6",
+"1",
+"0",
+"1",
+"2",
+"5",
+"-5",
+"0"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "618",
+"uid": "s:40~l:59~a:618",
+"guid": "91b352f8dd0db1fb5f898fabf769c145",
+"displayName": "Tanisha Wright",
+"shortName": "T. Wright",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/618/tanisha-wright",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/618/tanisha-wright",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/618/tanisha-wright",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/618/tanisha-wright",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/618/tanisha-wright",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/618/tanisha-wright",
+"text": "Overview"
+}
+],
+"jersey": "30",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"19",
+"1-4",
+"0-0",
+"0-1",
+"0",
+"1",
+"1",
+"2",
+"2",
+"1",
+"2",
+"5",
+"-9",
+"2"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "2529185",
+"uid": "s:40~l:59~a:2529185",
+"guid": "db6815c34df0d31ed1eaaa56cfd8a13c",
+"displayName": "Bria Hartley",
+"shortName": "B. Hartley",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2529185/bria-hartley",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2529185/bria-hartley",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2529185/bria-hartley",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2529185/bria-hartley",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2529185/bria-hartley",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2529185/bria-hartley",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2529185.png",
+"alt": "Bria Hartley"
+},
+"jersey": "14",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"15",
+"3-7",
+"1-3",
+"1-1",
+"0",
+"2",
+"2",
+"1",
+"1",
+"0",
+"3",
+"3",
+"-10",
+"8"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "3142327",
+"uid": "s:40~l:59~a:3142327",
+"guid": "01ff029857dcdfdeaf86c862df599b40",
+"displayName": "Kia Nurse",
+"shortName": "K. Nurse",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142327/kia-nurse",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3142327/kia-nurse",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3142327/kia-nurse",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3142327/kia-nurse",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3142327/kia-nurse",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3142327/kia-nurse",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3142327.png",
+"alt": "Kia Nurse"
+},
+"jersey": "0",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": true,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"17",
+"3-6",
+"3-6",
+"0-0",
+"1",
+"3",
+"4",
+"2",
+"1",
+"0",
+"1",
+"2",
+"-7",
+"9"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "2566211",
+"uid": "s:40~l:59~a:2566211",
+"guid": "0566a243365a25bc37ab81eed4f0eadd",
+"displayName": "Reshanda Gray",
+"shortName": "R. Gray",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2566211/reshanda-gray",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2566211/reshanda-gray",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2566211/reshanda-gray",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2566211/reshanda-gray",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2566211/reshanda-gray",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2566211/reshanda-gray",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2566211.png",
+"alt": "Reshanda Gray"
+},
+"jersey": "1",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"11",
+"3-4",
+"0-0",
+"0-0",
+"1",
+"1",
+"2",
+"1",
+"0",
+"0",
+"2",
+"4",
+"+6",
+"6"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4038352",
+"uid": "s:40~l:59~a:4038352",
+"guid": "5228cbd85225553c2484057b2f4aee1d",
+"displayName": "Nayo Raincock-Ekunwe",
+"shortName": "N. Raincock-Ekunwe",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4038352/nayo-raincock-ekunwe",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/4038352/nayo-raincock-ekunwe",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/4038352/nayo-raincock-ekunwe",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/4038352/nayo-raincock-ekunwe",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/4038352/nayo-raincock-ekunwe",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/4038352/nayo-raincock-ekunwe",
+"text": "Overview"
+}
+],
+"jersey": "4",
+"position": {
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"13",
+"0-1",
+"0-0",
+"1-2",
+"0",
+"1",
+"1",
+"0",
+"0",
+"0",
+"1",
+"2",
+"-4",
+"1"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "4337216",
+"uid": "s:40~l:59~a:4337216",
+"guid": "028a2e2467576ce1a52547986bfe3c30",
+"displayName": "Han Xu",
+"shortName": "H. Xu",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4337216/han-xu",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/4337216/han-xu",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/4337216/han-xu",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/4337216/han-xu",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/4337216/han-xu",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/4337216/han-xu",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4337216.png",
+"alt": "Han Xu"
+},
+"jersey": "21",
+"position": {
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"10",
+"0-1",
+"0-0",
+"0-0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"1",
+"0",
+"0",
+"+2",
+"0"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "2566210",
+"uid": "s:40~l:59~a:2566210",
+"guid": "24b19327d6c57684763d6034542df99c",
+"displayName": "Brittany Boyd-Jones",
+"shortName": "Boyd",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2566210/brittany-boyd-jones",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/2566210/brittany-boyd-jones",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/2566210/brittany-boyd-jones",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/2566210/brittany-boyd-jones",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/2566210/brittany-boyd-jones",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/2566210/brittany-boyd-jones",
+"text": "Overview"
+}
+],
+"jersey": "83",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"18",
+"4-7",
+"1-1",
+"0-0",
+"2",
+"2",
+"4",
+"7",
+"1",
+"0",
+"2",
+"1",
+"+4",
+"9"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3102133",
+"uid": "s:40~l:59~a:3102133",
+"guid": "baf2f1cb234e740a0af2c8a82626b685",
+"displayName": "Rebecca Allen",
+"shortName": "R. Allen",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3102133/rebecca-allen",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3102133/rebecca-allen",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3102133/rebecca-allen",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3102133/rebecca-allen",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3102133/rebecca-allen",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3102133/rebecca-allen",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3102133.png",
+"alt": "Rebecca Allen"
+},
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"23",
+"5-9",
+"1-4",
+"0-0",
+"1",
+"3",
+"4",
+"0",
+"1",
+"0",
+"2",
+"2",
+"+1",
+"11"
+]
+},
+{
+"active": true,
+"athlete": {
+"id": "4038379",
+"uid": "s:40~l:59~a:4038379",
+"guid": "871d617708d3b65326f6a0f55f970ab9",
+"displayName": "Marine Johannes",
+"shortName": "Johann\u00e8s",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4038379/marine-johannes",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/4038379/marine-johannes",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/4038379/marine-johannes",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/4038379/marine-johannes",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/4038379/marine-johannes",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/4038379/marine-johannes",
+"text": "Overview"
+}
+],
+"jersey": "23",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": false,
+"reason": "COACH'S DECISION",
+"ejected": false,
+"stats": [
+"28",
+"5-11",
+"2-6",
+"4-5",
+"1",
+"2",
+"3",
+"7",
+"1",
+"0",
+"3",
+"2",
+"+5",
+"16"
+]
+},
+{
+"active": false,
+"athlete": {
+"id": "3904553",
+"uid": "s:40~l:59~a:3904553",
+"guid": "fd9422fddfbfa593fb17dbc20ce473e5",
+"displayName": "AD Durr",
+"shortName": "A. Durr",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3904553/ad-durr",
+"text": "Player Card"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/stats/_/id/3904553/ad-durr",
+"text": "Stats"
+},
+{
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/gamelog/_/id/3904553/ad-durr",
+"text": "Game Log"
+},
+{
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/news/_/id/3904553/ad-durr",
+"text": "News"
+},
+{
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/bio/_/id/3904553/ad-durr",
+"text": "Bio"
+},
+{
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "http://www.espn.com/wnba/player/_/id/3904553/ad-durr",
+"text": "Overview"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3904553.png",
+"alt": "AD Durr"
+},
+"jersey": "23",
+"position": {
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G"
+}
+},
+"starter": false,
+"didNotPlay": true,
+"reason": "GROIN",
+"ejected": false,
+"stats": []
+}
+],
+"totals": [
+"",
+"33-75",
+"8-22",
+"7-10",
+"10",
+"29",
+"39",
+"25",
+"8",
+"3",
+"19",
+"29",
+"",
+"81"
+]
+}
+]
+}
+]
+},
+"format": {
+"regulation": {
+"periods": 4,
+"displayName": "Quarter",
+"slug": "quarter",
+"clock": 600.0
+},
+"overtime": {
+"clock": 300.0
+}
+},
+"gameInfo": {
+"venue": {
+"id": "5584",
+"fullName": "Westchester County Center",
+"address": {
+"city": "White Plains",
+"state": "NY"
+},
+"capacity": 5000,
+"grass": false,
+"images": []
+},
+"attendance": 2301,
+"officials": [
+{
+"fullName": "Cheryl Flores",
+"displayName": "Cheryl Flores",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 1
+},
+{
+"fullName": "Fatou Cissoko-Stephens",
+"displayName": "Fatou Cissoko-Stephens",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 2
+},
+{
+"fullName": "Kevin Fahy",
+"displayName": "Kevin Fahy",
+"position": {
+"name": "Referee",
+"displayName": "Referee",
+"id": "40"
+},
+"order": 3
+}
+]
+},
+"leaders": [
+{
+"team": {
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"displayName": "New York Liberty",
+"abbreviation": "NY",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ny",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+"leaders": [
+{
+"name": "points",
+"displayName": "Points",
+"leaders": [
+{
+"displayValue": "19",
+"athlete": {
+"id": "918",
+"uid": "s:40~l:59~a:918",
+"guid": "ae8d41855dc2d522e8edfb219a1130d4",
+"lastName": "Charles",
+"fullName": "Tina Charles",
+"displayName": "Tina Charles",
+"shortName": "T. Charles",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/918/tina-charles",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/918.png",
+"alt": "Tina Charles"
+},
+"jersey": "31",
+"position": {
+"abbreviation": "C"
+}
+},
+"statistics": [
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 19.0,
+"displayValue": "19"
+},
+{
+"name": "fieldGoals",
+"displayName": "Field Goals",
+"shortDisplayName": "FG",
+"description": "Field Goal makes and attempts.",
+"abbreviation": "FG",
+"value": 0.391304,
+"displayValue": "9/23"
+},
+{
+"name": "freeThrows",
+"displayName": "Free Throws",
+"shortDisplayName": "FT",
+"description": "Free Throw makes and attempts.",
+"abbreviation": "FT",
+"value": 1.0,
+"displayValue": "1/1"
+}
+]
+}
+]
+},
+{
+"name": "assists",
+"displayName": "Assists",
+"leaders": [
+{
+"displayValue": "7",
+"athlete": {
+"id": "4038379",
+"uid": "s:40~l:59~a:4038379",
+"guid": "871d617708d3b65326f6a0f55f970ab9",
+"lastName": "Johannes",
+"fullName": "Marine Johannes",
+"displayName": "Marine Johannes",
+"shortName": "M. Johannes",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4038379/marine-johannes",
+"text": "Player Card"
+}
+],
+"jersey": "23",
+"position": {
+"abbreviation": "G"
+}
+},
+"statistics": [
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 7.0,
+"displayValue": "7"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 3.0,
+"displayValue": "3"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 28.0,
+"displayValue": "28"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 2.3333333,
+"displayValue": "2.3"
+}
+]
+}
+]
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"leaders": [
+{
+"displayValue": "11",
+"athlete": {
+"id": "918",
+"uid": "s:40~l:59~a:918",
+"guid": "ae8d41855dc2d522e8edfb219a1130d4",
+"lastName": "Charles",
+"fullName": "Tina Charles",
+"displayName": "Tina Charles",
+"shortName": "T. Charles",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/918/tina-charles",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/918.png",
+"alt": "Tina Charles"
+},
+"jersey": "31",
+"position": {
+"abbreviation": "C"
+}
+},
+"statistics": [
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"abbreviation": "DR",
+"value": 8.0,
+"displayValue": "8"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 3.0,
+"displayValue": "3"
+}
+]
+}
+]
+}
+]
+},
+{
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"leaders": [
+{
+"name": "points",
+"displayName": "Points",
+"leaders": [
+{
+"displayValue": "22",
+"athlete": {
+"id": "3142191",
+"uid": "s:40~l:59~a:3142191",
+"guid": "65441aabbd32abeff1f96a95b381c955",
+"lastName": "Mitchell",
+"fullName": "Kelsey Mitchell",
+"displayName": "Kelsey Mitchell",
+"shortName": "K. Mitchell",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142191/kelsey-mitchell",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3142191.png",
+"alt": "Kelsey Mitchell"
+},
+"jersey": "0",
+"position": {
+"abbreviation": "G"
+}
+},
+"statistics": [
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 22.0,
+"displayValue": "22"
+},
+{
+"name": "fieldGoals",
+"displayName": "Field Goals",
+"shortDisplayName": "FG",
+"description": "Field Goal makes and attempts.",
+"abbreviation": "FG",
+"value": 0.529412,
+"displayValue": "9/17"
+},
+{
+"name": "freeThrows",
+"displayName": "Free Throws",
+"shortDisplayName": "FT",
+"description": "Free Throw makes and attempts.",
+"abbreviation": "FT",
+"value": 0.5,
+"displayValue": "1/2"
+}
+]
+}
+]
+},
+{
+"name": "assists",
+"displayName": "Assists",
+"leaders": [
+{
+"displayValue": "6",
+"athlete": {
+"id": "2491214",
+"uid": "s:40~l:59~a:2491214",
+"guid": "10a2cf097845e376c86e0fa06cbdd524",
+"lastName": "Wheeler",
+"fullName": "Erica Wheeler",
+"displayName": "Erica Wheeler",
+"shortName": "E. Wheeler",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2491214/erica-wheeler",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2491214.png",
+"alt": "Erica Wheeler"
+},
+"jersey": "17",
+"position": {
+"abbreviation": "G"
+}
+},
+"statistics": [
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 6.0,
+"displayValue": "6"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 26.0,
+"displayValue": "26"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 6.0,
+"displayValue": "6.0"
+}
+]
+}
+]
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"leaders": [
+{
+"displayValue": "13",
+"athlete": {
+"id": "3913903",
+"uid": "s:40~l:59~a:3913903",
+"guid": "78c47f7b0e8d5fb0159b86591b85ad23",
+"lastName": "McCowan",
+"fullName": "Teaira McCowan",
+"displayName": "Teaira McCowan",
+"shortName": "T. McCowan",
+"links": [
+{
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3913903/teaira-mccowan",
+"text": "Player Card"
+}
+],
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3913903.png",
+"alt": "Teaira McCowan"
+},
+"jersey": "7",
+"position": {
+"abbreviation": "C"
+}
+},
+"statistics": [
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 13.0,
+"displayValue": "13"
+},
+{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"abbreviation": "DR",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 3.0,
+"displayValue": "3"
+}
+]
+}
+]
+}
+]
+}
+],
+"seasonseries": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "IND Wins series 3-1",
+"completed": true,
+"totalCompetitions": 4,
+"events": [
+{
+"id": "401104914",
+"uid": "s:40~l:59~e:401104914~c:401104914",
+"date": "2019-05-25T00:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"displayName": "New York Liberty",
+"abbreviation": "NY",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ny",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+"score": "80"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"score": "81"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401104914",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401104914",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401104924",
+"uid": "s:40~l:59~e:401104924~c:401104924",
+"date": "2019-06-01T23:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": true,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"score": "92"
+},
+{
+"homeAway": "away",
+"winner": false,
+"team": {
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"displayName": "New York Liberty",
+"abbreviation": "NY",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ny",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+"score": "77"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401104924",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401104924",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401105073",
+"uid": "s:40~l:59~e:401105073~c:401105073",
+"date": "2019-08-20T23:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"score": "76"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"displayName": "New York Liberty",
+"abbreviation": "NY",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ny",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+"score": "82"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401105073",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401105073",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+},
+{
+"id": "401105109",
+"uid": "s:40~l:59~e:401105109~c:401105109",
+"date": "2019-09-06T23:00:00Z",
+"timeValid": true,
+"status": "post",
+"statusType": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+},
+"competitors": [
+{
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"displayName": "New York Liberty",
+"abbreviation": "NY",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ny",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+"score": "81"
+},
+{
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"score": "86"
+}
+],
+"links": [
+{
+"language": "en-US",
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401105109",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"summary",
+"sportscenter",
+"app",
+"event"
+],
+"href": "sportscenter://x-callback-url/showGame?sportName=basketball&leagueAbbrev=wnba&gameId=401105109",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+}
+]
+}
+]
+}
+],
+"broadcasts": [],
+"predictor": {},
+"pickcenter": [],
+"againstTheSpread": [
+{
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"displayName": "Indiana Fever",
+"abbreviation": "IND",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+},
+"records": []
+},
+{
+"team": {
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"displayName": "New York Liberty",
+"abbreviation": "NY",
+"links": [
+{
+"href": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"text": "Clubhouse"
+},
+{
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ny",
+"text": "Schedule"
+}
+],
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+"records": []
+}
+],
+"odds": [],
+"winprobability": [],
+"header": {
+"id": "401105109",
+"uid": "s:40~l:59~e:401105109",
+"season": {
+"year": 2019,
+"type": 2
+},
+"timeValid": true,
+"competitions": [
+{
+"id": "401105109",
+"uid": "s:40~l:59~e:401105109~c:401105109",
+"date": "2019-09-06T23:00Z",
+"neutralSite": false,
+"conferenceCompetition": false,
+"boxscoreAvailable": true,
+"commentaryAvailable": false,
+"liveAvailable": false,
+"shotChartAvailable": false,
+"timeoutsAvailable": true,
+"possessionArrowAvailable": false,
+"onWatchESPN": false,
+"recent": false,
+"boxscoreSource": "full",
+"playByPlaySource": "none",
+"competitors": [
+{
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"order": 0,
+"homeAway": "home",
+"winner": false,
+"team": {
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"location": "New York",
+"name": "Liberty",
+"abbreviation": "NY",
+"displayName": "New York Liberty",
+"color": "0d79b9",
+"alternateColor": "89c9bf",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"text": "Clubhouse"
+}
+]
+},
+"score": "81",
+"linescores": [
+{
+"displayValue": "22"
+},
+{
+"displayValue": "27"
+},
+{
+"displayValue": "25"
+},
+{
+"displayValue": "7"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "9-24",
+"displayValue": "9-24"
+},
+{
+"type": "home",
+"summary": "4-13",
+"displayValue": "4-13"
+}
+],
+"possession": false
+},
+{
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"order": 1,
+"homeAway": "away",
+"winner": true,
+"team": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"location": "Indiana",
+"name": "Fever",
+"abbreviation": "IND",
+"displayName": "Indiana Fever",
+"color": "e2382f",
+"alternateColor": "08265b",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+],
+"links": [
+{
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse"
+}
+]
+},
+"score": "86",
+"linescores": [
+{
+"displayValue": "17"
+},
+{
+"displayValue": "26"
+},
+{
+"displayValue": "22"
+},
+{
+"displayValue": "21"
+}
+],
+"record": [
+{
+"type": "total",
+"summary": "12-21",
+"displayValue": "12-21"
+},
+{
+"type": "road",
+"summary": "6-11",
+"displayValue": "6-11"
+}
+],
+"possession": false
+}
+],
+"status": {
+"type": {
+"id": "3",
+"name": "STATUS_FINAL",
+"state": "post",
+"completed": true,
+"description": "Final",
+"detail": "Final",
+"shortDetail": "Final"
+}
+},
+"broadcasts": [],
+"series": [
+{
+"type": "season",
+"title": "Regular Season Series",
+"description": "Regular Season Series",
+"summary": "IND Wins series 3-1",
+"completed": true,
+"totalCompetitions": 4,
+"competitors": [
+{
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"wins": 1,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2019/teams/9?lang=en&region=us"
+}
+},
+{
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"wins": 3,
+"ties": 0,
+"team": {
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2019/teams/5?lang=en&region=us"
+}
+}
+],
+"events": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401104914?lang=en&region=us",
+"id": "401104914"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401104924?lang=en&region=us",
+"id": "401104924"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401105073?lang=en&region=us",
+"id": "401105073"
+},
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/events/401105109?lang=en&region=us",
+"id": "401105109"
+}
+]
+}
+]
+}
+],
+"links": [
+{
+"rel": [
+"summary",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/game/_/gameId/401105109",
+"text": "Gamecast",
+"shortText": "Summary",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"recap",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/recap?gameId=401105109",
+"text": "Recap",
+"shortText": "Recap",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"boxscore",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/boxscore/_/gameId/401105109",
+"text": "Box Score",
+"shortText": "Box Score",
+"isExternal": false,
+"isPremium": false
+},
+{
+"rel": [
+"teamstats",
+"desktop",
+"event"
+],
+"href": "https://www.espn.com/wnba/matchup?gameId=401105109",
+"text": "Team Stats",
+"shortText": "Team Stats",
+"isExternal": false,
+"isPremium": false
+}
+],
+"league": {
+"id": "59",
+"uid": "s:40~l:59",
+"name": "Women's National Basketball Association",
+"abbreviation": "WNBA",
+"slug": "wnba",
+"isTournament": false,
+"links": [
+{
+"rel": [
+"index",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/",
+"text": "Index"
+},
+{
+"rel": [
+"index",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59",
+"text": "Index"
+},
+{
+"rel": [
+"schedule",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/schedule",
+"text": "Schedule"
+},
+{
+"rel": [
+"schedule",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Schedule"
+},
+{
+"rel": [
+"standings",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/standings",
+"text": "Standings"
+},
+{
+"rel": [
+"standings",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=standings",
+"text": "Standings"
+},
+{
+"rel": [
+"rankings",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/rankings",
+"text": "Rankings"
+},
+{
+"rel": [
+"scores",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/scoreboard",
+"text": "Scores"
+},
+{
+"rel": [
+"scores",
+"sportscenter",
+"app",
+"league"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59&section=scores",
+"text": "Scores"
+},
+{
+"rel": [
+"stats",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/stats",
+"text": "Stats"
+},
+{
+"rel": [
+"teams",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/teams",
+"text": "Teams"
+},
+{
+"rel": [
+"athletes",
+"desktop",
+"league"
+],
+"href": "http://www.espn.com/wnba/players",
+"text": "Players"
+},
+{
+"rel": [
+"injuries",
+"desktop",
+"league"
+],
+"href": "https://www.espn.com/wnba/injuries",
+"text": "Injuries"
+}
+]
+}
+},
+"plays": [
+{
+"id": "4011051094",
+"sequenceNumber": "4",
+"type": {
+"id": "615",
+"text": "Jumpball"
+},
+"text": "Teaira McCowan vs. Tina Charles (Erica Wheeler gains possession)",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "10:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+},
+{
+"athlete": {
+"id": "918"
+}
+},
+{
+"athlete": {
+"id": "2491214"
+}
+}
+],
+"wallclock": "2019-09-06T23:09:45Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "4011051097",
+"sequenceNumber": "7",
+"type": {
+"id": "20093",
+"text": "Hook Shot"
+},
+"text": "Teaira McCowan misses 1-foot hook shot",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:00Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 1
+}
+},
+{
+"id": "4011051098",
+"sequenceNumber": "8",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Kennedy Burke offensive rebound",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:39"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:02Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 26,
+"y": 1
+}
+},
+{
+"id": "4011051099",
+"sequenceNumber": "9",
+"type": {
+"id": "20125",
+"text": "Layup Shot Putback"
+},
+"text": "Kennedy Burke misses two point shot",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:02Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 2
+}
+},
+{
+"id": "40110510910",
+"sequenceNumber": "10",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Kennedy Burke offensive rebound",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:03Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 24,
+"y": 2
+}
+},
+{
+"id": "40110510911",
+"sequenceNumber": "11",
+"type": {
+"id": "20125",
+"text": "Layup Shot Putback"
+},
+"text": "Kennedy Burke misses two point shot",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:36"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:04Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 1
+}
+},
+{
+"id": "40110510912",
+"sequenceNumber": "12",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Tiffany Mitchell offensive rebound",
+"awayScore": 0,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:06Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 23,
+"y": 1
+}
+},
+{
+"id": "40110510913",
+"sequenceNumber": "13",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Erica Wheeler makes 24-foot three point jumper (Tiffany Mitchell assists)",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:31"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2491214"
+}
+},
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:09Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 29,
+"y": 24
+}
+},
+{
+"id": "40110510914",
+"sequenceNumber": "14",
+"type": {
+"id": "20120",
+"text": "Turnaround Hook Shot"
+},
+"text": "Tina Charles misses 6-foot two point shot",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:11"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:30Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 1
+}
+},
+{
+"id": "40110510915",
+"sequenceNumber": "15",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Teaira McCowan defensive rebound",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "9:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:33Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 31,
+"y": 1
+}
+},
+{
+"id": "40110510917",
+"sequenceNumber": "17",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Candice Dupree misses 19-foot jumper",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:58"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:42Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 28,
+"y": 19
+}
+},
+{
+"id": "40110510918",
+"sequenceNumber": "18",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Kennedy Burke offensive rebound",
+"awayScore": 3,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:46Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 28,
+"y": 19
+}
+},
+{
+"id": "40110510919",
+"sequenceNumber": "19",
+"type": {
+"id": "20110",
+"text": "Driving Layup Shot"
+},
+"text": "Tiffany Mitchell makes driving layup (Kennedy Burke assists)",
+"awayScore": 5,
+"homeScore": 0,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:51"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+},
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-06T23:10:50Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 4
+}
+},
+{
+"id": "40110510921",
+"sequenceNumber": "21",
+"type": {
+"id": "20110",
+"text": "Driving Layup Shot"
+},
+"text": "Bria Hartley makes driving layup",
+"awayScore": 5,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:41"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529185"
+}
+}
+],
+"wallclock": "2019-09-06T23:11:02Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 2
+}
+},
+{
+"id": "40110510922",
+"sequenceNumber": "22",
+"type": {
+"id": "44",
+"text": "Shooting Foul"
+},
+"text": "Tiffany Mitchell shooting foul",
+"awayScore": 5,
+"homeScore": 2,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-06T23:11:05Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 25,
+"y": 2
+}
+},
+{
+"id": "40110510924",
+"sequenceNumber": "24",
+"type": {
+"id": "97",
+"text": "Free Throw - 1 of 1"
+},
+"text": "Bria Hartley makes free throw 1 of 1",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:41"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529185"
+}
+}
+],
+"wallclock": "2019-09-06T23:11:26Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "40110510925",
+"sequenceNumber": "25",
+"type": {
+"id": "45",
+"text": "Personal Foul"
+},
+"text": "Tanisha Wright personal foul",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "618"
+}
+}
+],
+"wallclock": "2019-09-06T23:11:43Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 27,
+"y": 14
+}
+},
+{
+"id": "40110510927",
+"sequenceNumber": "27",
+"type": {
+"id": "62",
+"text": "Bad Pass\nTurnover"
+},
+"text": "Candice Dupree bad pass (Tina Charles steals)",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:23"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+},
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:12:08Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 28,
+"y": 8
+}
+},
+{
+"id": "40110510929",
+"sequenceNumber": "29",
+"type": {
+"id": "20114",
+"text": "Turnaround Jump Shot"
+},
+"text": "Tina Charles misses two point shot",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:12:25Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 7
+}
+},
+{
+"id": "40110510930",
+"sequenceNumber": "30",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Teaira McCowan defensive rebound",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "8:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:12:28Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 25,
+"y": 7
+}
+},
+{
+"id": "40110510931",
+"sequenceNumber": "31",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Tiffany Mitchell misses 25-foot three point jumper",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:56"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-06T23:12:34Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 45,
+"y": 14
+}
+},
+{
+"id": "40110510932",
+"sequenceNumber": "32",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Amanda Zahui B. defensive rebound",
+"awayScore": 5,
+"homeScore": 3,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:53"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3007473"
+}
+}
+],
+"wallclock": "2019-09-06T23:12:37Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 45,
+"y": 14
+}
+},
+{
+"id": "40110510933",
+"sequenceNumber": "33",
+"type": {
+"id": "20131",
+"text": "Pullup Jump Shot"
+},
+"text": "Tanisha Wright makes 22-foot pullup jump shot",
+"awayScore": 5,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:47"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "618"
+}
+}
+],
+"wallclock": "2019-09-06T23:12:43Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 36,
+"y": 19
+}
+},
+{
+"id": "40110510934",
+"sequenceNumber": "34",
+"type": {
+"id": "62",
+"text": "Bad Pass\nTurnover"
+},
+"text": "Candice Dupree bad pass (Kia Nurse steals)",
+"awayScore": 5,
+"homeScore": 5,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+},
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-06T23:13:01Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 34,
+"y": 7
+}
+},
+{
+"id": "40110510936",
+"sequenceNumber": "36",
+"type": {
+"id": "20110",
+"text": "Driving Layup Shot"
+},
+"text": "Bria Hartley makes driving layup (Tina Charles assists)",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:24"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529185"
+}
+},
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:13:06Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 1
+}
+},
+{
+"id": "40110510938",
+"sequenceNumber": "38",
+"type": {
+"id": "20128",
+"text": "Driving Finger Roll Layup"
+},
+"text": "Amanda Zahui B. blocks Tiffany Mitchell 's 3-foot two point shot",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+},
+{
+"athlete": {
+"id": "3007473"
+}
+}
+],
+"wallclock": "2019-09-06T23:13:24Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 2
+}
+},
+{
+"id": "40110510940",
+"sequenceNumber": "40",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Indiana offensive team rebound",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"wallclock": "2019-09-06T23:13:24Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 23,
+"y": 2
+}
+},
+{
+"id": "40110510942",
+"sequenceNumber": "42",
+"type": {
+"id": "20121",
+"text": "Fade Away Jump Shot"
+},
+"text": "Candice Dupree misses 12-foot two point shot",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:03"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-06T23:13:42Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 12
+}
+},
+{
+"id": "40110510943",
+"sequenceNumber": "43",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Bria Hartley defensive rebound",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "7:00"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529185"
+}
+}
+],
+"wallclock": "2019-09-06T23:13:45Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 26,
+"y": 12
+}
+},
+{
+"id": "40110510944",
+"sequenceNumber": "44",
+"type": {
+"id": "45",
+"text": "Personal Foul"
+},
+"text": "Erica Wheeler personal foul",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:55"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2491214"
+}
+}
+],
+"wallclock": "2019-09-06T23:13:55Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 29,
+"y": 2
+}
+},
+{
+"id": "40110510946",
+"sequenceNumber": "46",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Tina Charles misses 15-foot jumper",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:14:24Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 40,
+"y": 2
+}
+},
+{
+"id": "40110510947",
+"sequenceNumber": "47",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Candice Dupree defensive rebound",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-06T23:14:27Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 40,
+"y": 2
+}
+},
+{
+"id": "40110510948",
+"sequenceNumber": "48",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Erica Wheeler misses 25-foot three point jumper",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2491214"
+}
+}
+],
+"wallclock": "2019-09-06T23:14:32Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 35,
+"y": 23
+}
+},
+{
+"id": "40110510949",
+"sequenceNumber": "49",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "New York defensive team rebound",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:34"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"wallclock": "2019-09-06T23:14:33Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 35,
+"y": 23
+}
+},
+{
+"id": "40110510951",
+"sequenceNumber": "51",
+"type": {
+"id": "20132",
+"text": "Step Back Jump Shot"
+},
+"text": "Bria Hartley misses 14-foot step back jumpshot",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:22"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529185"
+}
+}
+],
+"wallclock": "2019-09-06T23:14:55Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 13
+}
+},
+{
+"id": "40110510952",
+"sequenceNumber": "52",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Indiana defensive team rebound",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"wallclock": "2019-09-06T23:14:56Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 31,
+"y": 13
+}
+},
+{
+"id": "40110510953",
+"sequenceNumber": "53",
+"type": {
+"id": "43",
+"text": "Loose Ball Foul"
+},
+"text": "Tanisha Wright loose ball foul",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "618"
+}
+}
+],
+"wallclock": "2019-09-06T23:15:00Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 24,
+"y": 12
+}
+},
+{
+"id": "40110510955",
+"sequenceNumber": "55",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Marine Johannes enters the game for Tanisha Wright",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:21"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+},
+{
+"athlete": {
+"id": "618"
+}
+}
+],
+"wallclock": "2019-09-06T23:15:00Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "40110510957",
+"sequenceNumber": "57",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Candice Dupree misses 20-foot jumper",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-06T23:15:34Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 13,
+"y": 17
+}
+},
+{
+"id": "40110510958",
+"sequenceNumber": "58",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Kennedy Burke offensive rebound",
+"awayScore": 5,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:04"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-06T23:15:38Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 13,
+"y": 17
+}
+},
+{
+"id": "40110510959",
+"sequenceNumber": "59",
+"type": {
+"id": "20110",
+"text": "Driving Layup Shot"
+},
+"text": "Candice Dupree makes driving layup (Erica Wheeler assists)",
+"awayScore": 7,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "6:02"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+},
+{
+"athlete": {
+"id": "2491214"
+}
+}
+],
+"wallclock": "2019-09-06T23:15:41Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 1
+}
+},
+{
+"id": "40110510961",
+"sequenceNumber": "61",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Kia Nurse misses 24-foot three point jumper",
+"awayScore": 7,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:49"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-06T23:15:53Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 1,
+"y": 2
+}
+},
+{
+"id": "40110510962",
+"sequenceNumber": "62",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Tina Charles offensive rebound",
+"awayScore": 7,
+"homeScore": 7,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:15:58Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 1,
+"y": 2
+}
+},
+{
+"id": "40110510963",
+"sequenceNumber": "63",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Kia Nurse makes 26-foot three point jumper (Tina Charles assists)",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:43"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+},
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:15:59Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 8,
+"y": 20
+}
+},
+{
+"id": "40110510965",
+"sequenceNumber": "65",
+"type": {
+"id": "63",
+"text": "Lost Ball Turnover"
+},
+"text": "Candice Dupree lost ball turnover (Bria Hartley steals)",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:24"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+},
+{
+"athlete": {
+"id": "2529185"
+}
+}
+],
+"wallclock": "2019-09-06T23:16:18Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 25,
+"y": 12
+}
+},
+{
+"id": "40110510968",
+"sequenceNumber": "68",
+"type": {
+"id": "20128",
+"text": "Driving Finger Roll Layup"
+},
+"text": "Bria Hartley misses two point shot",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:16"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529185"
+}
+}
+],
+"wallclock": "2019-09-06T23:16:45Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 6
+}
+},
+{
+"id": "40110510969",
+"sequenceNumber": "69",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Teaira McCowan defensive rebound",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:16:46Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 26,
+"y": 6
+}
+},
+{
+"id": "40110510970",
+"sequenceNumber": "70",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Erica Wheeler misses 19-foot jumper",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2491214"
+}
+}
+],
+"wallclock": "2019-09-06T23:16:52Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 34,
+"y": 17
+}
+},
+{
+"id": "40110510971",
+"sequenceNumber": "71",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Kia Nurse defensive rebound",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-06T23:16:53Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 34,
+"y": 17
+}
+},
+{
+"id": "40110510972",
+"sequenceNumber": "72",
+"type": {
+"id": "62",
+"text": "Bad Pass\nTurnover"
+},
+"text": "Bria Hartley bad pass (Erica Wheeler steals)",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "5:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529185"
+}
+},
+{
+"athlete": {
+"id": "2491214"
+}
+}
+],
+"wallclock": "2019-09-06T23:17:00Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 31,
+"y": 0
+}
+},
+{
+"id": "40110510974",
+"sequenceNumber": "74",
+"type": {
+"id": "20123",
+"text": "Hook Shot Bank"
+},
+"text": "Teaira McCowan misses two point shot",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:44"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:17:18Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 2
+}
+},
+{
+"id": "40110510975",
+"sequenceNumber": "75",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Amanda Zahui B. defensive rebound",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3007473"
+}
+}
+],
+"wallclock": "2019-09-06T23:17:21Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 23,
+"y": 2
+}
+},
+{
+"id": "40110510976",
+"sequenceNumber": "76",
+"type": {
+"id": "45",
+"text": "Personal Foul"
+},
+"text": "Teaira McCowan personal foul",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:17:31Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 31,
+"y": 4
+}
+},
+{
+"id": "40110510978",
+"sequenceNumber": "78",
+"type": {
+"id": "19",
+"text": "Official Timeout"
+},
+"text": "Official timeout",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2019-09-06T23:17:44Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "40110510979",
+"sequenceNumber": "79",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Betnijah Laney enters the game for Candice Dupree",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2593770"
+}
+},
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-06T23:17:44Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "40110510980",
+"sequenceNumber": "80",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Natalie Achonwa enters the game for Kennedy Burke",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529203"
+}
+},
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-06T23:17:44Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "40110510981",
+"sequenceNumber": "81",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Kelsey Mitchell enters the game for Erica Wheeler",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+},
+{
+"athlete": {
+"id": "2491214"
+}
+}
+],
+"wallclock": "2019-09-06T23:17:44Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "40110510985",
+"sequenceNumber": "85",
+"type": {
+"id": "42",
+"text": "Offensive Foul"
+},
+"text": "Amanda Zahui B. offensive foul",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3007473"
+}
+}
+],
+"wallclock": "2019-09-06T23:20:26Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 29,
+"y": 8
+}
+},
+{
+"id": "40110510987",
+"sequenceNumber": "87",
+"type": {
+"id": "84",
+"text": "Offensive Foul Turnover"
+},
+"text": "Amanda Zahui B. turnover",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3007473"
+}
+}
+],
+"wallclock": "2019-09-06T23:20:26Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 29,
+"y": 8
+}
+},
+{
+"id": "40110510988",
+"sequenceNumber": "88",
+"type": {
+"id": "20114",
+"text": "Turnaround Jump Shot"
+},
+"text": "Teaira McCowan misses 6-foot two point shot",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:20:52Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 5
+}
+},
+{
+"id": "40110510989",
+"sequenceNumber": "89",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Amanda Zahui B. defensive rebound",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "4:07"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3007473"
+}
+}
+],
+"wallclock": "2019-09-06T23:20:54Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 27,
+"y": 5
+}
+},
+{
+"id": "40110510990",
+"sequenceNumber": "90",
+"type": {
+"id": "62",
+"text": "Bad Pass\nTurnover"
+},
+"text": "Marine Johannes bad pass (Betnijah Laney steals)",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:54"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+},
+{
+"athlete": {
+"id": "2593770"
+}
+}
+],
+"wallclock": "2019-09-06T23:21:08Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 33,
+"y": 25
+}
+},
+{
+"id": "40110510992",
+"sequenceNumber": "92",
+"type": {
+"id": "20126",
+"text": "Layup Driving Reverse"
+},
+"text": "Betnijah Laney misses two point shot",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:50"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2593770"
+}
+}
+],
+"wallclock": "2019-09-06T23:21:11Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 2
+}
+},
+{
+"id": "40110510993",
+"sequenceNumber": "93",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Amanda Zahui B. defensive rebound",
+"awayScore": 7,
+"homeScore": 10,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:47"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3007473"
+}
+}
+],
+"wallclock": "2019-09-06T23:21:13Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 26,
+"y": 2
+}
+},
+{
+"id": "40110510994",
+"sequenceNumber": "94",
+"type": {
+"id": "20114",
+"text": "Turnaround Jump Shot"
+},
+"text": "Tina Charles makes two point shot (Bria Hartley assists)",
+"awayScore": 7,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:41"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+},
+{
+"athlete": {
+"id": "2529185"
+}
+}
+],
+"wallclock": "2019-09-06T23:21:21Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 5
+}
+},
+{
+"id": "40110510996",
+"sequenceNumber": "96",
+"type": {
+"id": "20095",
+"text": "Layup Shot"
+},
+"text": "Teaira McCowan makes layup (Natalie Achonwa assists)",
+"awayScore": 9,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:29"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+},
+{
+"athlete": {
+"id": "2529203"
+}
+}
+],
+"wallclock": "2019-09-06T23:21:34Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 1
+}
+},
+{
+"id": "40110510998",
+"sequenceNumber": "98",
+"type": {
+"id": "44",
+"text": "Shooting Foul"
+},
+"text": "Amanda Zahui B. shooting foul",
+"awayScore": 9,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3007473"
+}
+}
+],
+"wallclock": "2019-09-06T23:21:37Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 26,
+"y": 1
+}
+},
+{
+"id": "401105109100",
+"sequenceNumber": "100",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Brittany Boyd enters the game for Bria Hartley",
+"awayScore": 9,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566210"
+}
+},
+{
+"athlete": {
+"id": "2529185"
+}
+}
+],
+"wallclock": "2019-09-06T23:21:37Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109101",
+"sequenceNumber": "101",
+"type": {
+"id": "584",
+"text": "Substitution"
+},
+"text": "Reshanda Gray enters the game for Amanda Zahui B.",
+"awayScore": 9,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566211"
+}
+},
+{
+"athlete": {
+"id": "3007473"
+}
+}
+],
+"wallclock": "2019-09-06T23:21:37Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109104",
+"sequenceNumber": "104",
+"type": {
+"id": "97",
+"text": "Free Throw - 1 of 1"
+},
+"text": "Teaira McCowan misses free throw 1 of 1",
+"awayScore": 9,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:29"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:22:24Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109105",
+"sequenceNumber": "105",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Natalie Achonwa offensive rebound",
+"awayScore": 9,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:27"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529203"
+}
+}
+],
+"wallclock": "2019-09-06T23:22:26Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109106",
+"sequenceNumber": "106",
+"type": {
+"id": "30131",
+"text": "Pullup Jump Shot"
+},
+"text": "Kelsey Mitchell misses 24-foot three point pullup jump shot",
+"awayScore": 9,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:20"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-06T23:22:31Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 17,
+"y": 22
+}
+},
+{
+"id": "401105109107",
+"sequenceNumber": "107",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Indiana offensive team rebound",
+"awayScore": 9,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"wallclock": "2019-09-06T23:22:32Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 17,
+"y": 22
+}
+},
+{
+"id": "401105109108",
+"sequenceNumber": "108",
+"type": {
+"id": "43",
+"text": "Loose Ball Foul"
+},
+"text": "Tina Charles loose ball foul",
+"awayScore": 9,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:19"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:22:40Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 29,
+"y": 2
+}
+},
+{
+"id": "401105109110",
+"sequenceNumber": "110",
+"type": {
+"id": "20110",
+"text": "Driving Layup Shot"
+},
+"text": "Betnijah Laney makes driving layup (Kelsey Mitchell assists)",
+"awayScore": 11,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:15"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2593770"
+}
+},
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-06T23:23:06Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 0
+}
+},
+{
+"id": "401105109112",
+"sequenceNumber": "112",
+"type": {
+"id": "44",
+"text": "Shooting Foul"
+},
+"text": "Reshanda Gray shooting foul",
+"awayScore": 11,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:15"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566211"
+}
+}
+],
+"wallclock": "2019-09-06T23:23:09Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 24,
+"y": 1
+}
+},
+{
+"id": "401105109114",
+"sequenceNumber": "114",
+"type": {
+"id": "97",
+"text": "Free Throw - 1 of 1"
+},
+"text": "Betnijah Laney makes free throw 1 of 1",
+"awayScore": 12,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:15"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2593770"
+}
+}
+],
+"wallclock": "2019-09-06T23:23:26Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109115",
+"sequenceNumber": "115",
+"type": {
+"id": "20124",
+"text": "Finger Roll Layup"
+},
+"text": "Teaira McCowan blocks Tina Charles 's 3-foot finger roll layup",
+"awayScore": 12,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+},
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:23:42Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 28,
+"y": 1
+}
+},
+{
+"id": "401105109117",
+"sequenceNumber": "117",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "New York offensive team rebound",
+"awayScore": 12,
+"homeScore": 12,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:02"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"wallclock": "2019-09-06T23:23:42Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 28,
+"y": 1
+}
+},
+{
+"id": "401105109119",
+"sequenceNumber": "119",
+"type": {
+"id": "20121",
+"text": "Fade Away Jump Shot"
+},
+"text": "Marine Johannes makes 9-foot two point shot (Brittany Boyd assists)",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:01"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+},
+{
+"athlete": {
+"id": "2566210"
+}
+}
+],
+"wallclock": "2019-09-06T23:23:56Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 34,
+"y": 1
+}
+},
+{
+"id": "401105109121",
+"sequenceNumber": "121",
+"type": {
+"id": "44",
+"text": "Shooting Foul"
+},
+"text": "Betnijah Laney shooting foul",
+"awayScore": 12,
+"homeScore": 14,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:01"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2593770"
+}
+}
+],
+"wallclock": "2019-09-06T23:23:58Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 32,
+"y": 0
+}
+},
+{
+"id": "401105109123",
+"sequenceNumber": "123",
+"type": {
+"id": "97",
+"text": "Free Throw - 1 of 1"
+},
+"text": "Marine Johannes makes free throw 1 of 1",
+"awayScore": 12,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "3:01"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+}
+],
+"wallclock": "2019-09-06T23:24:16Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109124",
+"sequenceNumber": "124",
+"type": {
+"id": "20131",
+"text": "Pullup Jump Shot"
+},
+"text": "Tiffany Mitchell misses 15-foot pullup jump shot",
+"awayScore": 12,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:48"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-06T23:24:31Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 11,
+"y": 5
+}
+},
+{
+"id": "401105109125",
+"sequenceNumber": "125",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Tina Charles defensive rebound",
+"awayScore": 12,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:45"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:24:34Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 11,
+"y": 5
+}
+},
+{
+"id": "401105109126",
+"sequenceNumber": "126",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Tina Charles misses 25-foot three point jumper",
+"awayScore": 12,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:37"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:24:41Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 22,
+"y": 25
+}
+},
+{
+"id": "401105109127",
+"sequenceNumber": "127",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Kia Nurse offensive rebound",
+"awayScore": 12,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-06T23:24:45Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 22,
+"y": 25
+}
+},
+{
+"id": "401105109128",
+"sequenceNumber": "128",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Kia Nurse misses 25-foot three point jumper",
+"awayScore": 12,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:33"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-06T23:24:46Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 15,
+"y": 22
+}
+},
+{
+"id": "401105109129",
+"sequenceNumber": "129",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Brittany Boyd offensive rebound",
+"awayScore": 12,
+"homeScore": 15,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566210"
+}
+}
+],
+"wallclock": "2019-09-06T23:24:49Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 15,
+"y": 22
+}
+},
+{
+"id": "401105109130",
+"sequenceNumber": "130",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Kia Nurse makes 25-foot three point jumper (Brittany Boyd assists)",
+"awayScore": 12,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:28"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+},
+{
+"athlete": {
+"id": "2566210"
+}
+}
+],
+"wallclock": "2019-09-06T23:24:51Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 13,
+"y": 22
+}
+},
+{
+"id": "401105109132",
+"sequenceNumber": "132",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Teaira McCowan misses 1-foot jumper",
+"awayScore": 12,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:09"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:25:10Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 1
+}
+},
+{
+"id": "401105109133",
+"sequenceNumber": "133",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Natalie Achonwa offensive rebound",
+"awayScore": 12,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529203"
+}
+}
+],
+"wallclock": "2019-09-06T23:25:11Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 26,
+"y": 1
+}
+},
+{
+"id": "401105109134",
+"sequenceNumber": "134",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Kelsey Mitchell makes 24-foot three point jumper (Natalie Achonwa assists)",
+"awayScore": 15,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "2:04"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+},
+{
+"athlete": {
+"id": "2529203"
+}
+}
+],
+"wallclock": "2019-09-06T23:25:15Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 4,
+"y": 12
+}
+},
+{
+"id": "401105109136",
+"sequenceNumber": "136",
+"type": {
+"id": "20110",
+"text": "Driving Layup Shot"
+},
+"text": "Marine Johannes misses driving layup",
+"awayScore": 15,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:42"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+}
+],
+"wallclock": "2019-09-06T23:25:37Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 4
+}
+},
+{
+"id": "401105109137",
+"sequenceNumber": "137",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Marine Johannes offensive rebound",
+"awayScore": 15,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:41"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+}
+],
+"wallclock": "2019-09-06T23:25:38Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 27,
+"y": 4
+}
+},
+{
+"id": "401105109138",
+"sequenceNumber": "138",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Kia Nurse misses 28-foot three point jumper",
+"awayScore": 15,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:38"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-06T23:25:42Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 21,
+"y": 28
+}
+},
+{
+"id": "401105109139",
+"sequenceNumber": "139",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Indiana defensive team rebound",
+"awayScore": 15,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "1:35"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"wallclock": "2019-09-06T23:25:45Z",
+"shootingPlay": false,
+"coordinate": {
+"x": 21,
+"y": 28
+}
+},
+{
+"id": "401105109141",
+"sequenceNumber": "141",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of the 1st Quarter",
+"awayScore": 15,
+"homeScore": 18,
+"period": {
+"number": 1,
+"displayValue": "1st Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2019-09-06T23:39:33Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109143",
+"sequenceNumber": "143",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Marine Johannes makes 26-foot three point jumper",
+"awayScore": 15,
+"homeScore": 21,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+}
+],
+"wallclock": "2019-09-06T23:40:01Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 8,
+"y": 19
+}
+},
+{
+"id": "401105109144",
+"sequenceNumber": "144",
+"type": {
+"id": "30091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Natalie Achonwa makes 29-foot shot",
+"awayScore": 18,
+"homeScore": 21,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529203"
+}
+}
+],
+"wallclock": "2019-09-06T23:40:06Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 48,
+"y": 18
+}
+},
+{
+"id": "401105109145",
+"sequenceNumber": "145",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Reshanda Gray makes 31-foot three point jumper",
+"awayScore": 18,
+"homeScore": 24,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566211"
+}
+}
+],
+"wallclock": "2019-09-06T23:40:10Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 4,
+"y": 22
+}
+},
+{
+"id": "401105109146",
+"sequenceNumber": "146",
+"type": {
+"id": "30091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Natalie Achonwa makes 31-foot shot",
+"awayScore": 21,
+"homeScore": 24,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529203"
+}
+}
+],
+"wallclock": "2019-09-06T23:40:13Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 45,
+"y": 23
+}
+},
+{
+"id": "401105109147",
+"sequenceNumber": "147",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Brittany Boyd makes 28-foot three point jumper",
+"awayScore": 21,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566210"
+}
+}
+],
+"wallclock": "2019-09-06T23:40:20Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 8,
+"y": 22
+}
+},
+{
+"id": "401105109148",
+"sequenceNumber": "148",
+"type": {
+"id": "30091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Natalie Achonwa makes 31-foot shot",
+"awayScore": 24,
+"homeScore": 27,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529203"
+}
+}
+],
+"wallclock": "2019-09-06T23:40:26Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 47,
+"y": 22
+}
+},
+{
+"id": "401105109149",
+"sequenceNumber": "149",
+"type": {
+"id": "30091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Brittany Boyd makes 28-foot shot",
+"awayScore": 24,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566210"
+}
+}
+],
+"wallclock": "2019-09-06T23:40:33Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 6,
+"y": 20
+}
+},
+{
+"id": "401105109150",
+"sequenceNumber": "150",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Kelsey Mitchell makes 9-foot shot",
+"awayScore": 26,
+"homeScore": 30,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-06T23:40:38Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 6
+}
+},
+{
+"id": "401105109151",
+"sequenceNumber": "151",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Reshanda Gray makes 8-foot shot",
+"awayScore": 26,
+"homeScore": 32,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566211"
+}
+}
+],
+"wallclock": "2019-09-06T23:40:42Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 19,
+"y": 6
+}
+},
+{
+"id": "401105109152",
+"sequenceNumber": "152",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Kelsey Mitchell makes 7-foot shot",
+"awayScore": 28,
+"homeScore": 32,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:50"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-06T23:42:02Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 28,
+"y": 7
+}
+},
+{
+"id": "401105109153",
+"sequenceNumber": "153",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Kia Nurse makes 13-foot shot",
+"awayScore": 28,
+"homeScore": 34,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:28"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-06T23:42:27Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 19,
+"y": 12
+}
+},
+{
+"id": "401105109154",
+"sequenceNumber": "154",
+"type": {
+"id": "30091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Kelsey Mitchell makes 26-foot shot",
+"awayScore": 31,
+"homeScore": 34,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "5:09"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-06T23:42:46Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 4,
+"y": 16
+}
+},
+{
+"id": "401105109155",
+"sequenceNumber": "155",
+"type": {
+"id": "20095",
+"text": "Layup Shot"
+},
+"text": "Tiffany Mitchell makes layup",
+"awayScore": 33,
+"homeScore": 34,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:37"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-06T23:43:18Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 34,
+"y": 4
+}
+},
+{
+"id": "401105109156",
+"sequenceNumber": "156",
+"type": {
+"id": "20095",
+"text": "Layup Shot"
+},
+"text": "Brittany Boyd makes layup",
+"awayScore": 33,
+"homeScore": 36,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:17"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566210"
+}
+}
+],
+"wallclock": "2019-09-06T23:43:37Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 3
+}
+},
+{
+"id": "401105109157",
+"sequenceNumber": "157",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Candice Dupree makes 13-foot jumper",
+"awayScore": 35,
+"homeScore": 36,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "4:01"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-06T23:43:52Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 20,
+"y": 12
+}
+},
+{
+"id": "401105109158",
+"sequenceNumber": "158",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Tina Charles makes 12-foot jumper",
+"awayScore": 35,
+"homeScore": 38,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:40"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:44:13Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 15,
+"y": 7
+}
+},
+{
+"id": "401105109159",
+"sequenceNumber": "159",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Tiffany Mitchell makes 7-foot jumper",
+"awayScore": 37,
+"homeScore": 38,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:23"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-06T23:44:30Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 21,
+"y": 5
+}
+},
+{
+"id": "401105109160",
+"sequenceNumber": "160",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Marine Johannes makes 4-foot jumper",
+"awayScore": 37,
+"homeScore": 40,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:08"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+}
+],
+"wallclock": "2019-09-06T23:44:44Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 3
+}
+},
+{
+"id": "401105109161",
+"sequenceNumber": "161",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Marine Johannes makes 9-foot jumper",
+"awayScore": 37,
+"homeScore": 42,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "3:03"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+}
+],
+"wallclock": "2019-09-06T23:44:50Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 22,
+"y": 9
+}
+},
+{
+"id": "401105109162",
+"sequenceNumber": "162",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Tina Charles makes 9-foot jumper",
+"awayScore": 37,
+"homeScore": 44,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:29"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-06T23:45:24Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 19,
+"y": 7
+}
+},
+{
+"id": "401105109163",
+"sequenceNumber": "163",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Teaira McCowan makes 8-foot jumper",
+"awayScore": 39,
+"homeScore": 44,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "2:10"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-06T23:45:43Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 29,
+"y": 7
+}
+},
+{
+"id": "401105109164",
+"sequenceNumber": "164",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Candice Dupree makes 10-foot jumper",
+"awayScore": 41,
+"homeScore": 44,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:47"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-06T23:46:06Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 10
+}
+},
+{
+"id": "401105109165",
+"sequenceNumber": "165",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Brittany Boyd makes 5-foot jumper",
+"awayScore": 41,
+"homeScore": 46,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "1:27"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566210"
+}
+}
+],
+"wallclock": "2019-09-06T23:46:26Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 20,
+"y": 2
+}
+},
+{
+"id": "401105109166",
+"sequenceNumber": "166",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Candice Dupree makes 13-foot jumper",
+"awayScore": 43,
+"homeScore": 46,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "48.7"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-06T23:50:12Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 12
+}
+},
+{
+"id": "401105109167",
+"sequenceNumber": "167",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Bria Hartley makes 31-foot three point jumper",
+"awayScore": 43,
+"homeScore": 49,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "20.7"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2529185"
+}
+}
+],
+"wallclock": "2019-09-06T23:50:57Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 3,
+"y": 21
+}
+},
+{
+"id": "401105109168",
+"sequenceNumber": "168",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of the 2nd Quarter",
+"awayScore": 43,
+"homeScore": 49,
+"period": {
+"number": 2,
+"displayValue": "2nd Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2019-09-06T23:52:19Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109171",
+"sequenceNumber": "171",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Asia Durr makes 15-foot jumper",
+"awayScore": 43,
+"homeScore": 51,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:29"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3904553"
+}
+}
+],
+"wallclock": "2019-09-07T00:08:50Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 38,
+"y": 9
+}
+},
+{
+"id": "401105109176",
+"sequenceNumber": "176",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Tina Charles makes 10-foot jumper",
+"awayScore": 43,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:04"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-07T00:09:38Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 31,
+"y": 8
+}
+},
+{
+"id": "401105109177",
+"sequenceNumber": "177",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Kelsey Mitchell makes free throw 1 of 2",
+"awayScore": 44,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:04"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-07T00:09:38Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109178",
+"sequenceNumber": "178",
+"type": {
+"id": "99",
+"text": "Free Throw - 2 of 2"
+},
+"text": "Kelsey Mitchell misses free throw 2 of 2",
+"awayScore": 44,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:04"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-07T00:09:38Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109179",
+"sequenceNumber": "179",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "New York defensive team rebound",
+"awayScore": 44,
+"homeScore": 53,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "9:04"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"wallclock": "2019-09-07T00:09:38Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109180",
+"sequenceNumber": "180",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Kia Nurse makes 28-foot three point jumper",
+"awayScore": 44,
+"homeScore": 56,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:16"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-07T00:10:27Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 11,
+"y": 24
+}
+},
+{
+"id": "401105109181",
+"sequenceNumber": "181",
+"type": {
+"id": "97",
+"text": "Free Throw - 1 of 1"
+},
+"text": "Tina Charles makes free throw 1 of 1",
+"awayScore": 44,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:16"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-07T00:10:27Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109182",
+"sequenceNumber": "182",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Tiffany Mitchell makes 30-foot three point jumper",
+"awayScore": 47,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-07T00:11:11Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 8,
+"y": 24
+}
+},
+{
+"id": "401105109183",
+"sequenceNumber": "183",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Kennedy Burke makes free throw 1 of 2",
+"awayScore": 48,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-07T00:11:12Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109184",
+"sequenceNumber": "184",
+"type": {
+"id": "99",
+"text": "Free Throw - 2 of 2"
+},
+"text": "Kennedy Burke misses free throw 2 of 2",
+"awayScore": 48,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3922628"
+}
+}
+],
+"wallclock": "2019-09-07T00:11:12Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109185",
+"sequenceNumber": "185",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "New York defensive team rebound",
+"awayScore": 48,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"wallclock": "2019-09-07T00:11:12Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109186",
+"sequenceNumber": "186",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Tiffany Mitchell makes free throw 1 of 2",
+"awayScore": 49,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-07T00:11:12Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109187",
+"sequenceNumber": "187",
+"type": {
+"id": "99",
+"text": "Free Throw - 2 of 2"
+},
+"text": "Tiffany Mitchell makes free throw 2 of 2",
+"awayScore": 50,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-07T00:11:12Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109188",
+"sequenceNumber": "188",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Candice Dupree makes free throw 1 of 2",
+"awayScore": 51,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-07T00:11:12Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109189",
+"sequenceNumber": "189",
+"type": {
+"id": "99",
+"text": "Free Throw - 2 of 2"
+},
+"text": "Candice Dupree makes free throw 2 of 2",
+"awayScore": 52,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-07T00:11:12Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109190",
+"sequenceNumber": "190",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Candice Dupree makes free throw 1 of 2",
+"awayScore": 53,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-07T00:11:12Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109191",
+"sequenceNumber": "191",
+"type": {
+"id": "99",
+"text": "Free Throw - 2 of 2"
+},
+"text": "Candice Dupree makes free throw 2 of 2",
+"awayScore": 54,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "8:05"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-07T00:11:12Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109192",
+"sequenceNumber": "192",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Teaira McCowan makes 6-foot jumper",
+"awayScore": 56,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:57"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-07T00:16:40Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 5
+}
+},
+{
+"id": "401105109193",
+"sequenceNumber": "193",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Teaira McCowan makes 4-foot jumper",
+"awayScore": 58,
+"homeScore": 57,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:25"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-07T00:17:11Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 4
+}
+},
+{
+"id": "401105109194",
+"sequenceNumber": "194",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Tina Charles makes 5-foot jumper",
+"awayScore": 58,
+"homeScore": 59,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "5:09"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-07T00:20:44Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 5
+}
+},
+{
+"id": "401105109195",
+"sequenceNumber": "195",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Marine Johannes makes 28-foot three point jumper",
+"awayScore": 58,
+"homeScore": 62,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "4:31"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+}
+],
+"wallclock": "2019-09-07T00:22:07Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 41,
+"y": 22
+}
+},
+{
+"id": "401105109196",
+"sequenceNumber": "196",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Tina Charles makes 8-foot jumper",
+"awayScore": 58,
+"homeScore": 64,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:30"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-07T00:23:39Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 8
+}
+},
+{
+"id": "401105109197",
+"sequenceNumber": "197",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Betnijah Laney misses free throw 1 of 2",
+"awayScore": 58,
+"homeScore": 64,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2593770"
+}
+}
+],
+"wallclock": "2019-09-07T00:23:40Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109198",
+"sequenceNumber": "198",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Indiana offensive team rebound",
+"awayScore": 58,
+"homeScore": 64,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"wallclock": "2019-09-07T00:23:40Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109199",
+"sequenceNumber": "199",
+"type": {
+"id": "99",
+"text": "Free Throw - 2 of 2"
+},
+"text": "Betnijah Laney misses free throw 2 of 2",
+"awayScore": 58,
+"homeScore": 64,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2593770"
+}
+}
+],
+"wallclock": "2019-09-07T00:23:40Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109200",
+"sequenceNumber": "200",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Indiana offensive team rebound",
+"awayScore": 58,
+"homeScore": 64,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:30"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"wallclock": "2019-09-07T00:23:40Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109201",
+"sequenceNumber": "201",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Tina Charles makes 4-foot jumper",
+"awayScore": 58,
+"homeScore": 66,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "3:10"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-07T00:24:43Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 26,
+"y": 4
+}
+},
+{
+"id": "401105109202",
+"sequenceNumber": "202",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Betnijah Laney makes 17-foot jumper",
+"awayScore": 60,
+"homeScore": 66,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:51"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2593770"
+}
+}
+],
+"wallclock": "2019-09-07T00:27:57Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 11,
+"y": 9
+}
+},
+{
+"id": "401105109203",
+"sequenceNumber": "203",
+"type": {
+"id": "97",
+"text": "Free Throw - 1 of 1"
+},
+"text": "Teaira McCowan makes free throw 1 of 1",
+"awayScore": 61,
+"homeScore": 66,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:51"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-07T00:27:57Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109204",
+"sequenceNumber": "204",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Reshanda Gray makes 7-foot jumper",
+"awayScore": 61,
+"homeScore": 68,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:10"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "2566211"
+}
+}
+],
+"wallclock": "2019-09-07T00:30:13Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 30,
+"y": 4
+}
+},
+{
+"id": "401105109205",
+"sequenceNumber": "205",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Kia Nurse makes free throw 1 of 2",
+"awayScore": 61,
+"homeScore": 69,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:10"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-07T00:30:14Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109206",
+"sequenceNumber": "206",
+"type": {
+"id": "99",
+"text": "Free Throw - 2 of 2"
+},
+"text": "Kia Nurse misses free throw 2 of 2",
+"awayScore": 61,
+"homeScore": 69,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:10"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-07T00:30:14Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109207",
+"sequenceNumber": "207",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Indiana defensive team rebound",
+"awayScore": 61,
+"homeScore": 69,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:10"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"wallclock": "2019-09-07T00:30:14Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109208",
+"sequenceNumber": "208",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Teaira McCowan makes free throw 1 of 2",
+"awayScore": 62,
+"homeScore": 69,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:10"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-07T00:30:14Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109209",
+"sequenceNumber": "209",
+"type": {
+"id": "99",
+"text": "Free Throw - 2 of 2"
+},
+"text": "Teaira McCowan makes free throw 2 of 2",
+"awayScore": 63,
+"homeScore": 69,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "2:10"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-07T00:30:14Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109210",
+"sequenceNumber": "210",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Kelsey Mitchell makes 4-foot jumper",
+"awayScore": 65,
+"homeScore": 69,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "1:06"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-07T00:33:33Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 4
+}
+},
+{
+"id": "401105109211",
+"sequenceNumber": "211",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Marine Johannes makes 3-foot jumper",
+"awayScore": 65,
+"homeScore": 71,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "53.1"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+}
+],
+"wallclock": "2019-09-07T00:34:54Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 2
+}
+},
+{
+"id": "401105109212",
+"sequenceNumber": "212",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Marine Johannes makes 26-foot three point jumper",
+"awayScore": 65,
+"homeScore": 74,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "6.3"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "4038379"
+}
+}
+],
+"wallclock": "2019-09-07T00:35:53Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 30,
+"y": 26
+}
+},
+{
+"id": "401105109213",
+"sequenceNumber": "213",
+"type": {
+"id": "412",
+"text": "End Period"
+},
+"text": "End of the 3rd Quarter",
+"awayScore": 65,
+"homeScore": 74,
+"period": {
+"number": 3,
+"displayValue": "3rd Quarter"
+},
+"clock": {
+"displayValue": "0.0"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"wallclock": "2019-09-07T00:36:40Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109215",
+"sequenceNumber": "215",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Kelsey Mitchell makes 4-foot shot",
+"awayScore": 67,
+"homeScore": 74,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "9:36"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-07T00:39:48Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 3
+}
+},
+{
+"id": "401105109216",
+"sequenceNumber": "216",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Rebecca Allen makes jumper",
+"awayScore": 67,
+"homeScore": 76,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:26"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3102133"
+}
+}
+],
+"wallclock": "2019-09-07T00:41:14Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 25,
+"y": 3
+}
+},
+{
+"id": "401105109217",
+"sequenceNumber": "217",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Kelsey Mitchell makes 28-foot three point jumper",
+"awayScore": 70,
+"homeScore": 76,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "8:08"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-07T00:41:54Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 4,
+"y": 19
+}
+},
+{
+"id": "401105109218",
+"sequenceNumber": "218",
+"type": {
+"id": "30092",
+"text": "Jump Shot"
+},
+"text": "Rebecca Allen makes 27-foot three point jumper",
+"awayScore": 70,
+"homeScore": 79,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:56"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3102133"
+}
+}
+],
+"wallclock": "2019-09-07T00:42:08Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 47,
+"y": 15
+}
+},
+{
+"id": "401105109219",
+"sequenceNumber": "219",
+"type": {
+"id": "20092",
+"text": "Jump Shot"
+},
+"text": "Candice Dupree makes 14-foot jumper",
+"awayScore": 72,
+"homeScore": 79,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "7:45"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-07T00:42:19Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 13,
+"y": 7
+}
+},
+{
+"id": "401105109220",
+"sequenceNumber": "220",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Tina Charles makes 6-foot shot",
+"awayScore": 72,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:56"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "918"
+}
+}
+],
+"wallclock": "2019-09-07T00:45:39Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 27,
+"y": 6
+}
+},
+{
+"id": "401105109221",
+"sequenceNumber": "221",
+"type": {
+"id": "30091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Tiffany Mitchell makes 28-foot shot",
+"awayScore": 75,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:08"
+},
+"scoringPlay": true,
+"scoreValue": 3,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-07T00:50:18Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 24,
+"y": 28
+}
+},
+{
+"id": "401105109222",
+"sequenceNumber": "222",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Teaira McCowan makes 4-foot shot",
+"awayScore": 77,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:08"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3913903"
+}
+}
+],
+"wallclock": "2019-09-07T00:51:30Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 23,
+"y": 3
+}
+},
+{
+"id": "401105109223",
+"sequenceNumber": "223",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Kelsey Mitchell makes 8-foot shot",
+"awayScore": 79,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:08"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-07T00:53:08Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 21,
+"y": 7
+}
+},
+{
+"id": "401105109224",
+"sequenceNumber": "224",
+"type": {
+"id": "97",
+"text": "Free Throw - 1 of 1"
+},
+"text": "Kelsey Mitchell makes free throw 1 of 1",
+"awayScore": 80,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "5:08"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-07T00:53:08Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109225",
+"sequenceNumber": "225",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Candice Dupree makes 11-foot shot",
+"awayScore": 82,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:08"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-07T00:59:08Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 14,
+"y": 2
+}
+},
+{
+"id": "401105109226",
+"sequenceNumber": "226",
+"type": {
+"id": "20091",
+"text": "No Shot (Default Shot)"
+},
+"text": "Tiffany Mitchell makes 9-foot shot",
+"awayScore": 84,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:08"
+},
+"scoringPlay": true,
+"scoreValue": 2,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "2984741"
+}
+}
+],
+"wallclock": "2019-09-07T00:59:46Z",
+"shootingPlay": true,
+"coordinate": {
+"x": 19,
+"y": 6
+}
+},
+{
+"id": "401105109227",
+"sequenceNumber": "227",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Candice Dupree makes free throw 1 of 2",
+"awayScore": 85,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:08"
+},
+"scoringPlay": true,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-07T00:59:46Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109228",
+"sequenceNumber": "228",
+"type": {
+"id": "99",
+"text": "Free Throw - 2 of 2"
+},
+"text": "Candice Dupree misses free throw 2 of 2",
+"awayScore": 85,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "689"
+}
+}
+],
+"wallclock": "2019-09-07T00:59:46Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109229",
+"sequenceNumber": "229",
+"type": {
+"id": "155",
+"text": "Defensive Rebound"
+},
+"text": "Kia Nurse defensive rebound",
+"awayScore": 85,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "9"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142327"
+}
+}
+],
+"wallclock": "2019-09-07T00:59:46Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109230",
+"sequenceNumber": "230",
+"type": {
+"id": "98",
+"text": "Free Throw - 1 of 2"
+},
+"text": "Kelsey Mitchell misses free throw 1 of 2",
+"awayScore": 85,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"participants": [
+{
+"athlete": {
+"id": "3142191"
+}
+}
+],
+"wallclock": "2019-09-07T00:59:46Z",
+"shootingPlay": true,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+},
+{
+"id": "401105109231",
+"sequenceNumber": "231",
+"type": {
+"id": "156",
+"text": "Offensive Rebound"
+},
+"text": "Indiana offensive team rebound",
+"awayScore": 85,
+"homeScore": 81,
+"period": {
+"number": 4,
+"displayValue": "4th Quarter"
+},
+"clock": {
+"displayValue": "2:08"
+},
+"scoringPlay": false,
+"scoreValue": 0,
+"team": {
+"id": "5"
+},
+"wallclock": "2019-09-07T00:59:46Z",
+"shootingPlay": false,
+"coordinate": {
+"x": -214748340,
+"y": -214748365
+}
+}
+],
+"article": {
+"keywords": [],
+"description": "The New York Liberty clinched the best chance to win the WNBA draft lottery by losing to Indiana 86-81 on Friday night.",
+"source": "Associated Press",
+"video": [],
+"type": "Recap",
+"nowId": "1-27555208",
+"premium": false,
+"related": [],
+"allowSearch": true,
+"links": {
+"api": {
+"news": {
+"href": "http://now.core.api.espn.com/v1/sports/news/27555208"
+},
+"events": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/events/401105109"
+}
+},
+"web": {
+"href": "http://www.espn.com/wnba/recap?gameId=401105109",
+"short": {
+"href": "https://es.pn/2ZCFxsR"
+}
+},
+"app": {
+"sportscenter": {
+"href": "sportscenter://x-callback-url/showStory?uid=27555208"
+}
+},
+"mobile": {
+"href": "http://scores.espn.com/wnba/gamecast?gameId=401105109&version=mobile"
+}
+},
+"id": 27555208,
+"categories": [
+{
+"id": 9579,
+"description": "WNBA",
+"type": "league",
+"sportId": 59,
+"leagueId": 59,
+"league": {
+"id": 59,
+"description": "WNBA",
+"links": {
+"api": {
+"leagues": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba"
+}
+},
+"web": {
+"leagues": {
+"href": "https://www.espn.com/wnba/"
+}
+},
+"mobile": {
+"leagues": {
+"href": "http://m.espn.com/wnba/"
+}
+}
+}
+},
+"uid": "s:40~l:59"
+},
+{
+"id": 5842,
+"description": "New York Liberty",
+"type": "team",
+"sportId": 59,
+"teamId": 9,
+"team": {
+"id": 9,
+"description": "New York Liberty",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/teams/9"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/wnba/team/_/name/ny/new-york-liberty"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/wnba/clubhouse?teamId=9"
+}
+}
+}
+},
+"uid": "s:40~l:59~t:9"
+},
+{
+"id": 5840,
+"description": "Indiana Fever",
+"type": "team",
+"sportId": 59,
+"teamId": 5,
+"team": {
+"id": 5,
+"description": "Indiana Fever",
+"links": {
+"api": {
+"teams": {
+"href": "http://now.core.api.espn.com/v1/sports/basketball/wnba/teams/5"
+}
+},
+"web": {
+"teams": {
+"href": "https://www.espn.com/wnba/team/_/name/ind/indiana-fever"
+}
+},
+"mobile": {
+"teams": {
+"href": "http://m.espn.com/wnba/clubhouse?teamId=5"
+}
+}
+}
+},
+"uid": "s:40~l:59~t:5"
+}
+],
+"headline": "Liberty clinch top chance to win lottery with loss to Fever",
+"gameId": "401105109",
+"images": [],
+"linkText": "Liberty clinch top chance to win lottery with loss to Fever",
+"published": "2019-09-07T01:25:04Z",
+"allowComments": true,
+"lastModified": "2019-09-07T03:32:59Z",
+"metrics": [
+{
+"count": 0,
+"type": "views"
+},
+{
+"count": 0,
+"type": "fShares"
+},
+{
+"count": 0,
+"type": "tweets"
+},
+{
+"count": 0,
+"type": "comments"
+},
+{
+"count": 0,
+"type": "emails"
+},
+{
+"count": 0,
+"type": "votes"
+},
+{
+"count": 0,
+"type": "popularity"
+}
+],
+"inlines": [],
+"story": "WHITE PLAINS, N.Y. --  Katie Smith saw the silver lining in the Liberty's loss to Indiana. New York clinched the best chance to win the WNBA draft lottery by losing to the Fever 86-81 on Friday night.\n\nNew York, which has a 44% opportunity to secure the top pick in the draft, blew a double-digit lead as Kelsey Mitchell scored 22 points to lead the Fever. The Liberty are 16-51 over the past two years and Indiana is 18-49.\n\n\"If we get the first pick then yes that's the silver lining for losing tonight,\" Smith said. \"I would have rather won the game.\"\n\nIndiana, by finishing with the second-worst two-year record, will have a 27% chance to get the No. 1 pick.\n\nThe Fever had the best chance to win the lottery last year and ended up with the No. 3 pick. Having a lower pick turned out well as Indiana drafted Teaira McCowan, who has been stellar in her rookie year. McCowan had 14 points and 13 rebounds for the Fever (12-21). It was the fifth consecutive game that she had a double-double, breaking the team record. She now has 296 rebounds on the season just eight from breaking the team mark held by Erlana Larkins of 303 set in 2014.\n\nWith the victory, Indiana doubled its win total from last season.\n\n\"We have one more game left, so we're going to focus on that one and finishing strong for our fans,\" Fever center Natalie Achonwa said. \"The positive is doubling the wins. We only had six last year and we have an upward trend. We lost a lot of games by less than 10 points and five points. Definitely growth, but we know we can be better next year.\"\n\nTrailing by double-digits in the second half, the Fever rallied behind Mitchell and McCowan.\n\nTina Charles' basket with 5:57 left in the game gave New York an 81-72 lead. It was the Liberty's final points of the game as Indiana scored the last 14. Candice Dupree's jumper with 1:25 left gave Indiana its first lead of the fourth quarter. After Tanisha Wright missed a jumper, Mitchell hit a layup to extend the lead to 84-81 with 53 seconds left. Dupree and Mitchell each added a free throw in the final 25 seconds and New York (9-24) could get no closer. The Liberty were outscored 21-7 in the fourth quarter.\n\nIt was a back and forth first half with New York's reserves playing well once again. Marine Johannes had 10 points and Brittany Boyd had six points, six assists and four rebounds in the opening 20 minutes. The Liberty led 49-43 at the break.\n\nTina Charles led New York with 19 points, and Johannes added 16.\n\nHONORING T-SPOON: The Liberty wore warmup shirts for Teresa Weatherspoon, who is the Director of Player and Franchise Development for the team. Weatherspoon was inducted into the Naismith Memorial Basketball Hall of Fame on Friday night. The shirts had a list of her accomplishments on the back and a graphic on the front.\n\nUP NEXT:\n\nFever: Host Connecticut on Sunday to close out their season\n\nLiberty: At Atlanta on Sunday to close out their season.\n\n"
+},
+"videos": [],
+"standings": {
+"fullViewLink": {
+"text": "Full Standings",
+"href": "http://www.espn.com/wnba/standings"
+},
+"groups": [
+{
+"standings": {
+"entries": [
+{
+"team": "Chicago",
+"link": "http://www.espn.com/wnba/team/_/name/chi/chicago-sky",
+"id": "19",
+"uid": "s:40~l:59~t:19",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 0.0,
+"displayValue": "-"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 1.0,
+"displayValue": "W1"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.7222222,
+"displayValue": ".722"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 26.0,
+"displayValue": "26"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:38Z"
+}
+]
+},
+{
+"team": "Connecticut",
+"link": "http://www.espn.com/wnba/team/_/name/conn/connecticut-sun",
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 1.0,
+"displayValue": "1"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 3.0,
+"displayValue": "W3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6944444,
+"displayValue": ".694"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 25.0,
+"displayValue": "25"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/conn.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2021-02-01T18:05Z"
+}
+]
+},
+{
+"team": "Washington",
+"link": "http://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 4.0,
+"displayValue": "4"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 14.0,
+"displayValue": "14"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 2.0,
+"displayValue": "W2"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.6111111,
+"displayValue": ".611"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 22.0,
+"displayValue": "22"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-28T16:46Z"
+}
+]
+},
+{
+"team": "New York",
+"link": "http://www.espn.com/wnba/team/_/name/ny/new-york-liberty",
+"id": "9",
+"uid": "s:40~l:59~t:9",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 20.0,
+"displayValue": "20"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": 3.0,
+"displayValue": "W3"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.44444445,
+"displayValue": ".444"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 16.0,
+"displayValue": "16"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-14T20:57Z"
+}
+]
+},
+{
+"team": "Atlanta",
+"link": "http://www.espn.com/wnba/team/_/name/atl/atlanta-dream",
+"id": "20",
+"uid": "s:40~l:59~t:20",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 12.0,
+"displayValue": "12"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 22.0,
+"displayValue": "22"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -4.0,
+"displayValue": "L4"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.3888889,
+"displayValue": ".389"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 14.0,
+"displayValue": "14"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-16T15:43Z"
+}
+]
+},
+{
+"team": "Indiana",
+"link": "http://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 21.0,
+"displayValue": "21"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 31.0,
+"displayValue": "31"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -18.0,
+"displayValue": "L18"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.1388889,
+"displayValue": ".139"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 5.0,
+"displayValue": "5"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2020-07-15T15:28Z"
+}
+]
+}
+]
+},
+"header": "2021-22 Eastern Conference Standings",
+"href": "https://www.espn.com/wnba/standings/_/group/1"
+}
+]
+},
+"teamInfo": [],
+"espnWP": [],
+"season": {},
+"timeouts": []
+}
