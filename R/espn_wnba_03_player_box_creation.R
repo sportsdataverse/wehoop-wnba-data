@@ -148,7 +148,9 @@ wnba_player_box_games <- function(y) {
     .token = Sys.getenv("GITHUB_PAT")
   )
 
-  data.table::fwrite(final_sched, paste0("wnba/schedules/csv/wnba_schedule_", y, ".csv"))
+  ifelse(!dir.exists(file.path("wnba/schedules")), dir.create(file.path("wnba/schedules")), FALSE)
+  ifelse(!dir.exists(file.path("wnba/schedules/rds")), dir.create(file.path("wnba/schedules/rds")), FALSE)
+  ifelse(!dir.exists(file.path("wnba/schedules/parquet")), dir.create(file.path("wnba/schedules/parquet")), FALSE)
   saveRDS(final_sched, glue::glue("wnba/schedules/rds/wnba_schedule_{y}.rds"))
   arrow::write_parquet(final_sched, glue::glue("wnba/schedules/parquet/wnba_schedule_{y}.parquet"))
   rm(sched)
