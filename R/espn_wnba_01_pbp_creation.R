@@ -36,6 +36,11 @@ wnba_pbp_games <- function(y) {
 
   espn_df <- data.frame()
   sched <- wehoop:::rds_from_url(paste0("https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/schedules/rds/wnba_schedule_", y, ".rds"))
+  ifelse(!dir.exists(file.path("wnba/schedules")), dir.create(file.path("wnba/schedules")), FALSE)
+  ifelse(!dir.exists(file.path("wnba/schedules/rds")), dir.create(file.path("wnba/schedules/rds")), FALSE)
+  ifelse(!dir.exists(file.path("wnba/schedules/parquet")), dir.create(file.path("wnba/schedules/parquet")), FALSE)
+  saveRDS(sched, glue::glue("wnba/schedules/rds/wnba_schedule_{y}.rds"))
+  arrow::write_parquet(sched, glue::glue("wnba/schedules/parquet/wnba_schedule_{y}.parquet"))
 
   season_pbp_list <- sched %>%
     dplyr::filter(.data$game_json == TRUE) %>%

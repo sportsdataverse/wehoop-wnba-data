@@ -35,7 +35,7 @@ years_vec <- opt$s:opt$e
 wnba_team_box_games <- function(y) {
 
   espn_df <- data.frame()
-  sched <- wehoop:::rds_from_url(paste0("https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/schedules/rds/wnba_schedule_", y, ".rds"))
+  sched <- readRDS(paste0("wnba/schedules/rds/wnba_schedule_", y, ".rds"))
 
   season_team_box_list <- sched %>%
     dplyr::filter(.data$game_json == TRUE) %>%
