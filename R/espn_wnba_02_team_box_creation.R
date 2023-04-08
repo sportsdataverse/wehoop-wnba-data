@@ -199,8 +199,8 @@ sched_g <-  purrr::map_dfr(sched_list, function(x) {
 sched_g <- sched_g %>%
   wehoop:::make_wehoop_data("ESPN WNBA Schedule from wehoop data repository", Sys.time())
 
-data.table::fwrite(sched_g %>%
-                     dplyr::arrange(dplyr::desc(.data$date)), "wnba/wnba_schedule_master.csv")
+# data.table::fwrite(sched_g %>%
+#                      dplyr::arrange(dplyr::desc(.data$date)), "wnba/wnba_schedule_master.csv")
 
 data.table::fwrite(sched_g %>%
                      dplyr::filter(.data$PBP == TRUE) %>%
