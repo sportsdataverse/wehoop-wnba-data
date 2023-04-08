@@ -2,8 +2,12 @@ name: Update WNBA Data
 
 on:
   schedule:
-    - cron: '0 7 * 5-9 *'
-    - cron: '0 7 1-20 10 *'
+    - cron: '0 7 18-31 10 *'
+    - cron: '0 7 * 11-12 *'
+    - cron: '0 7 * 1-6 *'
+    - cron: '0 7 1-12 7 *'
+  repository_dispatch:
+    types: [daily_wnba_data]
   workflow_dispatch:
     inputs:
       start_year:
@@ -25,7 +29,7 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - {os: ubuntu-latest,   r: 'release'}
+          - {os: 'ubuntu-latest',   r: 'release'}
 
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -57,33 +61,19 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.10'
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip setuptools wheel
-          python -m pip install -r requirements.txt
-      - name: Check for Inputs
-        if: ${{ env.START_YEAR == ''}}
-        run: |
-            echo START_YEAR=$(Rscript -e "wehoop::most_recent_wnba_season()") >> $GITHUB_ENV
-            echo END_YEAR=$(Rscript -e "wehoop::most_recent_wnba_season()") >> $GITHUB_ENV
-
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.10'
       # Tells Github to run the file `scraper.py` from your repository
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip setuptools wheel
           python -m pip install -r requirements.txt
-
       - name: Check for Inputs
-        if: ${{ env.START_YEAR == ''}}
+        if: ${{ env.START_YEAR == '' || github.event.client_payload.event_name == 'daily_wnba_data'}}
         run: |
-          echo START_YEAR=$(Rscript -e "wehoop::most_recent_wnba_season()") >> $GITHUB_ENV
-          echo END_YEAR=$(Rscript -e "wehoop::most_recent_wnba_season()") >> $GITHUB_ENV
-      - name: Run Python and R Process scripts
+          echo START_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
+          echo END_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
+          echo RESCRAPE=false >> $GITHUB_ENV
+      - name: Update WNBA Data ${{ env.start_year }}-${{ env.end_year }} (Rescrape? ${{ env.rescrape }})
         env:
           GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
-          bash scripts/daily_wnba_scraper.sh -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }} -r ${{ env.RESCRAPE }}
+          bash scripts/daily_wnba_R_processor.sh -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }} -r ${{ env.RESCRAPE }}

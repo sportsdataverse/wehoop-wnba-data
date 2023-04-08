@@ -34,11 +34,10 @@ years_vec <- opt$s:opt$e
 
 wnba_player_box_games <- function(y) {
   espn_df <- data.frame()
-  player_box_list <- list.files(path = glue::glue("wnba/json/final/"))
-  sched <- data.table::fread(paste0("wnba/schedules/csv/wnba_schedule_", y, ".csv"))
-  player_box_game_ids <- as.integer(gsub(".json", "", player_box_list))
+  sched <- wehoop:::rds_from_url(paste0("https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/schedules/rds/wnba_schedule_", y, ".rds"))
+
   season_player_box_list <- sched %>%
-    dplyr::filter(.data$game_id %in% player_box_game_ids) %>%
+    dplyr::filter(.data$game_json == TRUE) %>%
     dplyr::pull("game_id")
 
   if (length(season_player_box_list) > 0) {
@@ -50,7 +49,7 @@ wnba_player_box_games <- function(y) {
     espn_df <- furrr::future_map_dfr(season_player_box_list, function(x) {
       tryCatch(
         expr = {
-          resp <- glue::glue("wnba/json/final/{x}.json")
+          resp <- glue::glue("https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/json/final/{x}.json")
           player_box_score <- wehoop:::helper_espn_wnba_player_box(resp)
           return(player_box_score)
         },
