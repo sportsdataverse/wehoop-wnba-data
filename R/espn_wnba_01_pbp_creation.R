@@ -177,9 +177,9 @@ all_games <- purrr::map(years_vec, function(y) {
 cli::cli_progress_step(msg = "Compiling ESPN WNBA master schedule",
                        msg_done = "ESPN WNBA master schedule compiled and written to disk")
 
-sched_list <- list.files(path = glue::glue("wnba/schedules/csv/"))
+sched_list <- list.files(path = glue::glue("wnba/schedules/rds/"))
 sched_g <-  purrr::map_dfr(sched_list, function(x) {
-  sched <- data.table::fread(paste0("wnba/schedules/csv/", x)) %>%
+  sched <- readRDS(paste0("wnba/schedules/rds/", x)) %>%
     dplyr::mutate(dplyr::across(dplyr::any_of(c(
       "id",
       "game_id",
