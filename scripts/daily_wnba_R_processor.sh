@@ -18,8 +18,8 @@ do
     Rscript R/espn_wnba_03_player_box_creation.R -s $i -e $i
     git pull  >> /dev/null
     git add wnba/*  >> /dev/null
-    git pull  >> /dev/null
+    git pull --rebase  >> /dev/null
     git commit -m "WNBA Data Update (Start: $i End: $i)"  >> /dev/null || echo "No changes to commit"
-    git pull  >> /dev/null
+    git pull --rebase  >> /dev/null
     git push  >> /dev/null
 done
