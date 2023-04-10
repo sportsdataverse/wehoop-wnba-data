@@ -203,22 +203,47 @@ sched_g <-  purrr::map_dfr(sched_list, function(x) {
 sched_g <- sched_g %>%
   wehoop:::make_wehoop_data("ESPN WNBA Schedule from wehoop data repository", Sys.time())
 
+final_sched <- sched_g %>%
+  dplyr::arrange(dplyr::desc(.data$date))
+
+sportsdataversedata::sportsdataverse_save(
+  data_frame = final_sched,
+  file_name =  glue::glue("wnba_schedule_master"),
+  sportsdataverse_type = "schedule data",
+  release_tag = "espn_wnba_schedules",
+  pkg_function = "wehoop::load_wnba_schedule()",
+  file_types = c("rds", "csv", "parquet"),
+  .token = Sys.getenv("GITHUB_PAT")
+)
+
+sportsdataversedata::sportsdataverse_save(
+  data_frame = final_sched %>%
+              dplyr::filter(.data$PBP == TRUE),
+  file_name =  glue::glue("wnba_games_in_data_repo"),
+  sportsdataverse_type = "schedule data",
+  release_tag = "espn_wnba_schedules",
+  pkg_function = "wehoop::load_wnba_schedule()",
+  file_types = c("rds", "csv", "parquet"),
+  .token = Sys.getenv("GITHUB_PAT")
+)
+
 # data.table::fwrite(sched_g %>%
 #                      dplyr::arrange(dplyr::desc(.data$date)), "wnba/wnba_schedule_master.csv")
-data.table::fwrite(sched_g %>%
-                     dplyr::filter(.data$PBP == TRUE) %>%
-                     dplyr::arrange(dplyr::desc(.data$date)), "wnba/wnba_games_in_data_repo.csv")
+# data.table::fwrite(sched_g %>%
+#                      dplyr::filter(.data$PBP == TRUE) %>%
+#                      dplyr::arrange(dplyr::desc(.data$date)), "wnba/wnba_games_in_data_repo.csv")
 
-arrow::write_parquet(sched_g %>%
-                       dplyr::arrange(dplyr::desc(.data$date)), glue::glue("wnba/wnba_schedule_master.parquet"))
-arrow::write_parquet(sched_g %>%
-                       dplyr::filter(.data$PBP == TRUE) %>%
-                       dplyr::arrange(dplyr::desc(.data$date)), "wnba/wnba_games_in_data_repo.parquet")
+# arrow::write_parquet(sched_g %>%
+#                        dplyr::arrange(dplyr::desc(.data$date)), glue::glue("wnba/wnba_schedule_master.parquet"))
+# arrow::write_parquet(sched_g %>%
+#                        dplyr::filter(.data$PBP == TRUE) %>%
+#                        dplyr::arrange(dplyr::desc(.data$date)), "wnba/wnba_games_in_data_repo.parquet")
 
 cli::cli_progress_message("")
 
 rm(all_games)
 rm(sched_g)
+rm(final_sched)
 rm(sched_list)
 rm(years_vec)
 gcol <- gc()
