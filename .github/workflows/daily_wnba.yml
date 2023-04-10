@@ -57,13 +57,19 @@ jobs:
             sportsdataverse/sportsdataverse-data
             ropensci/piggyback
 
-      - name: Check for Inputs
-        if: ${{ env.START_YEAR == '' || github.event.client_payload.event_name == 'daily_wnba_data'}}
+      - name: Check wehoop_wnba_data_trigger for inputs
+        if: ${{ github.event.client_payload.event_name == 'daily_wnba_data'}}
+        run: |
+          echo START_YEAR=$(echo "${{ github.event.client_payload.commit_message}}" | grep -o -E '[0-9]+' | head -1) >> $GITHUB_ENV
+          echo END_YEAR=$(echo "${{ github.event.client_payload.commit_message}}" | grep -o -E '[0-9]+' | tail -1) >> $GITHUB_ENV
+          echo RESCRAPE=true >> $GITHUB_ENV
+      - name: Check for empty inputs
+        if: ${{ env.START_YEAR == ''}}
         run: |
           echo START_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
           echo END_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
           echo RESCRAPE=false >> $GITHUB_ENV
-      - name: Update WNBA Data ${{ env.start_year }}-${{ env.end_year }} (Rescrape? ${{ env.rescrape }})
+      - name: Update WNBA Data ${{ env.START_YEAR }}-${{ env.END_YEAR }} (Rescrape? ${{ env.RESCRAPE }})
         env:
           GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
