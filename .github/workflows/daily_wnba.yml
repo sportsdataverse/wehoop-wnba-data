@@ -16,15 +16,11 @@ on:
       end_year:
         required: false
         type: string
-      rescrape:
-        required: false
-        default: true
-        type: boolean
 
 jobs:
   update_wnba_data:
     runs-on: ${{ matrix.config.os }}
-    name: Update WNBA Data ${{ inputs.start_year }}-${{ inputs.end_year }} (Rescrape? ${{ inputs.rescrape }})
+    name: Update WNBA Data ${{ inputs.start_year }}-${{ inputs.end_year }}
     strategy:
       fail-fast: false
       matrix:
@@ -36,7 +32,6 @@ jobs:
       R_KEEP_PKG_SOURCE: yes
       START_YEAR: ${{ inputs.start_year }}
       END_YEAR: ${{ inputs.end_year }}
-      RESCRAPE: ${{ inputs.rescrape }}
 
     steps:
       - name: Checkout repo
@@ -62,15 +57,13 @@ jobs:
         run: |
           echo START_YEAR=$(echo "${{ github.event.client_payload.commit_message}}" | grep -o -E '[0-9]+' | head -1) >> $GITHUB_ENV
           echo END_YEAR=$(echo "${{ github.event.client_payload.commit_message}}" | grep -o -E '[0-9]+' | tail -1) >> $GITHUB_ENV
-          echo RESCRAPE=true >> $GITHUB_ENV
       - name: Check for empty inputs
         if: ${{ env.START_YEAR == ''}}
         run: |
           echo START_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
           echo END_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
-          echo RESCRAPE=false >> $GITHUB_ENV
-      - name: Update WNBA Data ${{ env.START_YEAR }}-${{ env.END_YEAR }} (Rescrape? ${{ env.RESCRAPE }})
+      - name: Update WNBA Data ${{ env.START_YEAR }}-${{ env.END_YEAR }}
         env:
           GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
         run: |
-          bash scripts/daily_wnba_R_processor.sh -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }} -r ${{ env.RESCRAPE }}
+          bash scripts/daily_wnba_R_processor.sh -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }}
