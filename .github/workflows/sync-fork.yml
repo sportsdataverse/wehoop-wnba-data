@@ -1,0 +1,19 @@
+name: Sync Fork with Upstream
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # 2am EST (UTC-5) daily — runs before the 3am S3 sync
+  workflow_dispatch:      # allow manual trigger from the Actions UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # needed to push merged changes to main
+
+    steps:
+      - name: Sync fork with upstream
+        run: gh repo sync "$GITHUB_REPOSITORY" --branch main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
