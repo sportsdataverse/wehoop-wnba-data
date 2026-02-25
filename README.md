@@ -68,3 +68,18 @@ flowchart TB;
 [wehoop-wbb-raw data repository (source: ESPN)](https://github.com/sportsdataverse/wehoop-wbb-raw)
 
 [wehoop-wbb-data repository (source: ESPN)](https://github.com/sportsdataverse/wehoop-wbb-data)
+
+## Recent Development Work
+
+### Automated Fork Sync
+Added a GitHub Actions workflow (`.github/workflows/sync-fork.yml`) that automatically keeps this fork in sync with the upstream `sportsdataverse/wehoop-wnba-data` repository. The workflow runs daily at 2am EST and can also be triggered manually via `workflow_dispatch`.
+
+### Historical Load to S3
+Built a one-time bulk upload process for migrating all existing WNBA parquet files to S3:
+- **`scripts/historical_load_s3.sh`** — uploads every parquet file across all four datasets (`pbp`, `player_box`, `schedules`, `team_box`) unconditionally using `aws s3 cp --recursive`, with `INTELLIGENT_TIERING` storage class and an optional `--dry-run` flag for safe previewing.
+- **`.github/workflows/historical-load-s3.yml`** — manually triggered (`workflow_dispatch`) GitHub Actions workflow that runs the script using AWS credentials stored as repository secrets.
+
+### Daily Parquet Sync to S3
+Built an incremental daily sync process to keep S3 up to date as new data arrives:
+- **`scripts/sync_parquet_to_s3.sh`** — uses `aws s3 sync` (ETag-based comparison) to upload only new or changed parquet files, keeping S3 in sync without redundant uploads. Also uses `INTELLIGENT_TIERING` storage class.
+- **`.github/workflows/sync-parquet-to-s3.yml`** — scheduled GitHub Actions workflow that runs daily at 3am EST, automatically syncing the latest parquet files to S3 after each WNBA data update.
