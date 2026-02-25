@@ -3,11 +3,6 @@ name: Sync Parquet to S3
 on:
   schedule:
     - cron: '0 8 * * *'  # 3am EST (UTC-5) daily
-  push:
-    branches:
-      - main
-    paths:
-      - 'wnba/**/parquet/*.parquet'
 
 jobs:
   sync:
@@ -16,8 +11,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 2  # needed to diff against previous commit on push
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -26,35 +19,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
-      # On push: upload only files changed in this commit (fast, targeted)
-      - name: Sync changed files to S3 (push)
-        if: github.event_name == 'push'
+      - name: Sync all parquet files to S3
         env:
           S3_BUCKET: ${{ secrets.S3_BUCKET_NAME }}
-        run: |
-          changed=$(git diff --name-only HEAD~1 HEAD | grep 'wnba/.*/parquet/.*\.parquet$')
-
-          if [[ -z "$changed" ]]; then
-            echo "No parquet files changed — nothing to upload."
-            exit 0
-          fi
-
-          echo "$changed" | while read -r file; do
-            echo "Uploading: $file"
-            aws s3 cp "$file" "s3://$S3_BUCKET/$file" --storage-class INTELLIGENT_TIERING
-          done
-
-          echo "Sync complete."
-
-      # On schedule: full sync so any missed files are caught (idempotent)
-      - name: Sync all parquet files to S3 (scheduled)
-        if: github.event_name == 'schedule'
-        env:
-          S3_BUCKET: ${{ secrets.S3_BUCKET_NAME }}
-        run: |
-          aws s3 sync wnba/ "s3://$S3_BUCKET/wnba/" \
-            --exclude "*" \
-            --include "*/parquet/*.parquet" \
-            --storage-class INTELLIGENT_TIERING
-
-          echo "Scheduled sync complete."
+        run: bash scripts/sync_parquet_to_s3.sh
