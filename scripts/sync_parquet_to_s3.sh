@@ -25,6 +25,7 @@ echo ""
 aws s3 sync "$REPO_ROOT/wnba/" "s3://$BUCKET/wnba/" \
   --exclude "*" \
   --include "*/parquet/*.parquet" \
+  --size-only \
   --storage-class INTELLIGENT_TIERING
 
 echo "Sync complete."
