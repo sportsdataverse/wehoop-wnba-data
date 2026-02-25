@@ -22,4 +22,4 @@ jobs:
       - name: Sync all parquet files to S3
         env:
           S3_BUCKET: ${{ secrets.S3_BUCKET_NAME }}
-        run: bash scripts/sync_parquet_to_s3.sh
+        run: bash scripts/sync_parquet_to_s3.sh "$S3_BUCKET"
