@@ -2,7 +2,7 @@ name: Sync Fork with Upstream
 
 on:
   schedule:
-    - cron: '0 7 * * *'  # 2am EST (UTC-5) daily
+    - cron: '30 7 * * *'  # 30 minutes after WNBA data update
   workflow_dispatch:
 
 jobs:

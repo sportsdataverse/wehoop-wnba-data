@@ -2,7 +2,7 @@ name: Sync Parquet to S3
 
 on:
   schedule:
-    - cron: '30 7 * * *'  # 30 minutes after WNBA data update
+    - cron: '45 7 * * *'  # 45 minutes after WNBA fork update
 
 jobs:
   sync:
