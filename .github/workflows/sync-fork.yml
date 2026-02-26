@@ -10,10 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write 
+      contents: write
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
       - name: Sync fork with upstream
-        run: gh repo sync "$GITHUB_REPOSITORY" --branch main --force
+        run: |
+          git remote add upstream https://github.com/sportsdataverse/wehoop-wnba-data.git
+          git fetch upstream
+          git merge -X theirs upstream/main
+          git push origin main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
