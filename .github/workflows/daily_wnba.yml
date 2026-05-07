@@ -54,9 +54,23 @@ jobs:
 
       - name: Check wehoop_wnba_data_trigger for inputs
         if: ${{ github.event.client_payload.event_name == 'daily_wnba_data'}}
+        env:
+          COMMIT_MESSAGE: ${{ github.event.client_payload.commit_message }}
         run: |
-          echo START_YEAR=$(echo "${{ github.event.client_payload.commit_message}}" | grep -o -E '[0-9]+' | head -1) >> $GITHUB_ENV
-          echo END_YEAR=$(echo "${{ github.event.client_payload.commit_message}}" | grep -o -E '[0-9]+' | tail -1) >> $GITHUB_ENV
+          # Extract `Start: YYYY` and `End: YYYY` from the upstream commit
+          # message (the umbrella scrape workflow produces messages like
+          # `WNBA Raw Update (Start: 2025 End: 2025)`). The previous
+          # `grep -oE '[0-9]+' | head -1` was too permissive — it grabbed
+          # ANY digit run, so a multi-line commit message with embedded
+          # numbers (PR numbers, error codes, etc.) produced bogus
+          # START_YEAR / END_YEAR values. The narrower
+          # `Start:\s*\K[0-9]+` keeps the regex anchored to the canonical
+          # token, and we fall through to the empty-input fallback below
+          # when no match is found.
+          start=$(printf '%s' "$COMMIT_MESSAGE" | grep -oP 'Start:\s*\K[0-9]{4}' | head -1)
+          end=$(printf '%s' "$COMMIT_MESSAGE"   | grep -oP 'End:\s*\K[0-9]{4}'   | head -1)
+          echo "START_YEAR=$start" >> $GITHUB_ENV
+          echo "END_YEAR=$end"     >> $GITHUB_ENV
       - name: Check for empty inputs
         if: ${{ env.START_YEAR == ''}}
         run: |
