@@ -1,0 +1,73 @@
+name: Weekly WNBA Rosters Refresh
+
+on:
+  schedule:
+    - cron: '0 6 * * 0'
+  workflow_dispatch:
+    inputs:
+      start_year:
+        required: false
+        type: string
+      end_year:
+        required: false
+        type: string
+
+jobs:
+  weekly_wnba_rosters:
+    runs-on: ${{ matrix.config.os }}
+    name: Weekly WNBA Rosters ${{ inputs.start_year }}-${{ inputs.end_year }}
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {os: 'ubuntu-latest', r: 'release'}
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_KEEP_PKG_SOURCE: yes
+      START_YEAR: ${{ inputs.start_year }}
+      END_YEAR: ${{ inputs.end_year }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Setting up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: ${{ matrix.config.r }}
+          http-user-agent: ${{ matrix.config.http-user-agent }}
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-pandoc@v2
+      - name: Setting up R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: 1
+          extra-packages: |
+            sportsdataverse/wehoop
+            sportsdataverse/sportsdataverse-data
+            ropensci/piggyback
+      - name: Check for empty inputs
+        if: ${{ env.START_YEAR == ''}}
+        run: |
+          echo START_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
+          echo END_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
+      - name: Refresh WNBA Rosters ${{ env.START_YEAR }}-${{ env.END_YEAR }}
+        env:
+          GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
+          SPORTSDATAVERSE.UPLOAD.QUIET: FALSE
+          SPORTSDATAVERSE.UPLOAD.MAX_TIMES: 20
+        run: |
+          for i in $(seq "${START_YEAR}" "${END_YEAR}")
+          do
+            echo "$i"
+            git pull >> /dev/null
+            git config --local user.email "action@github.com"
+            git config --local user.name "Github Action"
+            Rscript R/espn_wnba_04_rosters_creation.R -s $i -e $i
+            git pull >> /dev/null
+            git add wnba/rosters/* >> /dev/null || true
+            git pull >> /dev/null
+            git commit -m "WNBA Rosters Weekly Refresh (Start: $i End: $i)" >> /dev/null || echo "No changes to commit"
+            git pull --rebase >> /dev/null
+            git push >> /dev/null
+          done

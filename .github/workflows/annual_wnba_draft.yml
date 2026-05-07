@@ -1,0 +1,164 @@
+name: Annual WNBA Draft
+
+on:
+  schedule:
+    # WNBA draft is mid-April. First run on the 15th, second on the 16th to
+    # catch any picks still being entered after the live ceremony.
+    - cron: '0 8 15 4 *'
+    - cron: '0 8 16 4 *'
+  repository_dispatch:
+    types: [annual_wnba_draft]
+  workflow_dispatch:
+    inputs:
+      season:
+        required: false
+        type: string
+
+jobs:
+  espn_wnba_draft:
+    runs-on: ${{ matrix.config.os }}
+    name: ESPN WNBA Draft ${{ inputs.season }}
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {os: 'ubuntu-latest', r: 'release'}
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_KEEP_PKG_SOURCE: yes
+      SEASON: ${{ github.event.inputs.season }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setting up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: ${{ matrix.config.r }}
+          http-user-agent: ${{ matrix.config.http-user-agent }}
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-pandoc@v2
+
+      - name: Setting up R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: 1
+          extra-packages: |
+            sportsdataverse/wehoop
+            sportsdataverse/sportsdataverse-data
+            ropensci/piggyback
+
+      - name: Resolve season from repository_dispatch payload
+        if: ${{ github.event.client_payload.event_name == 'annual_wnba_draft' }}
+        run: |
+          echo SEASON=$(echo "${{ github.event.client_payload.commit_message }}" | grep -o -E '[0-9]{4}' | head -1) >> $GITHUB_ENV
+
+      - name: Default season to current year when empty
+        if: ${{ env.SEASON == '' }}
+        run: |
+          echo SEASON=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
+
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Github Action"
+
+      - name: Run ESPN WNBA draft creation script
+        env:
+          GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
+          SPORTSDATAVERSE.UPLOAD.QUIET: FALSE
+          SPORTSDATAVERSE.UPLOAD.MAX_TIMES: 20
+        run: |
+          Rscript R/espn_wnba_08_draft_creation.R -s ${{ env.SEASON }} -e ${{ env.SEASON }}
+
+      - name: Commit ESPN WNBA draft artifacts
+        run: |
+          git pull
+          git add wnba/draft || true
+          git commit -m "WNBA Draft Update (Season: ${{ env.SEASON }})" || echo "No changes to commit"
+          git pull --rebase
+          git push
+
+  wnba_stats_draft:
+    needs: espn_wnba_draft
+    runs-on: ${{ matrix.config.os }}
+    name: WNBA Stats API Draft ${{ inputs.season }}
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {os: 'ubuntu-latest', r: 'release'}
+
+    env:
+      GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
+      R_KEEP_PKG_SOURCE: yes
+      SEASON: ${{ github.event.inputs.season }}
+      WNBA_STATS_PROXY_LIST: ${{ secrets.WNBA_STATS_PROXY_LIST }}
+
+    steps:
+      - name: Checkout wehoop-wnba-stats-data
+        uses: actions/checkout@v4
+        with:
+          repository: sportsdataverse/wehoop-wnba-stats-data
+          token: ${{ secrets.SDV_GH_TOKEN }}
+          path: wehoop-wnba-stats-data
+
+      - name: Setting up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: ${{ matrix.config.r }}
+          http-user-agent: ${{ matrix.config.http-user-agent }}
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-pandoc@v2
+
+      - name: Setting up R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: 1
+          working-directory: wehoop-wnba-stats-data
+          extra-packages: |
+            sportsdataverse/wehoop
+            sportsdataverse/sportsdataverse-data
+            ropensci/piggyback
+
+      - name: Write proxy list to disk
+        run: |
+          printf '%s\n' "$WNBA_STATS_PROXY_LIST" > proxylist.csv
+
+      - name: Resolve season from repository_dispatch payload
+        if: ${{ github.event.client_payload.event_name == 'annual_wnba_draft' }}
+        run: |
+          echo SEASON=$(echo "${{ github.event.client_payload.commit_message }}" | grep -o -E '[0-9]{4}' | head -1) >> $GITHUB_ENV
+
+      - name: Default season to current year when empty
+        if: ${{ env.SEASON == '' }}
+        run: |
+          echo SEASON=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
+
+      - name: Configure git
+        working-directory: wehoop-wnba-stats-data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Github Action"
+
+      - name: Run WNBA Stats API draft creation script
+        working-directory: wehoop-wnba-stats-data
+        env:
+          GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
+          SPORTSDATAVERSE.UPLOAD.QUIET: FALSE
+          SPORTSDATAVERSE.UPLOAD.MAX_TIMES: 20
+        run: |
+          Rscript R/wnba_stats_07_draft.R "${{ env.SEASON }}" "${{ env.SEASON }}"
+
+      - name: Commit WNBA Stats draft artifacts
+        working-directory: wehoop-wnba-stats-data
+        run: |
+          git pull
+          git add wnba_stats/draft || true
+          git commit -m "WNBA Stats Draft Update (Season: ${{ env.SEASON }})" || echo "No changes to commit"
+          git pull --rebase
+          git push
