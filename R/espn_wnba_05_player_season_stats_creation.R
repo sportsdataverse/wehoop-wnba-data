@@ -38,6 +38,14 @@ years_vec <- opt$s:opt$e
 raw_base <- "https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json"
 gh_api_base <- "https://api.github.com/repos/sportsdataverse/wehoop-wnba-raw/contents/wnba/player_season_stats/json"
 
+# Source of athlete identity: team_rosters JSONs are scraped earlier in the
+# same umbrella workflow and contain firstName/lastName/displayName/jersey
+# per-athlete. We build a season-scoped athlete_id -> identity lookup once
+# and join on athlete_id because the ESPN player-stats endpoint itself
+# returns no athlete identity (only position + teamId/teamSlug).
+team_rosters_base <- "https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/team_rosters/json"
+team_rosters_api  <- "https://api.github.com/repos/sportsdataverse/wehoop-wnba-raw/contents/wnba/team_rosters/json"
+
 # --- helpers ---------------------------------------------------------------
 
 safe_chr <- function(x) {
@@ -85,6 +93,74 @@ list_athlete_ids <- function(season) {
   if (!is.data.frame(resp) || !"name" %in% colnames(resp)) return(integer())
   ids <- sub("\\.json$", "", resp$name)
   suppressWarnings(as.integer(ids[grepl("^[0-9]+$", ids)]))
+}
+
+# Same shape as list_athlete_ids but for the team_rosters dir; returns the
+# team_id of each per-team roster JSON available for the season.
+list_team_ids_for_season <- function(season) {
+  api_url <- glue::glue("{team_rosters_api}/{season}")
+  pat <- Sys.getenv("GITHUB_PAT")
+  resp <- tryCatch(
+    expr = {
+      if (nzchar(pat)) {
+        jsonlite::fromJSON(
+          httr::content(
+            httr::GET(
+              api_url,
+              httr::add_headers(Authorization = paste("token", pat))
+            ),
+            as = "text",
+            encoding = "UTF-8"
+          ),
+          simplifyDataFrame = TRUE
+        )
+      } else {
+        jsonlite::fromJSON(api_url, simplifyDataFrame = TRUE)
+      }
+    },
+    error = function(e) {
+      message(glue::glue(
+        "{Sys.time()}: could not list team_rosters for {season}: {e$message}"
+      ))
+      NULL
+    }
+  )
+  if (is.null(resp) || length(resp) == 0) return(integer())
+  if (!is.data.frame(resp) || !"name" %in% colnames(resp)) return(integer())
+  ids <- sub("\\.json$", "", resp$name)
+  suppressWarnings(as.integer(ids[grepl("^[0-9]+$", ids)]))
+}
+
+# Build a season-scoped athlete_id -> identity list by walking team_rosters
+# JSONs. Identity slots match what extract_athlete_meta() produces so the
+# downstream parse_one_category() call site needs no signature change.
+build_athlete_identity_lookup <- function(season) {
+  team_ids <- list_team_ids_for_season(season)
+  if (length(team_ids) == 0) return(list())
+  lookup <- list()
+  for (tid in team_ids) {
+    url <- glue::glue("{team_rosters_base}/{season}/{tid}.json")
+    roster <- tryCatch(
+      jsonlite::fromJSON(url, simplifyVector = FALSE),
+      error = function(e) NULL
+    )
+    if (is.null(roster)) next
+    athletes <- roster[["athletes"]] %||% list()
+    for (ath in athletes) {
+      aid <- suppressWarnings(as.integer(safe_chr(ath[["id"]])))
+      if (is.na(aid)) next
+      lookup[[as.character(aid)]] <- list(
+        display_name          = safe_chr(ath[["displayName"]]) %|% safe_chr(ath[["fullName"]]),
+        first_name            = safe_chr(ath[["firstName"]]),
+        last_name             = safe_chr(ath[["lastName"]]),
+        position_abbreviation = safe_chr(ath[["position"]][["abbreviation"]]),
+        jersey                = safe_chr(ath[["jersey"]]),
+        team_id               = as.integer(tid),
+        team_display_name     = NA_character_
+      )
+    }
+  }
+  lookup
 }
 
 parse_one_category <- function(season, athlete_id, athlete_meta, category) {
@@ -138,26 +214,40 @@ parse_one_category <- function(season, athlete_id, athlete_meta, category) {
   )
 }
 
-extract_athlete_meta <- function(raw) {
-  athlete <- raw[["athlete"]] %||% raw[["requestedAthlete"]] %||% list()
-  team <- raw[["team"]] %||%
-    purrr::pluck(athlete, "team") %||%
-    list()
+extract_athlete_meta <- function(raw, athlete_id, identity_lookup) {
+  ident <- identity_lookup[[as.character(athlete_id)]]
+  if (is.null(ident)) ident <- list()
+
+  # team_display_name lives in the stats JSON's `teams` map keyed by slug;
+  # the slug is on each `categories[].statistics[0].teamSlug`. Pull the
+  # first non-NA slug to look it up.
+  teams_map <- raw[["teams"]] %||% list()
+  team_slug <- NULL
+  for (cat in raw[["categories"]] %||% list()) {
+    for (s in cat[["statistics"]] %||% list()) {
+      cand <- safe_chr(s[["teamSlug"]])
+      if (!is.na(cand) && nzchar(cand)) { team_slug <- cand; break }
+    }
+    if (!is.null(team_slug)) break
+  }
+  team_block <- if (!is.null(team_slug)) teams_map[[team_slug]] else list()
+  team_display <- safe_chr(team_block[["displayName"]])
+
   list(
-    display_name = safe_chr(athlete[["displayName"]]) %|%
-      safe_chr(athlete[["fullName"]]),
-    first_name = safe_chr(athlete[["firstName"]]),
-    last_name = safe_chr(athlete[["lastName"]]),
-    position_abbreviation = safe_chr(
-      athlete[["position"]][["abbreviation"]]
-    ),
-    jersey = safe_chr(athlete[["jersey"]]),
-    team_id = suppressWarnings(as.integer(safe_chr(team[["id"]]))),
-    team_display_name = safe_chr(team[["displayName"]])
+    display_name          = ident$display_name          %|% safe_chr(raw[["athlete"]][["displayName"]]),
+    first_name            = ident$first_name            %|% safe_chr(raw[["athlete"]][["firstName"]]),
+    last_name             = ident$last_name             %|% safe_chr(raw[["athlete"]][["lastName"]]),
+    position_abbreviation = ident$position_abbreviation %|% safe_chr(raw[["athlete"]][["position"]][["abbreviation"]]),
+    jersey                = ident$jersey                %|% safe_chr(raw[["athlete"]][["jersey"]]),
+    team_id               = ident$team_id               %|% suppressWarnings(as.integer(safe_chr(team_block[["id"]]))),
+    team_display_name     = team_display                %|% ident$team_display_name
   )
 }
 
-parse_one_athlete <- function(season, athlete_id) {
+parse_one_athlete <- function(season, athlete_id, identity_lookup, raw_base) {
+  # raw_base threaded as an arg (not a free var in glue) so furrr's globals
+  # scanner exports it to worker processes — bare {raw_base} inside glue is
+  # NSE that the static scan can't see.
   url <- glue::glue("{raw_base}/{season}/{athlete_id}.json")
   raw <- tryCatch(
     jsonlite::fromJSON(url, simplifyVector = FALSE),
@@ -176,7 +266,7 @@ parse_one_athlete <- function(season, athlete_id) {
     list()
   if (length(categories) == 0) return(NULL)
 
-  meta <- extract_athlete_meta(raw)
+  meta <- extract_athlete_meta(raw, athlete_id, identity_lookup)
 
   purrr::map_dfr(categories, function(cat) {
     parse_one_category(season, athlete_id, meta, cat)
@@ -194,6 +284,14 @@ build_season_player_stats <- function(y) {
     return(invisible(NULL))
   }
 
+  # Build season-scoped athlete identity lookup once; ~14 small JSON reads.
+  identity_lookup <- build_athlete_identity_lookup(y)
+  if (length(identity_lookup) == 0) {
+    message(glue::glue(
+      "{Sys.time()}: no team_rosters identity for {y}; player rows will have NA names"
+    ))
+  }
+
   cli::cli_progress_step(
     msg = "Compiling {y} ESPN WNBA player season stats ({length(athlete_ids)} athletes)",
     msg_done = "Compiled {y} ESPN WNBA player season stats!"
@@ -204,7 +302,7 @@ build_season_player_stats <- function(y) {
     athlete_ids,
     function(a) {
       tryCatch(
-        parse_one_athlete(y, a),
+        parse_one_athlete(y, a, identity_lookup, raw_base),
         error = function(e) {
           message(glue::glue(
             "{Sys.time()}: player_season_stats issue for {a}: {e$message}"
