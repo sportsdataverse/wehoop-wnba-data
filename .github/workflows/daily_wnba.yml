@@ -2,10 +2,10 @@ name: Update WNBA Data
 
 on:
   schedule:
-    - cron: '0 7 18-31 10 *'
-    - cron: '0 7 * 11-12 *'
-    - cron: '0 7 * 1-6 *'
-    - cron: '0 7 1-12 7 *'
+    - cron: '0 7 18-31 10 *'   # late October (preseason tail)
+    - cron: '0 7 * 11-12 *'    # November - December
+    - cron: '0 7 * 1-6 *'      # January - June (regular season)
+    - cron: '0 7 1-12 7 *'     # early July (regular season tail)
   repository_dispatch:
     types: [daily_wnba_data]
   workflow_dispatch:
@@ -17,6 +17,9 @@ on:
         required: false
         type: string
 
+permissions:
+  contents: write
+
 jobs:
   update_wnba_data:
     runs-on: ${{ matrix.config.os }}
@@ -25,7 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - {os: 'ubuntu-latest',   r: 'release'}
+          - {os: ubuntu-latest, r: 'release'}
 
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -35,14 +38,17 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+
       - name: Setting up R
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: ${{ matrix.config.r }}
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
+
       - uses: r-lib/actions/setup-pandoc@v2
+
       - name: Setting up R dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
@@ -52,30 +58,26 @@ jobs:
             sportsdataverse/sportsdataverse-data
             ropensci/piggyback
 
-      - name: Check wehoop_wnba_data_trigger for inputs
-        if: ${{ github.event.client_payload.event_name == 'daily_wnba_data'}}
+      - name: Extract years from trigger dispatch
+        if: ${{ github.event.client_payload.event_name == 'daily_wnba_data' }}
         env:
           COMMIT_MESSAGE: ${{ github.event.client_payload.commit_message }}
         run: |
-          # Extract `Start: YYYY` and `End: YYYY` from the upstream commit
-          # message (the umbrella scrape workflow produces messages like
-          # `WNBA Raw Update (Start: 2025 End: 2025)`). The previous
-          # `grep -oE '[0-9]+' | head -1` was too permissive — it grabbed
-          # ANY digit run, so a multi-line commit message with embedded
-          # numbers (PR numbers, error codes, etc.) produced bogus
-          # START_YEAR / END_YEAR values. The narrower
-          # `Start:\s*\K[0-9]+` keeps the regex anchored to the canonical
-          # token, and we fall through to the empty-input fallback below
-          # when no match is found.
+          # `Start:\s*\K[0-9]{4}` keeps the regex anchored to the canonical
+          # token in the upstream `WNBA Raw Update (Start: YYYY End: YYYY)`
+          # commit message so embedded numbers (PR ids, run ids, error
+          # codes) don't shadow the year extraction.
           start=$(printf '%s' "$COMMIT_MESSAGE" | grep -oP 'Start:\s*\K[0-9]{4}' | head -1)
           end=$(printf '%s' "$COMMIT_MESSAGE"   | grep -oP 'End:\s*\K[0-9]{4}'   | head -1)
           echo "START_YEAR=$start" >> $GITHUB_ENV
           echo "END_YEAR=$end"     >> $GITHUB_ENV
-      - name: Check for empty inputs
-        if: ${{ env.START_YEAR == ''}}
+
+      - name: Default year inputs if empty
+        if: ${{ env.START_YEAR == '' }}
         run: |
-          echo START_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
-          echo END_YEAR=$(Rscript -e "cat(wehoop::most_recent_wnba_season())") >> $GITHUB_ENV
+          echo "START_YEAR=$(Rscript -e 'cat(wehoop::most_recent_wnba_season())')" >> $GITHUB_ENV
+          echo "END_YEAR=$(Rscript -e 'cat(wehoop::most_recent_wnba_season())')" >> $GITHUB_ENV
+
       - name: Update WNBA Data ${{ env.START_YEAR }}-${{ env.END_YEAR }}
         env:
           GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
