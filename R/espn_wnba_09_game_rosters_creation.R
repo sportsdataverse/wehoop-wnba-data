@@ -170,6 +170,18 @@ parse_one_game <- function(season, game_id) {
     athletes <- team_block[["roster"]] %||%
       team_block[["athletes"]] %||%
       list()
+    # ESPN summary endpoint shape: athletes live under
+    # boxscore.players[i].statistics[0].athletes -- each item is a
+    # {athlete: {...identity...}, starter, didNotPlay, ejected, active, stats}
+    # wrapper. parse_one_athlete() already unwraps that via
+    # `ath <- athlete[["athlete"]] %||% athlete`, so just point the
+    # iteration at the right nested list.
+    if (length(athletes) == 0) {
+      stats <- team_block[["statistics"]]
+      if (is.list(stats) && length(stats) > 0 && is.list(stats[[1]])) {
+        athletes <- stats[[1]][["athletes"]] %||% list()
+      }
+    }
     if (length(athletes) == 0) return(NULL)
     purrr::map_dfr(athletes, function(a) {
       tryCatch(
