@@ -7,3 +7,4 @@ season,row_count,generated_at_utc,source_endpoint
 2025,181,2026-05-12 01:15:33 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/team_rosters/json/2025/<team_id>.json
 2024,166,2026-05-12 01:23:16 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/team_rosters/json/2024/<team_id>.json
 2025,181,2026-05-12 01:27:45 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/team_rosters/json/2025/<team_id>.json
+2026,208,2026-05-12 01:30:23 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/team_rosters/json/2026/<team_id>.json
