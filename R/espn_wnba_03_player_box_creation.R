@@ -59,8 +59,11 @@ wnba_player_box_games <- function(y) {
             resp <- glue::glue(
               "https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/json/final/{x}.json"
             )
-            player_box_score <- wehoop:::helper_espn_wnba_player_box(resp)
-            return(player_box_score)
+            tryCatch(
+              wehoop:::helper_espn_wnba_player_box(resp),
+              error = function(e) NULL,
+              warning = function(w) NULL
+            )
           },
           error = function(e) {
             message(glue::glue(
