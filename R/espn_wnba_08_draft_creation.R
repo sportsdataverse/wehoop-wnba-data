@@ -54,25 +54,25 @@ safe_chr <- function(x) {
 # ESPN WNBA draft payload: top-level usually `rounds[]`, each with `picks[]`.
 # Each pick carries `overall`, `pick`, `round`, plus nested `athlete{}` and
 # `team{}` blocks. Some payloads flatten to `picks[]` at the top level.
-parse_one_pick <- function(season, round_meta, pick) {
-  athlete <- pick[["athlete"]] %||% list()
-  team <- pick[["team"]] %||% list()
+parse_one_pick <- function(season, round_meta, pk) {
+  athlete <- pk[["athlete"]] %||% list()
+  team <- pk[["team"]] %||% list()
   college <- athlete[["college"]] %||%
-    pick[["college"]] %||%
+    pk[["college"]] %||%
     list()
 
   tibble::tibble(
     season = season,
     round = suppressWarnings(as.integer(
-      safe_chr(pick[["round"]]) %|% round_meta$round_number
+      safe_chr(pk[["round"]]) %|% round_meta$round_number
     )),
     round_display_name = round_meta$round_display_name,
-    pick = suppressWarnings(as.integer(safe_chr(pick[["pick"]]))),
+    pick = suppressWarnings(as.integer(safe_chr(pk[["pick"]]))),
     overall_pick = suppressWarnings(as.integer(
-      safe_chr(pick[["overall"]]) %|% safe_chr(pick[["overallPick"]])
+      safe_chr(pk[["overall"]]) %|% safe_chr(pk[["overallPick"]])
     )),
-    pick_traded = safe_chr(pick[["traded"]]),
-    pick_notes = safe_chr(pick[["notes"]]) %|% safe_chr(pick[["note"]]),
+    pick_traded = safe_chr(pk[["traded"]]),
+    pick_notes = safe_chr(pk[["notes"]]) %|% safe_chr(pk[["note"]]),
     athlete_id = suppressWarnings(as.integer(safe_chr(athlete[["id"]]))),
     athlete_uid = safe_chr(athlete[["uid"]]),
     athlete_guid = safe_chr(athlete[["guid"]]),
@@ -98,7 +98,7 @@ parse_one_pick <- function(season, round_meta, pick) {
       safe_chr(college[["displayName"]]),
     college_short_name = safe_chr(college[["shortName"]]),
     college_abbreviation = safe_chr(college[["abbreviation"]]),
-    team_id = suppressWarnings(as.integer(safe_chr(team[["id"]]))),
+    team_id = suppressWarnings(as.integer(safe_chr(team[["id"]]) %|% safe_chr(pk[["teamId"]]))),
     team_uid = safe_chr(team[["uid"]]),
     team_slug = safe_chr(team[["slug"]]),
     team_location = safe_chr(team[["location"]]),
@@ -158,7 +158,12 @@ build_season_draft <- function(y) {
 
   pieces <- list()
   rounds <- raw[["rounds"]] %||% list()
-  if (length(rounds) > 0) {
+  # ESPN's 2026 payload sets `rounds` to an integer count (e.g. 3) rather than
+  # an array of round objects; the picks live only in the top-level `picks[]`.
+  # Guard with is.list() so an atomic `rounds` skips this loop (otherwise
+  # `r[["picks"]]` on an integer throws "subscript out of bounds") and falls
+  # through to the flat `picks` parser below.
+  if (is.list(rounds) && length(rounds) > 0) {
     for (r in rounds) {
       rmeta <- list(
         round_number = safe_chr(r[["number"]]) %|% safe_chr(r[["round"]]),
