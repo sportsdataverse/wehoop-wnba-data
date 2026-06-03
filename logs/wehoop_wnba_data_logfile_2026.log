@@ -1,0 +1,222 @@
+From https://github.com/sportsdataverse/wehoop-wnba-data
+ * [new branch]        AE/remove-qs -> origin/AE/remove-qs
+ℹ Compiling 2026 ESPN WNBA pbps (69 games)
+✔ Compiled 2026 ESPN WNBA pbps! [17.7s]
+
+ℹ Updating 2026 ESPN WNBA PBP GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA PBP GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_pbp
+ℹ Updating 2026 ESPN WNBA PBP GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA PBP GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_pbp on 2026-06-03 10:38:50.640713
+ℹ Updating 2026 ESPN WNBA PBP GitHub Release✔ Updated 2026 ESPN WNBA PBP GitHub Release! [3.6s]
+
+ℹ Updating 2026 ESPN WNBA Shots GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Shots GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_shots
+ℹ Updating 2026 ESPN WNBA Shots GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Shots GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_shots on 2026-06-03 10:38:52.994044
+ℹ Updating 2026 ESPN WNBA Shots GitHub Release✔ Updated 2026 ESPN WNBA Shots GitHub Release! [2.5s]
+
+ℹ Compiling ESPN WNBA master schedule
+→ Uploading 1 files!
+ℹ Compiling ESPN WNBA master scheduleℹ Start upload of 5 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_shots
+ℹ Compiling ESPN WNBA master schedule✔ Upload successfully completed.
+ℹ Compiling ESPN WNBA master schedule→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_shots on 2026-06-03 10:38:55.008737
+ℹ Compiling ESPN WNBA master schedule✔ ESPN WNBA master schedule compiled and written to disk [1.8s]
+
+
+ℹ Compiling 2026 ESPN WNBA Team Boxscores (69 games)
+✔ Compiled 2026 ESPN WNBA Team Boxscores! [7.8s]
+
+ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_team_boxscores
+ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_team_boxscores on 2026-06-03 10:39:06.381502
+ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release✔ Updated 2026 ESPN WNBA Team Boxscores GitHub Release! [2.5s]
+
+ℹ Compiling ESPN WNBA master schedule
+✔ ESPN WNBA master schedule compiled and written to disk [293ms]
+
+
+ℹ Compiling 2026 ESPN WNBA Player Boxscores (69 games)
+✔ Compiled 2026 ESPN WNBA Player Boxscores! [8.2s]
+
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_player_boxscores
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_player_boxscores on 2026-06-03 10:39:18.73792
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_schedules
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_schedules on 2026-06-03 10:39:21.071408
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release✔ Updated 2026 ESPN WNBA Player Boxscores GitHub Release! [4.9s]
+
+ℹ Compiling ESPN WNBA master schedule
+→ Uploading 3 files!
+ℹ Compiling ESPN WNBA master scheduleℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_schedules
+ℹ Compiling ESPN WNBA master schedule✔ Upload successfully completed.
+ℹ Compiling ESPN WNBA master schedule→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_schedules on 2026-06-03 10:39:23.8792
+ℹ Compiling ESPN WNBA master schedule[1] "cli-213-51"
+→ Uploading 3 files!
+ℹ Compiling ESPN WNBA master scheduleℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_schedules
+ℹ Compiling ESPN WNBA master schedule✔ Upload successfully completed.
+ℹ Compiling ESPN WNBA master schedule→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_schedules on 2026-06-03 10:39:26.41406
+ℹ Compiling ESPN WNBA master schedule[1] "cli-213-62"
+✔ ESPN WNBA master schedule compiled and written to disk [5.2s]
+
+
+ℹ Compiling 2026 ESPN WNBA rosters (15 teams)
+✔ Compiled 2026 ESPN WNBA rosters! [2.6s]
+
+ℹ Updating 2026 ESPN WNBA Rosters GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Rosters GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_rosters
+ℹ Updating 2026 ESPN WNBA Rosters GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Rosters GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_rosters on 2026-06-03 10:39:32.632755
+ℹ Updating 2026 ESPN WNBA Rosters GitHub Release✔ Updated 2026 ESPN WNBA Rosters GitHub Release! [2.4s]
+
+5.158 sec elapsed
+→ Uploading 1 files!
+ℹ Start upload of 5 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_rosters
+✔ Upload successfully completed.
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_rosters on 2026-06-03 10:39:34.20479
+
+ℹ Compiling 2026 ESPN WNBA player season stats (203 athletes)
+✔ Compiled 2026 ESPN WNBA player season stats! [9.5s]
+
+ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_player_season_stats
+ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_player_season_stats on 2026-06-03 10:39:48.035753
+ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release✔ Updated 2026 ESPN WNBA Player Season Stats GitHub Release! [2.3s]
+
+12.808 sec elapsed
+→ Uploading 1 files!
+ℹ Start upload of 5 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_player_season_stats
+✔ Upload successfully completed.
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_player_season_stats on 2026-06-03 10:39:49.748774
+
+ℹ Compiling 2026 ESPN WNBA team season stats (15 teams)
+✔ Compiled 2026 ESPN WNBA team season stats! [2.4s]
+
+ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_team_season_stats
+ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_team_season_stats on 2026-06-03 10:39:55.67014
+ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release✔ Updated 2026 ESPN WNBA Team Season Stats GitHub Release! [2.3s]
+
+4.878 sec elapsed
+→ Uploading 1 files!
+ℹ Start upload of 5 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_team_season_stats
+✔ Upload successfully completed.
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_team_season_stats on 2026-06-03 10:39:57.293061
+
+ℹ Compiling 2026 ESPN WNBA standings
+✔ Compiled 2026 ESPN WNBA standings! [270ms]
+
+ℹ Updating 2026 ESPN WNBA Standings GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Standings GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_standings
+ℹ Updating 2026 ESPN WNBA Standings GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Standings GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_standings on 2026-06-03 10:40:01.186494
+ℹ Updating 2026 ESPN WNBA Standings GitHub Release✔ Updated 2026 ESPN WNBA Standings GitHub Release! [2.4s]
+
+2.87 sec elapsed
+→ Uploading 1 files!
+ℹ Start upload of 5 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_standings
+✔ Upload successfully completed.
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_standings on 2026-06-03 10:40:02.912018
+
+ℹ Compiling 2026 ESPN WNBA game rosters (69 games)
+✔ Compiled 2026 ESPN WNBA game rosters! [18.1s]
+
+ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_game_rosters
+ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_game_rosters on 2026-06-03 10:40:24.751126
+ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release✔ Updated 2026 ESPN WNBA Game Rosters GitHub Release! [2.7s]
+
+20.834 sec elapsed
+→ Uploading 1 files!
+ℹ Start upload of 5 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_game_rosters
+✔ Upload successfully completed.
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_game_rosters on 2026-06-03 10:40:26.428396
+
+ℹ Compiling 2026 ESPN WNBA officials (69 games)
+! 2026-06-03 10:40:36.174506: skip officials 2026/401856955: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856955.json'
+ℹ Compiling 2026 ESPN WNBA officials (69 games)! 2026-06-03 10:40:36.25733: skip officials 2026/401856956: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856956.json'
+ℹ Compiling 2026 ESPN WNBA officials (69 games)! 2026-06-03 10:40:36.334874: skip officials 2026/401856957: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856957.json'
+ℹ Compiling 2026 ESPN WNBA officials (69 games)! 2026-06-03 10:40:36.418769: skip officials 2026/401856958: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856958.json'
+ℹ Compiling 2026 ESPN WNBA officials (69 games)✔ Compiled 2026 ESPN WNBA officials! [8.8s]
+
+ℹ Updating 2026 ESPN WNBA Officials GitHub Release
+→ Uploading 3 files!
+ℹ Updating 2026 ESPN WNBA Officials GitHub Releaseℹ Start upload of 7 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_officials
+ℹ Updating 2026 ESPN WNBA Officials GitHub Release✔ Upload successfully completed.
+ℹ Updating 2026 ESPN WNBA Officials GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_officials on 2026-06-03 10:40:38.795075
+ℹ Updating 2026 ESPN WNBA Officials GitHub Release✔ Updated 2026 ESPN WNBA Officials GitHub Release! [2.4s]
+
+Warning messages:
+1: In open.connection(con, "rb") :
+  cannot open URL 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856955.json': HTTP status was '404 Not Found'
+2: In open.connection(con, "rb") :
+  cannot open URL 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856956.json': HTTP status was '404 Not Found'
+3: In open.connection(con, "rb") :
+  cannot open URL 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856957.json': HTTP status was '404 Not Found'
+4: In open.connection(con, "rb") :
+  cannot open URL 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856958.json': HTTP status was '404 Not Found'
+11.34 sec elapsed
+→ Uploading 1 files!
+ℹ Start upload of 5 files to
+<https://github.com/sportsdataverse/sportsdataverse-data/releases> @
+espn_wnba_officials
+✔ Upload successfully completed.
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_officials on 2026-06-03 10:40:40.405299
+
+[main e598d767] WNBA Data Update (Start: 2026 End: 2026)
+ 32 files changed, 7 insertions(+)
+To https://github.com/sportsdataverse/wehoop-wnba-data
+   ea4d55e0..e598d767  main -> main
