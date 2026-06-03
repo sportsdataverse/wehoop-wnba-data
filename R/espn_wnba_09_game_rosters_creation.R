@@ -72,6 +72,16 @@ list_game_ids <- function(season) {
   )
   if (is.null(sched) || nrow(sched) == 0) return(character())
   if (!"game_id" %in% colnames(sched)) return(character())
+  # Only completed games have rosters/officials. Drop postponed / canceled /
+  # not-yet-played entries (e.g. STATUS_POSTPONED) so the compile does not try to
+  # fetch a per-game summary that was never scraped (404) and emit warnings.
+  if ("status_type_completed" %in% colnames(sched)) {
+    sched <- sched[!is.na(sched$status_type_completed) &
+                     as.logical(sched$status_type_completed), , drop = FALSE]
+  } else if ("status_type_name" %in% colnames(sched)) {
+    sched <- sched[!grepl("POSTPONED|CANCEL|SUSPENDED|FORFEIT",
+                          toupper(as.character(sched$status_type_name))), , drop = FALSE]
+  }
   ids <- as.character(unique(sched$game_id))
   ids[!is.na(ids) & nzchar(ids)]
 }
