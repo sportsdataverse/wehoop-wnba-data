@@ -29,6 +29,9 @@ SCRIPTS=(
     R/espn_wnba_07_standings_creation.R
     R/espn_wnba_09_game_rosters_creation.R
     R/espn_wnba_10_officials_creation.R
+    R/wnba_11_team_crosswalk_creation.R
+    R/wnba_12_schedule_crosswalk_creation.R
+    R/wnba_13_player_crosswalk_creation.R
 )
 
 mkdir -p logs
