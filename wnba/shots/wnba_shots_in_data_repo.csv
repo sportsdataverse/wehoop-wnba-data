@@ -79,3 +79,5 @@ season,row_count,generated_at_utc,source_endpoint
 2026,17915,2026-06-14 10:39:45 UTC,derived from espn_wnba pbp
 2026,18264,2026-06-15 10:40:03 UTC,derived from espn_wnba pbp
 2026,18264,2026-06-15 12:58:42 UTC,derived from espn_wnba pbp
+2026,18777,2026-06-16 10:40:20 UTC,derived from espn_wnba pbp
+2026,18777,2026-06-16 12:03:54 UTC,derived from espn_wnba pbp
