@@ -1,7 +1,7 @@
 From https://github.com/sportsdataverse/wehoop-wnba-data
  * [new branch]        AE/remove-qs -> origin/AE/remove-qs
 ℹ Compiling 2026 ESPN WNBA pbps (131 games)
-✔ Compiled 2026 ESPN WNBA pbps! [39.1s]
+✔ Compiled 2026 ESPN WNBA pbps! [29s]
 
 ℹ Updating 2026 ESPN WNBA PBP GitHub Release
 → Uploading 3 files!
@@ -9,8 +9,8 @@ From https://github.com/sportsdataverse/wehoop-wnba-data
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_pbp
 ℹ Updating 2026 ESPN WNBA PBP GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA PBP GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_pbp on 2026-06-25 10:41:10.423818
-ℹ Updating 2026 ESPN WNBA PBP GitHub Release✔ Updated 2026 ESPN WNBA PBP GitHub Release! [5s]
+ℹ Updating 2026 ESPN WNBA PBP GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_pbp on 2026-06-26 10:16:10.814477
+ℹ Updating 2026 ESPN WNBA PBP GitHub Release✔ Updated 2026 ESPN WNBA PBP GitHub Release! [4.9s]
 
 ℹ Updating 2026 ESPN WNBA Shots GitHub Release
 → Uploading 3 files!
@@ -18,8 +18,8 @@ espn_wnba_pbp
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_shots
 ℹ Updating 2026 ESPN WNBA Shots GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Shots GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_shots on 2026-06-25 10:41:12.866496
-ℹ Updating 2026 ESPN WNBA Shots GitHub Release✔ Updated 2026 ESPN WNBA Shots GitHub Release! [2.4s]
+ℹ Updating 2026 ESPN WNBA Shots GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_shots on 2026-06-26 10:16:13.524536
+ℹ Updating 2026 ESPN WNBA Shots GitHub Release✔ Updated 2026 ESPN WNBA Shots GitHub Release! [2.7s]
 
 ℹ Compiling ESPN WNBA master schedule
 → Uploading 1 files!
@@ -27,12 +27,12 @@ espn_wnba_shots
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_shots
 ℹ Compiling ESPN WNBA master schedule✔ Upload successfully completed.
-ℹ Compiling ESPN WNBA master schedule→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_shots on 2026-06-25 10:41:14.751503
-ℹ Compiling ESPN WNBA master schedule✔ ESPN WNBA master schedule compiled and written to disk [1.7s]
+ℹ Compiling ESPN WNBA master schedule→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_shots on 2026-06-26 10:16:15.541489
+ℹ Compiling ESPN WNBA master schedule✔ ESPN WNBA master schedule compiled and written to disk [1.8s]
 
 
 ℹ Compiling 2026 ESPN WNBA Team Boxscores (131 games)
-✔ Compiled 2026 ESPN WNBA Team Boxscores! [15.2s]
+✔ Compiled 2026 ESPN WNBA Team Boxscores! [11.1s]
 
 ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release
 → Uploading 3 files!
@@ -40,15 +40,15 @@ espn_wnba_shots
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_team_boxscores
 ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_team_boxscores on 2026-06-25 10:41:33.405393
-ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release✔ Updated 2026 ESPN WNBA Team Boxscores GitHub Release! [2.3s]
+ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_team_boxscores on 2026-06-26 10:16:30.336377
+ℹ Updating 2026 ESPN WNBA Team Boxscores GitHub Release✔ Updated 2026 ESPN WNBA Team Boxscores GitHub Release! [2.7s]
 
 ℹ Compiling ESPN WNBA master schedule
-✔ ESPN WNBA master schedule compiled and written to disk [293ms]
+✔ ESPN WNBA master schedule compiled and written to disk [243ms]
 
 
 ℹ Compiling 2026 ESPN WNBA Player Boxscores (131 games)
-✔ Compiled 2026 ESPN WNBA Player Boxscores! [16s]
+✔ Compiled 2026 ESPN WNBA Player Boxscores! [11.6s]
 
 ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release
 → Uploading 3 files!
@@ -56,14 +56,14 @@ espn_wnba_team_boxscores
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_player_boxscores
 ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_player_boxscores on 2026-06-25 10:41:53.463507
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_player_boxscores on 2026-06-26 10:16:46.017059
 ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release→ Uploading 3 files!
 ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Releaseℹ Start upload of 7 files to
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_schedules
 ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_schedules on 2026-06-25 10:41:55.685345
-ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release✔ Updated 2026 ESPN WNBA Player Boxscores GitHub Release! [4.7s]
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_schedules on 2026-06-26 10:16:48.580176
+ℹ Updating 2026 ESPN WNBA Player Boxscores GitHub Release✔ Updated 2026 ESPN WNBA Player Boxscores GitHub Release! [5.4s]
 
 ℹ Compiling ESPN WNBA master schedule
 → Uploading 3 files!
@@ -71,20 +71,20 @@ espn_wnba_schedules
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_schedules
 ℹ Compiling ESPN WNBA master schedule✔ Upload successfully completed.
-ℹ Compiling ESPN WNBA master schedule→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_schedules on 2026-06-25 10:41:58.751136
+ℹ Compiling ESPN WNBA master schedule→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_schedules on 2026-06-26 10:16:51.82953
 ℹ Compiling ESPN WNBA master schedule[1] "cli-213-51"
 → Uploading 3 files!
 ℹ Compiling ESPN WNBA master scheduleℹ Start upload of 7 files to
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_schedules
 ℹ Compiling ESPN WNBA master schedule✔ Upload successfully completed.
-ℹ Compiling ESPN WNBA master schedule→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_schedules on 2026-06-25 10:42:01.196872
+ℹ Compiling ESPN WNBA master schedule→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_schedules on 2026-06-26 10:16:54.465286
 ℹ Compiling ESPN WNBA master schedule[1] "cli-213-62"
-✔ ESPN WNBA master schedule compiled and written to disk [5.4s]
+✔ ESPN WNBA master schedule compiled and written to disk [5.7s]
 
 
 ℹ Compiling 2026 ESPN WNBA rosters (15 teams)
-✔ Compiled 2026 ESPN WNBA rosters! [3.1s]
+✔ Compiled 2026 ESPN WNBA rosters! [3.3s]
 
 ℹ Updating 2026 ESPN WNBA Rosters GitHub Release
 → Uploading 3 files!
@@ -92,19 +92,19 @@ espn_wnba_schedules
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_rosters
 ℹ Updating 2026 ESPN WNBA Rosters GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Rosters GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_rosters on 2026-06-25 10:42:07.696479
-ℹ Updating 2026 ESPN WNBA Rosters GitHub Release✔ Updated 2026 ESPN WNBA Rosters GitHub Release! [2s]
+ℹ Updating 2026 ESPN WNBA Rosters GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_rosters on 2026-06-26 10:17:01.662947
+ℹ Updating 2026 ESPN WNBA Rosters GitHub Release✔ Updated 2026 ESPN WNBA Rosters GitHub Release! [2.7s]
 
-5.437 sec elapsed
+6.291 sec elapsed
 → Uploading 1 files!
 ℹ Start upload of 5 files to
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_rosters
 ✔ Upload successfully completed.
-→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_rosters on 2026-06-25 10:42:09.260843
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_rosters on 2026-06-26 10:17:03.358683
 
 ℹ Compiling 2026 ESPN WNBA player season stats (205 athletes)
-✔ Compiled 2026 ESPN WNBA player season stats! [12.2s]
+✔ Compiled 2026 ESPN WNBA player season stats! [27.8s]
 
 ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release
 → Uploading 3 files!
@@ -112,19 +112,19 @@ espn_wnba_rosters
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_player_season_stats
 ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_player_season_stats on 2026-06-25 10:42:26.706814
-ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release✔ Updated 2026 ESPN WNBA Player Season Stats GitHub Release! [2.3s]
+ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_player_season_stats on 2026-06-26 10:17:36.488276
+ℹ Updating 2026 ESPN WNBA Player Season Stats GitHub Release✔ Updated 2026 ESPN WNBA Player Season Stats GitHub Release! [2.7s]
 
-16.418 sec elapsed
+32.268 sec elapsed
 → Uploading 1 files!
 ℹ Start upload of 5 files to
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_player_season_stats
 ✔ Upload successfully completed.
-→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_player_season_stats on 2026-06-25 10:42:28.237419
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_player_season_stats on 2026-06-26 10:17:38.185184
 
 ℹ Compiling 2026 ESPN WNBA team season stats (15 teams)
-✔ Compiled 2026 ESPN WNBA team season stats! [2.4s]
+✔ Compiled 2026 ESPN WNBA team season stats! [3s]
 
 ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release
 → Uploading 3 files!
@@ -132,19 +132,19 @@ espn_wnba_player_season_stats
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_team_season_stats
 ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_team_season_stats on 2026-06-25 10:42:34.201599
-ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release✔ Updated 2026 ESPN WNBA Team Season Stats GitHub Release! [2.3s]
+ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_team_season_stats on 2026-06-26 10:17:44.880898
+ℹ Updating 2026 ESPN WNBA Team Season Stats GitHub Release✔ Updated 2026 ESPN WNBA Team Season Stats GitHub Release! [2.5s]
 
-4.892 sec elapsed
+5.807 sec elapsed
 → Uploading 1 files!
 ℹ Start upload of 5 files to
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_team_season_stats
 ✔ Upload successfully completed.
-→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_team_season_stats on 2026-06-25 10:42:35.62146
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_team_season_stats on 2026-06-26 10:17:46.521815
 
 ℹ Compiling 2026 ESPN WNBA standings
-✔ Compiled 2026 ESPN WNBA standings! [263ms]
+✔ Compiled 2026 ESPN WNBA standings! [235ms]
 
 ℹ Updating 2026 ESPN WNBA Standings GitHub Release
 → Uploading 3 files!
@@ -152,19 +152,19 @@ espn_wnba_team_season_stats
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_standings
 ℹ Updating 2026 ESPN WNBA Standings GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Standings GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_standings on 2026-06-25 10:42:39.214409
-ℹ Updating 2026 ESPN WNBA Standings GitHub Release✔ Updated 2026 ESPN WNBA Standings GitHub Release! [2.1s]
+ℹ Updating 2026 ESPN WNBA Standings GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_standings on 2026-06-26 10:17:50.368969
+ℹ Updating 2026 ESPN WNBA Standings GitHub Release✔ Updated 2026 ESPN WNBA Standings GitHub Release! [2.6s]
 
-2.56 sec elapsed
+2.991 sec elapsed
 → Uploading 1 files!
 ℹ Start upload of 5 files to
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_standings
 ✔ Upload successfully completed.
-→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_standings on 2026-06-25 10:42:40.684762
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_standings on 2026-06-26 10:17:51.898963
 
 ℹ Compiling 2026 ESPN WNBA game rosters (131 games)
-✔ Compiled 2026 ESPN WNBA game rosters! [50.7s]
+✔ Compiled 2026 ESPN WNBA game rosters! [42.1s]
 
 ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release
 → Uploading 3 files!
@@ -172,56 +172,56 @@ espn_wnba_standings
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_game_rosters
 ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_game_rosters on 2026-06-25 10:43:34.814471
-ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release✔ Updated 2026 ESPN WNBA Game Rosters GitHub Release! [2.2s]
+ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_game_rosters on 2026-06-26 10:18:37.519741
+ℹ Updating 2026 ESPN WNBA Game Rosters GitHub Release✔ Updated 2026 ESPN WNBA Game Rosters GitHub Release! [2.5s]
 
-53.115 sec elapsed
+44.793 sec elapsed
 → Uploading 1 files!
 ℹ Start upload of 5 files to
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_game_rosters
 ✔ Upload successfully completed.
-→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_game_rosters on 2026-06-25 10:43:36.356661
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_game_rosters on 2026-06-26 10:18:39.236577
 
 ℹ Compiling 2026 ESPN WNBA officials (131 games)
-! 2026-06-25 10:43:50.836677: skip officials 2026/401856984: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856984.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:50.935738: skip officials 2026/401856985: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856985.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:51.046275: skip officials 2026/401856986: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856986.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:51.146793: skip officials 2026/401856987: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856987.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:51.268895: skip officials 2026/401856988: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856988.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:51.388749: skip officials 2026/401856989: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856989.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:51.51686: skip officials 2026/401856990: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856990.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:51.629412: skip officials 2026/401856991: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856991.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:51.742266: skip officials 2026/401856992: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856992.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:51.846998: skip officials 2026/401856993: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856993.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:51.963097: skip officials 2026/401856994: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856994.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:52.065313: skip officials 2026/401856995: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856995.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:52.19166: skip officials 2026/401856996: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856996.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:52.315039: skip officials 2026/401856997: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856997.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:52.442353: skip officials 2026/401856998: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856998.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:52.538628: skip officials 2026/401856999: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856999.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:52.652359: skip officials 2026/401857000: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857000.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:52.78049: skip officials 2026/401857001: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857001.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:52.909682: skip officials 2026/401857002: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857002.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:53.016565: skip officials 2026/401857003: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857003.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:53.13179: skip officials 2026/401857004: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857004.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:53.250274: skip officials 2026/401857005: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857005.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:53.370987: skip officials 2026/401857006: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857006.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:53.475214: skip officials 2026/401857007: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857007.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:53.591911: skip officials 2026/401857008: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857008.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:53.712335: skip officials 2026/401857009: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857009.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:53.832843: skip officials 2026/401857010: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857010.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:53.954427: skip officials 2026/401857011: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857011.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:54.07982: skip officials 2026/401857012: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857012.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:54.180772: skip officials 2026/401857013: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857013.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:54.275639: skip officials 2026/401857014: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857014.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:54.389548: skip officials 2026/401857015: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857015.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:54.496711: skip officials 2026/401857016: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857016.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:54.615214: skip officials 2026/401857017: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857017.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:54.742206: skip officials 2026/401857018: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857018.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:54.85937: skip officials 2026/401857019: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857019.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-25 10:43:54.966365: skip officials 2026/401857020: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857020.json'
-ℹ Compiling 2026 ESPN WNBA officials (131 games)✔ Compiled 2026 ESPN WNBA officials! [17.4s]
+! 2026-06-26 10:19:13.938723: skip officials 2026/401856984: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856984.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:14.107954: skip officials 2026/401856985: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856985.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:14.259728: skip officials 2026/401856986: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856986.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:14.413346: skip officials 2026/401856987: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856987.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:14.557842: skip officials 2026/401856988: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856988.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:14.693737: skip officials 2026/401856989: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856989.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:14.859174: skip officials 2026/401856990: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856990.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:15.020312: skip officials 2026/401856991: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856991.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:15.18527: skip officials 2026/401856992: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856992.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:15.356607: skip officials 2026/401856993: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856993.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:15.516968: skip officials 2026/401856994: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856994.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:15.702301: skip officials 2026/401856995: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856995.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:15.85953: skip officials 2026/401856996: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856996.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:16.014569: skip officials 2026/401856997: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856997.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:16.183726: skip officials 2026/401856998: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856998.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:16.332721: skip officials 2026/401856999: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401856999.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:16.5075: skip officials 2026/401857000: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857000.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:16.668218: skip officials 2026/401857001: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857001.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:16.815457: skip officials 2026/401857002: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857002.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:16.983702: skip officials 2026/401857003: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857003.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:17.160386: skip officials 2026/401857004: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857004.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:17.331067: skip officials 2026/401857005: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857005.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:17.511612: skip officials 2026/401857006: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857006.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:17.681659: skip officials 2026/401857007: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857007.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:17.832388: skip officials 2026/401857008: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857008.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:18.003273: skip officials 2026/401857009: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857009.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:18.164553: skip officials 2026/401857010: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857010.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:18.313914: skip officials 2026/401857011: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857011.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:18.451509: skip officials 2026/401857012: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857012.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:18.608749: skip officials 2026/401857013: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857013.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:18.761617: skip officials 2026/401857014: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857014.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:18.905588: skip officials 2026/401857015: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857015.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:19.215338: skip officials 2026/401857016: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857016.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:19.363886: skip officials 2026/401857017: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857017.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:19.522335: skip officials 2026/401857018: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857018.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:19.666538: skip officials 2026/401857019: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857019.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)! 2026-06-26 10:19:19.828739: skip officials 2026/401857020: cannot open the connection to 'https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/401857020.json'
+ℹ Compiling 2026 ESPN WNBA officials (131 games)✔ Compiled 2026 ESPN WNBA officials! [39.6s]
 
 ℹ Updating 2026 ESPN WNBA Officials GitHub Release
 → Uploading 3 files!
@@ -229,52 +229,52 @@ espn_wnba_game_rosters
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_officials
 ℹ Updating 2026 ESPN WNBA Officials GitHub Release✔ Upload successfully completed.
-ℹ Updating 2026 ESPN WNBA Officials GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_officials on 2026-06-25 10:43:57.00397
-ℹ Updating 2026 ESPN WNBA Officials GitHub Release✔ Updated 2026 ESPN WNBA Officials GitHub Release! [2.1s]
+ℹ Updating 2026 ESPN WNBA Officials GitHub Release→ Uploaded 7 to sportsdataverse/sportsdataverse-data @ espn_wnba_officials on 2026-06-26 10:19:22.258011
+ℹ Updating 2026 ESPN WNBA Officials GitHub Release✔ Updated 2026 ESPN WNBA Officials GitHub Release! [2.5s]
 
 There were 37 warnings (use warnings() to see them)
-19.622 sec elapsed
+42.171 sec elapsed
 → Uploading 1 files!
 ℹ Start upload of 5 files to
 <https://github.com/sportsdataverse/sportsdataverse-data/releases> @
 espn_wnba_officials
 ✔ Upload successfully completed.
-→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_officials on 2026-06-25 10:43:58.525527
+→ Uploaded 5 to sportsdataverse/sportsdataverse-data @ espn_wnba_officials on 2026-06-26 10:19:23.933975
 
 ℹ Compiling 2026 WNBA team crosswalk
-✖ 2026-06-25 10:44:00.407424: Invalid arguments or no league schedule data for 2026 available!
+✖ 2026-06-26 10:19:25.251553: Invalid arguments or no league schedule data for 2026 available!
 ℹ Compiling 2026 WNBA team crosswalk✖ Args: league_id = "10", season = 2026L
 ℹ Compiling 2026 WNBA team crosswalk✖ Error: lexical error: invalid char in json text.                                        <!DOCTYPE html> <html>  <head>                       (right here) ------^ 
-ℹ Compiling 2026 WNBA team crosswalk! 2026-06-25 10:44:00.41767: skip team crosswalk 2026: no applicable method for 'transmute' applied to an object of class "NULL"
-ℹ Compiling 2026 WNBA team crosswalk! 2026-06-25 10:44:00.422598: no team crosswalk rows for 2026
-ℹ Compiling 2026 WNBA team crosswalk✔ Compiled 2026 WNBA team crosswalk! [749ms]
+ℹ Compiling 2026 WNBA team crosswalk! 2026-06-26 10:19:25.260347: skip team crosswalk 2026: no applicable method for 'transmute' applied to an object of class "NULL"
+ℹ Compiling 2026 WNBA team crosswalk! 2026-06-26 10:19:25.264232: no team crosswalk rows for 2026
+ℹ Compiling 2026 WNBA team crosswalk✔ Compiled 2026 WNBA team crosswalk! [357ms]
 
-0.778 sec elapsed
+0.381 sec elapsed
 
 ℹ Compiling 2026 WNBA schedule crosswalk
-✖ 2026-06-25 10:44:01.756071: Invalid arguments or no league schedule data for 2026 available!
+✖ 2026-06-26 10:19:26.364822: Invalid arguments or no league schedule data for 2026 available!
 ℹ Compiling 2026 WNBA schedule crosswalk✖ Args: league_id = "10", season = 2026L
 ℹ Compiling 2026 WNBA schedule crosswalk✖ Error: lexical error: invalid char in json text.                                        <!DOCTYPE html> <html>  <head>                       (right here) ------^ 
-ℹ Compiling 2026 WNBA schedule crosswalk✖ 2026-06-25 10:44:02.120796: Invalid arguments or no league schedule data for 2026 available!
+ℹ Compiling 2026 WNBA schedule crosswalk✖ 2026-06-26 10:19:26.617445: Invalid arguments or no league schedule data for 2026 available!
 ℹ Compiling 2026 WNBA schedule crosswalk✖ Args: league_id = "10", season = 2026L
 ℹ Compiling 2026 WNBA schedule crosswalk✖ Error: lexical error: invalid char in json text.                                        <!DOCTYPE html> <html>  <head>                       (right here) ------^ 
-ℹ Compiling 2026 WNBA schedule crosswalk! 2026-06-25 10:44:02.130794: skip schedule crosswalk 2026: no applicable method for 'transmute' applied to an object of class "NULL"
-ℹ Compiling 2026 WNBA schedule crosswalk! 2026-06-25 10:44:02.13599: no schedule crosswalk rows for 2026
-ℹ Compiling 2026 WNBA schedule crosswalk✔ Compiled 2026 WNBA schedule crosswalk! [551ms]
+ℹ Compiling 2026 WNBA schedule crosswalk! 2026-06-26 10:19:26.625249: skip schedule crosswalk 2026: no applicable method for 'transmute' applied to an object of class "NULL"
+ℹ Compiling 2026 WNBA schedule crosswalk! 2026-06-26 10:19:26.629027: no schedule crosswalk rows for 2026
+ℹ Compiling 2026 WNBA schedule crosswalk✔ Compiled 2026 WNBA schedule crosswalk! [344ms]
 
-0.582 sec elapsed
+0.369 sec elapsed
 
 ℹ Compiling 2026 WNBA player crosswalk
-✖ 2026-06-25 10:44:03.65435: Invalid arguments or no league schedule data for 2026 available!
+✖ 2026-06-26 10:19:27.928297: Invalid arguments or no league schedule data for 2026 available!
 ℹ Compiling 2026 WNBA player crosswalk✖ Args: league_id = "10", season = 2026L
 ℹ Compiling 2026 WNBA player crosswalk✖ Error: lexical error: invalid char in json text.                                        <!DOCTYPE html> <html>  <head>                       (right here) ------^ 
-ℹ Compiling 2026 WNBA player crosswalk! 2026-06-25 10:44:03.664686: skip player crosswalk 2026: no applicable method for 'transmute' applied to an object of class "NULL"
-ℹ Compiling 2026 WNBA player crosswalk! 2026-06-25 10:44:03.669793: no player crosswalk rows for 2026
-ℹ Compiling 2026 WNBA player crosswalk✔ Compiled 2026 WNBA player crosswalk! [381ms]
+ℹ Compiling 2026 WNBA player crosswalk! 2026-06-26 10:19:27.936335: skip player crosswalk 2026: no applicable method for 'transmute' applied to an object of class "NULL"
+ℹ Compiling 2026 WNBA player crosswalk! 2026-06-26 10:19:27.940136: no player crosswalk rows for 2026
+ℹ Compiling 2026 WNBA player crosswalk✔ Compiled 2026 WNBA player crosswalk! [291ms]
 
-0.412 sec elapsed
+0.316 sec elapsed
 
-[main 11ec6f4c] WNBA Data Update (Start: 2026 End: 2026)
- 32 files changed, 7 insertions(+)
+[main 1ed97783] WNBA Data Update (Start: 2026 End: 2026)
+ 29 files changed, 7 insertions(+)
 To https://github.com/sportsdataverse/wehoop-wnba-data
-   20f37ce1..11ec6f4c  main -> main
+   9928e28e..1ed97783  main -> main
