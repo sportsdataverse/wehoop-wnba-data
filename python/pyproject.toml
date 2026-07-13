@@ -14,12 +14,11 @@ dependencies = [
 [dependency-groups]
 dev = ["pytest>=8.0"]
 
-# DEV source: the sdv-py feat/wnba-producer worktree carries the
-# helper_wnba_* producers; neither PyPI 0.0.71 nor sdv-py main has them yet.
-# The cutover commit flips this to git+main once the sdv-py PR merges (and to
-# the released version once one ships).
+# The helper_wnba_* producers landed on sdv-py main in #249; no PyPI release
+# carries them yet, so track main (same as the WBB sibling). Pin to the
+# released version once one ships.
 [tool.uv.sources]
-sportsdataverse = { path = "../../../sdv-py/.claude/worktrees/wnba-producer", editable = true }
+sportsdataverse = { git = "https://github.com/sportsdataverse/sportsdataverse-py", branch = "main" }
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
