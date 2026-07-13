@@ -27,3 +27,14 @@ def test_team_box_parity_2025(tmp_path):
     oracle = FX / "released" / "team_box_2025.parquet"
     all_cols = [c for c in pl.read_parquet_schema(str(oracle)) if c not in KEYS]
     assert_parquet_parity(py, oracle, keys=KEYS, sample_cols=all_cols)
+
+
+def test_team_box_row_order_is_r_arrange_desc_game_date(tmp_path):
+    # assert_parquet_parity sorts both sides before comparing, so it cannot see
+    # row order -- R's arrange(desc(game_date)) (espn_wnba_02:91, implemented in
+    # build.py) would otherwise be unpinned. The oracle is the published asset
+    # row-filtered to the fixture games, so its order IS R's order.
+    py = build_season("team_box", 2025, base=tmp_path, raw_root=FX / "raw")
+    oracle = pl.read_parquet(FX / "released" / "team_box_2025.parquet")
+    assert py.get_column("game_id").to_list() == oracle.get_column("game_id").to_list()
+    assert py.get_column("team_id").to_list() == oracle.get_column("team_id").to_list()

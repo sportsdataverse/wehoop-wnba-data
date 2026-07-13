@@ -20,6 +20,9 @@ import tempfile
 from pathlib import Path
 from typing import Callable
 
+import polars as pl
+
+from wnba_data_build import io as build_io
 from wnba_data_build._logging import get_logger, human_size
 from wnba_data_build.config import DatasetSpec
 
@@ -45,15 +48,40 @@ def _gh_release_exists(tag: str, repo: str) -> bool:
     )
 
 
+def _manifest_asset(spec: DatasetSpec, base: Path) -> Path | None:
+    """Collapse the manifest append-log to one row per season for the release.
+
+    R's ``upload_wnba_manifest`` uploads
+    ``distinct(season, .keep_all = TRUE) %>% arrange(season)`` -- and dplyr's
+    distinct keeps the FIRST occurrence, so the published row_count freezes at
+    a season's first-ever run (the 2026 shots asset still advertised 2047 rows
+    against a 30,628-row dataset). We keep the LATEST row per season instead,
+    so the manifest describes the asset actually published alongside it. That
+    is a deliberate divergence from R; completed seasons are unaffected (their
+    first run == their last).
+    """
+    src = build_io.manifest_path(spec, base)
+    if spec.manifest_endpoint is None or not src.exists():
+        return None
+    latest = (
+        pl.read_csv(src).unique(subset=["season"], keep="last", maintain_order=True).sort("season")
+    )
+    tmp = Path(tempfile.mkdtemp(prefix="wnba_manifest_")) / src.name
+    latest.write_csv(tmp)
+    return tmp
+
+
 def _dataset_files(spec: DatasetSpec, season: int, base: Path) -> list[Path]:
     root = base / spec.dataset
     cands = [
         root / "parquet" / f"{spec.stem}_{season}.parquet",
         root / "csv" / f"{spec.stem}_{season}.csv",
-        # Manifest asset name == file name (R manifest_upload_helper contract).
-        root / f"{_LEAGUE}_{spec.dataset}_in_data_repo.csv",
     ]
     files = [f for f in cands if f.exists()]
+    # Manifest asset name == file name (R manifest_upload_helper contract).
+    manifest = _manifest_asset(spec, base)
+    if manifest is not None:
+        files.append(manifest)
     # Tree csv is gzipped for the big three; the release asset stays plain
     # .csv (R sportsdataverse_save wrote its own plain csv). Decompress to a
     # temp file carrying the asset name.

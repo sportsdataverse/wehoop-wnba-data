@@ -82,7 +82,18 @@ def build_season(
             # extras from the committed per-season parquets and publish them
             # to the schedules tag (WNBA actively ships these; WBB doesn't).
             master, games = reshapers.build_schedule_extras(base=Path(base))
-            if master.height:
+            if master.height and not games.height:
+                # games = the PBP==TRUE filter. Master rows but zero PBP games
+                # means the pbp parquets are missing (a failed/skipped pbp
+                # build), not that no game has pbp -- publishing here would
+                # overwrite wnba_games_in_data_repo with an empty asset.
+                log.error(
+                    "schedules %s: master has %d rows but ZERO games flagged PBP -- "
+                    "refusing to publish the schedule extras. Build pbp first.",
+                    season,
+                    master.height,
+                )
+            elif master.height:
                 extra_files = io.write_schedule_extras(master, games, base=base)
                 if publish_release or dry_run:
                     publish.publish_files(spec.tag, extra_files, dry_run=dry_run)

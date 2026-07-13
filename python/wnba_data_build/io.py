@@ -29,20 +29,33 @@ def _utc_now_str() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
 
-def _append_manifest(spec: DatasetSpec, season: int, row_count: int, base: Path) -> Path:
-    f = base / spec.dataset / f"{_LEAGUE}_{spec.dataset}_in_data_repo.csv"
+def manifest_path(spec: DatasetSpec, base: Path) -> Path:
+    return base / spec.dataset / f"{_LEAGUE}_{spec.dataset}_in_data_repo.csv"
+
+
+def _append_manifest(spec: DatasetSpec, season: int, row_count: int, base: Path) -> Path | None:
+    """Append one run's row to the dataset's manifest log (R ``fwrite(append=TRUE)``).
+
+    The tree file is an append LOG -- one row per run, not per season (the real
+    committed manifests carry 140-155 rows). ``publish`` is what collapses it to
+    one row per season for the release asset. Rewriting the tree file as an
+    upsert here would silently destroy that published history.
+    """
+    if spec.manifest_endpoint is None:
+        return None  # R does not manifest this dataset; see DatasetSpec
+    f = manifest_path(spec, base)
     f.parent.mkdir(parents=True, exist_ok=True)
     row = pl.DataFrame(
         {
             "season": [int(season)],
             "row_count": [int(row_count)],
             "generated_at_utc": [_utc_now_str()],
+            "source_endpoint": [spec.manifest_endpoint.format(season=season)],
         }
     )
     if f.exists():
-        old = pl.read_csv(f).filter(pl.col("season") != int(season))
-        row = pl.concat([old, row], how="diagonal_relaxed")
-    row.sort("season").write_csv(f)
+        row = pl.concat([pl.read_csv(f), row], how="diagonal_relaxed")
+    row.write_csv(f)
     return f
 
 
@@ -67,14 +80,14 @@ def write_dataset(
         df.write_csv(csv)
     manifest = _append_manifest(spec, season, df.height, base)
     log.info(
-        "wrote %s (%s) + %s (%s), %d rows x %d cols; manifest %s upserted",
+        "wrote %s (%s) + %s (%s), %d rows x %d cols; manifest %s",
         pq,
         human_size(pq.stat().st_size),
         csv.name,
         human_size(csv.stat().st_size),
         df.height,
         df.width,
-        manifest.name,
+        f"{manifest.name} appended" if manifest else "n/a (not manifested)",
     )
     return [pq, csv]
 

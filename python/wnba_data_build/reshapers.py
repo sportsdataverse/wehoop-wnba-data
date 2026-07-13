@@ -75,6 +75,17 @@ def shots_from_pbp(pbp: pl.DataFrame) -> pl.DataFrame:
 def _built_game_ids(base: Path, dataset: str, stem: str, season: int) -> list[int]:
     p = base / dataset / "parquet" / f"{stem}_{season}.parquet"
     if not p.exists():
+        # Fails open (every flag -> False), like R's empty-espn_df branch. Say so
+        # loudly: if this is a pipeline-order violation (or a failed upstream
+        # build) rather than a genuinely unbuilt season, the schedule would ship
+        # PBP=FALSE for every game. build.py additionally refuses to publish the
+        # schedule extras when that leaves zero PBP games.
+        log.warning(
+            "%s %s: no built parquet at %s -- schedule flags for it will all be False",
+            dataset,
+            season,
+            p,
+        )
         return []
     return (
         pl.read_parquet(p, columns=["game_id"])
@@ -216,7 +227,11 @@ def standings_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFram
     payload = ingest.read_final(season, raw_root=raw_root, subdir="standings/json")
     if payload is None:
         return pl.DataFrame()
-    return helper_wnba_standings(payload, season=season)
+    out = helper_wnba_standings(payload, season=season)
+    # espn_wnba_07:190 ends in dplyr::distinct(). No dupes in today's payloads
+    # (2025 is 299 rows either way), but a team nested under both a conference
+    # and a league group would double up without this.
+    return out.unique(maintain_order=True)
 
 
 def draft_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFrame:
@@ -255,7 +270,25 @@ def pbp_season_postprocess(out: pl.DataFrame) -> pl.DataFrame:
     return out
 
 
-SEASON_POSTPROCESS: dict = {"pbp": pbp_season_postprocess}
+def team_box_season_postprocess(out: pl.DataFrame) -> pl.DataFrame:
+    """espn_wnba_02:78-82 -- a season whose payload union lacks ``largest_lead``
+    still ships it, as an all-null String column appended last.
+
+    Not dead code: the released team_box assets for 2003-2011, 2013 and 2015
+    carry ``largest_lead`` as an all-null column that exists *only* because of
+    that R line. The Python helper's stat spread is payload-driven, so without
+    this those 11 seasons would rebuild one column short and
+    ``load_wnba_team_box(2003:2026)`` would bind divergent schemas.
+    """
+    if "largest_lead" not in out.columns and out.width > 1:
+        out = out.with_columns(pl.lit(None, dtype=pl.Utf8).alias("largest_lead"))
+    return out
+
+
+SEASON_POSTPROCESS: dict = {
+    "pbp": pbp_season_postprocess,
+    "team_box": team_box_season_postprocess,
+}
 
 
 # --- schedule extras (master + games_in_data_repo) ----------------------------
