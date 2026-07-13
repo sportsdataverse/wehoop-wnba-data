@@ -1,0 +1,513 @@
+{
+"status": "success",
+"results": {
+"stats": {
+"id": "0",
+"name": "All Splits",
+"abbreviation": "Total",
+"categories": [
+{
+"name": "general",
+"displayName": "General",
+"abbreviation": "gen",
+"stats": [
+{
+"name": "avgRebounds",
+"displayName": "Rebounds Per Game",
+"shortDisplayName": "RPG",
+"description": "The average rebounds per game.",
+"abbreviation": "REB",
+"value": 33.409092,
+"displayValue": "33.4"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 1.6035398,
+"displayValue": "1.6",
+"perGameValue": 1.6666666269302368,
+"perGameDisplayValue": "1.667"
+},
+{
+"name": "avgFouls",
+"displayName": "Fouls Per Game",
+"shortDisplayName": "PFPG",
+"description": "The average fouls committed per game.",
+"abbreviation": "PF",
+"value": 18.636364,
+"displayValue": "18.6"
+},
+{
+"name": "gamesPlayed",
+"displayName": "Games Played",
+"shortDisplayName": "GP",
+"description": "Games Played",
+"abbreviation": "GP",
+"value": 44.0,
+"displayValue": "44"
+},
+{
+"name": "gamesStarted",
+"displayName": "Games Started",
+"shortDisplayName": "GS",
+"description": "The number of games started by an athlete.",
+"abbreviation": "GS",
+"value": 0.0,
+"displayValue": "0"
+},
+{
+"name": "avgMinutes",
+"displayName": "Minutes Per Game",
+"shortDisplayName": "MPG",
+"description": "The average number of minutes per game.",
+"abbreviation": "MIN",
+"value": 0.0,
+"displayValue": "0.0"
+},
+{
+"name": "totalRebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds for a team or player",
+"abbreviation": "REB",
+"value": 1470.0,
+"displayValue": "1470",
+"perGameValue": 32.0,
+"perGameDisplayValue": "32"
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 1470.0,
+"displayValue": "1470",
+"perGameValue": 32.0,
+"perGameDisplayValue": "32"
+}
+]
+},
+{
+"name": "offensive",
+"displayName": "Offensive",
+"abbreviation": "off",
+"stats": [
+{
+"name": "freeThrowPct",
+"displayName": "Free Throw Percentage",
+"shortDisplayName": "FT%",
+"description": "The ratio of free throws made to free throws attempted: FTM / FTA",
+"abbreviation": "FT%",
+"value": 76.991,
+"displayValue": "77.0",
+"perGameValue": 0.7730000019073486,
+"perGameDisplayValue": "0.773"
+},
+{
+"name": "threePointPct",
+"displayName": "3-Point Field Goal Percentage",
+"shortDisplayName": "3P%",
+"description": "The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
+"abbreviation": "3P%",
+"value": 34.564,
+"displayValue": "34.6",
+"perGameValue": 0.34700000286102295,
+"perGameDisplayValue": "0.347"
+},
+{
+"name": "avgFieldGoalsMade",
+"displayName": "Average Field Goals Made",
+"shortDisplayName": "AFGM",
+"description": "The average field goals made per game.",
+"abbreviation": "FGM",
+"value": 31.363636,
+"displayValue": "31.4"
+},
+{
+"name": "avgFieldGoalsAttempted",
+"displayName": "Average Field Goals Attempted",
+"shortDisplayName": "AFGA",
+"description": "The average field goals attempted per game.",
+"abbreviation": "FGA",
+"value": 68.75,
+"displayValue": "68.8"
+},
+{
+"name": "avgThreePointFieldGoalsMade",
+"displayName": "Average 3-Point Field Goals Made",
+"shortDisplayName": "A3PM",
+"description": "The average three point field goals made per game.",
+"abbreviation": "3PM",
+"value": 8.295455,
+"displayValue": "8.3"
+},
+{
+"name": "avgThreePointFieldGoalsAttempted",
+"displayName": "Average 3-Point Field Goals Attempted",
+"shortDisplayName": "A3PA",
+"description": "The average three point field goals attempted per game.",
+"abbreviation": "3PA",
+"value": 24.0,
+"displayValue": "24.0"
+},
+{
+"name": "avgFreeThrowsMade",
+"displayName": "Average Free Throws Made",
+"shortDisplayName": "AFTM",
+"description": "The average free throw shots made per game.",
+"abbreviation": "FTM",
+"value": 13.840909,
+"displayValue": "13.8"
+},
+{
+"name": "avgFreeThrowsAttempted",
+"displayName": "Average Free Throws Attempted",
+"shortDisplayName": "AFTA",
+"description": "The average free throw shots attempted per game.",
+"abbreviation": "FTA",
+"value": 17.977272,
+"displayValue": "18.0"
+},
+{
+"name": "avgPoints",
+"displayName": "Points Per Game",
+"shortDisplayName": "PPG",
+"description": "The average number of points scored per game.",
+"abbreviation": "PTS",
+"value": 84.86364,
+"displayValue": "84.9"
+},
+{
+"name": "avgOffensiveRebounds",
+"displayName": "Offensive Rebounds Per Game",
+"shortDisplayName": "ORPG",
+"description": "The average offensive rebounds per game.",
+"abbreviation": "OR",
+"value": 8.840909,
+"displayValue": "8.8"
+},
+{
+"name": "avgAssists",
+"displayName": "Assists Per Game",
+"shortDisplayName": "APG",
+"description": "The average assists per game.",
+"abbreviation": "AST",
+"value": 20.59091,
+"displayValue": "20.6"
+},
+{
+"name": "avgTurnovers",
+"displayName": "Turnovers Per Game",
+"shortDisplayName": "TOPG",
+"description": "The average turnovers committed per game.",
+"abbreviation": "TO",
+"value": 12.840909,
+"displayValue": "12.8"
+},
+{
+"name": "twoPointFieldGoalPct",
+"displayName": "2-Point Field Goal Percentage",
+"shortDisplayName": "2P%",
+"description": "The percentage of 2-points fields goals made by a team or player.",
+"abbreviation": "2P%",
+"value": 51.54901146888733,
+"displayValue": "51.5",
+"perGameValue": 0.5111111402511597,
+"perGameDisplayValue": "0.511"
+},
+{
+"name": "scoringEfficiency",
+"displayName": "Scoring Efficiency",
+"shortDisplayName": "SC-EFF",
+"description": "The efficiency with which a team or player scores the basketball.",
+"abbreviation": "SC-EFF",
+"value": 1.2343801,
+"displayValue": "1.234",
+"perGameValue": 1.2352941036224365,
+"perGameDisplayValue": "1.235"
+},
+{
+"name": "shootingEfficiency",
+"displayName": "Shooting Efficiency",
+"shortDisplayName": "SH-EFF",
+"description": "The efficiency with which a team or player shoots the basketball.",
+"abbreviation": "SH-EFF",
+"value": 0.5165289,
+"displayValue": "0.52",
+"perGameValue": 0.5220588445663452,
+"perGameDisplayValue": "0.522"
+},
+{
+"name": "fieldGoalPct",
+"displayName": "Field Goal Percentage",
+"shortDisplayName": "FG%",
+"description": "The ratio of field goals made to field goals attempted: FGM / FGA",
+"abbreviation": "FG%",
+"value": 45.62,
+"displayValue": "45.6",
+"perGameValue": 0.4560000002384186,
+"perGameDisplayValue": "0.456"
+},
+{
+"name": "twoPointFieldGoalsMade",
+"displayName": "2-Point Field Goals Made",
+"shortDisplayName": "2PM",
+"description": "The number of 2-point field goals made for a team or player.",
+"abbreviation": "2PM",
+"value": 1015.0,
+"displayValue": "1015.0",
+"perGameValue": 23.0,
+"perGameDisplayValue": "23"
+},
+{
+"name": "twoPointFieldGoalsAttempted",
+"displayName": "2-Point Field Goals Attempted",
+"shortDisplayName": "2PA",
+"description": "The number of 2-point field goals attempted for a team or player.",
+"abbreviation": "2PA",
+"value": 1969.0,
+"displayValue": "1969.0",
+"perGameValue": 45.0,
+"perGameDisplayValue": "45"
+},
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 3734.0,
+"displayValue": "3734",
+"perGameValue": 84.0,
+"perGameDisplayValue": "84"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 389.0,
+"displayValue": "389",
+"perGameValue": 8.0,
+"perGameDisplayValue": "8"
+},
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 906.0,
+"displayValue": "906",
+"perGameValue": 20.0,
+"perGameDisplayValue": "20"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 565.0,
+"displayValue": "565",
+"perGameValue": 12.0,
+"perGameDisplayValue": "12"
+},
+{
+"name": "fieldGoalsMade",
+"displayName": "Field Goals Made",
+"shortDisplayName": "FGM",
+"description": "The number of times a 2pt field goal was made.",
+"abbreviation": "FGM",
+"value": 1380.0,
+"displayValue": "1380",
+"perGameValue": 31.0,
+"perGameDisplayValue": "31"
+},
+{
+"name": "fieldGoalsAttempted",
+"displayName": "Field Goals Attempted",
+"shortDisplayName": "FGA",
+"description": "The number of times a 2pt field goal was attempted.",
+"abbreviation": "FGA",
+"value": 3025.0,
+"displayValue": "3025",
+"perGameValue": 68.0,
+"perGameDisplayValue": "68"
+},
+{
+"name": "freeThrowsMade",
+"displayName": "Free Throws Made",
+"shortDisplayName": "FTM",
+"description": "The number of times a free throw was made.",
+"abbreviation": "FTM",
+"value": 609.0,
+"displayValue": "609",
+"perGameValue": 13.0,
+"perGameDisplayValue": "13"
+},
+{
+"name": "freeThrowsAttempted",
+"displayName": "Free Throws Attempted",
+"shortDisplayName": "FTA",
+"description": "The number of times a free throw was attempted.",
+"abbreviation": "FTA",
+"value": 791.0,
+"displayValue": "791",
+"perGameValue": 17.0,
+"perGameDisplayValue": "17"
+},
+{
+"name": "threePointFieldGoalsMade",
+"displayName": "3-Point Field Goals Made",
+"shortDisplayName": "3PM",
+"description": "The number of times a 3pt field goal was made.",
+"abbreviation": "3PM",
+"value": 365.0,
+"displayValue": "365",
+"perGameValue": 8.0,
+"perGameDisplayValue": "8"
+},
+{
+"name": "threePointFieldGoalsAttempted",
+"displayName": "3-Point Field Goals Attempted",
+"shortDisplayName": "3PA",
+"description": "The number of times a 3pt field goal was attempted.",
+"abbreviation": "3PA",
+"value": 1056.0,
+"displayValue": "1056",
+"perGameValue": 23.0,
+"perGameDisplayValue": "23"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayName": "3-Point Field Goal Percentage",
+"shortDisplayName": "3P%",
+"description": "The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
+"abbreviation": "3P%",
+"value": 34.564393758773804,
+"displayValue": "34.6",
+"perGameValue": 0.3478260934352875,
+"perGameDisplayValue": "0.348"
+},
+{
+"name": "avgTwoPointFieldGoalsMade",
+"displayName": "2-Point Field Goals Made per Game",
+"shortDisplayName": "2PM",
+"description": "The number of 2-point field goals made per game for a team or player.",
+"abbreviation": "2PM",
+"value": 23.068182,
+"displayValue": "23.1"
+},
+{
+"name": "avgTwoPointFieldGoalsAttempted",
+"displayName": "2-Point Field Goals Attempted per Game",
+"shortDisplayName": "2PA",
+"description": "The number of 2-point field goals attempted per game for a team or player.",
+"abbreviation": "2PA",
+"value": 44.75,
+"displayValue": "44.8"
+}
+]
+},
+{
+"name": "defensive",
+"displayName": "Defensive",
+"abbreviation": "def",
+"stats": [
+{
+"name": "avgDefensiveRebounds",
+"displayName": "Defensive Rebounds Per Game",
+"shortDisplayName": "DRPG",
+"description": "The average defensive rebounds per game.",
+"abbreviation": "DR",
+"value": 24.568182,
+"displayValue": "24.6"
+},
+{
+"name": "avgBlocks",
+"displayName": "Blocks Per Game",
+"shortDisplayName": "BPG",
+"description": "The average blocks per game.",
+"abbreviation": "BLK",
+"value": 2.75,
+"displayValue": "2.8"
+},
+{
+"name": "avgSteals",
+"displayName": "Steals Per Game",
+"shortDisplayName": "SPG",
+"description": "The average steals per game.",
+"abbreviation": "STL",
+"value": 7.7045455,
+"displayValue": "7.7"
+},
+{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"abbreviation": "DR",
+"value": 1081.0,
+"displayValue": "1081",
+"perGameValue": 24.0,
+"perGameDisplayValue": "24"
+},
+{
+"name": "steals",
+"displayName": "Steals",
+"shortDisplayName": "STL",
+"description": "The number of times a defensive player forced a turnover by intercepting or deflecting a pass or a dribble of an offensive player.",
+"abbreviation": "STL",
+"value": 339.0,
+"displayValue": "339",
+"perGameValue": 7.0,
+"perGameDisplayValue": "7"
+},
+{
+"name": "blocks",
+"displayName": "Blocks",
+"shortDisplayName": "BLK",
+"description": "Short for blocked shot, number of times when a defensive player legally deflects a field goal attempt from an offensive player.",
+"abbreviation": "BLK",
+"value": 121.0,
+"displayValue": "121",
+"perGameValue": 2.0,
+"perGameDisplayValue": "2"
+}
+]
+}
+]
+}
+},
+"season": {
+"year": 2026,
+"type": 2,
+"name": "Regular Season",
+"displayName": "2026"
+},
+"requestedSeason": {
+"year": 2025,
+"type": 2,
+"name": "Regular Season",
+"displayName": "2025",
+"qualifiedPostSeason": true
+},
+"team": {
+"id": "5",
+"abbreviation": "IND",
+"location": "Indiana",
+"name": "Fever",
+"displayName": "Indiana Fever",
+"color": "002d62",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"recordSummary": "24-20",
+"seasonSummary": "2025",
+"standingSummary": "3rd in Eastern Conference Division"
+}
+}

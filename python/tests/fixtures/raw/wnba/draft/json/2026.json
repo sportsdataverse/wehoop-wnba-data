@@ -1,0 +1,2512 @@
+{
+  "uid": "s:40~l:59~e:draft~y:2026",
+  "year": 2026,
+  "displayName": "2026 Women's National Basketball Association Draft",
+  "shortDisplayName": "2026 WNBA Draft",
+  "positions": [
+    {
+      "id": "9",
+      "displayName": "Center",
+      "abbreviation": "C"
+    },
+    {
+      "id": "5",
+      "displayName": "Small Forward",
+      "abbreviation": "SF"
+    },
+    {
+      "id": "6",
+      "displayName": "Power Forward",
+      "abbreviation": "PF"
+    },
+    {
+      "id": "7",
+      "displayName": "Forward",
+      "abbreviation": "F"
+    },
+    {
+      "id": "1",
+      "displayName": "Point Guard",
+      "abbreviation": "PG"
+    },
+    {
+      "id": "2",
+      "displayName": "Shooting Guard",
+      "abbreviation": "SG"
+    },
+    {
+      "id": "3",
+      "displayName": "Guard",
+      "abbreviation": "G"
+    }
+  ],
+  "rounds": 3,
+  "status": {
+    "round": 3,
+    "state": "post",
+    "name": "COMPLETED",
+    "description": "Completed"
+  },
+  "broadcasts": [],
+  "picks": [
+    {
+      "status": "SELECTION_MADE",
+      "pick": 1,
+      "overall": 1,
+      "round": 1,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111091",
+        "displayName": "Azzi Fudd",
+        "displayHeight": "5'11\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "UConn",
+          "name": "Huskies",
+          "abbreviation": "CONN",
+          "shortDisplayName": "UConn"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "1"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "2"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "98"
+          }
+        ],
+        "guid": "343afb44-7a8b-3984-8141-361e8045fdaa",
+        "alternativeId": "4433790",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433790.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4433790/azzi-fudd",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4433790/azzi-fudd",
+        "uid": "s:40~l:59~a:4433790"
+      },
+      "teamId": "3"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 2,
+      "overall": 2,
+      "round": 1,
+      "traded": true,
+      "tradeNote": "Pick acquired from CHI",
+      "athlete": {
+        "id": "111092",
+        "displayName": "Olivia Miles",
+        "displayHeight": "5'10\"",
+        "position": {
+          "id": "1"
+        },
+        "team": {
+          "location": "TCU",
+          "name": "Horned Frogs",
+          "abbreviation": "TCU",
+          "shortDisplayName": "TCU"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "1"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "1"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "100"
+          }
+        ],
+        "guid": "9b981a71-c55e-3b7f-81a2-1663a2d50ea3",
+        "alternativeId": "4433791",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433791.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4433791/olivia-miles",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4433791/olivia-miles",
+        "uid": "s:40~l:59~a:4433791"
+      },
+      "teamId": "8"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 3,
+      "overall": 3,
+      "round": 1,
+      "traded": true,
+      "tradeNote": "Pick acquired from LA",
+      "athlete": {
+        "id": "111095",
+        "displayName": "Awa Fam Thiam",
+        "displayHeight": "6'4\"",
+        "position": {
+          "id": "9"
+        },
+        "leagueAffiliation": "Spain",
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "1"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "3"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "97"
+          }
+        ],
+        "guid": "79194bb3-caeb-3af5-a503-9baa2b42b377",
+        "alternativeId": "5345325",
+        "link": "https://www.espn.com/wnba/player/_/id/5345325/awa-fam-thiam",
+        "team": {
+          "location": "Spain",
+          "name": "Spain",
+          "abbreviation": "Spain",
+          "shortDisplayName": "Spain"
+        },
+        "proLink": "https://www.espn.com/wnba/player/_/id/5345325/awa-fam",
+        "uid": "s:40~l:59~a:5345325"
+      },
+      "teamId": "14"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 4,
+      "overall": 4,
+      "round": 1,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111093",
+        "displayName": "Lauren Betts",
+        "displayHeight": "6'7\"",
+        "position": {
+          "id": "9"
+        },
+        "team": {
+          "location": "UCLA",
+          "name": "Bruins",
+          "abbreviation": "UCLA",
+          "shortDisplayName": "UCLA"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "2"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "4"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "96"
+          }
+        ],
+        "guid": "4e73e15c-bb39-3a82-b4bf-8c71fae48868",
+        "alternativeId": "5105737",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105737.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5105737/lauren-betts",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5105737/lauren-betts",
+        "uid": "s:40~l:59~a:5105737"
+      },
+      "teamId": "16"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 5,
+      "overall": 5,
+      "round": 1,
+      "traded": true,
+      "tradeNote": "Pick acquired from CON",
+      "athlete": {
+        "id": "111106",
+        "displayName": "Gabriela Jaquez",
+        "displayHeight": "6'0\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "UCLA",
+          "name": "Bruins",
+          "abbreviation": "UCLA",
+          "shortDisplayName": "UCLA"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "4"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "11"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "93"
+          }
+        ],
+        "guid": "9499df6a-a7f8-3467-87a7-25fc67524c3b",
+        "alternativeId": "4858656",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4858656.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4858656/gabriela-jaquez",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4858656/gabriela-jaquez",
+        "uid": "s:40~l:59~a:4858656"
+      },
+      "teamId": "19"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 6,
+      "overall": 6,
+      "round": 1,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111102",
+        "displayName": "Kiki Rice",
+        "displayHeight": "5'11\"",
+        "position": {
+          "id": "1"
+        },
+        "team": {
+          "location": "UCLA",
+          "name": "Bruins",
+          "abbreviation": "UCLA",
+          "shortDisplayName": "UCLA"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "3"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "13"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "93"
+          }
+        ],
+        "guid": "527099c9-b18c-356a-a939-b950af0427c5",
+        "alternativeId": "4565505",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4565505.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4565505/kiki-rice",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4565505/kiki-rice",
+        "uid": "s:40~l:59~a:4565505"
+      },
+      "teamId": "131935"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 7,
+      "overall": 7,
+      "round": 1,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111098",
+        "displayName": "Iyana Mart\u00edn Carri\u00f3n",
+        "displayHeight": "5'9\"",
+        "position": {
+          "id": "1"
+        },
+        "leagueAffiliation": "Spain",
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "2"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "8"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "94"
+          }
+        ],
+        "guid": "66e4ba03-5197-3d76-924d-909f9970a470",
+        "alternativeId": "5345329",
+        "link": "https://www.espn.com/wnba/player/_/id/5345329/iyana-martin-carrion",
+        "team": {
+          "location": "Spain",
+          "name": "Spain",
+          "abbreviation": "Spain",
+          "shortDisplayName": "Spain"
+        },
+        "proLink": "https://www.espn.com/wnba/player/_/id/5345329/iyana-martin",
+        "uid": "s:40~l:59~a:5345329"
+      },
+      "teamId": "132052"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 8,
+      "overall": 8,
+      "round": 1,
+      "traded": true,
+      "tradeNote": "Player rights traded to SEA",
+      "athlete": {
+        "id": "111094",
+        "displayName": "Flau'jae Johnson",
+        "displayHeight": "5'10\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "LSU",
+          "name": "Tigers",
+          "abbreviation": "LSU",
+          "shortDisplayName": "LSU"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "2"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "5"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "95"
+          }
+        ],
+        "guid": "1875dbcd-73f8-3c49-858b-6bab339c69fb",
+        "alternativeId": "4698736",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4698736.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4698736/flaujae-johnson",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4698736/flaujae-johnson",
+        "uid": "s:40~l:59~a:4698736"
+      },
+      "teamId": "129689"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 9,
+      "overall": 9,
+      "round": 1,
+      "traded": true,
+      "tradeNote": "Pick acquired from SEA",
+      "athlete": {
+        "id": "111114",
+        "displayName": "Angela Dugali\u0107",
+        "displayHeight": "6'4\"",
+        "position": {
+          "id": "6"
+        },
+        "team": {
+          "location": "UCLA",
+          "name": "Bruins",
+          "abbreviation": "UCLA",
+          "shortDisplayName": "UCLA"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "2"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "21"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "91"
+          }
+        ],
+        "guid": "3a83740b-47c1-36bc-b0d6-b709f5a2723c",
+        "alternativeId": "4433411",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433411.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4433411/angela-dugalic",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4433411/angela-dugalic",
+        "uid": "s:40~l:59~a:4433411"
+      },
+      "teamId": "16"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 10,
+      "overall": 10,
+      "round": 1,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111104",
+        "displayName": "Raven Johnson",
+        "displayHeight": "5'9\"",
+        "position": {
+          "id": "1"
+        },
+        "team": {
+          "location": "South Carolina",
+          "name": "Gamecocks",
+          "abbreviation": "SC",
+          "shortDisplayName": "South Carolina"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "4"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "16"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "92"
+          }
+        ],
+        "guid": "847d34e9-93c3-3b36-b920-e52db3c812b9",
+        "alternativeId": "4433797",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433797.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4433797/raven-johnson",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4433797/raven-johnson",
+        "uid": "s:40~l:59~a:4433797"
+      },
+      "teamId": "5"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 11,
+      "overall": 11,
+      "round": 1,
+      "traded": true,
+      "tradeNote": "Pick acquired from NY",
+      "athlete": {
+        "id": "111096",
+        "displayName": "Cotie McMahon",
+        "displayHeight": "6'0\"",
+        "position": {
+          "id": "5"
+        },
+        "team": {
+          "location": "Ole Miss",
+          "name": "Rebels",
+          "abbreviation": "MISS",
+          "shortDisplayName": "Ole Miss"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "1"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "6"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "94"
+          }
+        ],
+        "guid": "f3f823c7-0beb-3fde-89f4-b3439835fafd",
+        "alternativeId": "4583144",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4583144.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4583144/cotie-mcmahon",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4583144/cotie-mcmahon",
+        "uid": "s:40~l:59~a:4583144"
+      },
+      "teamId": "16"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 12,
+      "overall": 12,
+      "round": 1,
+      "traded": true,
+      "tradeNote": "Pick acquired from PHX",
+      "athlete": {
+        "id": "111097",
+        "displayName": "Nell Angloma",
+        "displayHeight": "5'11\"",
+        "position": {
+          "id": "5"
+        },
+        "leagueAffiliation": "France",
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "2"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "7"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "94"
+          }
+        ],
+        "guid": "ef3e02b1-f566-3530-846b-a7fe8994fc4c",
+        "alternativeId": "5345319",
+        "link": "https://www.espn.com/wnba/player/_/id/5345319/nell-angloma",
+        "team": {
+          "location": "France",
+          "name": "France",
+          "abbreviation": "France",
+          "shortDisplayName": "France"
+        },
+        "proLink": "https://www.espn.com/wnba/player/_/id/5345319/nell-angloma",
+        "uid": "s:40~l:59~a:5345319"
+      },
+      "teamId": "18"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 13,
+      "overall": 13,
+      "round": 1,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111100",
+        "displayName": "Madina Okot",
+        "displayHeight": "6'6\"",
+        "position": {
+          "id": "9"
+        },
+        "team": {
+          "location": "South Carolina",
+          "name": "Gamecocks",
+          "abbreviation": "SC",
+          "shortDisplayName": "South Carolina"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "3"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "10"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "94"
+          }
+        ],
+        "guid": "65d1a858-06e1-3642-bea2-83d7e8b17653",
+        "alternativeId": "5108587",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5108587.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5108587/madina-okot",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5108587/madina-okot",
+        "uid": "s:40~l:59~a:5108587"
+      },
+      "teamId": "20"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 14,
+      "overall": 14,
+      "round": 1,
+      "traded": true,
+      "tradeNote": "Pick acquired from LV",
+      "athlete": {
+        "id": "111199",
+        "displayName": "Taina Mair",
+        "displayHeight": "5'9\"",
+        "position": {
+          "id": "1"
+        },
+        "team": {
+          "location": "Duke",
+          "name": "Blue Devils",
+          "abbreviation": "DUKE",
+          "shortDisplayName": "Duke"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "9"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "30"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "90"
+          }
+        ],
+        "guid": "db8bf392-38a2-3c5b-8437-df665ff5cdfe",
+        "alternativeId": "5106222",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5106222.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5106222/taina-mair",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5106222/taina-mair",
+        "uid": "s:40~l:59~a:5106222"
+      },
+      "teamId": "14"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 15,
+      "overall": 15,
+      "round": 1,
+      "traded": true,
+      "tradeNote": "Pick acquired from MIN",
+      "athlete": {
+        "id": "111099",
+        "displayName": "Gianna Kneepkens",
+        "displayHeight": "5'11\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "UCLA",
+          "name": "Bruins",
+          "abbreviation": "UCLA",
+          "shortDisplayName": "UCLA"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "5"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "12"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "93"
+          }
+        ],
+        "guid": "84510952-68e5-3e34-8395-423168617a53",
+        "alternativeId": "4898898",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4898898.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4898898/gianna-kneepkens",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4898898/gianna-kneepkens",
+        "uid": "s:40~l:59~a:4898898"
+      },
+      "teamId": "18"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 1,
+      "overall": 16,
+      "round": 2,
+      "traded": true,
+      "tradeNote": "Player rights traded to GS",
+      "athlete": {
+        "id": "111105",
+        "displayName": "Marta Su\u00e1rez",
+        "displayHeight": "6'3\"",
+        "position": {
+          "id": "5"
+        },
+        "team": {
+          "location": "TCU",
+          "name": "Horned Frogs",
+          "abbreviation": "TCU",
+          "shortDisplayName": "TCU"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "3"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "15"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "93"
+          }
+        ],
+        "guid": "2dad6630-5c45-3e7b-85ce-0fbd64e45979",
+        "alternativeId": "4704594",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4704594.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4704594/marta-suarez",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4704594/marta-suarez",
+        "uid": "s:40~l:59~a:4704594"
+      },
+      "teamId": "14"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 2,
+      "overall": 17,
+      "round": 2,
+      "traded": true,
+      "tradeNote": "Pick acquired from CHI",
+      "athlete": {
+        "id": "111118",
+        "displayName": "Frieda B\u00fchner",
+        "displayHeight": "6'1\"",
+        "position": {
+          "id": "6"
+        },
+        "leagueAffiliation": "Germany",
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "3"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "23"
+          }
+        ],
+        "guid": "52f94a97-def2-3e09-946b-ae3fc49c7244",
+        "alternativeId": "5105406",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105406.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5105406/frieda-buhner",
+        "team": {
+          "location": "Germany",
+          "name": "Germany",
+          "abbreviation": "Germany",
+          "shortDisplayName": "Germany"
+        },
+        "proLink": "https://www.espn.com/wnba/player/_/id/5105406/frieda-buhner",
+        "uid": "s:40~l:59~a:5105406"
+      },
+      "teamId": "132052"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 3,
+      "overall": 18,
+      "round": 2,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111111",
+        "displayName": "Charlisse Leger-Walker",
+        "displayHeight": "5'10\"",
+        "position": {
+          "id": "1"
+        },
+        "team": {
+          "location": "UCLA",
+          "name": "Bruins",
+          "abbreviation": "UCLA",
+          "shortDisplayName": "UCLA"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "6"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "19"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "92"
+          }
+        ],
+        "guid": "ffe45994-90cb-3f4b-bdaf-9c030d327caa",
+        "alternativeId": "4703609",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4703609.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4703609/charlisse-leger-walker",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4703609/charlisse-leger-walker",
+        "uid": "s:40~l:59~a:4703609"
+      },
+      "teamId": "18"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 4,
+      "overall": 19,
+      "round": 2,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111200",
+        "displayName": "Cassandre Prosper",
+        "displayHeight": "6'3\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "Notre Dame",
+          "name": "Fighting Irish",
+          "abbreviation": "ND",
+          "shortDisplayName": "Notre Dame"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "9"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "31"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "90"
+          }
+        ],
+        "guid": "118f7a39-0568-39be-84c0-dbabfcdba438",
+        "alternativeId": "5122345",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5122345.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5122345/cassandre-prosper",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5122345/cassandre-prosper",
+        "uid": "s:40~l:59~a:5122345"
+      },
+      "teamId": "16"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 5,
+      "overall": 20,
+      "round": 2,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111103",
+        "displayName": "Ta'Niya Latson",
+        "displayHeight": "5'8\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "South Carolina",
+          "name": "Gamecocks",
+          "abbreviation": "SC",
+          "shortDisplayName": "South Carolina"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "6"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "14"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "93"
+          }
+        ],
+        "guid": "e8210eb0-fe71-31e6-87e9-8c4b286aeb3f",
+        "alternativeId": "4609797",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4609797.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4609797/taniya-latson",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4609797/taniya-latson",
+        "uid": "s:40~l:59~a:4609797"
+      },
+      "teamId": "6"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 6,
+      "overall": 21,
+      "round": 2,
+      "traded": true,
+      "tradeNote": "Pick acquired from POR",
+      "athlete": {
+        "id": "111205",
+        "displayName": "Latasha Lattimore",
+        "displayHeight": "6'4\"",
+        "position": {
+          "id": "6"
+        },
+        "team": {
+          "location": "Ole Miss",
+          "name": "Rebels",
+          "abbreviation": "MISS",
+          "shortDisplayName": "Ole Miss"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "8"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "37"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "89"
+          }
+        ],
+        "guid": "b16d0e2f-bbfa-3302-8cd6-25d363d0e182",
+        "alternativeId": "4433517",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433517.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4433517/latasha-lattimore",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4433517/latasha-lattimore",
+        "uid": "s:40~l:59~a:4433517"
+      },
+      "teamId": "19"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 7,
+      "overall": 22,
+      "round": 2,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111201",
+        "displayName": "Teonni Key",
+        "displayHeight": "6'5\"",
+        "position": {
+          "id": "6"
+        },
+        "team": {
+          "location": "Kentucky",
+          "name": "Wildcats",
+          "abbreviation": "UK",
+          "shortDisplayName": "Kentucky"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "7"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "33"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "89"
+          }
+        ],
+        "guid": "3c773812-ecda-3552-9481-5ddc79600200",
+        "alternativeId": "4434020",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4434020.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4434020/teonni-key",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4434020/teonni-key",
+        "uid": "s:40~l:59~a:4434020"
+      },
+      "teamId": "131935"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 8,
+      "overall": 23,
+      "round": 2,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111101",
+        "displayName": "Ashlon Jackson",
+        "displayHeight": "6'0\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "Duke",
+          "name": "Blue Devils",
+          "abbreviation": "DUKE",
+          "shortDisplayName": "Duke"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "3"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "9"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "94"
+          }
+        ],
+        "guid": "2892cbb6-410c-3f84-9aae-594f58242912",
+        "alternativeId": "5106232",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5106232.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5106232/ashlon-jackson",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5106232/ashlon-jackson",
+        "uid": "s:40~l:59~a:5106232"
+      },
+      "teamId": "129689"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 9,
+      "overall": 24,
+      "round": 2,
+      "traded": true,
+      "tradeNote": "Pick acquired from SEA",
+      "athlete": {
+        "id": "111215",
+        "displayName": "Chance Gray",
+        "displayHeight": "5'9\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "Ohio State",
+          "name": "Buckeyes",
+          "abbreviation": "OSU",
+          "shortDisplayName": "Ohio State"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "18"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "49"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "86"
+          }
+        ],
+        "guid": "9abc3d2b-196f-36f9-ace8-9f29a8a763fc",
+        "alternativeId": "5105729",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105729.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5105729/chance-gray",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5105729/chance-gray",
+        "uid": "s:40~l:59~a:5105729"
+      },
+      "teamId": "6"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 10,
+      "overall": 25,
+      "round": 2,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111202",
+        "displayName": "Justine Pissott",
+        "displayHeight": "6'4\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "Vanderbilt",
+          "name": "Commodores",
+          "abbreviation": "VAN",
+          "shortDisplayName": "Vanderbilt"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "10"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "34"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "89"
+          }
+        ],
+        "guid": "05de73f8-c374-3b02-b482-0de66a790a71",
+        "alternativeId": "4682855",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4682855.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4682855/justine-pissott",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4682855/justine-pissott",
+        "uid": "s:40~l:59~a:4682855"
+      },
+      "teamId": "5"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 11,
+      "overall": 26,
+      "round": 2,
+      "traded": true,
+      "tradeNote": "Pick acquired from CHI via NY",
+      "athlete": {
+        "id": "111630",
+        "displayName": "Saffron Shiels",
+        "displayHeight": "6'2\"",
+        "position": {
+          "id": "5"
+        },
+        "leagueAffiliation": "Australia",
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "10"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "98"
+          }
+        ],
+        "guid": "940a98c7-7197-3911-bf3b-a0ec7f84f25c",
+        "alternativeId": "5345334",
+        "link": "https://www.espn.com/wnba/player/_/id/5345334/saffron-shiels",
+        "team": {
+          "location": "Australia",
+          "name": "Australia",
+          "abbreviation": "Australia",
+          "shortDisplayName": "Australia"
+        },
+        "proLink": "https://www.espn.com/wnba/player/_/id/5345334/saffron-shiels",
+        "uid": "s:40~l:59~a:5345334"
+      },
+      "teamId": "131935"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 12,
+      "overall": 27,
+      "round": 2,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111626",
+        "displayName": "Ines Pitarch-Granel",
+        "displayHeight": "5'11\"",
+        "position": {
+          "id": "2"
+        },
+        "leagueAffiliation": "France",
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "40"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "94"
+          }
+        ],
+        "guid": "48bb2d30-afb9-37bf-ab33-374c3f40db3b",
+        "alternativeId": "5345330",
+        "link": "https://www.espn.com/wnba/player/_/id/5345330/ines-pitarch-granel",
+        "team": {
+          "location": "France",
+          "name": "France",
+          "abbreviation": "France",
+          "shortDisplayName": "France"
+        },
+        "proLink": "https://www.espn.com/wnba/player/_/id/5345330/ines-pitarch-granel",
+        "uid": "s:40~l:59~a:5345330"
+      },
+      "teamId": "11"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 13,
+      "overall": 28,
+      "round": 2,
+      "traded": false,
+      "athlete": {
+        "id": "111656",
+        "displayName": "Indya Nivar",
+        "displayHeight": "5'10\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "North Carolina",
+          "name": "Tar Heels",
+          "abbreviation": "UNC",
+          "shortDisplayName": "North Carolina"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "50"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "118"
+          }
+        ],
+        "guid": "8406506b-e9bf-3a2e-bc94-754c91b4f1c3",
+        "alternativeId": "5105740",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105740.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5105740/indya-nivar",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5105740/indya-nivar",
+        "uid": "s:40~l:59~a:5105740"
+      },
+      "teamId": "20"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 14,
+      "overall": 29,
+      "round": 2,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111119",
+        "displayName": "Janiah Barker",
+        "displayHeight": "6'4\"",
+        "position": {
+          "id": "6"
+        },
+        "team": {
+          "location": "Tennessee",
+          "name": "Lady Volunteers",
+          "abbreviation": "TENN",
+          "shortDisplayName": "Tennessee"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "1"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "20"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "92"
+          }
+        ],
+        "guid": "e5ff3eb2-935b-3dcb-8a91-d8b1cdf0a1f0",
+        "alternativeId": "4565501",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4565501.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4565501/janiah-barker",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4565501/janiah-barker",
+        "uid": "s:40~l:59~a:4565501"
+      },
+      "teamId": "17"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 15,
+      "overall": 30,
+      "round": 2,
+      "traded": true,
+      "tradeNote": "Pick acquired from MIN",
+      "athlete": {
+        "id": "111116",
+        "displayName": "Darianna Littlepage-Buggs",
+        "displayHeight": "6'1\"",
+        "position": {
+          "id": "6"
+        },
+        "team": {
+          "location": "Baylor",
+          "name": "Bears",
+          "abbreviation": "BAY",
+          "shortDisplayName": "Baylor"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "4"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "25"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "91"
+          }
+        ],
+        "guid": "56b890e5-f0b5-3062-a62a-8c8793939ccf",
+        "alternativeId": "5106145",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5106145.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5106145/darianna-littlepage-buggs",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5106145/darianna-littlepage-buggs",
+        "uid": "s:40~l:59~a:5106145"
+      },
+      "teamId": "16"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 1,
+      "overall": 31,
+      "round": 3,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111672",
+        "displayName": "Zee Spearman",
+        "displayHeight": "6'4\"",
+        "position": {
+          "id": "6"
+        },
+        "team": {
+          "location": "Tennessee",
+          "name": "Lady Volunteers",
+          "abbreviation": "TENN",
+          "shortDisplayName": "Tennessee"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "28"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "133"
+          }
+        ],
+        "guid": "da4f6ad2-0932-3afe-a0cb-732e1fdf8d35",
+        "alternativeId": "4682913",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4682913.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4682913/zee-spearman",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4682913/lazaria-spearman",
+        "uid": "s:40~l:59~a:4682913"
+      },
+      "teamId": "3"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 2,
+      "overall": 32,
+      "round": 3,
+      "traded": false,
+      "athlete": {
+        "id": "111113",
+        "displayName": "Tonie Morgan",
+        "displayHeight": "5'9\"",
+        "position": {
+          "id": "1"
+        },
+        "team": {
+          "location": "Kentucky",
+          "name": "Wildcats",
+          "abbreviation": "UK",
+          "shortDisplayName": "Kentucky"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "5"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "18"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "92"
+          }
+        ],
+        "guid": "4c0311d4-ad53-31ee-a45d-682bd25e8eb9",
+        "alternativeId": "4565515",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4565515.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4565515/tonie-morgan",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4565515/tonie-morgan",
+        "uid": "s:40~l:59~a:4565515"
+      },
+      "teamId": "19"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 3,
+      "overall": 33,
+      "round": 3,
+      "traded": true,
+      "tradeNote": "Player rights traded to POR",
+      "athlete": {
+        "id": "111110",
+        "displayName": "Serah Williams",
+        "displayHeight": "6'4\"",
+        "position": {
+          "id": "9"
+        },
+        "team": {
+          "location": "UConn",
+          "name": "Huskies",
+          "abbreviation": "CONN",
+          "shortDisplayName": "UConn"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "5"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "32"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "89"
+          }
+        ],
+        "guid": "31ef5a00-81e3-3cb3-a433-e1141bfeedc0",
+        "alternativeId": "5108550",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5108550.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5108550/serah-williams",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5108550/serah-williams",
+        "uid": "s:40~l:59~a:5108550"
+      },
+      "teamId": "18"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 4,
+      "overall": 34,
+      "round": 3,
+      "traded": false,
+      "athlete": {
+        "id": "111109",
+        "displayName": "Rori Harmon",
+        "displayHeight": "5'6\"",
+        "position": {
+          "id": "1"
+        },
+        "team": {
+          "location": "Texas",
+          "name": "Longhorns",
+          "abbreviation": "TEX",
+          "shortDisplayName": "Texas"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "7"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "24"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "91"
+          }
+        ],
+        "guid": "d977afa5-f2e8-3294-abbb-57ee9f5cac2f",
+        "alternativeId": "4433523",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433523.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4433523/rori-harmon",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4433523/rori-harmon",
+        "uid": "s:40~l:59~a:4433523"
+      },
+      "teamId": "16"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 5,
+      "overall": 35,
+      "round": 3,
+      "traded": false,
+      "athlete": {
+        "id": "111644",
+        "displayName": "Amelia Hassett",
+        "displayHeight": "6'4\"",
+        "position": {
+          "id": "6"
+        },
+        "team": {
+          "location": "Kentucky",
+          "name": "Wildcats",
+          "abbreviation": "UK",
+          "shortDisplayName": "Kentucky"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "24"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "106"
+          }
+        ],
+        "guid": "83bd7f2e-9e6c-3afd-b2ec-a428079fbb49",
+        "alternativeId": "5239080",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5239080.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5239080/amelia-hassett",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5239080/amelia-hassett",
+        "uid": "s:40~l:59~a:5239080"
+      },
+      "teamId": "6"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 6,
+      "overall": 36,
+      "round": 3,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111620",
+        "displayName": "Charlise Dunn",
+        "displayHeight": "6'2\"",
+        "position": {
+          "id": "5"
+        },
+        "team": {
+          "location": "Davidson",
+          "name": "Wildcats",
+          "abbreviation": "DAV",
+          "shortDisplayName": "Davidson"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "8"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "88"
+          }
+        ],
+        "guid": "35dca961-3db8-39b5-aeff-bf64b7d959be",
+        "alternativeId": "5107752",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5107752.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5107752/charlise-dunn",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5107752/charlise-dunn",
+        "uid": "s:40~l:59~a:5107752"
+      },
+      "teamId": "131935"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 7,
+      "overall": 37,
+      "round": 3,
+      "traded": true,
+      "tradeNote": "Player rights traded to CON",
+      "athlete": {
+        "id": "111603",
+        "displayName": "Taylor Bigby",
+        "displayHeight": "6'1\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "TCU",
+          "name": "Horned Frogs",
+          "abbreviation": "TCU",
+          "shortDisplayName": "TCU"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "31"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "76"
+          }
+        ],
+        "guid": "7acfd877-eba1-3d65-98e6-7d56652f66c9",
+        "alternativeId": "4433798",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433798.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4433798/taylor-bigby",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4433798/taylor-bigby",
+        "uid": "s:40~l:59~a:4433798"
+      },
+      "teamId": "132052"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 8,
+      "overall": 38,
+      "round": 3,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111633",
+        "displayName": "Kokoro Tanaka",
+        "displayHeight": "5'8\"",
+        "position": {
+          "id": "2"
+        },
+        "leagueAffiliation": "Japan",
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "42"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "101"
+          }
+        ],
+        "guid": "94c666d3-bb20-39df-a86d-2c35b96d660e",
+        "alternativeId": "5345336",
+        "link": "https://www.espn.com/wnba/player/_/id/5345336/kokoro-tanaka",
+        "team": {
+          "location": "Japan",
+          "name": "Japan",
+          "abbreviation": "Japan",
+          "shortDisplayName": "Japan"
+        },
+        "proLink": "https://www.espn.com/wnba/player/_/id/5345336/kokoro-tanaka",
+        "uid": "s:40~l:59~a:5345336"
+      },
+      "teamId": "129689"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 9,
+      "overall": 39,
+      "round": 3,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111112",
+        "displayName": "Grace VanSlooten",
+        "displayHeight": "6'3\"",
+        "position": {
+          "id": "6"
+        },
+        "team": {
+          "location": "Michigan State",
+          "name": "Spartans",
+          "abbreviation": "MSU",
+          "shortDisplayName": "Michigan St"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "6"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "27"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "90"
+          }
+        ],
+        "guid": "6f18be21-0028-3499-89be-8159cbfc4e4f",
+        "alternativeId": "5105731",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105731.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5105731/grace-vanslooten",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5105731/grace-vanslooten",
+        "uid": "s:40~l:59~a:5105731"
+      },
+      "teamId": "14"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 10,
+      "overall": 40,
+      "round": 3,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111204",
+        "displayName": "Jessica Timmons",
+        "displayHeight": "5'8\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "Alabama",
+          "name": "Crimson Tide",
+          "abbreviation": "ALA",
+          "shortDisplayName": "Alabama"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "12"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "36"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "89"
+          }
+        ],
+        "guid": "ef3a0683-9da4-36a7-9be8-4c8d44ae3507",
+        "alternativeId": "4433811",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4433811.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4433811/jessica-timmons",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4433811/jessica-timmons",
+        "uid": "s:40~l:59~a:4433811"
+      },
+      "teamId": "5"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 11,
+      "overall": 41,
+      "round": 3,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111627",
+        "displayName": "Manuela Puoch",
+        "displayHeight": "6'1\"",
+        "position": {
+          "id": "6"
+        },
+        "leagueAffiliation": "Australia",
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "22"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "95"
+          }
+        ],
+        "guid": "fd81e774-248f-3e1d-bd77-2716ff877fdb",
+        "alternativeId": "5345331",
+        "link": "https://www.espn.com/wnba/player/_/id/5345331/manuela-puoch",
+        "team": {
+          "location": "Australia",
+          "name": "Australia",
+          "abbreviation": "Australia",
+          "shortDisplayName": "Australia"
+        },
+        "proLink": "https://www.espn.com/wnba/player/_/id/5345331/manuela-puoch",
+        "uid": "s:40~l:59~a:5345331"
+      },
+      "teamId": "9"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 12,
+      "overall": 42,
+      "round": 3,
+      "traded": false,
+      "tradeNote": "",
+      "athlete": {
+        "id": "111753",
+        "displayName": "Eszter Ratkai",
+        "displayHeight": "5'10\"",
+        "position": {
+          "id": "3"
+        },
+        "leagueAffiliation": "Hungary",
+        "team": {
+          "location": "Hungary",
+          "name": "Hungary",
+          "abbreviation": "Hungary",
+          "shortDisplayName": "Hungary"
+        }
+      },
+      "teamId": "11"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 13,
+      "overall": 43,
+      "round": 3,
+      "traded": false,
+      "athlete": {
+        "id": "111628",
+        "displayName": "Kejia Ran",
+        "displayHeight": "6'2\"",
+        "position": {
+          "id": "2"
+        },
+        "leagueAffiliation": "China",
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "41"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "96"
+          }
+        ],
+        "guid": "1ef5efbc-192d-379a-960f-f3d4d679bd5c",
+        "alternativeId": "5345332",
+        "link": "https://www.espn.com/wnba/player/_/id/5345332/kejia-ran",
+        "team": {
+          "location": "China",
+          "name": "China",
+          "abbreviation": "China",
+          "shortDisplayName": "China"
+        },
+        "proLink": "https://www.espn.com/wnba/player/_/id/5345332/kejia-ran",
+        "uid": "s:40~l:59~a:5345332"
+      },
+      "teamId": "20"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 14,
+      "overall": 44,
+      "round": 3,
+      "traded": false,
+      "athlete": {
+        "id": "111657",
+        "displayName": "Jordan Obi",
+        "displayHeight": "6'1\"",
+        "position": {
+          "id": "5"
+        },
+        "team": {
+          "location": "Kentucky",
+          "name": "Wildcats",
+          "abbreviation": "UK",
+          "shortDisplayName": "Kentucky"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "13"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "119"
+          }
+        ],
+        "guid": "68075e41-dfc2-347b-be2e-99498fe81b75",
+        "alternativeId": "4705226",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/4705226.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/4705226/jordan-obi",
+        "proLink": "https://www.espn.com/wnba/player/_/id/4705226/jordan-obi",
+        "uid": "s:40~l:59~a:4705226"
+      },
+      "teamId": "17"
+    },
+    {
+      "status": "SELECTION_MADE",
+      "pick": 15,
+      "overall": 45,
+      "round": 3,
+      "traded": false,
+      "athlete": {
+        "id": "111227",
+        "displayName": "Lani White",
+        "displayHeight": "5'11\"",
+        "position": {
+          "id": "2"
+        },
+        "team": {
+          "location": "Utah",
+          "name": "Utes",
+          "abbreviation": "UTAH",
+          "shortDisplayName": "Utah"
+        },
+        "attributes": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "abbreviation": "POS RK",
+            "displayValue": "22"
+          },
+          {
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "OVR RK",
+            "displayValue": "61"
+          },
+          {
+            "name": "grade",
+            "displayName": "Grade",
+            "abbreviation": "GRADE",
+            "displayValue": "84"
+          }
+        ],
+        "guid": "354a0c42-449a-3df1-876c-c87756f4538f",
+        "alternativeId": "5105748",
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5105748.png"
+        },
+        "link": "https://www.espn.com/wnba/player/_/id/5105748/lani-white",
+        "proLink": "https://www.espn.com/wnba/player/_/id/5105748/lani-white",
+        "uid": "s:40~l:59~a:5105748"
+      },
+      "teamId": "8"
+    }
+  ],
+  "teams": [
+    {
+      "id": "20",
+      "uid": "s:40~l:59~t:20",
+      "location": "Atlanta",
+      "name": "Dream",
+      "abbreviation": "ATL",
+      "displayName": "Atlanta Dream",
+      "shortDisplayName": "Dream",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/atl.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/atl/atlanta-dream",
+      "record": {
+        "season": 2025,
+        "summary": "30-14",
+        "standing": "1st in Eastern Conference"
+      }
+    },
+    {
+      "id": "19",
+      "uid": "s:40~l:59~t:19",
+      "location": "Chicago",
+      "name": "Sky",
+      "abbreviation": "CHI",
+      "displayName": "Chicago Sky",
+      "shortDisplayName": "Sky",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/chi.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/chi/chicago-sky",
+      "record": {
+        "season": 2025,
+        "summary": "10-34",
+        "standing": "6th in Eastern Conference"
+      }
+    },
+    {
+      "id": "18",
+      "uid": "s:40~l:59~t:18",
+      "location": "Connecticut",
+      "name": "Sun",
+      "abbreviation": "CON",
+      "displayName": "Connecticut Sun",
+      "shortDisplayName": "Sun",
+      "logo": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/default.png",
+      "darkLogo": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/default-dark.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/connecticu/connecticut-sun",
+      "record": {
+        "season": 2025,
+        "summary": "11-33",
+        "standing": "5th in Eastern Conference"
+      }
+    },
+    {
+      "id": "3",
+      "uid": "s:40~l:59~t:3",
+      "location": "Dallas",
+      "name": "Wings",
+      "abbreviation": "DAL",
+      "displayName": "Dallas Wings",
+      "shortDisplayName": "Wings",
+      "logo": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/default.png",
+      "darkLogo": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/default-dark.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/dallas/dallas-wings",
+      "record": {
+        "season": 2025,
+        "summary": "10-34",
+        "standing": "7th in Western Conference"
+      }
+    },
+    {
+      "id": "129689",
+      "uid": "s:40~l:59~t:129689",
+      "location": "Golden State",
+      "name": "Valkyries",
+      "abbreviation": "GS",
+      "displayName": "Golden State Valkyries",
+      "shortDisplayName": "Valkyries",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/scoreboard/gs.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/gs/golden-state-valkyries",
+      "record": {
+        "season": 2025,
+        "summary": "23-21",
+        "standing": "5th in Western Conference"
+      }
+    },
+    {
+      "id": "5",
+      "uid": "s:40~l:59~t:5",
+      "location": "Indiana",
+      "name": "Fever",
+      "abbreviation": "IND",
+      "displayName": "Indiana Fever",
+      "shortDisplayName": "Fever",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/ind/indiana-fever",
+      "record": {
+        "season": 2025,
+        "summary": "24-20",
+        "standing": "3rd in Eastern Conference"
+      }
+    },
+    {
+      "id": "17475",
+      "uid": "s:40~l:59~t:17475",
+      "location": "Japan",
+      "name": "JAPAN",
+      "nickname": "Japan",
+      "abbreviation": "JPN",
+      "displayName": "JAPAN",
+      "shortDisplayName": "JAPAN",
+      "logo": "",
+      "darkLogo": "",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/jpn/japan",
+      "record": {
+        "season": 2025
+      }
+    },
+    {
+      "id": "6",
+      "uid": "s:40~l:59~t:6",
+      "location": "Los Angeles",
+      "name": "Sparks",
+      "abbreviation": "LA",
+      "displayName": "Los Angeles Sparks",
+      "shortDisplayName": "Sparks",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/la.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/la/los-angeles-sparks",
+      "record": {
+        "season": 2025,
+        "summary": "21-23",
+        "standing": "6th in Western Conference"
+      }
+    },
+    {
+      "id": "17",
+      "uid": "s:40~l:59~t:17",
+      "location": "Las Vegas",
+      "name": "Aces",
+      "abbreviation": "LV",
+      "displayName": "Las Vegas Aces",
+      "shortDisplayName": "Aces",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/lv.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/lv/las-vegas-aces",
+      "record": {
+        "season": 2025,
+        "summary": "30-14",
+        "standing": "2nd in Western Conference"
+      }
+    },
+    {
+      "id": "8",
+      "uid": "s:40~l:59~t:8",
+      "location": "Minnesota",
+      "name": "Lynx",
+      "abbreviation": "MIN",
+      "displayName": "Minnesota Lynx",
+      "shortDisplayName": "Lynx",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/min.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/min/minnesota-lynx",
+      "record": {
+        "season": 2025,
+        "summary": "34-10",
+        "standing": "1st in Western Conference"
+      }
+    },
+    {
+      "id": "17476",
+      "uid": "s:40~l:59~t:17476",
+      "location": "Nigeria",
+      "name": "NIGERIA",
+      "nickname": "Nigeria",
+      "abbreviation": "NIGER",
+      "displayName": "NIGERIA",
+      "shortDisplayName": "NIGERIA",
+      "logo": "",
+      "darkLogo": "",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/nigeria/nigeria",
+      "record": {
+        "season": 2025
+      }
+    },
+    {
+      "id": "9",
+      "uid": "s:40~l:59~t:9",
+      "location": "New York",
+      "name": "Liberty",
+      "abbreviation": "NY",
+      "displayName": "New York Liberty",
+      "shortDisplayName": "Liberty",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ny.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/ny/new-york-liberty",
+      "record": {
+        "season": 2025,
+        "summary": "27-17",
+        "standing": "2nd in Eastern Conference"
+      }
+    },
+    {
+      "id": "11",
+      "uid": "s:40~l:59~t:11",
+      "location": "Phoenix",
+      "name": "Mercury",
+      "abbreviation": "PHX",
+      "displayName": "Phoenix Mercury",
+      "shortDisplayName": "Mercury",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/phx.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/phx/phoenix-mercury",
+      "record": {
+        "season": 2025,
+        "summary": "27-17",
+        "standing": "3rd in Western Conference"
+      }
+    },
+    {
+      "id": "132052",
+      "uid": "s:40~l:59~t:132052",
+      "location": "Portland",
+      "name": "Fire",
+      "abbreviation": "POR",
+      "displayName": "Portland Fire",
+      "shortDisplayName": "Fire",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/scoreboard/por.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/por/portland-fire",
+      "record": {
+        "season": 2025
+      }
+    },
+    {
+      "id": "14",
+      "uid": "s:40~l:59~t:14",
+      "location": "Seattle",
+      "name": "Storm",
+      "abbreviation": "SEA",
+      "displayName": "Seattle Storm",
+      "shortDisplayName": "Storm",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/scoreboard/sea.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/sea/seattle-storm",
+      "record": {
+        "season": 2025,
+        "summary": "23-21",
+        "standing": "4th in Western Conference"
+      }
+    },
+    {
+      "id": "131935",
+      "uid": "s:40~l:59~t:131935",
+      "location": "Toronto",
+      "name": "Tempo",
+      "abbreviation": "TOR",
+      "displayName": "Toronto Tempo",
+      "shortDisplayName": "Tempo",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/tor.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/tor.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/tor/toronto-tempo",
+      "record": {
+        "season": 2025
+      }
+    },
+    {
+      "id": "16",
+      "uid": "s:40~l:59~t:16",
+      "location": "Washington",
+      "name": "Mystics",
+      "abbreviation": "WSH",
+      "displayName": "Washington Mystics",
+      "shortDisplayName": "Mystics",
+      "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png",
+      "darkLogo": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/scoreboard/wsh.png",
+      "link": "https://www.espn.com/wnba/draft/teams/_/name/wsh/washington-mystics",
+      "record": {
+        "season": 2025,
+        "summary": "16-28",
+        "standing": "4th in Eastern Conference"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3764 @@
+{
+"filters": [
+{
+"displayName": "League",
+"name": "league",
+"value": "wnba",
+"options": [
+{
+"value": "wnba",
+"displayValue": "Women's National Basketball Association",
+"shortDisplayName": "WNBA"
+}
+]
+},
+{
+"displayName": "Season",
+"name": "seasontype",
+"value": "2",
+"options": [
+{
+"value": "2",
+"displayValue": "Regular Season"
+},
+{
+"value": "3",
+"displayValue": "Postseason"
+}
+]
+}
+],
+"teams": {
+"los-angeles-sparks": {
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"guid": "fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737",
+"slug": "los-angeles-sparks",
+"location": "Los Angeles",
+"name": "Sparks",
+"abbreviation": "LA",
+"displayName": "Los Angeles Sparks",
+"shortDisplayName": "Sparks",
+"color": "552583",
+"alternateColor": "fdb927",
+"isActive": true,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/la.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/fc3d2f98-2a3d-9ef8-4d5b-b8d5168d7737/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=6",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/la/los-angeles-sparks",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/la/los-angeles-sparks",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/la",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/la",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/los-angeles-sparks-tickets--sports-wnba/performer/484?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/la/los-angeles-sparks",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "1841",
+"fullName": "crypto.com Arena",
+"shortName": "Staples Center",
+"address": {
+"city": "Los Angeles",
+"state": "CA"
+},
+"grass": false,
+"indoor": true,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/wnba/day/1841.jpg",
+"width": 2000,
+"height": 1125,
+"rel": [
+"full",
+"day"
+]
+}
+]
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+},
+"minnesota-lynx": {
+"id": "8",
+"uid": "s:40~l:59~t:8",
+"guid": "d815e23c-aa3e-3490-d7be-f876d1e30e8a",
+"slug": "minnesota-lynx",
+"location": "Minnesota",
+"name": "Lynx",
+"abbreviation": "MIN",
+"displayName": "Minnesota Lynx",
+"shortDisplayName": "Lynx",
+"color": "266092",
+"alternateColor": "79bc43",
+"isActive": true,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/min.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/d815e23c-aa3e-3490-d7be-f876d1e30e8a/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/min/minnesota-lynx",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=8",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/min/minnesota-lynx",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/min/minnesota-lynx",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/min",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/min",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/minnesota-lynx-tickets--sports-wnba/performer/1772?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/min/minnesota-lynx",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "2029",
+"fullName": "Target Center",
+"shortName": "Target Center",
+"address": {
+"city": "Minneapolis",
+"state": "MN"
+},
+"grass": false,
+"indoor": true,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/wnba/day/2029.jpg",
+"width": 2000,
+"height": 1125,
+"rel": [
+"full",
+"day"
+]
+}
+]
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+},
+"dallas-wings": {
+"id": "3",
+"uid": "s:40~l:59~t:3",
+"guid": "34946ff8-281e-c57d-bb76-37fb1ebe3ec6",
+"slug": "dallas-wings",
+"location": "Dallas",
+"name": "Wings",
+"abbreviation": "DAL",
+"displayName": "Dallas Wings",
+"shortDisplayName": "Wings",
+"color": "002b5c",
+"alternateColor": "c4d600",
+"isActive": false,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/default.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/default-dark.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/dallas/dallas-wings",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=3",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/dallas/dallas-wings",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/dallas/dallas-wings",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/dallas",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/dallas",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/dallas-wings-tickets--sports-wnba/performer/47704?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/dallas/dallas-wings",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "1911",
+"fullName": "BOK Center",
+"address": {
+"city": "Tulsa",
+"state": "OK"
+},
+"grass": false,
+"indoor": true
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+},
+"atlanta-dream": {
+"id": "20",
+"uid": "s:40~l:59~t:20",
+"guid": "bceea196-4263-d338-17a7-9ae40f3aed3f",
+"slug": "atlanta-dream",
+"location": "Atlanta",
+"name": "Dream",
+"abbreviation": "ATL",
+"displayName": "Atlanta Dream",
+"shortDisplayName": "Dream",
+"color": "e31837",
+"alternateColor": "5091cc",
+"isActive": true,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/atl.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/atl/atlanta-dream",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=20",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/atl/atlanta-dream",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/atl/atlanta-dream",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/atl",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/atl",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/atlanta-dream-tickets--sports-wnba/performer/15200?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/atl/atlanta-dream",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "2206",
+"fullName": "McCamish Pavilion",
+"address": {
+"city": "Atlanta",
+"state": "GA"
+},
+"grass": false,
+"indoor": true,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/wnba/day/2206.jpg",
+"width": 2000,
+"height": 1125,
+"rel": [
+"full",
+"day"
+]
+}
+]
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+},
+"indiana-fever": {
+"id": "5",
+"uid": "s:40~l:59~t:5",
+"guid": "bfef1bdd-c2d1-310d-dd9f-645b90575da9",
+"slug": "indiana-fever",
+"location": "Indiana",
+"name": "Fever",
+"abbreviation": "IND",
+"displayName": "Indiana Fever",
+"shortDisplayName": "Fever",
+"color": "002d62",
+"alternateColor": "e03a3e",
+"isActive": true,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=5",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/ind/indiana-fever",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/ind/indiana-fever",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/ind",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/indiana-fever-tickets--sports-wnba/performer/2016?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/ind/indiana-fever",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "2183",
+"fullName": "Gainbridge Fieldhouse",
+"address": {
+"city": "Indianapolis",
+"state": "IN"
+},
+"grass": false,
+"indoor": true,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/wnba/day/2183.jpg",
+"width": 2000,
+"height": 1125,
+"rel": [
+"full",
+"day"
+]
+}
+]
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+},
+"connecticut-sun": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"guid": "7c72e7ee-5064-b766-2b39-95b57e3d9a08",
+"slug": "connecticut-sun",
+"location": "Connecticut",
+"name": "Sun",
+"abbreviation": "CON",
+"displayName": "Connecticut Sun",
+"shortDisplayName": "Sun",
+"color": "f05023",
+"alternateColor": "0a2240",
+"isActive": false,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/default.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/default-dark.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/connecticu/connecticut-sun",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=18",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/connecticu/connecticut-sun",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/connecticu/connecticut-sun",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/connecticu",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/connecticu",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/connecticut-sun-tickets--sports-wnba/performer/5522?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/connecticu/connecticut-sun",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "2160",
+"fullName": "Mohegan Sun Arena",
+"address": {
+"city": "Uncasville",
+"state": "CT"
+},
+"grass": false,
+"indoor": true,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/wnba/day/2160.jpg",
+"width": 2000,
+"height": 1125,
+"rel": [
+"full",
+"day"
+]
+}
+]
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+},
+"tulsa-shock": {
+"id": "3",
+"uid": "s:40~l:59~t:3",
+"guid": "34946ff8-281e-c57d-bb76-37fb1ebe3ec6",
+"slug": "tulsa-shock",
+"location": "Tulsa",
+"name": "Shock",
+"abbreviation": "TUL",
+"displayName": "Tulsa Shock",
+"shortDisplayName": "Shock",
+"color": "002b5c",
+"alternateColor": "c4d600",
+"isActive": false,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/default.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/default-dark.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/34946ff8-281e-c57d-bb76-37fb1ebe3ec6/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/dallas/dallas-wings",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=3",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/dallas/dallas-wings",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/dallas/dallas-wings",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/dallas",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/dallas",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/dallas-wings-tickets--sports-wnba/performer/47704?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/dallas/dallas-wings",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "1911",
+"fullName": "BOK Center",
+"address": {
+"city": "Tulsa",
+"state": "OK"
+},
+"grass": false,
+"indoor": true
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+}
+},
+"categories": [
+{
+"name": "averages",
+"displayName": "Regular Season Averages",
+"labels": [
+"GP",
+"GS",
+"MIN",
+"PTS",
+"OR",
+"DR",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"FG",
+"FG%",
+"3PT",
+"3P%",
+"FT",
+"FT%",
+"PF"
+],
+"names": [
+"gamesPlayed",
+"gamesStarted",
+"avgMinutes",
+"avgPoints",
+"avgOffensiveRebounds",
+"avgDefensiveRebounds",
+"avgRebounds",
+"avgAssists",
+"avgSteals",
+"avgBlocks",
+"avgTurnovers",
+"avgFieldGoalsMade-avgFieldGoalsAttempted",
+"fieldGoalPct",
+"avgThreePointFieldGoalsMade-avgThreePointFieldGoalsAttempted",
+"threePointFieldGoalPct",
+"avgFreeThrowsMade-avgFreeThrowsAttempted",
+"freeThrowPct",
+"avgFouls"
+],
+"displayNames": [
+"Games Played",
+"Games Started",
+"Minutes Per Game",
+"Points Per Game",
+"Offensive Rebounds Per Game",
+"Defensive Rebounds Per Game",
+"Rebounds Per Game",
+"Assists Per Game",
+"Steals Per Game",
+"Blocks Per Game",
+"Turnovers Per Game",
+"Field Goals Made-Attempted Per Game",
+"Field Goal Percentage",
+"3-Point Field Goals Made-Attempted Per Game",
+"3-Point Field Goal Percentage",
+"Free Throws Made-Attempted Per Game",
+"Free Throw Percentage",
+"Fouls Per Game"
+],
+"descriptions": [
+"Games Played",
+"The number of games started by an athlete.",
+"The average number of minutes per game.",
+"The average number of points scored per game.",
+"The average offensive rebounds per game.",
+"The average defensive rebounds per game.",
+"The average rebounds per game.",
+"The average assists per game.",
+"The average steals per game.",
+"The average blocks per game.",
+"The average turnovers committed per game.",
+"The average field goals made per game.-The average field goals attempted per game.",
+"The ratio of field goals made to field goals attempted: FGM / FGA",
+"The average three point field goals made per game.-The average three point field goals attempted per game.",
+"The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
+"The average free throw shots made per game.-The average free throw shots attempted per game.",
+"The ratio of free throws made to free throws attempted: FTM / FTA",
+"The average fouls committed per game."
+],
+"statistics": [
+{
+"teamId": "3",
+"teamSlug": "tulsa-shock",
+"season": {
+"year": 2014,
+"displayName": "2014"
+},
+"stats": [
+"34",
+"31",
+"34.4",
+"16.7",
+"0.8",
+"2.0",
+"2.8",
+"4.2",
+"1.3",
+"0.3",
+"2.1",
+"5.9-14.6",
+"40.6",
+"1.4-4.0",
+"34.6",
+"3.5-4.2",
+"83.9",
+"2.6"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "tulsa-shock",
+"season": {
+"year": 2015,
+"displayName": "2015"
+},
+"stats": [
+"23",
+"19",
+"31.4",
+"16.0",
+"0.7",
+"2.7",
+"3.4",
+"3.8",
+"1.1",
+"0.0",
+"2.8",
+"5.0-13.4",
+"36.9",
+"0.8-3.8",
+"20.7",
+"5.3-6.3",
+"84.7",
+"2.4"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2016,
+"displayName": "2016"
+},
+"stats": [
+"34",
+"30",
+"31.6",
+"14.0",
+"0.6",
+"1.9",
+"2.5",
+"3.9",
+"1.1",
+"0.2",
+"2.5",
+"4.5-12.7",
+"35.3",
+"1.2-4.4",
+"28.0",
+"3.8-4.3",
+"88.3",
+"2.3"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2017,
+"displayName": "2017"
+},
+"stats": [
+"31",
+"14",
+"24.3",
+"9.6",
+"0.5",
+"1.5",
+"1.9",
+"3.5",
+"1.5",
+"0.2",
+"1.4",
+"3.6-8.2",
+"44.7",
+"0.4-1.9",
+"19.0",
+"2.0-2.3",
+"88.6",
+"1.9"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2018,
+"displayName": "2018"
+},
+"stats": [
+"34",
+"24",
+"25.6",
+"8.2",
+"0.4",
+"2.1",
+"2.5",
+"2.8",
+"0.6",
+"0.0",
+"1.5",
+"3.1-7.9",
+"38.8",
+"0.4-1.6",
+"27.3",
+"1.7-2.3",
+"72.2",
+"1.6"
+],
+"position": "G"
+},
+{
+"teamId": "8",
+"teamSlug": "minnesota-lynx",
+"season": {
+"year": 2019,
+"displayName": "2019"
+},
+"stats": [
+"34",
+"34",
+"31.9",
+"14.5",
+"0.7",
+"2.6",
+"3.4",
+"5.4",
+"1.4",
+"0.1",
+"3.3",
+"5.6-13.4",
+"41.5",
+"0.7-2.7",
+"26.9",
+"2.6-3.3",
+"79.5",
+"2.0"
+],
+"position": "G"
+},
+{
+"teamId": "8",
+"teamSlug": "minnesota-lynx",
+"season": {
+"year": 2020,
+"displayName": "2020"
+},
+"stats": [
+"13",
+"7",
+"18.5",
+"9.4",
+"0.6",
+"1.4",
+"2.0",
+"3.5",
+"0.5",
+"0.1",
+"1.9",
+"3.2-8.0",
+"40.4",
+"0.6-1.8",
+"33.3",
+"2.3-2.5",
+"90.9",
+"1.7"
+],
+"position": "G"
+},
+{
+"teamId": "20",
+"teamSlug": "atlanta-dream",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"30",
+"21",
+"25.1",
+"8.7",
+"0.5",
+"2.0",
+"2.5",
+"3.6",
+"1.2",
+"0.1",
+"1.6",
+"3.5-9.5",
+"37.0",
+"0.5-2.3",
+"23.2",
+"1.2-1.6",
+"72.9",
+"1.5"
+],
+"position": "G"
+},
+{
+"teamId": "8",
+"teamSlug": "minnesota-lynx",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"2",
+"0",
+"27.0",
+"9.5",
+"0.5",
+"3.0",
+"3.5",
+"3.5",
+"0.5",
+"1.0",
+"2.5",
+"3.5-11.5",
+"30.4",
+"0.5-2.0",
+"25.0",
+"2.0-4.5",
+"44.4",
+"2.0"
+],
+"position": "G"
+},
+{
+"teamId": "18",
+"teamSlug": "connecticut-sun",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"5",
+"0",
+"18.2",
+"5.8",
+"0.2",
+"1.0",
+"1.2",
+"2.6",
+"1.4",
+"0.0",
+"1.4",
+"2.0-6.0",
+"33.3",
+"0.6-2.2",
+"27.3",
+"1.2-1.2",
+"100.0",
+"1.4"
+],
+"position": "G"
+},
+{
+"displayName": "2022  Totals",
+"teamSlug": "2022 Totals",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"7",
+"0",
+"20.7",
+"6.9",
+"0.3",
+"1.6",
+"1.9",
+"2.9",
+"1.1",
+"0.3",
+"1.7",
+"2.4-7.6",
+"32.1",
+"0.6-2.1",
+"26.7",
+"1.4-2.1",
+"66.7",
+"1.6"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2023,
+"displayName": "2023"
+},
+"stats": [
+"28",
+"0",
+"12.0",
+"2.0",
+"0.3",
+"1.0",
+"1.3",
+"2.2",
+"0.4",
+"0.0",
+"0.6",
+"0.8-2.5",
+"30.4",
+"0.1-0.5",
+"13.3",
+"0.4-0.7",
+"55.0",
+"1.1"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"9",
+"7",
+"33.9",
+"17.2",
+"1.2",
+"1.7",
+"2.9",
+"5.6",
+"1.7",
+"0.4",
+"1.8",
+"6.8-12.7",
+"53.5",
+"1.8-3.6",
+"50.0",
+"1.9-2.9",
+"65.4",
+"1.7"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"15",
+"10",
+"26.3",
+"9.8",
+"0.4",
+"1.3",
+"1.7",
+"5.1",
+"0.9",
+"0.1",
+"2.4",
+"3.7-8.5",
+"43.8",
+"0.3-1.7",
+"15.4",
+"2.1-2.5",
+"83.8",
+"1.4"
+],
+"position": "G"
+},
+{
+"displayName": "2024  Totals",
+"teamSlug": "2024 Totals",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"24",
+"17",
+"29.2",
+"12.6",
+"0.7",
+"1.4",
+"2.1",
+"5.3",
+"1.2",
+"0.2",
+"2.2",
+"4.9-10.1",
+"48.3",
+"0.8-2.4",
+"34.5",
+"2.0-2.6",
+"76.2",
+"1.5"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"12",
+"11",
+"29.5",
+"9.8",
+"0.5",
+"2.4",
+"2.9",
+"3.5",
+"0.8",
+"0.1",
+"1.4",
+"3.3-8.0",
+"41.7",
+"1.0-2.8",
+"35.3",
+"2.2-2.8",
+"76.5",
+"2.3"
+],
+"position": "G"
+},
+{
+"teamId": "5",
+"teamSlug": "indiana-fever",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"12",
+"10",
+"26.4",
+"10.3",
+"0.3",
+"1.5",
+"1.8",
+"4.0",
+"0.6",
+"0.0",
+"1.3",
+"4.1-9.9",
+"41.2",
+"0.8-2.5",
+"30.0",
+"1.4-1.8",
+"81.0",
+"1.8"
+],
+"position": "G"
+},
+{
+"displayName": "2025  Totals",
+"teamSlug": "2025 Totals",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"24",
+"21",
+"28.0",
+"10.1",
+"0.4",
+"2.0",
+"2.4",
+"3.8",
+"0.7",
+"0.0",
+"1.4",
+"3.7-9.0",
+"41.4",
+"0.9-2.7",
+"32.8",
+"1.8-2.3",
+"78.2",
+"2.0"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2026,
+"displayName": "2026"
+},
+"stats": [
+"1",
+"1",
+"26.0",
+"20.0",
+"0.0",
+"2.0",
+"2.0",
+"2.0",
+"2.0",
+"0.0",
+"4.0",
+"8.0-11.0",
+"72.7",
+"2.0-3.0",
+"66.7",
+"2.0-3.0",
+"66.7",
+"5.0"
+],
+"position": "G"
+}
+],
+"totals": [
+"317",
+"219",
+"26.9",
+"11.1",
+"0.6",
+"1.9",
+"2.5",
+"3.8",
+"1.0",
+"0.1",
+"2.0",
+"4.0-10.1",
+"39.9",
+"0.7-2.6",
+"27.9",
+"2.4-2.9",
+"81.4",
+"1.9"
+],
+"sortKey": "averages"
+},
+{
+"name": "totals",
+"displayName": "Regular Season Totals",
+"labels": [
+"PTS",
+"OR",
+"DR",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"FG",
+"FG%",
+"3PT",
+"3P%",
+"FT",
+"FT%",
+"PF"
+],
+"names": [
+"points",
+"offensiveRebounds",
+"defensiveRebounds",
+"totalRebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fieldGoalsMade-fieldGoalsAttempted",
+"fieldGoalPct",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"threePointFieldGoalPct",
+"freeThrowsMade-freeThrowsAttempted",
+"freeThrowPct",
+"fouls"
+],
+"displayNames": [
+"Points",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Field Goals Made-Attempted",
+"Field Goal Percentage",
+"3-Point Field Goals Made-Attempted",
+"3-Point Field Goal Percentage",
+"Free Throws Made-Attempted",
+"Free Throw Percentage",
+"Fouls"
+],
+"descriptions": [
+"The number of points scored.",
+"The number of times when the offense obtains the possession of the ball after a missed shot.",
+"The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"The total number of rebounds for a team or player",
+"The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"The number of times a defensive player forced a turnover by intercepting or deflecting a pass or a dribble of an offensive player.",
+"Short for blocked shot, number of times when a defensive player legally deflects a field goal attempt from an offensive player.",
+"The number of times a player loses possession to the other team.",
+"The number of times a 2pt field goal was made.-The number of times a 2pt field goal was attempted.",
+"The ratio of field goals made to field goals attempted: FGM / FGA",
+"The number of times a 3pt field goal was made.-The number of times a 3pt field goal was attempted.",
+"The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
+"The number of times a free throw was made.-The number of times a free throw was attempted.",
+"The ratio of free throws made to free throws attempted: FTM / FTA",
+"The number of times a player had illegal contact with the opponent."
+],
+"statistics": [
+{
+"teamId": "3",
+"teamSlug": "tulsa-shock",
+"season": {
+"year": 2014,
+"displayName": "2014"
+},
+"stats": [
+"569",
+"28",
+"68",
+"96",
+"142",
+"44",
+"10",
+"71",
+"201-495",
+"40.6",
+"47-136",
+"34.6",
+"120-143",
+"83.9",
+"87"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "tulsa-shock",
+"season": {
+"year": 2015,
+"displayName": "2015"
+},
+"stats": [
+"368",
+"16",
+"62",
+"78",
+"88",
+"25",
+"1",
+"64",
+"114-309",
+"36.9",
+"18-87",
+"20.7",
+"122-144",
+"84.7",
+"55"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2016,
+"displayName": "2016"
+},
+"stats": [
+"476",
+"20",
+"66",
+"86",
+"131",
+"37",
+"7",
+"86",
+"153-433",
+"35.3",
+"42-150",
+"28.0",
+"128-145",
+"88.3",
+"78"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2017,
+"displayName": "2017"
+},
+"stats": [
+"299",
+"14",
+"45",
+"59",
+"108",
+"45",
+"5",
+"44",
+"113-253",
+"44.7",
+"11-58",
+"19.0",
+"62-70",
+"88.6",
+"60"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2018,
+"displayName": "2018"
+},
+"stats": [
+"280",
+"14",
+"70",
+"84",
+"95",
+"20",
+"1",
+"52",
+"104-268",
+"38.8",
+"15-55",
+"27.3",
+"57-79",
+"72.2",
+"56"
+],
+"position": "G"
+},
+{
+"teamId": "8",
+"teamSlug": "minnesota-lynx",
+"season": {
+"year": 2019,
+"displayName": "2019"
+},
+"stats": [
+"492",
+"24",
+"90",
+"114",
+"185",
+"46",
+"4",
+"112",
+"189-455",
+"41.5",
+"25-93",
+"26.9",
+"89-112",
+"79.5",
+"68"
+],
+"position": "G"
+},
+{
+"teamId": "8",
+"teamSlug": "minnesota-lynx",
+"season": {
+"year": 2020,
+"displayName": "2020"
+},
+"stats": [
+"122",
+"8",
+"18",
+"26",
+"45",
+"7",
+"1",
+"25",
+"42-104",
+"40.4",
+"8-24",
+"33.3",
+"30-33",
+"90.9",
+"22"
+],
+"position": "G"
+},
+{
+"teamId": "20",
+"teamSlug": "atlanta-dream",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"261",
+"15",
+"60",
+"75",
+"108",
+"37",
+"2",
+"49",
+"105-284",
+"37.0",
+"16-69",
+"23.2",
+"35-48",
+"72.9",
+"45"
+],
+"position": "G"
+},
+{
+"teamId": "8",
+"teamSlug": "minnesota-lynx",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"19",
+"1",
+"6",
+"7",
+"7",
+"1",
+"2",
+"5",
+"7-23",
+"30.4",
+"1-4",
+"25.0",
+"4-9",
+"44.4",
+"4"
+],
+"position": "G"
+},
+{
+"teamId": "18",
+"teamSlug": "connecticut-sun",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"29",
+"1",
+"5",
+"6",
+"13",
+"7",
+"0",
+"7",
+"10-30",
+"33.3",
+"3-11",
+"27.3",
+"6-6",
+"100.0",
+"7"
+],
+"position": "G"
+},
+{
+"displayName": "2022  Totals",
+"teamSlug": "2022 Totals",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"48",
+"2",
+"11",
+"13",
+"20",
+"8",
+"2",
+"12",
+"17-53",
+"32.1",
+"4-15",
+"26.7",
+"10-15",
+"66.7",
+"11"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2023,
+"displayName": "2023"
+},
+"stats": [
+"55",
+"8",
+"29",
+"37",
+"62",
+"12",
+"0",
+"17",
+"21-69",
+"30.4",
+"2-15",
+"13.3",
+"11-20",
+"55.0",
+"31"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"155",
+"11",
+"15",
+"26",
+"50",
+"15",
+"4",
+"16",
+"61-114",
+"53.5",
+"16-32",
+"50.0",
+"17-26",
+"65.4",
+"15"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"147",
+"6",
+"19",
+"25",
+"77",
+"13",
+"1",
+"36",
+"56-128",
+"43.8",
+"4-26",
+"15.4",
+"31-37",
+"83.8",
+"21"
+],
+"position": "G"
+},
+{
+"displayName": "2024  Totals",
+"teamSlug": "2024 Totals",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"302",
+"17",
+"34",
+"51",
+"127",
+"28",
+"5",
+"52",
+"117-242",
+"48.3",
+"20-58",
+"34.5",
+"48-63",
+"76.2",
+"36"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"118",
+"6",
+"29",
+"35",
+"42",
+"10",
+"1",
+"17",
+"40-96",
+"41.7",
+"12-34",
+"35.3",
+"26-34",
+"76.5",
+"27"
+],
+"position": "G"
+},
+{
+"teamId": "5",
+"teamSlug": "indiana-fever",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"124",
+"4",
+"18",
+"22",
+"48",
+"7",
+"0",
+"16",
+"49-119",
+"41.2",
+"9-30",
+"30.0",
+"17-21",
+"81.0",
+"21"
+],
+"position": "G"
+},
+{
+"displayName": "2025  Totals",
+"teamSlug": "2025 Totals",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"242",
+"10",
+"47",
+"57",
+"90",
+"17",
+"1",
+"33",
+"89-215",
+"41.4",
+"21-64",
+"32.8",
+"43-55",
+"78.2",
+"48"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2026,
+"displayName": "2026"
+},
+"stats": [
+"20",
+"0",
+"2",
+"2",
+"2",
+"2",
+"0",
+"4",
+"8-11",
+"72.7",
+"2-3",
+"66.7",
+"2-3",
+"66.7",
+"5"
+],
+"position": "G"
+}
+],
+"totals": [
+"3534",
+"176",
+"602",
+"778",
+"1203",
+"328",
+"39",
+"621",
+"1273-3191",
+"39.9",
+"231-827",
+"27.9",
+"757-930",
+"81.4",
+"602"
+],
+"sortKey": "totals"
+},
+{
+"name": "miscellaneous",
+"displayName": "Regular Season Misc Totals",
+"labels": [
+"DD2",
+"TD3",
+"AST/TO",
+"STL/TO",
+"SC-EFF",
+"SH-EFF",
+"TECH",
+"FLAG",
+"DQ",
+"EJECT"
+],
+"names": [
+"doubleDouble",
+"tripleDouble",
+"assistTurnoverRatio",
+"stealTurnoverRatio",
+"scoringEfficiency",
+"shootingEfficiency",
+"technicalFouls",
+"flagrantFouls",
+"disqualifications",
+"ejections"
+],
+"displayNames": [
+"Double Double",
+"Triple Double",
+"Assist To Turnover Ratio",
+"Steal To Turnover Ratio",
+"Scoring Efficiency",
+"Shooting Efficiency",
+"Technical Fouls",
+"Flagrant Fouls",
+"Disqualifications",
+"Ejections"
+],
+"descriptions": [
+"The number of times double digit values were accumulated in 2 of the following categories: points, rebounds, assists, steals, and blocked shots",
+"The number of times double digit values were accumulated in 3 of the following categories: points, rebounds, assists, steals, and blocked shots",
+"The average number of assists a player or team records per turnover",
+"The number of steals per turnover",
+"The efficiency with which a team or player scores the basketball.",
+"The efficiency with which a team or player shoots the basketball.",
+"The number of times an player or coach was called for a technical foul (unsportsmanlike conduct or violations).",
+"The number of fouls that the officials thought were unnecessary or excessive.",
+"The number of times a player reached the foul limit.",
+"The number of times a player or coach is removed from the game as a result of a serious offense."
+],
+"statistics": [
+{
+"teamId": "3",
+"teamSlug": "tulsa-shock",
+"season": {
+"year": 2014,
+"displayName": "2014"
+},
+"stats": [
+"1",
+"0",
+"2.0",
+"0.6",
+"1.149",
+"0.45",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "tulsa-shock",
+"season": {
+"year": 2015,
+"displayName": "2015"
+},
+"stats": [
+"0",
+"0",
+"1.4",
+"0.4",
+"1.191",
+"0.40",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2016,
+"displayName": "2016"
+},
+"stats": [
+"0",
+"0",
+"1.5",
+"0.4",
+"1.099",
+"0.40",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2017,
+"displayName": "2017"
+},
+"stats": [
+"1",
+"0",
+"2.5",
+"1.0",
+"1.182",
+"0.47",
+"2",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2018,
+"displayName": "2018"
+},
+"stats": [
+"0",
+"0",
+"1.8",
+"0.4",
+"1.045",
+"0.42",
+"2",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "8",
+"teamSlug": "minnesota-lynx",
+"season": {
+"year": 2019,
+"displayName": "2019"
+},
+"stats": [
+"0",
+"0",
+"1.7",
+"0.4",
+"1.081",
+"0.44",
+"3",
+"1",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "8",
+"teamSlug": "minnesota-lynx",
+"season": {
+"year": 2020,
+"displayName": "2020"
+},
+"stats": [
+"0",
+"0",
+"1.8",
+"0.3",
+"1.173",
+"0.44",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "20",
+"teamSlug": "atlanta-dream",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"0",
+"0",
+"2.2",
+"0.8",
+"0.919",
+"0.40",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "8",
+"teamSlug": "minnesota-lynx",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"0",
+"0",
+"1.4",
+"0.2",
+"0.826",
+"0.33",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "18",
+"teamSlug": "connecticut-sun",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"0",
+"0",
+"1.9",
+"1.0",
+"0.967",
+"0.38",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"displayName": "2022  Totals",
+"teamSlug": "2022 Totals",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"0",
+"0",
+"1.7",
+"0.7",
+"0.906",
+"0.36",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2023,
+"displayName": "2023"
+},
+"stats": [
+"0",
+"0",
+"3.6",
+"0.7",
+"0.797",
+"0.32",
+"3",
+"0",
+"1",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"0",
+"0",
+"3.1",
+"0.9",
+"1.360",
+"0.61",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"1",
+"0",
+"2.1",
+"0.4",
+"1.148",
+"0.45",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"displayName": "2024  Totals",
+"teamSlug": "2024 Totals",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"1",
+"0",
+"2.4",
+"0.5",
+"1.248",
+"0.52",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "6",
+"teamSlug": "los-angeles-sparks",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"0",
+"0",
+"2.5",
+"0.6",
+"1.229",
+"0.48",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "5",
+"teamSlug": "indiana-fever",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"0",
+"0",
+"3.0",
+"0.4",
+"1.042",
+"0.45",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"displayName": "2025  Totals",
+"teamSlug": "2025 Totals",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"0",
+"0",
+"2.7",
+"0.5",
+"1.126",
+"0.46",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "3",
+"teamSlug": "dallas-wings",
+"season": {
+"year": 2026,
+"displayName": "2026"
+},
+"stats": [
+"0",
+"0",
+"0.5",
+"0.5",
+"1.818",
+"0.82",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+}
+],
+"totals": [
+"3",
+"0",
+"1.9",
+"0.5",
+"1.107",
+"0.44",
+"15",
+"1",
+"1",
+"0"
+],
+"sortKey": "miscellaneous"
+}
+],
+"glossary": [
+{
+"abbreviation": "3P%",
+"displayName": "3-Point Field Goal Percentage"
+},
+{
+"abbreviation": "3PT",
+"displayName": "3-Point Field Goals Made-Attempted Per Game"
+},
+{
+"abbreviation": "AST",
+"displayName": "Assists Per Game"
+},
+{
+"abbreviation": "AST/TO",
+"displayName": "Assist To Turnover Ratio"
+},
+{
+"abbreviation": "BLK",
+"displayName": "Blocks Per Game"
+},
+{
+"abbreviation": "DD2",
+"displayName": "Double Double"
+},
+{
+"abbreviation": "DQ",
+"displayName": "Disqualifications"
+},
+{
+"abbreviation": "DR",
+"displayName": "Defensive Rebounds Per Game"
+},
+{
+"abbreviation": "EJECT",
+"displayName": "Ejections"
+},
+{
+"abbreviation": "FG",
+"displayName": "Field Goals Made-Attempted Per Game"
+},
+{
+"abbreviation": "FG%",
+"displayName": "Field Goal Percentage"
+},
+{
+"abbreviation": "FLAG",
+"displayName": "Flagrant Fouls"
+},
+{
+"abbreviation": "FT",
+"displayName": "Free Throws Made-Attempted Per Game"
+},
+{
+"abbreviation": "FT%",
+"displayName": "Free Throw Percentage"
+},
+{
+"abbreviation": "GP",
+"displayName": "Games Played"
+},
+{
+"abbreviation": "GS",
+"displayName": "Games Started"
+},
+{
+"abbreviation": "MIN",
+"displayName": "Minutes Per Game"
+},
+{
+"abbreviation": "OR",
+"displayName": "Offensive Rebounds Per Game"
+},
+{
+"abbreviation": "PF",
+"displayName": "Fouls Per Game"
+},
+{
+"abbreviation": "PTS",
+"displayName": "Points Per Game"
+},
+{
+"abbreviation": "REB",
+"displayName": "Rebounds Per Game"
+},
+{
+"abbreviation": "SC-EFF",
+"displayName": "Scoring Efficiency"
+},
+{
+"abbreviation": "SH-EFF",
+"displayName": "Shooting Efficiency"
+},
+{
+"abbreviation": "STL",
+"displayName": "Steals Per Game"
+},
+{
+"abbreviation": "STL/TO",
+"displayName": "Steal To Turnover Ratio"
+},
+{
+"abbreviation": "TD3",
+"displayName": "Triple Double"
+},
+{
+"abbreviation": "TECH",
+"displayName": "Technical Fouls"
+},
+{
+"abbreviation": "TO",
+"displayName": "Turnovers Per Game"
+}
+]
+}

@@ -1,0 +1,2297 @@
+{
+"filters": [
+{
+"displayName": "League",
+"name": "league",
+"value": "wnba",
+"options": [
+{
+"value": "wnba",
+"displayValue": "Women's National Basketball Association",
+"shortDisplayName": "WNBA"
+},
+{
+"value": "womens-college-basketball",
+"displayValue": "NCAA Women's Basketball",
+"shortDisplayName": "NCAAW"
+}
+]
+},
+{
+"displayName": "Season",
+"name": "seasontype",
+"value": "2",
+"options": [
+{
+"value": "2",
+"displayValue": "Regular Season"
+},
+{
+"value": "3",
+"displayValue": "Postseason"
+}
+]
+}
+],
+"teams": {
+"phoenix-mercury": {
+"id": "11",
+"uid": "s:40~l:59~t:11",
+"guid": "514d18a9-00a8-d52b-dda2-37d707f19bd0",
+"slug": "phoenix-mercury",
+"location": "Phoenix",
+"name": "Mercury",
+"abbreviation": "PHX",
+"displayName": "Phoenix Mercury",
+"shortDisplayName": "Mercury",
+"color": "3c286e",
+"alternateColor": "fa4b0a",
+"isActive": true,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/phx.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/phx.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"scoreboard"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=11",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/phx/phoenix-mercury",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/phx/phoenix-mercury",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/phx",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/phx",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/phoenix-mercury-tickets--sports-wnba/performer/678?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/phx/phoenix-mercury",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "1949",
+"fullName": "Mortgage Matchup Center",
+"shortName": "Talking Stick Resort Arena",
+"address": {
+"city": "Phoenix",
+"state": "AZ"
+},
+"grass": false,
+"indoor": true,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/wnba/day/1949.jpg",
+"width": 2000,
+"height": 1125,
+"rel": [
+"full",
+"day"
+]
+}
+]
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+},
+"washington-mystics": {
+"id": "16",
+"uid": "s:40~l:59~t:16",
+"guid": "39c302ad-d5df-e0d0-33e8-1cffebc5bc75",
+"slug": "washington-mystics",
+"location": "Washington",
+"name": "Mystics",
+"abbreviation": "WSH",
+"displayName": "Washington Mystics",
+"shortDisplayName": "Mystics",
+"color": "e03a3e",
+"alternateColor": "002b5c",
+"isActive": true,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/wsh.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/wsh.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"scoreboard"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/scoreboard/wsh.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"scoreboard",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/39c302ad-d5df-e0d0-33e8-1cffebc5bc75/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/wsh/washington-mystics",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=16",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/wsh/washington-mystics",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/wsh/washington-mystics",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/wsh",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/wsh",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/washington-mystics-tickets--sports-wnba/performer/1770?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/wsh/washington-mystics",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "1823",
+"fullName": "Capital One Arena",
+"shortName": "Capital One Arena",
+"address": {
+"city": "Washington",
+"state": "DC"
+},
+"grass": false,
+"indoor": true,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/wnba/day/1823.jpg",
+"width": 2000,
+"height": 1125,
+"rel": [
+"full",
+"day"
+]
+}
+]
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+},
+"atlanta-dream": {
+"id": "20",
+"uid": "s:40~l:59~t:20",
+"guid": "bceea196-4263-d338-17a7-9ae40f3aed3f",
+"slug": "atlanta-dream",
+"location": "Atlanta",
+"name": "Dream",
+"abbreviation": "ATL",
+"displayName": "Atlanta Dream",
+"shortDisplayName": "Dream",
+"color": "e31837",
+"alternateColor": "5091cc",
+"isActive": true,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/atl.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/bceea196-4263-d338-17a7-9ae40f3aed3f/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/atl/atlanta-dream",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=20",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/atl/atlanta-dream",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/atl/atlanta-dream",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/atl",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/atl",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/atlanta-dream-tickets--sports-wnba/performer/15200?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/atl/atlanta-dream",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "6282",
+"fullName": "Gateway Center",
+"address": {
+"city": "College Park",
+"state": "GA"
+},
+"grass": false,
+"indoor": true
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+},
+"connecticut-sun": {
+"id": "18",
+"uid": "s:40~l:59~t:18",
+"guid": "7c72e7ee-5064-b766-2b39-95b57e3d9a08",
+"slug": "connecticut-sun",
+"location": "Connecticut",
+"name": "Sun",
+"abbreviation": "CON",
+"displayName": "Connecticut Sun",
+"shortDisplayName": "Sun",
+"color": "f05023",
+"alternateColor": "0a2240",
+"isActive": false,
+"isAllStar": false,
+"logos": [
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/default.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"default"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/default-dark.png",
+"width": 500,
+"height": 500,
+"rel": [
+"full",
+"dark"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/primary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"primary_logo_white"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_on_white_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_white_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_on_black_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_black_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_on_primary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_primary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_on_secondary_color.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_on_secondary_color"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_black.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_black"
+]
+},
+{
+"href": "https://a.espncdn.com/guid/7c72e7ee-5064-b766-2b39-95b57e3d9a08/logos/secondary_logo_white.png",
+"width": 4096,
+"height": 4096,
+"rel": [
+"full",
+"secondary_logo_white"
+]
+}
+],
+"links": [
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/_/name/connecticu/connecticut-sun",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"clubhouse",
+"mobile",
+"team"
+],
+"href": "https://m.espn.com/wnba/clubhouse?teamId=18",
+"text": "Clubhouse",
+"shortText": "Clubhouse",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"roster",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/roster/_/name/connecticu/connecticut-sun",
+"text": "Roster",
+"shortText": "Roster",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"stats",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/stats/_/name/connecticu/connecticut-sun",
+"text": "Statistics",
+"shortText": "Statistics",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"schedule",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/schedule/_/name/connecticu",
+"text": "Schedule",
+"shortText": "Schedule",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"photos",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/team/photos/_/name/connecticu",
+"text": "photos",
+"shortText": "photos",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"tickets",
+"desktop",
+"team"
+],
+"href": "https://www.vividseats.com/connecticut-sun-tickets--sports-wnba/performer/5522?wsUser=717",
+"text": "Tickets",
+"shortText": "Tickets",
+"isExternal": true,
+"isPremium": false
+},
+{
+"language": "en",
+"rel": [
+"draftpicks",
+"desktop",
+"team"
+],
+"href": "https://www.espn.com/wnba/draft/teams/_/name/connecticu/connecticut-sun",
+"text": "Draft Picks",
+"shortText": "Draft Picks",
+"isExternal": false,
+"isPremium": true
+}
+],
+"groups": {},
+"coaches": {},
+"venue": {
+"id": "2160",
+"fullName": "Mohegan Sun Arena",
+"address": {
+"city": "Uncasville",
+"state": "CT"
+},
+"grass": false,
+"indoor": true,
+"images": [
+{
+"href": "https://a.espncdn.com/i/venues/wnba/day/2160.jpg",
+"width": 2000,
+"height": 1125,
+"rel": [
+"full",
+"day"
+]
+}
+]
+},
+"record": {},
+"ranks": {},
+"franchise": {}
+}
+},
+"categories": [
+{
+"name": "averages",
+"displayName": "Regular Season Averages",
+"labels": [
+"GP",
+"GS",
+"MIN",
+"PTS",
+"OR",
+"DR",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"FG",
+"FG%",
+"3PT",
+"3P%",
+"FT",
+"FT%",
+"PF"
+],
+"names": [
+"gamesPlayed",
+"gamesStarted",
+"avgMinutes",
+"avgPoints",
+"avgOffensiveRebounds",
+"avgDefensiveRebounds",
+"avgRebounds",
+"avgAssists",
+"avgSteals",
+"avgBlocks",
+"avgTurnovers",
+"avgFieldGoalsMade-avgFieldGoalsAttempted",
+"fieldGoalPct",
+"avgThreePointFieldGoalsMade-avgThreePointFieldGoalsAttempted",
+"threePointFieldGoalPct",
+"avgFreeThrowsMade-avgFreeThrowsAttempted",
+"freeThrowPct",
+"avgFouls"
+],
+"displayNames": [
+"Games Played",
+"Games Started",
+"Minutes Per Game",
+"Points Per Game",
+"Offensive Rebounds Per Game",
+"Defensive Rebounds Per Game",
+"Rebounds Per Game",
+"Assists Per Game",
+"Steals Per Game",
+"Blocks Per Game",
+"Turnovers Per Game",
+"Field Goals Made-Attempted Per Game",
+"Field Goal Percentage",
+"3-Point Field Goals Made-Attempted Per Game",
+"3-Point Field Goal Percentage",
+"Free Throws Made-Attempted Per Game",
+"Free Throw Percentage",
+"Fouls Per Game"
+],
+"descriptions": [
+"Games Played",
+"The number of games started by an athlete.",
+"The average number of minutes per game.",
+"The average number of points scored per game.",
+"The average offensive rebounds per game.",
+"The average defensive rebounds per game.",
+"The average rebounds per game.",
+"The average assists per game.",
+"The average steals per game.",
+"The average blocks per game.",
+"The average turnovers committed per game.",
+"The average field goals made per game.-The average field goals attempted per game.",
+"The ratio of field goals made to field goals attempted: FGM / FGA",
+"The average three point field goals made per game.-The average three point field goals attempted per game.",
+"The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
+"The average free throw shots made per game.-The average free throw shots attempted per game.",
+"The ratio of free throws made to free throws attempted: FTM / FTA",
+"The average fouls committed per game."
+],
+"statistics": [
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2017,
+"displayName": "2017"
+},
+"stats": [
+"27",
+"8",
+"12.4",
+"4.4",
+"0.3",
+"0.9",
+"1.1",
+"0.4",
+"0.6",
+"0.1",
+"0.6",
+"1.3-3.6",
+"37.1",
+"0.4-1.2",
+"33.3",
+"1.3-1.5",
+"85.4",
+"1.0"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2018,
+"displayName": "2018"
+},
+"stats": [
+"19",
+"1",
+"8.8",
+"3.5",
+"0.2",
+"0.6",
+"0.8",
+"0.4",
+"0.4",
+"0.3",
+"0.8",
+"1.3-2.9",
+"42.9",
+"0.4-1.2",
+"30.4",
+"0.6-0.6",
+"100.0",
+"0.4"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2019,
+"displayName": "2019"
+},
+"stats": [
+"34",
+"1",
+"17.1",
+"6.7",
+"0.5",
+"1.1",
+"1.6",
+"1.2",
+"0.8",
+"0.2",
+"1.0",
+"2.2-5.2",
+"43.2",
+"0.6-2.1",
+"31.0",
+"1.6-1.7",
+"93.0",
+"1.2"
+],
+"position": "G"
+},
+{
+"teamId": "11",
+"teamSlug": "phoenix-mercury",
+"season": {
+"year": 2020,
+"displayName": "2020"
+},
+"stats": [
+"21",
+"10",
+"19.0",
+"7.3",
+"0.3",
+"1.3",
+"1.6",
+"1.5",
+"1.1",
+"0.4",
+"1.0",
+"2.6-6.0",
+"42.9",
+"1.0-2.4",
+"43.1",
+"1.1-1.2",
+"92.0",
+"1.1"
+],
+"position": "G"
+},
+{
+"teamId": "18",
+"teamSlug": "connecticut-sun",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"1",
+"0",
+"4.0",
+"0.0",
+"0.0",
+"1.0",
+"1.0",
+"0.0",
+"0.0",
+"1.0",
+"1.0",
+"0.0-0.0",
+"0.0",
+"0.0-0.0",
+"0.0",
+"0.0-0.0",
+"0.0",
+"1.0"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"16",
+"13",
+"21.6",
+"7.4",
+"0.3",
+"1.2",
+"1.4",
+"1.0",
+"0.8",
+"0.3",
+"1.3",
+"2.5-4.9",
+"51.3",
+"0.5-1.6",
+"32.0",
+"1.9-2.2",
+"85.7",
+"1.7"
+],
+"position": "G"
+},
+{
+"displayName": "2021  Totals",
+"teamSlug": "2021 Totals",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"17",
+"13",
+"20.6",
+"6.9",
+"0.2",
+"1.2",
+"1.4",
+"0.9",
+"0.8",
+"0.3",
+"1.2",
+"2.4-4.6",
+"51.3",
+"0.5-1.5",
+"32.0",
+"1.8-2.1",
+"85.7",
+"1.6"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"35",
+"3",
+"20.1",
+"6.9",
+"0.3",
+"1.5",
+"1.8",
+"1.5",
+"1.1",
+"0.3",
+"1.1",
+"2.3-5.7",
+"40.2",
+"0.7-2.1",
+"34.7",
+"1.6-1.7",
+"90.2",
+"1.2"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2023,
+"displayName": "2023"
+},
+"stats": [
+"40",
+"15",
+"24.8",
+"6.3",
+"0.2",
+"1.9",
+"2.1",
+"1.7",
+"0.7",
+"0.4",
+"0.7",
+"2.2-5.1",
+"42.9",
+"0.8-2.1",
+"39.0",
+"1.1-1.2",
+"93.6",
+"1.2"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"40",
+"2",
+"22.1",
+"7.5",
+"0.3",
+"1.4",
+"1.7",
+"1.9",
+"1.1",
+"0.5",
+"1.4",
+"2.6-6.3",
+"41.5",
+"0.9-2.7",
+"33.0",
+"1.4-1.7",
+"80.6",
+"1.0"
+],
+"position": "G"
+},
+{
+"teamId": "20",
+"teamSlug": "atlanta-dream",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"41",
+"1",
+"8.6",
+"1.7",
+"0.1",
+"0.8",
+"0.9",
+"0.5",
+"0.2",
+"0.3",
+"0.4",
+"0.6-1.5",
+"41.3",
+"0.3-0.8",
+"35.5",
+"0.2-0.3",
+"72.7",
+"0.6"
+],
+"position": "G"
+}
+],
+"totals": [
+"274",
+"54",
+"17.4",
+"5.6",
+"0.3",
+"1.2",
+"1.5",
+"1.2",
+"0.7",
+"0.3",
+"0.9",
+"1.9-4.6",
+"42.2",
+"0.6-1.8",
+"35.0",
+"1.1-1.3",
+"88.2",
+"1.0"
+],
+"sortKey": "averages"
+},
+{
+"name": "totals",
+"displayName": "Regular Season Totals",
+"labels": [
+"PTS",
+"OR",
+"DR",
+"REB",
+"AST",
+"STL",
+"BLK",
+"TO",
+"FG",
+"FG%",
+"3PT",
+"3P%",
+"FT",
+"FT%",
+"PF"
+],
+"names": [
+"points",
+"offensiveRebounds",
+"defensiveRebounds",
+"totalRebounds",
+"assists",
+"steals",
+"blocks",
+"turnovers",
+"fieldGoalsMade-fieldGoalsAttempted",
+"fieldGoalPct",
+"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
+"threePointFieldGoalPct",
+"freeThrowsMade-freeThrowsAttempted",
+"freeThrowPct",
+"fouls"
+],
+"displayNames": [
+"Points",
+"Offensive Rebounds",
+"Defensive Rebounds",
+"Rebounds",
+"Assists",
+"Steals",
+"Blocks",
+"Turnovers",
+"Field Goals Made-Attempted",
+"Field Goal Percentage",
+"3-Point Field Goals Made-Attempted",
+"3-Point Field Goal Percentage",
+"Free Throws Made-Attempted",
+"Free Throw Percentage",
+"Fouls"
+],
+"descriptions": [
+"The number of points scored.",
+"The number of times when the offense obtains the possession of the ball after a missed shot.",
+"The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
+"The total number of rebounds for a team or player",
+"The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"The number of times a defensive player forced a turnover by intercepting or deflecting a pass or a dribble of an offensive player.",
+"Short for blocked shot, number of times when a defensive player legally deflects a field goal attempt from an offensive player.",
+"The number of times a player loses possession to the other team.",
+"The number of times a 2pt field goal was made.-The number of times a 2pt field goal was attempted.",
+"The ratio of field goals made to field goals attempted: FGM / FGA",
+"The number of times a 3pt field goal was made.-The number of times a 3pt field goal was attempted.",
+"The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
+"The number of times a free throw was made.-The number of times a free throw was attempted.",
+"The ratio of free throws made to free throws attempted: FTM / FTA",
+"The number of times a player had illegal contact with the opponent."
+],
+"statistics": [
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2017,
+"displayName": "2017"
+},
+"stats": [
+"118",
+"7",
+"23",
+"30",
+"12",
+"15",
+"4",
+"17",
+"36-97",
+"37.1",
+"11-33",
+"33.3",
+"35-41",
+"85.4",
+"26"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2018,
+"displayName": "2018"
+},
+"stats": [
+"67",
+"3",
+"12",
+"15",
+"8",
+"7",
+"6",
+"15",
+"24-56",
+"42.9",
+"7-23",
+"30.4",
+"12-12",
+"100.0",
+"8"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2019,
+"displayName": "2019"
+},
+"stats": [
+"227",
+"17",
+"36",
+"53",
+"42",
+"28",
+"8",
+"34",
+"76-176",
+"43.2",
+"22-71",
+"31.0",
+"53-57",
+"93.0",
+"41"
+],
+"position": "G"
+},
+{
+"teamId": "11",
+"teamSlug": "phoenix-mercury",
+"season": {
+"year": 2020,
+"displayName": "2020"
+},
+"stats": [
+"153",
+"6",
+"28",
+"34",
+"32",
+"23",
+"8",
+"21",
+"54-126",
+"42.9",
+"22-51",
+"43.1",
+"23-25",
+"92.0",
+"24"
+],
+"position": "G"
+},
+{
+"teamId": "18",
+"teamSlug": "connecticut-sun",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"0",
+"0",
+"1",
+"1",
+"0",
+"0",
+"1",
+"1",
+"0-0",
+"0.0",
+"0-0",
+"0.0",
+"0-0",
+"0.0",
+"1"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"118",
+"4",
+"19",
+"23",
+"16",
+"13",
+"4",
+"20",
+"40-78",
+"51.3",
+"8-25",
+"32.0",
+"30-35",
+"85.7",
+"27"
+],
+"position": "G"
+},
+{
+"displayName": "2021  Totals",
+"teamSlug": "2021 Totals",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"118",
+"4",
+"20",
+"24",
+"16",
+"13",
+"5",
+"21",
+"40-78",
+"51.3",
+"8-25",
+"32.0",
+"30-35",
+"85.7",
+"28"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"241",
+"10",
+"54",
+"64",
+"53",
+"37",
+"10",
+"39",
+"80-199",
+"40.2",
+"26-75",
+"34.7",
+"55-61",
+"90.2",
+"43"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2023,
+"displayName": "2023"
+},
+"stats": [
+"250",
+"8",
+"74",
+"82",
+"66",
+"29",
+"14",
+"26",
+"87-203",
+"42.9",
+"32-82",
+"39.0",
+"44-47",
+"93.6",
+"48"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"299",
+"13",
+"56",
+"69",
+"75",
+"42",
+"18",
+"54",
+"105-253",
+"41.5",
+"35-106",
+"33.0",
+"54-67",
+"80.6",
+"40"
+],
+"position": "G"
+},
+{
+"teamId": "20",
+"teamSlug": "atlanta-dream",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"71",
+"3",
+"34",
+"37",
+"22",
+"10",
+"11",
+"15",
+"26-63",
+"41.3",
+"11-31",
+"35.5",
+"8-11",
+"72.7",
+"24"
+],
+"position": "G"
+}
+],
+"totals": [
+"1544",
+"71",
+"337",
+"408",
+"326",
+"204",
+"84",
+"242",
+"528-1251",
+"42.2",
+"174-497",
+"35.0",
+"314-356",
+"88.2",
+"282"
+],
+"sortKey": "totals"
+},
+{
+"name": "miscellaneous",
+"displayName": "Regular Season Misc Totals",
+"labels": [
+"DD2",
+"TD3",
+"AST/TO",
+"STL/TO",
+"SC-EFF",
+"SH-EFF",
+"TECH",
+"FLAG",
+"DQ",
+"EJECT"
+],
+"names": [
+"doubleDouble",
+"tripleDouble",
+"assistTurnoverRatio",
+"stealTurnoverRatio",
+"scoringEfficiency",
+"shootingEfficiency",
+"technicalFouls",
+"flagrantFouls",
+"disqualifications",
+"ejections"
+],
+"displayNames": [
+"Double Double",
+"Triple Double",
+"Assist To Turnover Ratio",
+"Steal To Turnover Ratio",
+"Scoring Efficiency",
+"Shooting Efficiency",
+"Technical Fouls",
+"Flagrant Fouls",
+"Disqualifications",
+"Ejections"
+],
+"descriptions": [
+"The number of times double digit values were accumulated in 2 of the following categories: points, rebounds, assists, steals, and blocked shots",
+"The number of times double digit values were accumulated in 3 of the following categories: points, rebounds, assists, steals, and blocked shots",
+"The average number of assists a player or team records per turnover",
+"The number of steals per turnover",
+"The efficiency with which a team or player scores the basketball.",
+"The efficiency with which a team or player shoots the basketball.",
+"The number of times an player or coach was called for a technical foul (unsportsmanlike conduct or violations).",
+"The number of fouls that the officials thought were unnecessary or excessive.",
+"The number of times a player reached the foul limit.",
+"The number of times a player or coach is removed from the game as a result of a serious offense."
+],
+"statistics": [
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2017,
+"displayName": "2017"
+},
+"stats": [
+"0",
+"0",
+"0.7",
+"0.9",
+"1.216",
+"0.43",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2018,
+"displayName": "2018"
+},
+"stats": [
+"0",
+"0",
+"0.5",
+"0.5",
+"1.196",
+"0.49",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2019,
+"displayName": "2019"
+},
+"stats": [
+"0",
+"0",
+"1.2",
+"0.8",
+"1.290",
+"0.49",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "11",
+"teamSlug": "phoenix-mercury",
+"season": {
+"year": 2020,
+"displayName": "2020"
+},
+"stats": [
+"0",
+"0",
+"1.5",
+"1.1",
+"1.214",
+"0.52",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2021,
+"displayName": "2021"
+},
+"stats": [
+"0",
+"0",
+"0.8",
+"0.7",
+"1.513",
+"0.56",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2022,
+"displayName": "2022"
+},
+"stats": [
+"0",
+"0",
+"1.4",
+"0.9",
+"1.211",
+"0.47",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2023,
+"displayName": "2023"
+},
+"stats": [
+"0",
+"0",
+"2.5",
+"1.1",
+"1.232",
+"0.51",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "16",
+"teamSlug": "washington-mystics",
+"season": {
+"year": 2024,
+"displayName": "2024"
+},
+"stats": [
+"0",
+"0",
+"1.4",
+"0.8",
+"1.182",
+"0.48",
+"1",
+"0",
+"0",
+"0"
+],
+"position": "G"
+},
+{
+"teamId": "20",
+"teamSlug": "atlanta-dream",
+"season": {
+"year": 2025,
+"displayName": "2025"
+},
+"stats": [
+"0",
+"0",
+"1.5",
+"0.7",
+"1.127",
+"0.50",
+"0",
+"0",
+"0",
+"0"
+],
+"position": "G"
+}
+],
+"totals": [
+"0",
+"0",
+"1.3",
+"0.8",
+"1.234",
+"0.49",
+"5",
+"0",
+"0",
+"0"
+],
+"sortKey": "miscellaneous"
+}
+],
+"glossary": [
+{
+"abbreviation": "3P%",
+"displayName": "3-Point Field Goal Percentage"
+},
+{
+"abbreviation": "3PT",
+"displayName": "3-Point Field Goals Made-Attempted Per Game"
+},
+{
+"abbreviation": "AST",
+"displayName": "Assists Per Game"
+},
+{
+"abbreviation": "AST/TO",
+"displayName": "Assist To Turnover Ratio"
+},
+{
+"abbreviation": "BLK",
+"displayName": "Blocks Per Game"
+},
+{
+"abbreviation": "DD2",
+"displayName": "Double Double"
+},
+{
+"abbreviation": "DQ",
+"displayName": "Disqualifications"
+},
+{
+"abbreviation": "DR",
+"displayName": "Defensive Rebounds Per Game"
+},
+{
+"abbreviation": "EJECT",
+"displayName": "Ejections"
+},
+{
+"abbreviation": "FG",
+"displayName": "Field Goals Made-Attempted Per Game"
+},
+{
+"abbreviation": "FG%",
+"displayName": "Field Goal Percentage"
+},
+{
+"abbreviation": "FLAG",
+"displayName": "Flagrant Fouls"
+},
+{
+"abbreviation": "FT",
+"displayName": "Free Throws Made-Attempted Per Game"
+},
+{
+"abbreviation": "FT%",
+"displayName": "Free Throw Percentage"
+},
+{
+"abbreviation": "GP",
+"displayName": "Games Played"
+},
+{
+"abbreviation": "GS",
+"displayName": "Games Started"
+},
+{
+"abbreviation": "MIN",
+"displayName": "Minutes Per Game"
+},
+{
+"abbreviation": "OR",
+"displayName": "Offensive Rebounds Per Game"
+},
+{
+"abbreviation": "PF",
+"displayName": "Fouls Per Game"
+},
+{
+"abbreviation": "PTS",
+"displayName": "Points Per Game"
+},
+{
+"abbreviation": "REB",
+"displayName": "Rebounds Per Game"
+},
+{
+"abbreviation": "SC-EFF",
+"displayName": "Scoring Efficiency"
+},
+{
+"abbreviation": "SH-EFF",
+"displayName": "Shooting Efficiency"
+},
+{
+"abbreviation": "STL",
+"displayName": "Steals Per Game"
+},
+{
+"abbreviation": "STL/TO",
+"displayName": "Steal To Turnover Ratio"
+},
+{
+"abbreviation": "TD3",
+"displayName": "Triple Double"
+},
+{
+"abbreviation": "TECH",
+"displayName": "Technical Fouls"
+},
+{
+"abbreviation": "TO",
+"displayName": "Turnovers Per Game"
+}
+]
+}

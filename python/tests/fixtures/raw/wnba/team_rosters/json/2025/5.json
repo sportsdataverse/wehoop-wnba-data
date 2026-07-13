@@ -1,0 +1,2096 @@
+{
+"timestamp": "2026-05-12T00:51:03Z",
+"status": "success",
+"season": {
+"year": 2026,
+"displayName": "2026",
+"type": 2,
+"name": "Regular Season"
+},
+"athletes": [
+{
+"id": "3142255",
+"uid": "s:40~l:59~a:3142255",
+"guid": "3546d8bb-b157-5af3-863f-745a9ae0a759",
+"alternateIds": {
+"sdr": "3142255"
+},
+"firstName": "Monique",
+"lastName": "Billings",
+"fullName": "Monique Billings",
+"displayName": "Monique Billings",
+"shortName": "M. Billings",
+"weight": 192.0,
+"displayWeight": "192 lbs",
+"height": 76.0,
+"displayHeight": "6' 4\"",
+"age": 30,
+"dateOfBirth": "1996-05-02T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142255/monique-billings",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/3142255/monique-billings",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/3142255/monique-billings",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/3142255/monique-billings",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/3142255/monique-billings",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142255/monique-billings",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Corona",
+"state": "CA",
+"country": "USA"
+},
+"college": {
+"id": "26",
+"guid": "5da8e04c-d85c-376d-b336-9342e0bfdd7c",
+"mascot": "Bruins",
+"name": "UCLA",
+"shortName": "UCLA",
+"abbrev": "UCLA",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/26.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+}
+]
+},
+"slug": "monique-billings",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3142255.png",
+"alt": "Monique Billings"
+},
+"jersey": "25",
+"position": {
+"id": "7",
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F",
+"leaf": false
+},
+"injuries": [
+{
+"status": "Day-To-Day",
+"date": "2026-05-10T03:58Z"
+}
+],
+"contracts": [],
+"experience": {
+"years": 8
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "4432831",
+"uid": "s:40~l:59~a:4432831",
+"guid": "bcc663d0-9e0f-34d5-8298-d1922f84e7d2",
+"alternateIds": {
+"sdr": "4432831"
+},
+"firstName": "Aliyah",
+"lastName": "Boston",
+"fullName": "Aliyah Boston",
+"displayName": "Aliyah Boston",
+"shortName": "A. Boston",
+"weight": 220.0,
+"displayWeight": "220 lbs",
+"height": 77.0,
+"displayHeight": "6' 5\"",
+"age": 24,
+"dateOfBirth": "2001-12-11T08:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4432831/aliyah-boston",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/4432831/aliyah-boston",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/4432831/aliyah-boston",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/4432831/aliyah-boston",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/4432831/aliyah-boston",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4432831/aliyah-boston",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "St. Thomas",
+"country": "Virgin Islands"
+},
+"college": {
+"id": "2579",
+"guid": "9a4406c8-9b7f-35b3-858d-2041019203a8",
+"mascot": "Gamecocks",
+"name": "South Carolina",
+"shortName": "South Carolina",
+"abbrev": "SC",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T23:48Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2579.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T23:47Z"
+}
+]
+},
+"slug": "aliyah-boston",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4432831.png",
+"alt": "Aliyah Boston"
+},
+"jersey": "7",
+"position": {
+"id": "9",
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 3
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "4433403",
+"uid": "s:40~l:59~a:4433403",
+"guid": "5ec40e1c-3104-322e-b80f-f358ea26aad4",
+"alternateIds": {
+"sdr": "4433403"
+},
+"firstName": "Caitlin",
+"lastName": "Clark",
+"fullName": "Caitlin Clark",
+"displayName": "Caitlin Clark",
+"shortName": "C. Clark",
+"weight": 157.0,
+"displayWeight": "157 lbs",
+"height": 72.0,
+"displayHeight": "6' 0\"",
+"age": 24,
+"dateOfBirth": "2002-01-22T08:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4433403/caitlin-clark",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/4433403/caitlin-clark",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/4433403/caitlin-clark",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/4433403/caitlin-clark",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/4433403/caitlin-clark",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4433403/caitlin-clark",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "West Des Moines",
+"state": "IA",
+"country": "USA"
+},
+"college": {
+"id": "2294",
+"guid": "81ae5ece-a3fc-3b4e-b77b-20f0c416b2e2",
+"mascot": "Hawkeyes",
+"name": "Iowa",
+"shortName": "Iowa",
+"abbrev": "IOWA",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2294.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+}
+]
+},
+"slug": "caitlin-clark",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4433403.png",
+"alt": "Caitlin Clark"
+},
+"jersey": "22",
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 2
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "3907781",
+"uid": "s:40~l:59~a:3907781",
+"guid": "a9aee6b9-fc44-8fc7-e1bb-e6dfa6e5f0ab",
+"alternateIds": {
+"sdr": "3907781"
+},
+"firstName": "Sophie",
+"lastName": "Cunningham",
+"fullName": "Sophie Cunningham",
+"displayName": "Sophie Cunningham",
+"shortName": "S. Cunningham",
+"weight": 165.0,
+"displayWeight": "165 lbs",
+"height": 73.0,
+"displayHeight": "6' 1\"",
+"age": 29,
+"dateOfBirth": "1996-08-16T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3907781/sophie-cunningham",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/3907781/sophie-cunningham",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/3907781/sophie-cunningham",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/3907781/sophie-cunningham",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/3907781/sophie-cunningham",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3907781/sophie-cunningham",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Columbia",
+"state": "MO",
+"country": "USA"
+},
+"college": {
+"id": "142",
+"guid": "d6890e67-a13d-326b-9c9b-4cc708773883",
+"mascot": "Tigers",
+"name": "Missouri",
+"shortName": "Missouri",
+"abbrev": "MIZ",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T23:48Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/142.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T23:47Z"
+}
+]
+},
+"slug": "sophie-cunningham",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3907781.png",
+"alt": "Sophie Cunningham"
+},
+"jersey": "8",
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 7
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "2955898",
+"uid": "s:40~l:59~a:2955898",
+"guid": "71c936c4-e717-4b8c-b30e-c5bd729a89eb",
+"alternateIds": {
+"sdr": "2955898"
+},
+"firstName": "Damiris",
+"lastName": "Dantas",
+"fullName": "Damiris Dantas",
+"displayName": "Damiris Dantas",
+"shortName": "D. Dantas",
+"weight": 214.0,
+"displayWeight": "214 lbs",
+"height": 76.0,
+"displayHeight": "6' 4\"",
+"age": 33,
+"dateOfBirth": "1992-11-17T08:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2955898/damiris-dantas",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/2955898/damiris-dantas",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/2955898/damiris-dantas",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/2955898/damiris-dantas",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/2955898/damiris-dantas",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2955898/damiris-dantas",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Sao Paulo",
+"country": "Brazil"
+},
+"citizenship": "Brazil",
+"slug": "damiris-dantas",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2955898.png",
+"alt": "Damiris Dantas"
+},
+"jersey": "12",
+"position": {
+"id": "9",
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 10
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "4065760",
+"uid": "s:40~l:59~a:4065760",
+"guid": "11eae5c8-81e8-7eae-957e-2ab3ffbe7a86",
+"alternateIds": {
+"sdr": "4065760"
+},
+"firstName": "Tyasha",
+"lastName": "Harris",
+"fullName": "Tyasha Harris",
+"displayName": "Tyasha Harris",
+"shortName": "T. Harris",
+"weight": 152.0,
+"displayWeight": "152 lbs",
+"height": 70.0,
+"displayHeight": "5' 10\"",
+"age": 28,
+"dateOfBirth": "1998-05-01T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4065760/tyasha-harris",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/4065760/tyasha-harris",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/4065760/tyasha-harris",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/4065760/tyasha-harris",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/4065760/tyasha-harris",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4065760/tyasha-harris",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Noblesville",
+"state": "IN",
+"country": "USA"
+},
+"college": {
+"id": "2579",
+"guid": "9a4406c8-9b7f-35b3-858d-2041019203a8",
+"mascot": "Gamecocks",
+"name": "South Carolina",
+"shortName": "South Carolina",
+"abbrev": "SC",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T23:48Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2579.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T23:47Z"
+}
+]
+},
+"slug": "tyasha-harris",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4065760.png",
+"alt": "Tyasha Harris"
+},
+"jersey": "52",
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 6
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "3142055",
+"uid": "s:40~l:59~a:3142055",
+"guid": "d493cd46-3eba-dd85-8dc5-fa80389abd03",
+"alternateIds": {
+"sdr": "3142055"
+},
+"firstName": "Myisha",
+"lastName": "Hines-Allen",
+"fullName": "Myisha Hines-Allen",
+"displayName": "Myisha Hines-Allen",
+"shortName": "M. Hines-Allen",
+"weight": 200.0,
+"displayWeight": "200 lbs",
+"height": 74.0,
+"displayHeight": "6' 2\"",
+"age": 29,
+"dateOfBirth": "1996-05-30T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142055/myisha-hines-allen",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/3142055/myisha-hines-allen",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/3142055/myisha-hines-allen",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/3142055/myisha-hines-allen",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/3142055/myisha-hines-allen",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142055/myisha-hines-allen",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Montclair",
+"state": "NJ",
+"country": "USA"
+},
+"college": {
+"id": "97",
+"guid": "03c688de-c23e-3fc3-95aa-4b03a2b9d0df",
+"mascot": "Cardinals",
+"name": "Louisville",
+"shortName": "Louisville",
+"abbrev": "LOU",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T22:33Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/97.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T22:35Z"
+}
+]
+},
+"slug": "myisha-hines-allen",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3142055.png",
+"alt": "Myisha Hines-Allen"
+},
+"jersey": "2",
+"hand": {
+"type": "RIGHT",
+"abbreviation": "R",
+"displayValue": "Right"
+},
+"position": {
+"id": "7",
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 8
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "4398829",
+"uid": "s:40~l:59~a:4398829",
+"guid": "a27d443a-9d18-a215-5e1d-d4090cd1358d",
+"alternateIds": {
+"sdr": "4398829"
+},
+"firstName": "Lexie",
+"lastName": "Hull",
+"fullName": "Lexie Hull",
+"displayName": "Lexie Hull",
+"shortName": "L. Hull",
+"weight": 155.0,
+"displayWeight": "155 lbs",
+"height": 74.0,
+"displayHeight": "6' 2\"",
+"age": 26,
+"dateOfBirth": "1999-09-13T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4398829/lexie-hull",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/4398829/lexie-hull",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/4398829/lexie-hull",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/4398829/lexie-hull",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/4398829/lexie-hull",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4398829/lexie-hull",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Spokane",
+"state": "WA",
+"country": "USA"
+},
+"college": {
+"id": "24",
+"guid": "f952d4f1-de28-3323-963d-33c0365c546e",
+"mascot": "Cardinal",
+"name": "Stanford",
+"shortName": "Stanford",
+"abbrev": "STAN",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T22:33Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/24.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T22:35Z"
+}
+]
+},
+"slug": "lexie-hull",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4398829.png",
+"alt": "Lexie Hull"
+},
+"jersey": "10",
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 4
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "4433797",
+"uid": "s:40~l:59~a:4433797",
+"guid": "847d34e9-93c3-3b36-b920-e52db3c812b9",
+"alternateIds": {
+"sdr": "4433797"
+},
+"firstName": "Raven",
+"lastName": "Johnson",
+"fullName": "Raven Johnson",
+"displayName": "Raven Johnson",
+"shortName": "R. Johnson",
+"height": 68.0,
+"displayHeight": "5' 8\"",
+"age": 23,
+"dateOfBirth": "2003-03-04T08:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4433797/raven-johnson",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/4433797/raven-johnson",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/4433797/raven-johnson",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/4433797/raven-johnson",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/4433797/raven-johnson",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4433797/raven-johnson",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Atlanta",
+"state": "GA",
+"country": "USA"
+},
+"college": {
+"id": "2579",
+"guid": "9a4406c8-9b7f-35b3-858d-2041019203a8",
+"mascot": "Gamecocks",
+"name": "South Carolina",
+"shortName": "South Carolina",
+"abbrev": "SC",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T23:48Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2579.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T23:47Z"
+}
+]
+},
+"slug": "raven-johnson",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4433797.png",
+"alt": "Raven Johnson"
+},
+"jersey": "3",
+"hand": {
+"type": "BOTH",
+"abbreviation": "B",
+"displayValue": "Both"
+},
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 0
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "3142191",
+"uid": "s:40~l:59~a:3142191",
+"guid": "65441aab-bd32-abef-f1f9-6a95b381c955",
+"alternateIds": {
+"sdr": "3142191"
+},
+"firstName": "Kelsey",
+"lastName": "Mitchell",
+"fullName": "Kelsey Mitchell",
+"displayName": "Kelsey Mitchell",
+"shortName": "K. Mitchell",
+"weight": 155.0,
+"displayWeight": "155 lbs",
+"height": 68.0,
+"displayHeight": "5' 8\"",
+"age": 30,
+"dateOfBirth": "1995-11-12T08:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142191/kelsey-mitchell",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/3142191/kelsey-mitchell",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/3142191/kelsey-mitchell",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/3142191/kelsey-mitchell",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/3142191/kelsey-mitchell",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142191/kelsey-mitchell",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Cincinnati",
+"state": "OH",
+"country": "USA"
+},
+"college": {
+"id": "194",
+"guid": "c77eaccb-ebc0-380b-9315-41a307e47e91",
+"mascot": "Buckeyes",
+"name": "Ohio State",
+"shortName": "Ohio State",
+"abbrev": "OSU",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/194.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+}
+]
+},
+"slug": "kelsey-mitchell",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3142191.png",
+"alt": "Kelsey Mitchell"
+},
+"jersey": "0",
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 8
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "4682855",
+"uid": "s:40~l:59~a:4682855",
+"guid": "05de73f8-c374-3b02-b482-0de66a790a71",
+"alternateIds": {
+"sdr": "4682855"
+},
+"firstName": "Justine",
+"lastName": "Pissott",
+"fullName": "Justine Pissott",
+"displayName": "Justine Pissott",
+"shortName": "J. Pissott",
+"height": 76.0,
+"displayHeight": "6' 4\"",
+"age": 22,
+"dateOfBirth": "2004-02-04T08:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4682855/justine-pissott",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/4682855/justine-pissott",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/4682855/justine-pissott",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/4682855/justine-pissott",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/4682855/justine-pissott",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4682855/justine-pissott",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Toms River",
+"state": "NJ",
+"country": "USA"
+},
+"college": {
+"id": "238",
+"guid": "16289c7a-8f0e-33d7-8027-833c67cb0482",
+"mascot": "Commodores",
+"name": "Vanderbilt",
+"shortName": "Vanderbilt",
+"abbrev": "VAN",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T23:48Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/238.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T23:47Z"
+}
+]
+},
+"slug": "justine-pissott",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4682855.png",
+"alt": "Justine Pissott"
+},
+"jersey": "13",
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [
+{
+"status": "Day-To-Day",
+"date": "2026-05-10T03:58Z"
+}
+],
+"contracts": [],
+"experience": {
+"years": 0
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "4433546",
+"uid": "s:40~l:59~a:4433546",
+"guid": "2c390df6-0870-3471-ad6d-f78105118ac8",
+"alternateIds": {
+"sdr": "4433546"
+},
+"firstName": "Makayla",
+"lastName": "Timpson",
+"fullName": "Makayla Timpson",
+"displayName": "Makayla Timpson",
+"shortName": "M. Timpson",
+"weight": 173.0,
+"displayWeight": "173 lbs",
+"height": 74.0,
+"displayHeight": "6' 2\"",
+"age": 23,
+"dateOfBirth": "2002-09-20T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4433546/makayla-timpson",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/4433546/makayla-timpson",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/4433546/makayla-timpson",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/4433546/makayla-timpson",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/4433546/makayla-timpson",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/4433546/makayla-timpson",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Edison",
+"state": "GA",
+"country": "USA"
+},
+"college": {
+"id": "52",
+"guid": "6c009b09-0045-3fa8-94e3-b66c92f2547c",
+"mascot": "Seminoles",
+"name": "Florida State",
+"shortName": "Florida St",
+"abbrev": "FSU",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-19T22:33Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/52.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-19T22:35Z"
+}
+]
+},
+"slug": "makayla-timpson",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/4433546.png",
+"alt": "Makayla Timpson"
+},
+"jersey": "21",
+"position": {
+"id": "7",
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 1
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "3058893",
+"uid": "s:40~l:59~a:3058893",
+"guid": "29cc312a-eb11-a49b-60a6-3f4595b2d36c",
+"alternateIds": {
+"sdr": "3058893"
+},
+"firstName": "Shatori",
+"lastName": "Walker-Kimbrough",
+"fullName": "Shatori Walker-Kimbrough",
+"displayName": "Shatori Walker-Kimbrough",
+"shortName": "S. Walker-Kimbrough",
+"weight": 140.0,
+"displayWeight": "140 lbs",
+"height": 69.0,
+"displayHeight": "5' 9\"",
+"age": 30,
+"dateOfBirth": "1995-05-18T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3058893/shatori-walker-kimbrough",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/3058893/shatori-walker-kimbrough",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/3058893/shatori-walker-kimbrough",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/3058893/shatori-walker-kimbrough",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/3058893/shatori-walker-kimbrough",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3058893/shatori-walker-kimbrough",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Baltimore",
+"state": "MD",
+"country": "USA"
+},
+"college": {
+"id": "120",
+"guid": "c5c06820-0c0a-31d7-80c2-10826db8fd7e",
+"mascot": "Terrapins",
+"name": "Maryland",
+"shortName": "Maryland",
+"abbrev": "MD",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/120.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+}
+]
+},
+"slug": "shatori-walker-kimbrough",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3058893.png",
+"alt": "Shatori Walker-Kimbrough"
+},
+"jersey": "32",
+"position": {
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"injuries": [],
+"contracts": [],
+"experience": {
+"years": 9
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+}
+],
+"coach": [
+{
+"id": "524",
+"firstName": "Stephanie",
+"lastName": "White",
+"experience": 3
+}
+],
+"team": {
+"id": "5",
+"abbreviation": "IND",
+"location": "Indiana",
+"name": "Fever",
+"displayName": "Indiana Fever",
+"clubhouse": "https://www.espn.com/wnba/team/_/name/ind/indiana-fever",
+"color": "002d62",
+"logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
+"recordSummary": "0-1",
+"seasonSummary": "2026",
+"standingSummary": "5th in Eastern Conference Division"
+}
+}
