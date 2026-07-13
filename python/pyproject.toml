@@ -1,0 +1,34 @@
+[project]
+name = "wehoop-wnba-data-build"
+version = "0.1.0"
+description = "Python producer for the ESPN WNBA release datasets (parity port of the R creation scripts)."
+requires-python = ">=3.11"
+dependencies = [
+    "sportsdataverse>=0.0.71",
+    "polars>=1.0,<2.0",
+    "pyarrow>=15.0",
+    "requests>=2.28",
+    "tqdm>=4.66",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+# DEV source: the sdv-py feat/wnba-producer worktree carries the
+# helper_wnba_* producers; neither PyPI 0.0.71 nor sdv-py main has them yet.
+# The cutover commit flips this to git+main once the sdv-py PR merges (and to
+# the released version once one ships).
+[tool.uv.sources]
+sportsdataverse = { path = "../../../sdv-py/.claude/worktrees/wnba-producer", editable = true }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# Explicit polars bool masks (pl.col("c") == True/False) are the project
+# convention (see sdv-py CLAUDE.md "Polars version"); E712 fights that.
+ignore = ["E712"]
