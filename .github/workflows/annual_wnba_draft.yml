@@ -54,6 +54,17 @@ jobs:
             sportsdataverse/sportsdataverse-data
             ropensci/piggyback
 
+      - name: Set up uv + Python
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+          enable-cache: true
+          cache-dependency-glob: python/uv.lock
+
+      - name: Install Python deps
+        working-directory: python
+        run: uv sync
+
       - name: Resolve season from repository_dispatch payload
         if: ${{ github.event.client_payload.event_name == 'annual_wnba_draft' }}
         run: |
@@ -69,13 +80,24 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
 
-      - name: Run ESPN WNBA draft creation script
+      # Python (wnba_data_build) builds the draft parquet/csv and publishes
+      # them + the manifest; R only serializes the parity-passed parquet to
+      # .rds (wehoop::load_wnba_draft reads rds). --dataset draft keeps the
+      # serializer from re-uploading every other dataset's rds.
+      - name: Build ESPN WNBA draft
+        shell: bash
         env:
-          GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}
+          GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}   # R sportsdataversedata upload
+          GH_TOKEN: ${{ secrets.SDV_GH_TOKEN }}      # gh CLI publish (wnba_data_build)
+          WEHOOP_WNBA_RAW_ROOT: https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main
+          PYTHONUNBUFFERED: 1
+          PYTHONIOENCODING: utf-8
           SPORTSDATAVERSE.UPLOAD.QUIET: FALSE
           SPORTSDATAVERSE.UPLOAD.MAX_TIMES: 20
         run: |
-          Rscript R/espn_wnba_08_draft_creation.R -s ${{ env.SEASON }} -e ${{ env.SEASON }}
+          (cd python && uv run python -m wnba_data_build --dataset draft --base ../wnba \
+              -s ${{ env.SEASON }} -e ${{ env.SEASON }} --publish)
+          Rscript R/serialize_rds.R -s ${{ env.SEASON }} -e ${{ env.SEASON }} --dataset draft
 
       - name: Commit ESPN WNBA draft artifacts
         run: |
