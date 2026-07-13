@@ -1451,7 +1451,7 @@ wheels = [
 [[package]]
 name = "sportsdataverse"
 version = "0.0.71"
-source = { editable = "../../../sdv-py/.claude/worktrees/wnba-producer" }
+source = { git = "https://github.com/sportsdataverse/sportsdataverse-py?branch=main#84042971c8587fc00a39ec71b1f7289f231b63b7" }
 dependencies = [
     { name = "attrs" },
     { name = "beautifulsoup4" },
@@ -1473,109 +1473,6 @@ dependencies = [
     { name = "tzdata", marker = "sys_platform == 'win32'" },
     { name = "xgboost", version = "3.2.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "xgboost", version = "3.3.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "attrs", specifier = ">=20.3.0" },
-    { name = "attrs", marker = "extra == 'all'", specifier = ">=20.3.0" },
-    { name = "attrs", marker = "extra == 'models'", specifier = ">=20.3.0" },
-    { name = "beautifulsoup4", specifier = ">=4.11.0" },
-    { name = "beautifulsoup4", marker = "extra == 'all'", specifier = ">=4.11.0" },
-    { name = "beautifulsoup4", marker = "extra == 'models'", specifier = ">=4.11.0" },
-    { name = "black", marker = "extra == 'all'", specifier = ">=22.3.0" },
-    { name = "black", marker = "extra == 'tests'", specifier = ">=22.3.0" },
-    { name = "curl-cffi", marker = "extra == 'all'", specifier = ">=0.6.0" },
-    { name = "curl-cffi", marker = "extra == 'tests'", specifier = ">=0.6.0" },
-    { name = "flake8", marker = "extra == 'all'", specifier = ">=5.0.0" },
-    { name = "flake8", marker = "extra == 'tests'", specifier = ">=5.0.0" },
-    { name = "inflection", specifier = ">=0.5.1" },
-    { name = "inflection", marker = "extra == 'all'", specifier = ">=0.5.1" },
-    { name = "inflection", marker = "extra == 'models'", specifier = ">=0.5.1" },
-    { name = "isort", marker = "extra == 'all'", specifier = ">=5.10.1" },
-    { name = "isort", marker = "extra == 'tests'", specifier = ">=5.10.1" },
-    { name = "lxml", specifier = ">=4.9.0" },
-    { name = "lxml", marker = "extra == 'all'", specifier = ">=4.9.0" },
-    { name = "lxml", marker = "extra == 'models'", specifier = ">=4.9.0" },
-    { name = "matplotlib", specifier = ">=3.5.0" },
-    { name = "matplotlib", marker = "extra == 'all'", specifier = ">=3.5.0" },
-    { name = "matplotlib", marker = "extra == 'models'", specifier = ">=3.5.0" },
-    { name = "mypy", marker = "extra == 'all'", specifier = ">=1.0.0" },
-    { name = "mypy", marker = "extra == 'tests'", specifier = ">=1.0.0" },
-    { name = "numpy", specifier = ">=1.23.0" },
-    { name = "pandas", specifier = ">=2.0.0" },
-    { name = "playwright", marker = "extra == 'all'", specifier = ">=1.40" },
-    { name = "playwright", marker = "extra == 'pff'", specifier = ">=1.40" },
-    { name = "polars", specifier = ">=1.0,<2.0" },
-    { name = "pyarrow", specifier = ">=14.0.0" },
-    { name = "pyarrow", marker = "extra == 'all'", specifier = ">=14.0.0" },
-    { name = "pyarrow", marker = "extra == 'models'", specifier = ">=14.0.0" },
-    { name = "pycln", marker = "extra == 'all'", specifier = ">=2.1.6" },
-    { name = "pycln", marker = "extra == 'tests'", specifier = ">=2.1.6" },
-    { name = "pydocstyle", marker = "extra == 'all'", specifier = ">=6.3.0" },
-    { name = "pydocstyle", marker = "extra == 'tests'", specifier = ">=6.3.0" },
-    { name = "pyjanitor", specifier = ">=0.23.1" },
-    { name = "pyjanitor", marker = "extra == 'all'", specifier = ">=0.23.1" },
-    { name = "pyjanitor", marker = "extra == 'models'", specifier = ">=0.23.1" },
-    { name = "pytest", marker = "extra == 'all'", specifier = ">=6.0.2" },
-    { name = "pytest", marker = "extra == 'tests'", specifier = ">=6.0.2" },
-    { name = "pytest-cov", marker = "extra == 'all'", specifier = ">=2.10.1" },
-    { name = "pytest-cov", marker = "extra == 'tests'", specifier = ">=2.10.1" },
-    { name = "pytest-xdist", marker = "extra == 'all'", specifier = ">=2.1.0" },
-    { name = "pytest-xdist", marker = "extra == 'tests'", specifier = ">=2.1.0" },
-    { name = "rapidfuzz", specifier = ">=3.13.0" },
-    { name = "requests", specifier = ">=2.28.0" },
-    { name = "requests", marker = "extra == 'all'", specifier = ">=2.28.0" },
-    { name = "requests", marker = "extra == 'models'", specifier = ">=2.28.0" },
-    { name = "ruff", marker = "extra == 'all'", specifier = ">=0.1.0" },
-    { name = "ruff", marker = "extra == 'tests'", specifier = ">=0.1.0" },
-    { name = "scikit-learn", specifier = ">=1.0.0" },
-    { name = "scikit-learn", marker = "extra == 'all'", specifier = ">=1.0.0" },
-    { name = "scikit-learn", marker = "extra == 'models'", specifier = ">=1.0.0" },
-    { name = "scipy", specifier = ">=1.10.0" },
-    { name = "scipy", marker = "extra == 'all'", specifier = ">=1.10.0" },
-    { name = "scipy", marker = "extra == 'models'", specifier = ">=1.10.0" },
-    { name = "tqdm", specifier = ">=4.50.0" },
-    { name = "tqdm", marker = "extra == 'all'", specifier = ">=4.50.0" },
-    { name = "tqdm", marker = "extra == 'models'", specifier = ">=4.50.0" },
-    { name = "tzdata", marker = "sys_platform == 'win32'" },
-    { name = "xgboost", specifier = ">=2.0.0" },
-    { name = "xgboost", marker = "extra == 'all'", specifier = ">=2.0.0" },
-    { name = "xgboost", marker = "extra == 'models'", specifier = ">=2.0.0" },
-]
-provides-extras = ["tests", "models", "pff", "all"]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "build", specifier = ">=1.0" },
-    { name = "docstring-parser", specifier = ">=0.16" },
-    { name = "ipykernel", specifier = ">=6.0" },
-    { name = "jinja2", specifier = ">=3.1" },
-    { name = "json5", specifier = ">=0.15.0" },
-    { name = "mypy", specifier = ">=1.0" },
-    { name = "nbclient", specifier = ">=0.10" },
-    { name = "nbconvert", specifier = ">=7.0" },
-    { name = "nbformat", specifier = ">=5.0" },
-    { name = "nbmake", specifier = ">=1.5" },
-    { name = "pre-commit", specifier = ">=3.0" },
-    { name = "pytest", specifier = ">=7.0" },
-    { name = "pytest-cov", specifier = ">=4.0" },
-    { name = "pytest-xdist", specifier = ">=3.0" },
-    { name = "pyyaml", specifier = ">=6.0" },
-    { name = "ruff", specifier = "==0.15.12" },
-    { name = "twine", specifier = ">=4.0" },
-    { name = "types-requests", specifier = ">=2.28.0" },
-]
-lint = [
-    { name = "mypy", specifier = ">=1.0" },
-    { name = "ruff", specifier = "==0.15.12" },
-    { name = "types-requests", specifier = ">=2.28.0" },
-]
-test = [
-    { name = "nbmake", specifier = ">=1.5" },
-    { name = "pytest", specifier = ">=7.0" },
-    { name = "pytest-cov", specifier = ">=4.0" },
-    { name = "pytest-xdist", specifier = ">=3.0" },
 ]
 
 [[package]]
@@ -1648,7 +1545,7 @@ requires-dist = [
     { name = "polars", specifier = ">=1.0,<2.0" },
     { name = "pyarrow", specifier = ">=15.0" },
     { name = "requests", specifier = ">=2.28" },
-    { name = "sportsdataverse", editable = "../../../sdv-py/.claude/worktrees/wnba-producer" },
+    { name = "sportsdataverse", git = "https://github.com/sportsdataverse/sportsdataverse-py?branch=main" },
     { name = "tqdm", specifier = ">=4.66" },
 ]
 
