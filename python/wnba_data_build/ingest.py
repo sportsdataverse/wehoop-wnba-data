@@ -21,6 +21,7 @@ from __future__ import annotations
 import io
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import polars as pl
@@ -28,6 +29,32 @@ import polars as pl
 from wnba_data_build.config import RAW_ROOT_ENV
 
 _RAW_REPO_API = "https://api.github.com/repos/sportsdataverse/wehoop-wnba-raw/contents"
+
+
+def build_workers() -> int:
+    """Thread-pool size for the per-game/per-entity read+reshape fan-out.
+
+    The reads are I/O-bound (HTTP over raw.githubusercontent, or disk), so a
+    thread pool overlaps them -- the dominant cost of an HTTP-mode CI build.
+    Tunable via ``WEHOOP_WNBA_BUILD_WORKERS`` (default 16).
+    """
+    try:
+        return max(1, int(os.environ.get("WEHOOP_WNBA_BUILD_WORKERS", "16")))
+    except ValueError:
+        return 16
+
+
+def parallel_map(fn, items):
+    """Map ``fn`` over ``items`` with a thread pool; results in INPUT order.
+
+    Input-order results keep the downstream ``concat`` (+ its stable sort)
+    byte-identical to the sequential build -- parallelism is a pure speedup.
+    """
+    items = list(items)
+    if len(items) <= 1:
+        return [fn(x) for x in items]
+    with ThreadPoolExecutor(max_workers=min(build_workers(), len(items))) as ex:
+        return list(ex.map(fn, items))
 
 
 def _resolve_root(explicit: str | Path | None) -> Path | str:
