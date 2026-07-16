@@ -162,3 +162,4 @@ season,row_count,generated_at_utc,source_endpoint
 2013,276,2026-07-16 21:54:43 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/standings/json/2013.json
 2014,276,2026-07-16 21:56:34 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/standings/json/2014.json
 2015,276,2026-07-16 21:58:27 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/standings/json/2015.json
+2016,276,2026-07-16 22:00:19 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/standings/json/2016.json
