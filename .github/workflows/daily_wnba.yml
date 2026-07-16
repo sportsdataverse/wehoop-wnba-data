@@ -16,6 +16,11 @@ on:
       end_year:
         required: false
         type: string
+      use_python_build:
+        required: false
+        description: "Use the python wnba_data_build processor (default). Set false to roll back to the R processor."
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -99,4 +104,11 @@ jobs:
           SPORTSDATAVERSE.UPLOAD.QUIET: FALSE
           SPORTSDATAVERSE.UPLOAD.MAX_TIMES: 20
         run: |
-          bash scripts/daily_wnba_data_processor.sh -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }}
+          # Python is the production default (unchanged). use_python_build=false
+          # rolls back to the R processor -- kept in-repo for exactly this purpose.
+          # Cron / repository_dispatch pass no inputs, so they take the python path.
+          if [ "${{ inputs.use_python_build }}" = "false" ]; then
+            bash scripts/daily_wnba_R_processor.sh -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }}
+          else
+            bash scripts/daily_wnba_data_processor.sh -s ${{ env.START_YEAR }} -e ${{ env.END_YEAR }}
+          fi
