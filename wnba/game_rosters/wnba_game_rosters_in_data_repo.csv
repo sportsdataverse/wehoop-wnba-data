@@ -161,3 +161,4 @@ season,row_count,generated_at_utc,source_endpoint
 2017,5183,2026-07-16 22:02:23 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/game_rosters/json/<game_id>.json
 2018,5211,2026-07-16 22:04:14 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/game_rosters/json/<game_id>.json
 2019,5211,2026-07-16 22:06:06 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/game_rosters/json/<game_id>.json
+2020,3544,2026-07-16 22:07:53 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/game_rosters/json/<game_id>.json
