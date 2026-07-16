@@ -8,12 +8,10 @@ season.
 
 from __future__ import annotations
 
-import sys
 import time
 from pathlib import Path
 
 import polars as pl
-from tqdm import tqdm
 
 from wnba_data_build import ingest, io, publish, reshapers
 from wnba_data_build._logging import get_logger
@@ -21,7 +19,7 @@ from wnba_data_build.config import REGISTRY
 
 log = get_logger()
 
-# Non-TTY runs (CI) get a heartbeat line every N games instead of a tqdm bar.
+# Non-TTY runs (CI) get a heartbeat line every N games instead of a progress bar.
 _PROGRESS_EVERY = 250
 
 
@@ -123,21 +121,31 @@ def build_season(
     frames: list[pl.DataFrame] = []
     missing = 0
     failed = 0
-    for n, gid in enumerate(tqdm(game_ids, desc=f"{dataset} {season}", disable=None), start=1):
+
+    def _read_reshape(gid: int):
         final = ingest.read_final(gid, raw_root=root)
         if final is None:
-            missing += 1
-            continue
+            return ("missing", None)
         try:
             frame = reshape(final, season=season, game_id=gid)
         except Exception as e:  # R tryCatch(...) -> NULL parity
             log.warning("%s %s: reshape failed for game %s: %s", dataset, season, gid, e)
+            return ("failed", None)
+        return ("ok", frame if (frame is not None and frame.height) else None)
+
+    # Fan the per-game reads+reshapes out over a thread pool -- the reads are
+    # I/O-bound (HTTP in CI), so this is the difference between a minutes-long
+    # and a tens-of-minutes-long season. Results come back in game_ids order,
+    # so the concat + stable sort below stay byte-identical to the serial build.
+    for n, (status, frame) in enumerate(ingest.parallel_map(_read_reshape, game_ids), start=1):
+        if status == "missing":
+            missing += 1
+        elif status == "failed":
             failed += 1
-            continue
-        if frame is not None and frame.height:
+        elif frame is not None:
             frames.append(frame)
-        if not sys.stderr.isatty() and n % _PROGRESS_EVERY == 0:
-            log.info("%s %s: %d/%d games processed", dataset, season, n, len(game_ids))
+        if n % _PROGRESS_EVERY == 0:
+            log.info("%s %s: %d/%d games collected", dataset, season, n, len(game_ids))
     if missing:
         log.warning(
             "%s %s: %d/%d games had no readable payload", dataset, season, missing, len(game_ids)
