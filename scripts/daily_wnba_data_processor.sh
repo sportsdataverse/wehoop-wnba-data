@@ -62,9 +62,11 @@ for i in $(seq "${START_YEAR}" "${END_YEAR}"); do
 
     for SCRIPT in "${R_CROSSWALKS[@]}"; do
       echo "::group::$SCRIPT $i"
-      Rscript "$SCRIPT" -s "$i" -e "$i" || {
-        rc=$?; echo "::warning ::$SCRIPT for season $i exited with code $rc"; SEASON_RC=$rc
-      }
+      # Crosswalks build from LIVE ESPN+Torvik+Fox sources and are known-fragile
+      # (segfault/timeout on external flakiness). Best-effort: warn only, do NOT
+      # flip SEASON_RC -- the 11 core python datasets are the daily deliverable
+      # and must not be reported as failed because of a live external source.
+      Rscript "$SCRIPT" -s "$i" -e "$i" || echo "::warning ::$SCRIPT for season $i exited with code $? (crosswalk; non-fatal, live external source)"
       echo "::endgroup::"
     done
 
