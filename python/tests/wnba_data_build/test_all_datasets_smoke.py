@@ -25,6 +25,7 @@ _SEASON = {
     "officials": 2025,
     "rosters": 2025,
     "player_season_stats": 2025,
+    "player_core": 2025,
     "team_season_stats": 2025,
     "standings": 2025,
     "draft": 2026,
@@ -40,6 +41,8 @@ def test_each_dataset_builds(dataset, tmp_path):
     season = _SEASON[dataset]
     if dataset == "shots":  # shots read the built pbp parquet
         build_season("pbp", season, base=tmp_path, raw_root=FX / "raw")
+    if dataset == "player_core":  # player_core reads the built player_box parquet
+        build_season("player_box", season, base=tmp_path, raw_root=FX / "raw")
     df = build_season(dataset, season, base=tmp_path, raw_root=FX / "raw", dry_run=True)
     assert df.height > 0
     spec = REGISTRY[dataset]

@@ -241,6 +241,70 @@ def player_season_stats_builder(season: int, *, raw_root: Path, base: Path) -> p
     )
 
 
+def player_core_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFrame:
+    """Athlete identity + bio for the athletes who appeared in ``season``.
+
+    The raw tree is flat (``player_core/json/<athlete_id>.json``, one record per
+    athlete -- the core-v2 athlete resource takes no season param), so "who
+    played in season Y" comes from the season's already-built player_box.
+    Requires player_box to have been built first under ``base``.
+
+    What the season partition MEANS here: "the athletes who appeared in season
+    Y, with their CURRENT bio". The season dimension is participation -- it is
+    NOT the bio's vintage. ESPN overwrites height/weight/jersey in place, so
+    era-correct bio is not obtainable from any ESPN endpoint, and
+    ``current_team_id`` is the athlete's team TODAY, not their season team
+    (that lives in player_box / player_season_stats). See
+    ``sportsdataverse.nba.nba_player_core``.
+    """
+    from sportsdataverse.wnba import helper_wnba_player_core
+
+    from wnba_data_build import ingest
+
+    pb_path = base / "player_box" / "parquet" / f"player_box_{season}.parquet"
+    if not pb_path.exists():
+        log.warning(
+            "player_core %s: no built player_box parquet at %s -- cannot resolve "
+            "which athletes played this season (build player_box first)",
+            season,
+            pb_path,
+        )
+        return pl.DataFrame()
+    # Only the ID SET is needed, not identity columns -- player_core *is* the
+    # identity source. So this reads athlete_id straight off player_box rather
+    # than going through an identity lookup (those exist to graft identity onto
+    # the identity-less player_season_stats payload). It also keeps this builder
+    # identical across all four leagues: wnba/wbb have no player_box-based
+    # lookup, only a team_rosters-based one -- and team_rosters is exactly the
+    # source ESPN cannot serve historically.
+    athlete_ids = sorted(
+        {int(a) for a in pl.read_parquet(pb_path, columns=["athlete_id"])["athlete_id"].drop_nulls().unique()}
+    )
+
+    def _one(aid: int) -> pl.DataFrame | None:
+        payload = ingest.read_final(aid, raw_root=raw_root, subdir="player_core/json")
+        if payload is None:
+            return None
+        try:
+            frame = helper_wnba_player_core(payload, athlete_id=aid)
+        except Exception as e:  # tryCatch(...) -> NULL parity with the sibling builders
+            log.warning("player_core: parse failed for athlete %s: %s", aid, e)
+            return None
+        return frame if frame.height else None
+
+    # Thread-pooled athlete reads (tens of thousands per season over HTTP in CI);
+    # input-order results keep _season_concat deterministic.
+    frames = [f for f in ingest.parallel_map(_one, athlete_ids) if f is not None]
+    out = _season_concat(frames)
+    if out.is_empty():
+        return out
+    # The helper is a pure athlete projection (it deliberately takes no season --
+    # a core record is not season data). The season column belongs to the
+    # PARTITION, so the builder stamps it, keeping the released frame
+    # self-describing when seasons are concatenated.
+    return out.select(pl.lit(season, dtype=pl.Int32).alias("season"), pl.all())
+
+
 def standings_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFrame:
     from sportsdataverse.wnba import helper_wnba_standings
 
@@ -276,6 +340,7 @@ SEASON_BUILDERS: dict = {
     "rosters": rosters_builder,
     "team_season_stats": team_season_stats_builder,
     "player_season_stats": player_season_stats_builder,
+    "player_core": player_core_builder,
     "standings": standings_builder,
     "draft": draft_builder,
 }
