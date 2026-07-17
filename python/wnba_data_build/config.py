@@ -77,6 +77,22 @@ REGISTRY: dict[str, DatasetSpec] = {
         "player_season_stats",
         manifest_endpoint=_RAW + "/player_season_stats/json/{season}/<athlete_id>.json",
     ),
+    # Athlete identity + bio. NEW dataset -- no R creation script exists, and
+    # nothing published this before: the player_season_stats payload carries no
+    # identity at all (not even the athlete id -- only the filename does).
+    # NB: unlike this league's player_season_stats, the raw tree is FLAT (no
+    # {season} segment) -- a core record is per-athlete and the core-v2 athlete
+    # resource takes no season param. "Who played in season Y" comes from the
+    # built player_box.
+    "player_core": DatasetSpec(
+        "player_core",
+        "player_core",
+        _T + "player_core",
+        "player_core",
+        # NO manifest_endpoint: a manifest is the contract for an R
+        # load_wnba_<ds>_manifest() loader, and player_core has no loader yet --
+        # manifesting it would publish an asset nothing reads.
+    ),
     "team_season_stats": DatasetSpec(
         "team_season_stats",
         "team_season_stats",

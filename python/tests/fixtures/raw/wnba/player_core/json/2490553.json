@@ -1,0 +1,231 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/2490553?lang=en&region=us",
+"id": "2490553",
+"uid": "s:40~l:59~a:2490553",
+"guid": "40e7dc87-4f73-696a-7dd3-6953d9f8ae79",
+"type": "basketball",
+"alternateIds": {
+"sdr": "2490553"
+},
+"firstName": "Brittney",
+"lastName": "Griner",
+"fullName": "Brittney Griner",
+"displayName": "Brittney Griner",
+"shortName": "B. Griner",
+"weight": 205.0,
+"displayWeight": "205 lbs",
+"height": 81.0,
+"displayHeight": "6' 9\"",
+"age": 35,
+"dateOfBirth": "1990-10-18T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2490553/brittney-griner",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/2490553/brittney-griner",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2490553&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/2490553/brittney-griner",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2490553&section=gamelog",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/2490553/brittney-griner",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2490553&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/2490553/brittney-griner",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2490553&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/2490553/brittney-griner",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2490553",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Houston",
+"state": "TX",
+"country": "USA"
+},
+"college": {
+"$ref": "http://sports.core.api.espn.com/v2/colleges/239?lang=en&region=us"
+},
+"slug": "brittney-griner",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/2490553.png",
+"alt": "Brittney Griner"
+},
+"jersey": "42",
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/positions/9?lang=en&region=us",
+"id": "9",
+"name": "Center",
+"displayName": "Center",
+"abbreviation": "C",
+"leaf": false
+},
+"linked": true,
+"team": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/teams/18?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/2490553/statistics?lang=en&region=us"
+},
+"contracts": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/2490553/contracts?lang=en&region=us"
+},
+"experience": {
+"years": 13
+},
+"collegeAthlete": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/12372?lang=en&region=us"
+},
+"active": true,
+"draft": {
+"displayText": "Year: 2013 Round: 1 Pick: 1",
+"round": 1,
+"year": 2013,
+"selection": 1,
+"team": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2013/teams/11?lang=en&region=us"
+}
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/2490553/statisticslog?lang=en&region=us"
+},
+"seasons": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/2490553/seasons?lang=en&region=us"
+}
+}

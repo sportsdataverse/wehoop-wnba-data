@@ -1,0 +1,222 @@
+{
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/887?lang=en&region=us",
+"id": "887",
+"uid": "s:40~l:59~a:887",
+"guid": "c74956ad-2490-b3c4-0cef-485fb49da1a6",
+"type": "basketball",
+"alternateIds": {
+"sdr": "2241853"
+},
+"firstName": "Sami",
+"lastName": "Whitcomb",
+"fullName": "Sami Whitcomb",
+"displayName": "Sami Whitcomb",
+"shortName": "S. Whitcomb",
+"weight": 149.0,
+"displayWeight": "149 lbs",
+"height": 70.0,
+"displayHeight": "5' 10\"",
+"age": 37,
+"dateOfBirth": "1988-07-20T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/887/sami-whitcomb",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/887/sami-whitcomb",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:887&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/887/sami-whitcomb",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:887&section=gamelog",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/887/sami-whitcomb",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:887&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/887/sami-whitcomb",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:887&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/887/sami-whitcomb",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:887",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Ventura",
+"state": "CA",
+"country": "USA"
+},
+"college": {
+"$ref": "http://sports.core.api.espn.com/v2/colleges/264?lang=en&region=us"
+},
+"slug": "sami-whitcomb",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/887.png",
+"alt": "Sami Whitcomb"
+},
+"jersey": "33",
+"position": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/positions/3?lang=en&region=us",
+"id": "3",
+"name": "Guard",
+"displayName": "Guard",
+"abbreviation": "G",
+"leaf": false
+},
+"linked": true,
+"team": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/teams/11?lang=en&region=us"
+},
+"statistics": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/887/statistics?lang=en&region=us"
+},
+"contracts": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/887/contracts?lang=en&region=us"
+},
+"experience": {
+"years": 10
+},
+"collegeAthlete": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/womens-college-basketball/athletes/6056?lang=en&region=us"
+},
+"active": true,
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+},
+"statisticslog": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/887/statisticslog?lang=en&region=us"
+},
+"seasons": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/athletes/887/seasons?lang=en&region=us"
+}
+}
