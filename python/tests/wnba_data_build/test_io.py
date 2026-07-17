@@ -10,7 +10,7 @@ def test_write_dataset_emits_parquet_and_gzipped_csv(tmp_path):
     paths = io.write_dataset(df, spec, 2025, base=tmp_path)
     names = sorted(p.name for p in paths)
     # team_box is one of the three datasets the WNBA tree commits gzipped.
-    assert names == ["team_box_2025.csv.gz", "team_box_2025.parquet"]
+    assert names == ["team_box_2025.csv.gz", "team_box_2025.parquet", "team_box_2025.rds"]
     assert (tmp_path / "team_box" / "parquet" / "team_box_2025.parquet").exists()
     assert (tmp_path / "team_box" / "csv" / "team_box_2025.csv.gz").exists()
 

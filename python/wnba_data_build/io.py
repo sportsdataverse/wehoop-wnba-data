@@ -17,8 +17,15 @@ from pathlib import Path
 
 import polars as pl
 
+from sportsdataverse._rds import write_rds
+
 from wnba_data_build._logging import get_logger, human_size
-from wnba_data_build.config import DatasetSpec
+from wnba_data_build.config import (
+    RDS_ATTR_PREFIX,
+    RDS_CLASS,
+    RDS_TYPE_TEMPLATE,
+    DatasetSpec,
+)
 
 _LEAGUE = "wnba"
 
@@ -78,18 +85,41 @@ def write_dataset(
             fh.write(buf.getvalue())
     else:
         df.write_csv(csv)
+    # .rds is wehoop::load_wnba_*'s ONLY read path -- written natively here, in the
+    # same pass as the parquet, so the two can never drift apart. The NBA
+    # sibling proved they do: its rds was left to a retained R step it never
+    # had, so the parquet updated daily while the rds froze.
+    rds_dir = base / spec.dataset / "rds"
+    rds_dir.mkdir(parents=True, exist_ok=True)
+    rds = rds_dir / f"{spec.stem}_{season}.rds"
+    stamped = datetime.now(timezone.utc)
+    write_rds(
+        df,
+        rds,
+        cls=list(RDS_CLASS),
+        # Attribute ORDER is the published contract (make_wehoop_data stamps its
+        # pair first, sportsdataverse_save appends its own).
+        attributes={
+            f"{RDS_ATTR_PREFIX}_timestamp": stamped,
+            f"{RDS_ATTR_PREFIX}_type": RDS_TYPE_TEMPLATE.format(dataset=spec.dataset),
+            "sportsdataverse_type": f"{spec.dataset} data",
+            "sportsdataverse_timestamp": stamped,
+        },
+    )
     manifest = _append_manifest(spec, season, df.height, base)
     log.info(
-        "wrote %s (%s) + %s (%s), %d rows x %d cols; manifest %s",
+        "wrote %s (%s) + %s (%s) + %s (%s), %d rows x %d cols; manifest %s",
         pq,
         human_size(pq.stat().st_size),
         csv.name,
         human_size(csv.stat().st_size),
+        rds.name,
+        human_size(rds.stat().st_size),
         df.height,
         df.width,
         f"{manifest.name} appended" if manifest else "n/a (not manifested)",
     )
-    return [pq, csv]
+    return [pq, rds, csv]
 
 
 def write_schedule_extras(

@@ -18,11 +18,13 @@ def test_publish_uploads_each_file_with_clobber(tmp_path):
         exists_check=lambda tag, repo: True,  # release already exists
     )
     uploads = [c for c in calls if c[:2] == ["release", "upload"]]
-    # team_box is not manifested -> parquet + csv only. The tree csv is gzipped,
+    # team_box is not manifested -> parquet + rds + csv. The tree csv is gzipped,
     # but the release asset contract is plain .csv (decompressed to a temp file).
-    assert len(uploads) == 2
+    # rds is NOT optional: wehoop::load_wnba_* reads rds exclusively, so a
+    # publish without it freezes the loader while the parquet moves on.
+    assert len(uploads) == 3
     assets = sorted(Path(c[3]).name for c in uploads)  # gh release upload <tag> <path>
-    assert assets == ["team_box_2025.csv", "team_box_2025.parquet"]
+    assert assets == ["team_box_2025.csv", "team_box_2025.parquet", "team_box_2025.rds"]
     assert all("--clobber" in c for c in uploads)
     assert res["tag"] == spec.tag
 
@@ -44,6 +46,7 @@ def test_publish_uploads_manifest_for_manifested_datasets(tmp_path):
     assert assets == [
         "standings_2025.csv",
         "standings_2025.parquet",
+        "standings_2025.rds",
         "wnba_standings_in_data_repo.csv",
     ]
 
