@@ -32,7 +32,7 @@ export PYTHONIOENCODING=utf-8
 
 # Dependency order: pbp/team_box/player_box first (schedules reads their
 # game-id sets; shots read the pbp parquet), then the rest.
-PY_DATASETS="pbp team_box player_box schedules shots rosters player_season_stats team_season_stats standings game_rosters officials"
+PY_DATASETS="pbp team_box player_box player_core schedules shots rosters player_season_stats team_season_stats standings game_rosters officials"
 R_CROSSWALKS=(R/wnba_11_team_crosswalk_creation.R R/wnba_12_schedule_crosswalk_creation.R R/wnba_13_player_crosswalk_creation.R)
 
 mkdir -p logs
