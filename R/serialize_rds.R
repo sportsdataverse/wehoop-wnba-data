@@ -94,6 +94,7 @@ DATASETS <- list(
   list("player_box",          "player_box",          paste0(T_, "player_boxscores"),    "wehoop::load_wnba_player_box()"),
   list("rosters",             "rosters",             paste0(T_, "rosters"),             "wehoop::load_wnba_rosters()"),
   list("player_season_stats", "player_season_stats", paste0(T_, "player_season_stats"), "wehoop::load_wnba_player_stats()"),
+  list("player_core",         "player_core",         paste0(T_, "player_core"),         "wehoop::load_wnba_player_core()"),
   list("team_season_stats",   "team_season_stats",   paste0(T_, "team_season_stats"),   "wehoop::load_wnba_team_stats()"),
   list("standings",           "standings",           paste0(T_, "standings"),           "wehoop::load_wnba_standings()"),
   list("game_rosters",        "game_rosters",        paste0(T_, "game_rosters"),        "wehoop::load_wnba_game_rosters()"),
