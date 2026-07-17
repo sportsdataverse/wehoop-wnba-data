@@ -37,7 +37,10 @@ def test_publish_logs_upload_confirmations(tmp_path, capsys):
     )
     out = capsys.readouterr().out
     assert "uploading team_box_2025.parquet" in out
-    assert f"uploaded team_box_2025.csv -> {spec.tag} (asset 2/2)" in out
+    # rds now uploads alongside parquet+csv. team_box takes the gz path, so
+    # its plain csv is decompressed to a temp file and appended AFTER the
+    # cands filter -- hence rds lands last here but 2nd for standings.
+    assert f"uploaded team_box_2025.rds -> {spec.tag} (asset 3/3)" in out
 
 
 def test_publish_logs_the_manifest_upload(tmp_path, capsys):
@@ -54,7 +57,7 @@ def test_publish_logs_the_manifest_upload(tmp_path, capsys):
         exists_check=lambda tag, repo: True,
     )
     out = capsys.readouterr().out
-    assert f"uploaded wnba_standings_in_data_repo.csv -> {spec.tag} (asset 3/3)" in out
+    assert f"uploaded wnba_standings_in_data_repo.csv -> {spec.tag} (asset 4/4)" in out
 
 
 def test_publish_dry_run_logs_would_be_uploads(tmp_path, capsys):

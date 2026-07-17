@@ -17,6 +17,21 @@ _T = "espn_wnba_"
 # this run actually read from a local checkout or over HTTP.
 _RAW = "https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba"
 
+# --- rds contract -------------------------------------------------------------
+# wehoop::load_wnba_* reads .rds EXCLUSIVELY, so the rds is not a courtesy
+# format -- it is the R package's entire read path. Python writes it natively
+# via sportsdataverse._rds.write_rds (byte-validated against R's saveRDS);
+# there is no R serialize step.
+#
+# These reproduce wehoop:::make_wehoop_data() + sportsdataversedata::
+# sportsdataverse_save() exactly, in the attribute order every published asset
+# already carries: class, wehoop_timestamp, wehoop_type,
+# sportsdataverse_type, sportsdataverse_timestamp. The class is load-bearing --
+# wehoop registers print.wehoop_data on it.
+RDS_CLASS: tuple[str, ...] = ("wehoop_data", "tbl_df", "tbl", "data.table", "data.frame")
+RDS_ATTR_PREFIX = "wehoop"
+RDS_TYPE_TEMPLATE = "ESPN WNBA {dataset} from wehoop data repository"
+
 
 @dataclass(frozen=True)
 class DatasetSpec:

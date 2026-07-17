@@ -75,6 +75,9 @@ def _dataset_files(spec: DatasetSpec, season: int, base: Path) -> list[Path]:
     root = base / spec.dataset
     cands = [
         root / "parquet" / f"{spec.stem}_{season}.parquet",
+        # .rds is wehoop::load_wnba_*'s ONLY read path -- publishing the parquet
+        # without it silently freezes every downstream loader.
+        root / "rds" / f"{spec.stem}_{season}.rds",
         root / "csv" / f"{spec.stem}_{season}.csv",
     ]
     files = [f for f in cands if f.exists()]
