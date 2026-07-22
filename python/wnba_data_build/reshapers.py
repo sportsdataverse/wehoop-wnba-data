@@ -98,9 +98,16 @@ def _built_game_ids(base: Path, dataset: str, stem: str, season: int) -> list[in
 
 def schedules_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFrame:
     """Released schedule = raw schedule + casts/dates + PBP/team_box/player_box flags."""
-    raw = pl.read_parquet(
-        raw_root / "wnba" / "schedules" / "parquet" / f"wnba_schedule_{season}.parquet"
-    )
+    from wnba_data_build import ingest
+
+    # raw_root may be a Path (local clone) OR the raw.githubusercontent base URL
+    # (CI default). `/`-division only works on Path, so route through the ingest
+    # reader that handles both — the same parquet, fetched over HTTP for a URL root.
+    raw = ingest._read_season_schedule(season, raw_root)
+    if raw is None:
+        raise FileNotFoundError(
+            f"raw wnba schedule parquet for {season} not found under {raw_root}"
+        )
     return helper_wnba_schedule(
         raw,
         pbp_game_ids=_built_game_ids(base, "pbp", "play_by_play", season),
@@ -278,7 +285,12 @@ def player_core_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFr
     # lookup, only a team_rosters-based one -- and team_rosters is exactly the
     # source ESPN cannot serve historically.
     athlete_ids = sorted(
-        {int(a) for a in pl.read_parquet(pb_path, columns=["athlete_id"])["athlete_id"].drop_nulls().unique()}
+        {
+            int(a)
+            for a in pl.read_parquet(pb_path, columns=["athlete_id"])["athlete_id"]
+            .drop_nulls()
+            .unique()
+        }
     )
 
     def _one(aid: int) -> pl.DataFrame | None:
