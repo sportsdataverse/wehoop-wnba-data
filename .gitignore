@@ -151,3 +151,7 @@ dmypy.json
 */.omc/
 .superpowers/
 .understand-anything/
+
+# Built rds/csv ship to the sportsdataverse-data releases, not to git.
+wnba/*/rds/
+wnba/*/csv/
