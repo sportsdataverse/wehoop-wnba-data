@@ -41,13 +41,22 @@ if (!is.na(opt$s) && !is.na(opt$e)) {
 
 # --- helpers ------------------------------------------------------------------
 extract_updated <- function(lines) {
+  # Legacy R producer: "Updated YYYY ESPN LEAGUE <ds> GitHub Release".
   m <- regmatches(
     lines,
     regexpr("Updated [0-9]{4} ESPN [A-Z]+ .+? GitHub Release", lines)
   )
   m <- m[nzchar(m)]
   ds <- sub("^Updated [0-9]{4} ESPN [A-Z]+ (.+?) GitHub Release$", "\\1", m)
-  sort(unique(ds))
+  # Python producer (wnba_data_build): "uploaded <file> -> <tag> (asset N/M)".
+  # The daily flow uses this now, so without it the summary reports 0 updated.
+  p <- regmatches(
+    lines,
+    regexpr("uploaded \\S+ -> \\S+ \\(asset [0-9]", lines)
+  )
+  p <- p[nzchar(p)]
+  ptags <- sub("^uploaded \\S+ -> (\\S+) \\(asset [0-9].*$", "\\1", p)
+  sort(unique(c(ds, ptags)))
 }
 
 # cli warnings look like "! <ts>: skip <dataset> <season>/<id>: <reason>";
