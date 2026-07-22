@@ -1154,7 +1154,7 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,play_by_pl
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '6-22', 'type': 'total'}
  {'abbreviation': None, 'name': 'Home', 'summary': '4-9', 'type': 'home'}
  {'abbreviation': None, 'name': 'Road', 'summary': '2-13', 'type': 'road'}]",401857116,2026,2,,false,,2026-08-05T19:00:00.000000-0400,2026-08-05,false,false,false
-401857114,s:40~l:59~e:401857114~c:401857114,2026-08-05T02:00Z,0.0,true,false,false,false,false,2026-08-05T02:00Z,"",[],"","",away,TSN,1,STD,6270,Chase Center,San Francisco,CA,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Tue, August 4th at 10:00 PM EDT",8/4 - 10:00 PM EDT,4.0,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,b38fcf,000000,true,6270,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
+401857114,s:40~l:59~e:401857114~c:401857114,2026-08-05T02:00Z,0.0,true,false,false,false,false,2026-08-05T02:00Z,"",[],"","",away,WNBA League Pass,1,STD,6270,Chase Center,San Francisco,CA,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Tue, August 4th at 10:00 PM EDT",8/4 - 10:00 PM EDT,4.0,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,b38fcf,000000,true,6270,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '19-8', 'type': 'total'}
@@ -1176,7 +1176,7 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,play_by_pl
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '9-18', 'type': 'total'}
  {'abbreviation': None, 'name': 'Home', 'summary': '4-9', 'type': 'home'}
  {'abbreviation': None, 'name': 'Road', 'summary': '5-9', 'type': 'road'}]",401857113,2026,2,,false,,2026-08-03T21:00:00.000000-0400,2026-08-03,false,false,false
-401857111,s:40~l:59~e:401857111~c:401857111,2026-08-03T23:00Z,0.0,true,false,false,false,false,2026-08-03T23:00Z,Peacock/NBCSN,[],"","",home,Atlanta News First,1,STD,1827,State Farm Arena,Atlanta,GA,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Mon, August 3rd at 7:00 PM EDT",8/3 - 7:00 PM EDT,4.0,20,s:40~l:59~t:20,Atlanta,Dream,ATL,Atlanta Dream,Dream,e31837,5091cc,true,6282,https://a.espncdn.com/i/teamlogos/wnba/500/atl.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
+401857111,s:40~l:59~e:401857111~c:401857111,2026-08-03T23:00Z,0.0,true,false,false,false,false,2026-08-03T23:00Z,Peacock/NBCSN,[],"","",national,Peacock,1,STD,1827,State Farm Arena,Atlanta,GA,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Mon, August 3rd at 7:00 PM EDT",8/3 - 7:00 PM EDT,4.0,20,s:40~l:59~t:20,Atlanta,Dream,ATL,Atlanta Dream,Dream,e31837,5091cc,true,6282,https://a.espncdn.com/i/teamlogos/wnba/500/atl.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '16-10', 'type': 'total'}
@@ -1187,7 +1187,7 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,play_by_pl
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '18-7', 'type': 'total'}
  {'abbreviation': None, 'name': 'Home', 'summary': '7-5', 'type': 'home'}
  {'abbreviation': None, 'name': 'Road', 'summary': '11-2', 'type': 'road'}]",401857111,2026,2,,false,,2026-08-03T19:00:00.000000-0400,2026-08-03,false,false,false
-401857112,s:40~l:59~e:401857112~c:401857112,2026-08-03T23:00Z,0.0,true,false,false,false,false,2026-08-03T23:00Z,Peacock/NBCSN,[],"","",national,Peacock,1,STD,3559,Barclays Center,Brooklyn,NY,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Mon, August 3rd at 7:00 PM EDT",8/3 - 7:00 PM EDT,4.0,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,86cebc,000000,true,3559,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
+401857112,s:40~l:59~e:401857112~c:401857112,2026-08-03T23:00Z,0.0,true,false,false,false,false,2026-08-03T23:00Z,"",[],"","",away,WNBA League Pass,1,STD,3559,Barclays Center,Brooklyn,NY,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Mon, August 3rd at 7:00 PM EDT",8/3 - 7:00 PM EDT,4.0,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,86cebc,000000,true,3559,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '14-12', 'type': 'total'}
@@ -1198,7 +1198,7 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,play_by_pl
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '6-22', 'type': 'total'}
  {'abbreviation': None, 'name': 'Home', 'summary': '4-9', 'type': 'home'}
  {'abbreviation': None, 'name': 'Road', 'summary': '2-13', 'type': 'road'}]",401857112,2026,2,,false,,2026-08-03T19:00:00.000000-0400,2026-08-03,false,false,false
-401857110,s:40~l:59~e:401857110~c:401857110,2026-08-03T00:30Z,0.0,true,false,false,false,false,2026-08-03T00:30Z,"",[],"","",home,KPIX+,1,STD,6270,Chase Center,San Francisco,CA,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, August 2nd at 8:30 PM EDT",8/2 - 8:30 PM EDT,4.0,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,b38fcf,000000,true,6270,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
+401857110,s:40~l:59~e:401857110~c:401857110,2026-08-03T00:30Z,0.0,true,false,false,false,false,2026-08-03T00:30Z,"",[],"","",away,WNBA League Pass,1,STD,6270,Chase Center,San Francisco,CA,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, August 2nd at 8:30 PM EDT",8/2 - 8:30 PM EDT,4.0,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,b38fcf,000000,true,6270,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '19-8', 'type': 'total'}
@@ -1319,7 +1319,7 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,play_by_pl
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '21-6', 'type': 'total'}
  {'abbreviation': None, 'name': 'Home', 'summary': '10-4', 'type': 'home'}
  {'abbreviation': None, 'name': 'Road', 'summary': '11-2', 'type': 'road'}]",401857099,2026,2,,false,,2026-07-30T20:00:00.000000-0400,2026-07-30,false,false,false
-401857100,s:40~l:59~e:401857100~c:401857100,2026-07-31T00:00Z,0.0,true,false,false,false,false,2026-07-31T00:00Z,"",[],"","",home,CW26,1,STD,5427,Wintrust Arena,Chicago,IL,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, July 30th at 8:00 PM EDT",7/30 - 8:00 PM EDT,4.0,19,s:40~l:59~t:19,Chicago,Sky,CHI,Chicago Sky,Sky,5091cd,ffd520,true,977,https://a.espncdn.com/i/teamlogos/wnba/500/chi.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
+401857100,s:40~l:59~e:401857100~c:401857100,2026-07-31T00:00Z,0.0,true,false,false,false,false,2026-07-31T00:00Z,"",[],"","",away,WNBA League Pass,1,STD,5427,Wintrust Arena,Chicago,IL,true,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, July 30th at 8:00 PM EDT",7/30 - 8:00 PM EDT,4.0,19,s:40~l:59~t:19,Chicago,Sky,CHI,Chicago Sky,Sky,5091cd,ffd520,true,977,https://a.espncdn.com/i/teamlogos/wnba/500/chi.png,0,,"[{'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}
  {'displayValue': None, 'period': None, 'value': 0.0}]","[{'abbreviation': 'Total', 'name': 'overall', 'summary': '9-17', 'type': 'total'}
