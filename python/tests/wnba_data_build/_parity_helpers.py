@@ -18,10 +18,21 @@ def assert_parquet_parity(
     keys: list[str],
     sample_cols: list[str],
     r_only_all_null_ok: tuple[str, ...] = (),
+    py_only_additive: tuple[str, ...] = (),
     require_order: bool = True,
     dtype_upgrades: dict[str, tuple[pl.DataType, pl.DataType]] | None = None,
 ) -> None:
     r = pl.read_parquet(r_parquet)
+    if py_only_additive:
+        # Deliberately ADDITIVE producer columns (e.g. the 2026-07 athlete/team
+        # name columns) that the pre-names oracle cannot carry: an explicit
+        # allowlist, so an unintended new column still fails the set assert.
+        # Parity on every shared column is still asserted in full below.
+        py_only = [c for c in py.columns if c not in r.columns]
+        assert set(py_only) <= set(py_only_additive), (
+            f"unexpected py-only columns: {sorted(set(py_only) - set(py_only_additive))}"
+        )
+        py = py.drop(py_only)
     if r_only_all_null_ok:
         # Season-union artifacts: a column another game contributed to the
         # season compile can appear in the oracle slice but not in a subset

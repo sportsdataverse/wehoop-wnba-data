@@ -36,6 +36,54 @@ options(stringsAsFactors = FALSE)
 options(scipen = 999)
 years_vec <- opt$s:opt$e
 
+# Per-game athlete lookup from the summary payload's boxscore.players tree —
+# the same file the pbp parse reads, so adding names costs no extra HTTP.
+# Mirrors hoopR-nba-data's espn_nba_01 name join (kept in sync so an R
+# fallback run does not drop the athlete_name_* columns the Python
+# producer ships).
+espn_wnba_game_athletes <- function(path) {
+  empty <- data.frame(
+    athlete_id = integer(0),
+    athlete_display_name = character(0),
+    stringsAsFactors = FALSE
+  )
+  gj <- tryCatch(
+    jsonlite::fromJSON(path, simplifyVector = FALSE),
+    error = function(e) NULL
+  )
+  players <- purrr::pluck(gj, "boxscore", "players", .default = list())
+  out <- purrr::map_dfr(players, function(tm) {
+    purrr::map_dfr(
+      purrr::pluck(tm, "statistics", .default = list()),
+      function(st) {
+        purrr::map_dfr(
+          purrr::pluck(st, "athletes", .default = list()),
+          function(a) {
+            data.frame(
+              athlete_id = suppressWarnings(as.integer(
+                purrr::pluck(a, "athlete", "id", .default = NA_character_)
+              )),
+              athlete_display_name = purrr::pluck(
+                a,
+                "athlete",
+                "displayName",
+                .default = NA_character_
+              ),
+              stringsAsFactors = FALSE
+            )
+          }
+        )
+      }
+    )
+  })
+  if (nrow(out) == 0) {
+    return(empty)
+  }
+  out %>%
+    dplyr::filter(!is.na(.data$athlete_id)) %>%
+    dplyr::distinct(.data$athlete_id, .keep_all = TRUE)
+}
+
 # --- compile into play_by_play_{year}.parquet ---------
 wnba_pbp_games <- function(y) {
   espn_df <- data.frame()
@@ -85,7 +133,30 @@ wnba_pbp_games <- function(y) {
               "https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/json/final/{x}.json"
             )
             tryCatch(
-              wehoop:::helper_espn_wnba_pbp(resp),
+              {
+                # one download per game; helper + name lookup read the same file
+                tf <- tempfile(fileext = ".json")
+                utils::download.file(resp, tf, quiet = TRUE, mode = "wb")
+                plays <- wehoop:::helper_espn_wnba_pbp(tf)
+                if (!is.null(plays) && nrow(plays) > 0) {
+                  lk <- espn_wnba_game_athletes(tf)
+                  for (i in 1:3) {
+                    idc <- paste0("athlete_id_", i)
+                    nmc <- paste0("athlete_name_", i)
+                    if (idc %in% colnames(plays) && nrow(lk) > 0) {
+                      plays <- plays %>%
+                        dplyr::left_join(
+                          stats::setNames(lk, c(idc, nmc)),
+                          by = idc
+                        )
+                    } else {
+                      plays[[nmc]] <- NA_character_
+                    }
+                  }
+                }
+                unlink(tf)
+                plays
+              },
               error = function(e) NULL,
               warning = function(w) NULL
             )
@@ -182,6 +253,23 @@ wnba_pbp_games <- function(y) {
     # --- Shots extraction (derived from in-memory PBP frame; no extra HTTP) ---
     shots_df <- espn_df %>%
       dplyr::filter(.data$shooting_play == TRUE) %>%
+      dplyr::mutate(
+        team_name = ifelse(
+          .data$team_id == .data$home_team_id,
+          .data$home_team_name,
+          .data$away_team_name
+        ),
+        team_mascot = ifelse(
+          .data$team_id == .data$home_team_id,
+          .data$home_team_mascot,
+          .data$away_team_mascot
+        ),
+        team_abbrev = ifelse(
+          .data$team_id == .data$home_team_id,
+          .data$home_team_abbrev,
+          .data$away_team_abbrev
+        )
+      ) %>%
       dplyr::select(
         dplyr::any_of(c(
           "game_id",
@@ -198,7 +286,12 @@ wnba_pbp_games <- function(y) {
           "coordinate_x",
           "coordinate_y",
           "coordinate_x_raw",
-          "coordinate_y_raw"
+          "coordinate_y_raw",
+          "athlete_name_1",
+          "athlete_name_2",
+          "team_name",
+          "team_mascot",
+          "team_abbrev"
         ))
       )
 

@@ -18,10 +18,22 @@ from wnba_data_build.build import build_season
 FX = Path(__file__).parent.parent / "fixtures"
 
 
+ADDITIVE_COLS = (
+    "athlete_name_1",
+    "athlete_name_2",
+    "team_name",
+    "team_mascot",
+    "team_abbrev",
+)
+
+
 def test_shots_parity_2025(tmp_path):
     # Production path: shots read the built pbp parquet under the same base.
     build_season("pbp", 2025, base=tmp_path, raw_root=FX / "raw")
     py = build_season("shots", 2025, base=tmp_path, raw_root=FX / "raw")
+    # Additive columns (2026-07): every shot has a shooter name and team cols.
+    assert py["athlete_name_1"].null_count() == 0
+    assert py["team_abbrev"].null_count() == 0
     oracle = FX / "released" / "shots_2025.parquet"
     keys = list(pl.read_parquet_schema(str(oracle)))
-    assert_parquet_parity(py, oracle, keys=keys, sample_cols=[])
+    assert_parquet_parity(py, oracle, keys=keys, sample_cols=[], py_only_additive=ADDITIVE_COLS)
