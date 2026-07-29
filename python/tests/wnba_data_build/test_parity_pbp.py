@@ -23,10 +23,21 @@ FX = Path(__file__).parent.parent / "fixtures"
 KEYS = ["game_id", "game_play_number"]
 
 
+NAME_COLS = ("athlete_name_1", "athlete_name_2", "athlete_name_3")
+
+
 @pytest.mark.parametrize("season", [2025, 2026])
 def test_pbp_parity(season, tmp_path):
     # Production path: build_season owns the R arrange(desc(game_date)) sort.
     py = build_season("pbp", season, base=tmp_path, raw_root=FX / "raw")
+    # Additive name columns (2026-07): joined per game from boxscore.players.
+    # The primary participant must resolve on nearly every id-bearing row
+    # (the only legitimate misses are non-players, e.g. coach technicals).
+    has_id = py.filter(pl.col("athlete_id_1").is_not_null())
+    matched = has_id.filter(pl.col("athlete_name_1").is_not_null()).height
+    assert matched >= 0.99 * has_id.height, (
+        f"athlete_name_1 resolved on {matched}/{has_id.height} id-bearing rows"
+    )
     oracle = FX / "released" / f"play_by_play_{season}.parquet"
     sample = [c for c in pl.read_parquet_schema(str(oracle)) if c not in KEYS]
     assert_parquet_parity(
@@ -34,6 +45,7 @@ def test_pbp_parity(season, tmp_path):
         oracle,
         keys=KEYS,
         sample_cols=sample,
+        py_only_additive=NAME_COLS,
         # pbp column order is payload-first-seen; the raw repo has been
         # re-scraped since the oracle was compiled (the released 2025 and
         # 2026 assets already disagree on order), so order is not asserted.
