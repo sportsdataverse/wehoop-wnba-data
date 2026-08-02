@@ -26,9 +26,9 @@ the `shots` filtered subset), `_02_team_box`, `_03_player_box`, `_04_rosters`,
 `_09_game_rosters`, `_10_officials`, then `wnba_11_team_crosswalk`,
 `wnba_12_schedule_crosswalk`, `wnba_13_player_crosswalk`.
 `espn_wnba_08_draft_creation.R` is NOT in the daily flow — draft runs annually.
-One-time bootstraps: `R/0000_create_wehoop_releases_init.R` (creates release
-tags idempotently), `R/0001_push_existing_release_data.R`. `R/run_summary.R`
-writes a CI summary.
+One-time bootstraps live in `ops/init/` (run from the repo root):
+`0000_create_wehoop_releases_init.R` (creates release tags idempotently),
+`0001_push_existing_release_data.R`. `R/run_summary.R` writes a CI summary.
 
 `GITHUB_PAT` is required for uploads (CI injects `secrets.SDV_GH_TOKEN`).
 

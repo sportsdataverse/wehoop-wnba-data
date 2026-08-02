@@ -64,7 +64,7 @@ Rscript R/espn_wnba_09_game_rosters_creation.R     -s 2025 -e 2025
 Rscript R/espn_wnba_10_officials_creation.R        -s 2025 -e 2025
 
 # One-time / on-add: ensure every release tag exists
-Rscript R/0000_create_wehoop_releases_init.R
+Rscript ops/init/0000_create_wehoop_releases_init.R
 ```
 
 `GITHUB_PAT` must be exported (or provided by `secrets.GITHUB_TOKEN` in
