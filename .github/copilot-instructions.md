@@ -32,10 +32,12 @@ the WNBA Stats API source, which lives in a separate pipeline.
 
 The 11 daily datasets are built by **Python** (`python/wnba_data_build`, a
 parity-validated port of the `espn_wnba_01..10` scripts — every dataset is
-tested against the published release asset it must reproduce). R is retained
-for the three crosswalks, the `.rds` serialization (`R/serialize_rds.R` —
-`wehoop::load_wnba_*()` reads rds), and `run_summary.R`. Draft is annual
-(`annual_wnba_draft.yml`), not part of the daily run.
+tested against the published release asset it must reproduce), which writes
+parquet/rds/csv in one pass — the `.rds` (the format `wehoop::load_wnba_*()`
+reads) is written natively by `io.write_dataset`; `R/serialize_rds.R` was
+retired in 120deafe. R is retained for the three crosswalks and
+`run_summary.R`. Draft is annual (`annual_wnba_draft.yml`), not part of the
+daily run.
 
 ```sh
 # Current entry point (Python + the R tail), per season:
@@ -44,9 +46,6 @@ bash scripts/daily_wnba_data_processor.sh -s 2025 -e 2025
 # Build one dataset directly (--publish uploads; --dry-run doesn't):
 cd python && uv run python -m wnba_data_build --dataset pbp --base ../wnba -s 2025 -e 2025 --dry-run
 uv run pytest                                # the release-parity suite
-
-# Serialize the Python parquet to .rds (optionally one dataset):
-Rscript R/serialize_rds.R -s 2025 -e 2025 [--dataset draft] [--no-upload]
 
 # Legacy all-R path, retained as a fallback:
 bash scripts/daily_wnba_R_processor.sh -s 2025 -e 2025
@@ -104,8 +103,8 @@ Output paths and release tags (see `CLAUDE.md` for the full table):
 
 `.github/workflows/daily_wnba.yml` runs
 `scripts/daily_wnba_data_processor.sh`, which builds the 11 daily datasets
-with `wnba_data_build`, then runs the R crosswalks and `serialize_rds.R`,
-and commits the cumulative output. Triggers:
+(parquet/rds/csv in one native pass) with `wnba_data_build`, then runs the
+R crosswalks and commits the cumulative output. Triggers:
 
 - `repository_dispatch: [daily_wnba_data]` — fired by
   `wehoop-wnba-raw`'s `wehoop_wnba_data_trigger.yml` when it pushes a
@@ -116,9 +115,9 @@ and commits the cumulative output. Triggers:
 - `workflow_dispatch:` accepts optional `start_year`/`end_year` inputs.
 
 Draft is annual: `.github/workflows/annual_wnba_draft.yml` fires off the raw
-repo's `wehoop_wnba_draft_trigger.yml` dispatch (and an April cron), builds
-the draft dataset with `wnba_data_build --dataset draft`, and serializes its
-rds with `serialize_rds.R --dataset draft`. `R/espn_wnba_08_draft_creation.R`
+repo's `wehoop_wnba_draft_trigger.yml` dispatch (and an April cron), then
+builds and publishes the draft parquet/rds/csv in one pass with
+`wnba_data_build --dataset draft --publish`. `R/espn_wnba_08_draft_creation.R`
 is retained as the R fallback.
 
 ## Cross-Repo References

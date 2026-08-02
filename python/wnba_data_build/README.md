@@ -57,6 +57,6 @@ sportsdataverse.
 
 The daily cron (`.github/workflows/daily_wnba.yml` →
 `scripts/daily_wnba_data_processor.sh`) runs this producer for all 11
-datasets, then R serializes each parquet to `.rds` (`R/serialize_rds.R`,
-rds-only upload — wehoop's `load_wnba_*` reads rds) and runs the crosswalks
-and `run_summary.R`.
+datasets — each writes parquet/rds/csv in one native pass
+(`io.write_dataset`; wehoop's `load_wnba_*` reads the rds) — then runs the
+R crosswalks and `run_summary.R`.

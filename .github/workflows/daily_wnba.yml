@@ -30,9 +30,10 @@ env:
 
 jobs:
   update_wnba_data:
-    # Python (wnba_data_build) owns the 11 daily raw-derived datasets; R is
-    # retained for the crosswalks (wnba_11-13), serialize_rds.R, and
-    # run_summary.R. Draft is annual -- see annual_wnba_draft.yml.
+    # Python (wnba_data_build) owns the 11 daily raw-derived datasets and
+    # writes parquet/rds/csv natively in one pass (serialize_rds.R was
+    # retired in 120deafe); R is retained for the crosswalks (wnba_11-13)
+    # and run_summary.R. Draft is annual -- see annual_wnba_draft.yml.
     runs-on: ubuntu-latest
     name: Update WNBA Data ${{ inputs.start_year }}-${{ inputs.end_year }}
 

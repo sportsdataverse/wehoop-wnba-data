@@ -7,7 +7,8 @@
 # player_box parquets (and rebuild the wnba_schedule_master +
 # wnba_games_in_data_repo extras). Draft (08) is annual cadence and runs from
 # annual_wnba_draft.yml, not here. Crosswalks (wnba_11-13) stay on R (live
-# ESPN+Torvik+Fox inputs), and R also serializes every Python parquet to .rds
+# ESPN+Torvik+Fox inputs); the .rds is written natively by io.write_dataset
+# in the same pass as the parquet (R/serialize_rds.R was retired in 120deafe).
 #
 # Usage: bash scripts/daily_wnba_data_processor.sh -s 2025 -e 2025
 set -uo pipefail
