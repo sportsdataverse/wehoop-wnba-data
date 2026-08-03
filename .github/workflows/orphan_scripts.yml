@@ -8,9 +8,9 @@ name: orphan-scripts
 on:
   push:
     branches: [main]
-    paths: ['scripts/**', 'ops/**', 'README*', 'CLAUDE.md', 'docs/**', '.github/**']
+    paths: ['scripts/**', 'ops/**', 'python/**', 'R/**', 'README*', 'CLAUDE.md', 'docs/**', '.github/**']
   pull_request:
-    paths: ['scripts/**', 'ops/**', 'README*', 'CLAUDE.md', 'docs/**', '.github/**']
+    paths: ['scripts/**', 'ops/**', 'python/**', 'R/**', 'README*', 'CLAUDE.md', 'docs/**', '.github/**']
   workflow_dispatch:
 
 jobs:
