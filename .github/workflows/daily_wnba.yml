@@ -69,7 +69,7 @@ jobs:
         with:
           python-version: '3.12'
           enable-cache: true
-          cache-dependency-glob: python/uv.lock
+          cache-dependency-glob: uv.lock
 
       - name: Install Python deps
         working-directory: python

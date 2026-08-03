@@ -22,7 +22,7 @@ sportsdataverse = { git = "https://github.com/sportsdataverse/sportsdataverse-py
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["."]
+pythonpath = ["python"]
 
 [tool.ruff]
 line-length = 100
