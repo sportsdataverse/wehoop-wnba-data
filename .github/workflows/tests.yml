@@ -1,0 +1,55 @@
+name: tests
+
+# Offline test gate. Added 2026-08-03: this repo had no CI for its Python
+# suite, which is how a stale test and an unsynced env both sat undetected --
+# and how the sibling cfbfastR-cfb-data was the ONLY repo to notice when a
+# layout change broke test collection. These tests touch no network.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # Sparse: these repos carry large committed data trees and a full
+          # checkout is slow to useless here -- no test reads them (verified).
+          sparse-checkout: |
+            python
+            tests
+            scripts
+            pyproject.toml
+            uv.lock
+          sparse-checkout-cone-mode: false
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          cache-dependency-glob: uv.lock
+
+      - name: Install
+        # --frozen: a PR must not silently re-resolve the lockfile.
+        run: uv sync --frozen --dev
+
+      - name: Tests
+        # --no-sync: `uv run` would otherwise re-sync and undo the --frozen
+        # install above.
+        run: uv run --no-sync pytest -q
+
+      - name: Lint
+        run: uv run --no-sync ruff check python tests
+
+      - name: Shell syntax
+        # scripts/ is bash-only by convention; the scrape/build entry points are
+        # not otherwise exercised by CI.
+        run: |
+          for f in scripts/*.sh; do
+            bash -n "$f" || exit 1
+          done
