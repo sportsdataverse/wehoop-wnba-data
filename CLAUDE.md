@@ -50,9 +50,12 @@ also uploads to its release tag on `sportsdataverse-data` (asset shape
   `repository_dispatch` type `daily_wnba_data` (fired by the raw repo) +
   `workflow_dispatch`. Extracts years from the dispatch commit message
   (`Start:`/`End:` regex), defaulting to `wehoop::most_recent_wnba_season()`.
-- `.github/workflows/annual_wnba_draft.yml` — draft pipeline (ESPN
-  `espn_wnba_08_draft_creation.R` + WNBA Stats API `wnba_stats_07_draft.R`);
-  triggered by `repository_dispatch` type `annual_wnba_draft` from the raw repo.
+- `.github/workflows/annual_wnba_draft.yml` — the **ESPN** draft only, built by
+  `wnba_data_build --dataset draft --publish` (`espn_wnba_08_draft_creation.R`
+  is the R fallback); triggered by `repository_dispatch` type
+  `annual_wnba_draft` from the raw repo. The WNBA **Stats API** draft is not
+  built here: it belongs to `wehoop-wnba-stats-data`'s own
+  `annual_wnba_stats_draft.yml`.
 - `.github/workflows/weekly_wnba.yml` — Sunday `0 6 UTC` roster refresh.
 
 ## Gotchas
