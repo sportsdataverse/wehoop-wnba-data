@@ -7,7 +7,6 @@ a column from 11 already-published seasons the moment anyone rebuilt them.
 """
 
 import polars as pl
-
 from wnba_data_build.config import REGISTRY
 from wnba_data_build.reshapers import team_box_season_postprocess
 

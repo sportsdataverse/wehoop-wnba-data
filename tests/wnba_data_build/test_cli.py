@@ -1,5 +1,4 @@
 import pytest
-
 from wnba_data_build.cli import main
 
 

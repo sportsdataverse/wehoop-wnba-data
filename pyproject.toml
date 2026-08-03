@@ -12,7 +12,10 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = ["pytest>=8.0"]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
 
 # The helper_wnba_* producers landed on sdv-py main in #249; no PyPI release
 # carries them yet, so track main (same as the WBB sibling). Pin to the
@@ -28,6 +31,8 @@ pythonpath = ["python"]
 line-length = 100
 
 [tool.ruff.lint]
+# Pinned rule set: relying on ruff defaults makes the gate version-sensitive.
+select = ["E4", "E7", "E9", "F", "I"]
 # Explicit polars bool masks (pl.col("c") == True/False) are the project
 # convention (see sdv-py CLAUDE.md "Polars version"); E712 fights that.
 ignore = ["E712"]

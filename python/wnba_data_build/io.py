@@ -16,7 +16,6 @@ from io import BytesIO
 from pathlib import Path
 
 import polars as pl
-
 from sportsdataverse._rds import write_rds
 
 from wnba_data_build._logging import get_logger, human_size

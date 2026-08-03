@@ -1,5 +1,4 @@
 import polars as pl
-
 from wnba_data_build import io
 from wnba_data_build.config import REGISTRY
 

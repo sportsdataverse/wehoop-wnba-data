@@ -11,9 +11,9 @@ ends in a canonical ``dplyr::select`` so column ORDER is asserted (unlike pbp).
 from pathlib import Path
 
 import polars as pl
+from wnba_data_build.build import build_season
 
 from tests.wnba_data_build._parity_helpers import assert_parquet_parity
-from wnba_data_build.build import build_season
 
 FX = Path(__file__).parent.parent / "fixtures"
 

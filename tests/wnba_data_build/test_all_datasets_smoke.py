@@ -9,7 +9,6 @@ retained R scripts, not from the raw repo).
 from pathlib import Path
 
 import pytest
-
 from wnba_data_build.build import build_season
 from wnba_data_build.config import REGISTRY
 

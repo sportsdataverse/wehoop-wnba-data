@@ -14,9 +14,9 @@ from pathlib import Path
 
 import polars as pl
 import pytest
+from wnba_data_build import reshapers
 
 from tests.wnba_data_build._parity_helpers import assert_parquet_parity
-from wnba_data_build import reshapers
 
 FX = Path(__file__).parent.parent / "fixtures"
 
