@@ -10,9 +10,15 @@ is a build package with datasets as ``config.REGISTRY`` rows. The numbered
 shims in ``python/`` bridge that: each shim carries the SAME number as its R
 twin, so the stage sequence is comparable by eye and by test.
 
-Numbers are per-repo. ``-data`` numbering follows BUILD ORDER and is a separate
-namespace from ``-raw``, so this repo's numbers need not match its sibling
-leagues' — only its own R chain. Holes are deliberate and never compacted.
+Numbers are per-repo and express INTENDED build order plus a stable
+cross-language dataset identity. They are NOT the execution schedule: the daily
+driver's ordered array is the executable truth and may deviate for cadence
+reasons (hoopR-nba-data runs 08_draft last, after 10_officials, because draft is
+annual). Python drivers generally iterate dataset KEYS rather than the numbered
+shims, so the shims are a legibility/identity device more than an entry point.
+The ``-data`` namespace is separate from ``-raw``, so this repo's numbers need
+not match its sibling leagues' — only its own R chain. Holes are deliberate and
+never compacted.
 
 **Neither side is authoritative.** A failure here means the pipelines disagree
 about what they produce; a human decides which is right. The messages are
