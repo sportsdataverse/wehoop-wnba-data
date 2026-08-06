@@ -46,22 +46,6 @@ KNOWN_UNPAIRED: dict[str, str] = {
         "R writes it inside espn_wnba_01_pbp_creation.R (verified: saveRDS + "
         "write_parquet to wnba/shots/) rather than as its own numbered stage."
     ),
-    # OPEN PARITY GAP, and blocked upstream rather than simply unwritten.
-    #
-    # Python builds it from a flat ONE-ROW-PER-ATHLETE projection of the ESPN
-    # core-v2 athlete resource. The R package's nearest function
-    # (`.espn_basketball_athlete_info` / its wehoop equivalent) is not a twin:
-    #   1. it FETCHES, with no parse-only entry point, so a stage cannot feed it
-    #      the raw tree — and re-fetching would break the one-way raw->data
-    #      boundary AND mean the two pipelines read different bytes;
-    #   2. it returns a NAMED LIST of tibbles (Bio, Team, ...), not the flat
-    #      single row player_core releases.
-    # All four ESPN -data repos share this gap identically, so it closes with ONE
-    # league-parameterized upstream change (parse-only + flat projection, with
-    # roxygen + testthat) and a release — not four separate fixes. This repo's
-    # own rule ("all JSON I/O goes through the R package; no bespoke parsing
-    # here") rules out a local workaround.
-    "player_core": "OPEN PARITY GAP — blocked on an upstream parse-only flat projection; see the note above.",
 }
 
 
