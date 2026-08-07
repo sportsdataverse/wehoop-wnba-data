@@ -146,12 +146,32 @@ dmypy.json
 .pyre/
 .wnba_raw_cache/
 
-# Agent/tooling state
-.omc/
-*/.omc/
-.superpowers/
-.understand-anything/
-
 # Built rds/csv ship to the sportsdataverse-data releases, not to git.
 wnba/*/rds/
 wnba/*/csv/
+
+# Top-level run artifacts. logs/*.log stays tracked (the daily processor
+# commits one per season and overwrites it each run).
+/*.out
+/*.log
+!logs/*.log
+
+# Editable-install metadata produced by `uv sync` against the root pyproject.
+*.egg-info/
+**/*.egg-info/
+
+# Tool scratch directories (bare and nested).
+.omc/
+**/.omc/
+.Rproj.user/
+**/.Rproj.user/
+.ruff_cache/
+**/.ruff_cache/
+.understand-anything/
+**/.understand-anything/
+.superpowers/
+**/.superpowers/
+.pytest_cache/
+**/.pytest_cache/
+.venv/
+**/.venv/
