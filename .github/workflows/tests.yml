@@ -24,6 +24,9 @@ jobs:
           # R/ IS required: tests/test_r_python_parity.py pairs the numbered R
           # stages against config.REGISTRY, and without the checkout it finds
           # zero R stages and reds out main (the mbb twin hit exactly this).
+          # docs/README.md/CLAUDE.md ARE required for the generated-docs drift
+          # check below to have anything to compare against; the payload trees
+          # under wnba/ stay excluded (docs.py tolerates a missing manifest).
           sparse-checkout: |
             python
             tests
@@ -31,6 +34,9 @@ jobs:
             R
             pyproject.toml
             uv.lock
+            docs
+            README.md
+            CLAUDE.md
           sparse-checkout-cone-mode: false
 
       - name: Set up uv
@@ -49,6 +55,12 @@ jobs:
 
       - name: Lint
         run: uv run --no-sync ruff check python tests
+
+      - name: Generated docs are in sync
+        # --no-live skips the `gh release view` calls; the check ignores the
+        # publish-status values either way, so a daily publish cannot redden a
+        # PR that did not cause it.
+        run: uv run --no-sync python -m wnba_data_build.docs --check --no-live
 
       - name: Shell syntax
         # scripts/ is bash-only by convention; the scrape/build entry points are

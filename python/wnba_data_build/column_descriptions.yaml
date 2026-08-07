@@ -1,0 +1,353 @@
+# Column descriptions for the released WNBA datasets.
+#
+# Authored for THIS league, against the real released WNBA parquets and their
+# sample values. Never borrow descriptions from another sport's schema store by
+# flattening on column name -- the WBB pilot's borrowed store produced
+# confidently wrong text (`assists` = "Assisted tackles"). A borrowed
+# description is an invented one.
+#
+# Keyed by column NAME: a column means the same thing in every dataset that
+# carries it (`team_id` is always the ESPN team id). A column with no entry
+# renders as an empty cell in the generated docs, which is an honest TODO.
+
+# --- identity / join keys -----------------------------------------------------
+game_id: ESPN game id (Int64 canonical join key across pbp, box, rosters, officials).
+team_id: ESPN team id for the row's team.
+athlete_id: ESPN athlete id for the row's player.
+athlete_id_1: ESPN athlete id of the primary player credited on the play.
+athlete_id_2: ESPN athlete id of the secondary player on the play (e.g. assister, fouled player).
+athlete_id_3: ESPN athlete id of the tertiary player on the play.
+official_id: ESPN official id for the referee.
+opponent_team_id: ESPN team id of the opposing team.
+current_team_id: ESPN team id of the athlete's current team (player_core snapshot).
+home_id: ESPN team id of the home team (schedule frame).
+away_id: ESPN team id of the away team (schedule frame).
+home_team_id: ESPN team id of the home team.
+away_team_id: ESPN team id of the away team.
+venue_id: ESPN venue id where the game was played.
+home_venue_id: ESPN home team's registered venue id.
+away_venue_id: ESPN away team's registered venue id.
+position_id: ESPN position id.
+college_id: ESPN college/team id of the athlete's college (draft frame).
+group_id: ESPN group id (conference/division grouping) for standings rows.
+status_id: ESPN game-status id.
+status_type_id: ESPN game-status type id (schedule frame).
+type_id: ESPN season/competition type id (2 regular season, 3 postseason).
+id: ESPN id of the row's entity (play id in pbp; game id in the schedule frame).
+uid: ESPN universal id string (`s:40~l:59~...`).
+guid: ESPN GUID for the entity.
+athlete_guid: ESPN GUID for the athlete.
+team_uid: ESPN universal id string for the team.
+athlete_uid: ESPN universal id string for the athlete.
+official_uid: ESPN universal id string for the official.
+home_uid: ESPN universal id string for the home team.
+away_uid: ESPN universal id string for the away team.
+slug: URL-safe ESPN slug for the entity.
+team_slug: URL-safe ESPN slug for the team.
+
+# --- crosswalk keys (espn / wnba stats / fox / yahoo) -------------------------
+espn_game_id: ESPN game id side of the crosswalk row.
+espn_team_id: ESPN team id side of the crosswalk row.
+espn_athlete_id: ESPN athlete id side of the crosswalk row.
+espn_abbreviation: ESPN team abbreviation.
+espn_location: ESPN team market/location string.
+espn_mascot: ESPN team mascot/nickname.
+espn_display_name: ESPN display name (team or athlete) on the crosswalk row.
+espn_full_name: ESPN full athlete name.
+espn_short_name: ESPN short name.
+espn_jersey: Jersey number as listed by ESPN.
+espn_position: Position abbreviation as listed by ESPN.
+home_espn_team_id: ESPN team id of the home team on the crosswalk row.
+away_espn_team_id: ESPN team id of the away team on the crosswalk row.
+wnba_game_id: stats.wnba.com game id side of the crosswalk row.
+wnba_game_code: stats.wnba.com game code (`YYYYMMDD/AWYHOM`).
+wnba_team_id: stats.wnba.com team id.
+wnba_home_team_id: stats.wnba.com team id of the home team.
+wnba_away_team_id: stats.wnba.com team id of the away team.
+wnba_team_city: stats.wnba.com team city.
+wnba_team_name: stats.wnba.com team nickname.
+wnba_team_slug: stats.wnba.com team slug.
+wnba_team_tricode: stats.wnba.com three-letter team code.
+wnba_player_id: stats.wnba.com player id.
+wnba_player_name: stats.wnba.com player display name.
+wnba_jersey_num: Jersey number as listed by stats.wnba.com.
+wnba_position: Position as listed by stats.wnba.com.
+fox_game_id: Fox Sports game id side of the crosswalk row.
+fox_team_id: Fox Sports team id.
+fox_home_team_id: Fox Sports team id of the home team.
+fox_away_team_id: Fox Sports team id of the away team.
+fox_team_name: Fox Sports team name.
+fox_athlete_id: Fox Sports athlete id.
+fox_player: Fox Sports player display name.
+fox_jersey: Jersey number as listed by Fox Sports.
+fox_position_group: Position group as listed by Fox Sports.
+yahoo_game_id: Yahoo Sports game id side of the crosswalk row.
+yahoo_team_id: Yahoo Sports team id.
+yahoo_team_name: Yahoo Sports team name.
+yahoo_team_abbreviation: Yahoo Sports team abbreviation.
+yahoo_player_id: Yahoo Sports player id.
+yahoo_player_name: Yahoo Sports player display name.
+match_confidence: Crosswalk match confidence score (1.0 = exact key match).
+match_keys: Keys the crosswalk row was matched on.
+match_method: How the crosswalk row was matched (exact id, name+date heuristic, etc.).
+link_web: Canonical web URL for the entity on the source site.
+
+# --- game / schedule ----------------------------------------------------------
+season: Season year (the year the season ends in; WNBA seasons are single-year).
+season_type: ESPN season type (2 regular season, 3 postseason).
+game_date: Game date (America/New_York).
+game_date_time: Game tip-off datetime (America/New_York).
+date: Raw ESPN date string for the event.
+start_date: Scheduled start datetime string from the ESPN schedule feed.
+attendance: Announced attendance.
+neutral_site: True when played at a neutral site.
+conference_competition: True when both teams belong to the same conference (schedule flag).
+recent: ESPN "recent" schedule flag.
+time_valid: True when ESPN considers the scheduled tip time reliable.
+venue_full_name: Venue name.
+venue_address_city: Venue city.
+venue_address_state: Venue state.
+venue_capacity: Venue listed capacity.
+venue_indoor: True for indoor venues.
+status_clock: Game clock (seconds) at the status snapshot.
+status_display_clock: Game clock display string at the status snapshot.
+status_period: Period number at the status snapshot.
+status_type_name: ESPN status name (`STATUS_FINAL`, ...).
+status_type_state: ESPN status state (`pre`, `in`, `post`).
+status_type_completed: True when the game is complete.
+status_type_description: Human status description (`Final`, `Scheduled`).
+status_type_detail: Status detail string (`Final`, `Sat, June 7th at 1:00 PM EDT`).
+status_type_short_detail: Short status detail string.
+status_type_alt_detail: Alternate status detail string.
+format_regulation_periods: Number of regulation periods (4 for the WNBA).
+notes_type: ESPN event note type (e.g. `event`).
+notes_headline: ESPN event note headline (e.g. `WNBA Finals`).
+broadcast: Primary broadcast string for the game.
+broadcast_market: Broadcast market type (`national`, `home`, `away`).
+broadcast_name: Broadcasting network name.
+highlights: ESPN highlights payload (stringified).
+play_by_play_available: True when ESPN has play-by-play for the game.
+PBP: Capture flag - the raw repo holds a pbp JSON for this game.
+team_box: Capture flag - the raw repo holds team box data for this game.
+player_box: Capture flag - the raw repo holds player box data for this game.
+game_json: Capture flag - the raw repo holds the game summary JSON.
+game_json_url: Raw-repo URL of the game summary JSON.
+type_abbreviation: Season/competition type abbreviation.
+
+# --- schedule home/away blocks ------------------------------------------------
+home_abbreviation: Home team abbreviation.
+home_display_name: Home team full display name.
+home_short_display_name: Home team short display name.
+home_location: Home team market/location.
+home_name: Home team nickname.
+home_color: Home team primary color (hex).
+home_alternate_color: Home team alternate color (hex).
+home_logo: Home team logo URL.
+home_is_active: True when the home team is an active franchise.
+home_score: Home team final score.
+home_winner: True when the home team won.
+home_linescores: Home team per-period linescores (stringified list).
+home_records: Home team record strings (stringified list).
+away_abbreviation: Away team abbreviation.
+away_display_name: Away team full display name.
+away_short_display_name: Away team short display name.
+away_location: Away team market/location.
+away_name: Away team nickname.
+away_color: Away team primary color (hex).
+away_alternate_color: Away team alternate color (hex).
+away_logo: Away team logo URL.
+away_is_active: True when the away team is an active franchise.
+away_score: Away team final score.
+away_winner: True when the away team won.
+away_linescores: Away team per-period linescores (stringified list).
+away_records: Away team record strings (stringified list).
+
+# --- pbp ----------------------------------------------------------------------
+game_play_number: Running play number within the game (1-based).
+sequence_number: ESPN play sequence number.
+text: Play narrative text.
+type_text: Play type name (`Jump Shot`, `Substitution`, ...).
+period: Period number (1-4, 5+ = overtime).
+period_number: Period number (1-4, 5+ = overtime).
+period_display_value: Period display string (`1st Quarter`, `OT`).
+qtr: Quarter number (1-4; overtime numbered onward).
+half: Half of the game (1-2), derived from the quarter.
+game_half: Half of the game the play occurred in.
+lag_qtr: Previous play's quarter (edge marker for period transitions).
+lead_qtr: Next play's quarter (edge marker for period transitions).
+lag_half: Previous play's half.
+lead_half: Next play's half.
+clock_display_value: Game clock display at the play (`7:42`).
+clock_minutes: Game clock minutes component.
+clock_seconds: Game clock seconds component.
+time: Game clock display string at the play.
+wallclock: Wall-clock timestamp of the play.
+start_game_seconds_remaining: Seconds remaining in the game when the play began.
+end_game_seconds_remaining: Seconds remaining in the game when the play ended.
+start_half_seconds_remaining: Seconds remaining in the half when the play began.
+end_half_seconds_remaining: Seconds remaining in the half when the play ended.
+start_quarter_seconds_remaining: Seconds remaining in the quarter when the play began.
+end_quarter_seconds_remaining: Seconds remaining in the quarter when the play ended.
+scoring_play: True when the play scored points.
+score_value: Points scored on the play (0-3).
+shooting_play: True for shot attempts (including free throws).
+coordinate_x: Shot x coordinate, court-normalized.
+coordinate_y: Shot y coordinate, court-normalized.
+coordinate_x_raw: Shot x coordinate as shipped by ESPN.
+coordinate_y_raw: Shot y coordinate as shipped by ESPN.
+team_score: Row team's score after the play (or team total in box frames).
+home_timeout_called: True when the home team called timeout on the play.
+away_timeout_called: True when the away team called timeout on the play.
+home_favorite: True when the home team was the pregame favorite.
+game_spread: Pregame point spread (positive = home favored magnitude).
+game_spread_available: True when a real pregame spread was found (not a default).
+home_team_spread: Spread from the home team's perspective.
+home_team_name: Home team nickname.
+home_team_mascot: Home team mascot.
+home_team_abbrev: Home team abbreviation.
+home_team_name_alt: Alternate home team name.
+away_team_name: Away team nickname.
+away_team_mascot: Away team mascot.
+away_team_abbrev: Away team abbreviation.
+away_team_name_alt: Alternate away team name.
+
+# --- box / season stats -------------------------------------------------------
+team_abbreviation: Team abbreviation.
+team_display_name: Team full display name.
+team_short_display_name: Team short display name.
+team_name: Team nickname.
+team_location: Team market/location.
+team_color: Team primary color (hex).
+team_alternate_color: Team alternate color (hex).
+team_logo: Team logo URL.
+team_home_away: Whether the row team was home or away.
+team_winner: True when the row team won the game.
+team_turnovers: Team (non-individual) turnovers.
+total_turnovers: Team plus individual turnovers.
+total_technical_fouls: Team plus individual technical fouls.
+opponent_team_abbreviation: Opponent team abbreviation.
+opponent_team_display_name: Opponent team full display name.
+opponent_team_short_display_name: Opponent team short display name.
+opponent_team_name: Opponent team nickname.
+opponent_team_location: Opponent team market/location.
+opponent_team_color: Opponent primary color (hex).
+opponent_team_alternate_color: Opponent alternate color (hex).
+opponent_team_logo: Opponent logo URL.
+opponent_team_score: Opponent final score.
+opponent_team_slug: Opponent URL-safe slug.
+opponent_team_uid: Opponent ESPN universal id.
+home_away: Whether the row team was home or away.
+minutes: Minutes played.
+points: Points scored.
+field_goals_made: Field goals made.
+field_goals_attempted: Field goals attempted.
+field_goal_pct: Field goal percentage.
+three_point_field_goals_made: Three-point field goals made.
+three_point_field_goals_attempted: Three-point field goals attempted.
+three_point_field_goal_pct: Three-point field goal percentage.
+free_throws_made: Free throws made.
+free_throws_attempted: Free throws attempted.
+free_throw_pct: Free throw percentage.
+offensive_rebounds: Offensive rebounds.
+defensive_rebounds: Defensive rebounds.
+total_rebounds: Total rebounds.
+rebounds: Total rebounds.
+assists: Assists.
+steals: Steals.
+blocks: Blocked shots.
+turnovers: Turnovers.
+fouls: Personal fouls.
+flagrant_fouls: Flagrant fouls.
+technical_fouls: Technical fouls.
+plus_minus: Plus-minus while on the floor.
+ejected: True when the player was ejected.
+did_not_play: True when the player was on the roster but did not play.
+starter: True when the player started the game.
+fast_break_points: Fast-break points.
+points_in_paint: Points in the paint.
+turnover_points: Points scored off opponent turnovers.
+largest_lead: Largest lead held.
+points_attempted: Shot-attempt points available on the row (box metadata).
+stat_name: Stat key for long-form season-stat rows.
+stat_display_name: Stat display name for long-form season-stat rows.
+stat_short_display_name: Stat short display name.
+stat_abbreviation: Stat abbreviation.
+stat_description: Stat description from ESPN.
+stat_label: Stat label from ESPN.
+stat_type: Stat grouping/type from ESPN.
+category: Stat category the row belongs to (offensive / defensive / general).
+display_value: Stat value as displayed by ESPN (string).
+value: Stat numeric value.
+
+# --- athletes / rosters / player_core ----------------------------------------
+athlete_display_name: Player display name.
+athlete_full_name: Player full name.
+athlete_first_name: Player first name.
+athlete_last_name: Player last name.
+athlete_short_name: Player short name (`F. Lastname`).
+athlete_jersey: Player jersey number.
+athlete_headshot: Player headshot URL.
+athlete_headshot_href: Player headshot URL.
+athlete_position: Player position.
+athlete_position_name: Player position name.
+athlete_position_abbreviation: Player position abbreviation.
+athlete_height: Player height in inches.
+athlete_weight: Player weight in pounds.
+player_name: Player display name.
+full_name: Player full name.
+first_name: First name.
+last_name: Last name.
+display_name: Display name for the row's entity.
+short_name: Short name for the row's entity.
+jersey: Jersey number.
+height: Height in inches.
+weight: Weight in pounds.
+display_height: Height display string (`6' 2"`).
+display_weight: Weight display string (`190 lbs`).
+headshot_href: Headshot URL.
+headshot_alt: Headshot alt text.
+position_name: Position name.
+position_display_name: Position display name.
+position_abbreviation: Position abbreviation.
+date_of_birth: Date of birth.
+age: Age in years at capture time.
+birth_city: Birth city.
+birth_state: Birth state/province.
+birth_country: Birth country.
+birth_place_city: Birth city.
+birth_place_state: Birth state/province.
+birth_place_country: Birth country.
+experience_years: Years of professional experience.
+experience_display_value: Experience display string.
+active: True when the athlete is currently active.
+college_name: Athlete's college name.
+college_short_name: Athlete's college short name.
+college_abbreviation: Athlete's college abbreviation.
+draft_year: Year the player was drafted.
+draft_round: Round the player was drafted in.
+draft_selection: Overall selection number of the player's draft pick.
+
+# --- draft --------------------------------------------------------------------
+round: Draft round number.
+round_display_name: Draft round display string (`Round 1`).
+pick: Pick number within the round.
+overall_pick: Overall pick number across rounds.
+pick_notes: Notes attached to the pick (trades, forfeits).
+pick_traded: True when the pick was traded.
+
+# --- standings ----------------------------------------------------------------
+group_name: Conference/group name for the standings row.
+group_short_name: Conference/group short name.
+group_abbreviation: Conference/group abbreviation.
+
+# --- officials ----------------------------------------------------------------
+official_display_name: Official's display name.
+official_full_name: Official's full name.
+official_first_name: Official's first name.
+official_last_name: Official's last name.
+official_order: Crew order of the official (1 = referee/crew chief).
+type: Row type from the source feed (e.g. official assignment type).
+
+# --- misc ---------------------------------------------------------------------
+reason: Reason string attached to the row (e.g. DNP reason).
+short_description: Short description of the row's entity.

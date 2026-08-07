@@ -57,11 +57,33 @@ also uploads to its release tag on `sportsdataverse-data` (asset shape
   built here: it belongs to `wehoop-wnba-stats-data`'s own
   `annual_wnba_stats_draft.yml`.
 - `.github/workflows/weekly_wnba.yml` — Sunday `0 6 UTC` roster refresh.
+- `.github/workflows/tests.yml` — offline gate on every push/PR: pytest
+  (release-parity + R↔Python stage-parity suites), ruff, `bash -n`, and the
+  generated-docs drift check (`python -m wnba_data_build.docs --check
+  --no-live`). Its sparse checkout MUST include `R/` or the parity gate finds
+  zero R stages and reds out main.
+- `.github/workflows/orphan_scripts.yml` — shared gate: every script in
+  `scripts/`/`ops/` must be referenced by a runbook, workflow, or other script.
 
-## Gotchas
+## Generated docs
 
-- Daily CI commit subject `"WNBA Data Update (Start: <yr> End: <yr>)"` is load-bearing — don't restyle.
-- Schedules + shots are emitted inside `espn_wnba_01_pbp_creation.R`; don't add a separate schedule/shots script — extend `01`.
-- Release tags + the `<tag>/<prefix>_<season>` asset shape are load-bearing for `wehoop::load_wnba_*()`; renaming a tag or reorganizing `wnba/` is a breaking change.
-- `DESCRIPTION` `Remotes:` pins `wehoop` + `sportsdataverse-data` + `piggyback`; license is CC BY 4.0 (data-repo convention), not MIT.
-- Never add AI co-author trailers to commits. Use Conventional Commits (`feat(compile):`, `fix(pbp):`, `ci:`).
+`docs/datasets/*.md` + the README/CLAUDE `<!-- BEGIN GENERATED: datasets -->
+| Script | Dataset | Release tag | Last published |
+|---|---|---|---|
+| [`python/espn_wnba_01_pbp_creation.py`](python/espn_wnba_01_pbp_creation.py) | [`pbp`](docs/datasets/pbp.md) | [`espn_wnba_pbp`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_pbp) | — |
+| [`python/espn_wnba_02_team_box_creation.py`](python/espn_wnba_02_team_box_creation.py) | [`team_box`](docs/datasets/team_box.md) | [`espn_wnba_team_boxscores`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_team_boxscores) | — |
+| [`python/espn_wnba_03_player_box_creation.py`](python/espn_wnba_03_player_box_creation.py) | [`player_box`](docs/datasets/player_box.md) | [`espn_wnba_player_boxscores`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_player_boxscores) | — |
+| [`python/espn_wnba_04_rosters_creation.py`](python/espn_wnba_04_rosters_creation.py) | [`rosters`](docs/datasets/rosters.md) | [`espn_wnba_rosters`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_rosters) | — |
+| [`python/espn_wnba_05_player_season_stats_creation.py`](python/espn_wnba_05_player_season_stats_creation.py) | [`player_season_stats`](docs/datasets/player_season_stats.md) | [`espn_wnba_player_season_stats`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_player_season_stats) | — |
+| [`python/espn_wnba_06_team_season_stats_creation.py`](python/espn_wnba_06_team_season_stats_creation.py) | [`team_season_stats`](docs/datasets/team_season_stats.md) | [`espn_wnba_team_season_stats`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_team_season_stats) | — |
+| [`python/espn_wnba_07_standings_creation.py`](python/espn_wnba_07_standings_creation.py) | [`standings`](docs/datasets/standings.md) | [`espn_wnba_standings`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_standings) | — |
+| [`python/espn_wnba_08_draft_creation.py`](python/espn_wnba_08_draft_creation.py) | [`draft`](docs/datasets/draft.md) | [`espn_wnba_draft`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_draft) | — |
+| [`python/espn_wnba_09_game_rosters_creation.py`](python/espn_wnba_09_game_rosters_creation.py) | [`game_rosters`](docs/datasets/game_rosters.md) | [`espn_wnba_game_rosters`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_game_rosters) | — |
+| [`python/espn_wnba_10_officials_creation.py`](python/espn_wnba_10_officials_creation.py) | [`officials`](docs/datasets/officials.md) | [`espn_wnba_officials`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_officials) | — |
+| [`R/wnba_11_team_crosswalk_creation.R`](R/wnba_11_team_crosswalk_creation.R) | [`team_crosswalk`](docs/datasets/team_crosswalk.md) | [`wnba_crosswalk`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/wnba_crosswalk) | — |
+| [`R/wnba_12_schedule_crosswalk_creation.R`](R/wnba_12_schedule_crosswalk_creation.R) | [`schedule_crosswalk`](docs/datasets/schedule_crosswalk.md) | [`wnba_crosswalk`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/wnba_crosswalk) | — |
+| [`R/wnba_13_player_crosswalk_creation.R`](R/wnba_13_player_crosswalk_creation.R) | [`player_crosswalk`](docs/datasets/player_crosswalk.md) | [`wnba_crosswalk`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/wnba_crosswalk) | — |
+| [`python/espn_wnba_14_schedules_creation.py`](python/espn_wnba_14_schedules_creation.py) | [`schedules`](docs/datasets/schedules.md) | [`espn_wnba_schedules`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_schedules) | — |
+| [`python/espn_wnba_15_shots_creation.py`](python/espn_wnba_15_shots_creation.py) | [`shots`](docs/datasets/shots.md) | [`espn_wnba_shots`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_shots) | — |
+| [`python/espn_wnba_16_player_core_creation.py`](python/espn_wnba_16_player_core_creation.py) | [`player_core`](docs/datasets/player_core.md) | [`espn_wnba_player_core`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_player_core) | — |
+<!-- END GENERATED: datasets -->
