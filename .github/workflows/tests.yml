@@ -21,10 +21,14 @@ jobs:
         with:
           # Sparse: these repos carry large committed data trees and a full
           # checkout is slow to useless here -- no test reads them (verified).
+          # R/ IS required: tests/test_r_python_parity.py pairs the numbered R
+          # stages against config.REGISTRY, and without the checkout it finds
+          # zero R stages and reds out main (the mbb twin hit exactly this).
           sparse-checkout: |
             python
             tests
             scripts
+            R
             pyproject.toml
             uv.lock
           sparse-checkout-cone-mode: false
