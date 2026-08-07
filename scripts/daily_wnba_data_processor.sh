@@ -10,16 +10,35 @@
 # ESPN+Torvik+Fox inputs); the .rds is written natively by io.write_dataset
 # in the same pass as the parquet (R/serialize_rds.R was retired in 120deafe).
 #
-# Usage: bash scripts/daily_wnba_data_processor.sh -s 2025 -e 2025
+# `-l R` is the rollback path over espn_wnba_01..10 (design D20/D21); it used
+# to live in a separate daily_wnba_R_processor.sh, now a deprecation shim.
+#
+# Usage: bash scripts/daily_wnba_data_processor.sh -s 2025 -e 2025 [-l python|R]
 set -uo pipefail
 
-while getopts s:e: flag; do
+# -l selects the language for the raw-derived datasets. Python is the
+# production default; `-l R` is the rollback path that used to live in a
+# separate daily_wnba_R_processor.sh. One script, so the two paths cannot drift
+# in season handling, logging or the load-bearing commit format.
+while getopts s:e:l: flag; do
   case "${flag}" in
     s) START_YEAR=${OPTARG};;
     e) END_YEAR=${OPTARG};;
+    l) LANG_MODE=${OPTARG};;
+    *) echo "usage: $0 -s <start> [-e <end>] [-l python|R]" >&2; exit 2;;
   esac
 done
+START_YEAR=${START_YEAR:-}
 END_YEAR=${END_YEAR:-$START_YEAR}
+LANG_MODE=${LANG_MODE:-python}
+if [ -z "$START_YEAR" ]; then
+  echo "usage: $0 -s <start_year> [-e <end_year>] [-l python|R]" >&2
+  exit 1
+fi
+case "$LANG_MODE" in
+  python|R) ;;
+  *) echo "::error ::unknown -l '$LANG_MODE' (expected python or R)" >&2; exit 2;;
+esac
 
 # The raw repo can't be checked out in CI -- read it over HTTP like the R
 # pipeline did (per-run cache under .wnba_raw_cache/, gitignored).
@@ -34,6 +53,21 @@ export PYTHONIOENCODING=utf-8
 # game-id sets; shots read the pbp parquet), then the rest.
 PY_DATASETS="pbp team_box player_box player_core schedules shots rosters player_season_stats team_season_stats standings game_rosters officials"
 R_CROSSWALKS=(R/wnba_11_team_crosswalk_creation.R R/wnba_12_schedule_crosswalk_creation.R R/wnba_13_player_crosswalk_creation.R)
+# The `-l R` rollback path. R has no counterpart for player_core, schedules or
+# shots (espn_wnba_01 writes the schedules + shots subsets inline) -- hence the
+# gaps, which are deliberate. Draft (08) is annual cadence and intentionally
+# excluded in both modes: it runs from annual_wnba_draft.yml.
+R_DATASETS=(
+  R/espn_wnba_01_pbp_creation.R
+  R/espn_wnba_02_team_box_creation.R
+  R/espn_wnba_03_player_box_creation.R
+  R/espn_wnba_04_rosters_creation.R
+  R/espn_wnba_05_player_season_stats_creation.R
+  R/espn_wnba_06_team_season_stats_creation.R
+  R/espn_wnba_07_standings_creation.R
+  R/espn_wnba_09_game_rosters_creation.R
+  R/espn_wnba_10_officials_creation.R
+)
 
 mkdir -p logs
 ANY_FAILED=0
@@ -58,7 +92,20 @@ for i in $(seq "${START_YEAR}" "${END_YEAR}"); do
       }
       echo "::endgroup::"
     }
-    for ds in $PY_DATASETS; do run_py "$ds"; done
+    run_r() {
+      local script="$1"
+      echo "::group::$script $i"
+      Rscript "$script" -s "$i" -e "$i" || {
+        rc=$?; echo "::warning ::$script for season $i exited with code $rc"; SEASON_RC=$rc
+      }
+      echo "::endgroup::"
+    }
+
+    if [ "$LANG_MODE" = "R" ]; then
+      for SCRIPT in "${R_DATASETS[@]}"; do run_r "$SCRIPT"; done
+    else
+      for ds in $PY_DATASETS; do run_py "$ds"; done
+    fi
 
     for SCRIPT in "${R_CROSSWALKS[@]}"; do
       echo "::group::$SCRIPT $i"
@@ -98,5 +145,11 @@ for i in $(seq "${START_YEAR}" "${END_YEAR}"); do
 done
 
 # ---- Run summary: updated releases + remaining warnings/errors ----
-( cd python && uv run python -m wnba_data_build.summary --logs ../logs -s "$START_YEAR" -e "$END_YEAR" ) || true
+# Prints a cli summary to the Action log and (when set) writes markdown to
+# $GITHUB_STEP_SUMMARY so the run's Summary tab shows what landed and what didn't.
+if [ "$LANG_MODE" = "R" ]; then
+  Rscript R/run_summary.R -s "$START_YEAR" -e "$END_YEAR" || true
+else
+  ( cd python && uv run python -m wnba_data_build.summary --logs ../logs -s "$START_YEAR" -e "$END_YEAR" ) || true
+fi
 [ "${ANY_FAILED:-0}" = "0" ] || exit 1
