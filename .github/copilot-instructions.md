@@ -47,8 +47,9 @@ bash scripts/daily_wnba_data_processor.sh -s 2025 -e 2025
 cd python && uv run python -m wnba_data_build --dataset pbp --base ../wnba -s 2025 -e 2025 --dry-run
 uv run pytest                                # the release-parity suite
 
-# Legacy all-R path, retained as a fallback:
-bash scripts/daily_wnba_R_processor.sh -s 2025 -e 2025
+# Legacy all-R path, retained as a rollback (same entrypoint, -l R).
+# scripts/daily_wnba_R_processor.sh is a deprecation shim that execs this:
+bash scripts/daily_wnba_data_processor.sh -s 2025 -e 2025 -l R
 
 # Run any creation script directly:
 Rscript R/espn_wnba_01_pbp_creation.R              -s 2025 -e 2025

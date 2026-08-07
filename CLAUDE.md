@@ -11,12 +11,16 @@ Pipeline: `ESPN -> wehoop-wnba-raw --push--> wehoop-wnba-data [HERE] --release--
 
 ## Commands (verified)
 
-Driven by `scripts/daily_wnba_R_processor.sh` (getopts `-s -e`; loops seasons,
-runs each creation script, commits + pushes). Reads raw JSON from
+Driven by the single entrypoint `scripts/daily_wnba_data_processor.sh`
+(getopts `-s -e -l`; loops seasons, builds each dataset, commits + pushes).
+`-l python` is the default (`wnba_data_build`); `-l R` is the retained
+rollback over `espn_wnba_01`…`10`. `scripts/daily_wnba_R_processor.sh` is a
+deprecation shim that execs it with `-l R`. Reads raw JSON from
 `raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw`, not a local clone.
 
 ```sh
-bash scripts/daily_wnba_R_processor.sh -s 2025 -e 2025   # full daily compile
+bash scripts/daily_wnba_data_processor.sh -s 2025 -e 2025        # full daily compile (python)
+bash scripts/daily_wnba_data_processor.sh -s 2025 -e 2025 -l R   # R rollback
 Rscript R/espn_wnba_01_pbp_creation.R -s 2025 -e 2025     # any single creation script
 ```
 
