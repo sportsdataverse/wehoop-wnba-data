@@ -9,6 +9,9 @@ dependencies = [
     "pyarrow>=15.0",
     "requests>=2.28",
     "tqdm>=4.66",
+    # models.py (typed dataset schemas) + docs.py (column_descriptions.yaml).
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
 ]
 
 [dependency-groups]
@@ -16,6 +19,22 @@ dev = [
     "pytest>=8.0",
     "ruff>=0.6",
 ]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+# python/ is the source dir, symmetric with R/. The numbered
+# espn_wnba_NN_*_creation.py entrypoints sit beside the package and are run by
+# path; the package itself is what gets installed (CI runs
+# `python -m wnba_data_build.docs` from the repo root).
+[tool.setuptools.packages.find]
+where = ["python"]
+
+# The description store must ship with the package: the docs generator reads it
+# at runtime, and CI has no sibling checkout to fall back on.
+[tool.setuptools.package-data]
+wnba_data_build = ["column_descriptions.yaml"]
 
 # The helper_wnba_* producers landed on sdv-py main in #249; no PyPI release
 # carries them yet, so track main (same as the WBB sibling). Pin to the
