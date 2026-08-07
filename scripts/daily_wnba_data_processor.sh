@@ -98,5 +98,5 @@ for i in $(seq "${START_YEAR}" "${END_YEAR}"); do
 done
 
 # ---- Run summary: updated releases + remaining warnings/errors ----
-Rscript R/run_summary.R -s "$START_YEAR" -e "$END_YEAR" || true
+( cd python && uv run python -m wnba_data_build.summary --logs ../logs -s "$START_YEAR" -e "$END_YEAR" ) || true
 [ "${ANY_FAILED:-0}" = "0" ] || exit 1
