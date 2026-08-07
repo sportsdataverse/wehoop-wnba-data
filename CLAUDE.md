@@ -32,6 +32,22 @@ One-time bootstraps live in `ops/init/` (run from the repo root):
 
 `GITHUB_PAT` is required for uploads (CI injects `secrets.SDV_GH_TOKEN`).
 
+**Every `R/espn_wnba_*_creation.R` stage publishes to the LIVE release when it
+runs — there is no dry-run flag.** Running one locally to inspect its output
+overwrites production; that is how the 2025 pbp/shots/team_box assets were
+overwritten on 2026-08-07. Blanking `GITHUB_PAT` is not a workaround (the save
+is wrapped in `insistently(pause_min = 60, max_times = 10)`, so it retries for
+~10 minutes and only then fails). Use `ops/_r_no_publish.R`, which replaces the
+publisher before sourcing the stage and aborts if that swap fails.
+
+`ops/output_parity.sh -d <dataset> -s <season>` is the weekly R↔Python **output**
+parity check (`.github/workflows/weekly_output_parity.yml`, Mondays 09:00 UTC).
+`tests/test_r_python_parity.py` proves the two chains declare the same datasets;
+this proves they produce the same values. It rebuilds both sides into temp dirs
+— the chains share one output path and clobber each other, so the checked-in
+tree only ever holds whichever ran last — and runs the R chain from stage 01,
+because the stages feed each other (02 reads stage 01's `schedules/rds`).
+
 ## Outputs
 
 Local committed output under `wnba/<dataset>/{rds,csv,parquet}/`; each script
