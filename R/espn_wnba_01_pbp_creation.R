@@ -14,6 +14,8 @@ suppressPackageStartupMessages(suppressMessages(library(arrow)))
 suppressPackageStartupMessages(suppressMessages(library(glue)))
 suppressPackageStartupMessages(suppressMessages(library(optparse)))
 suppressPackageStartupMessages(suppressMessages(library(tibble)))
+# Sourced up-front: upsert_manifest_row() is called inside the season loop.
+source(file.path("R", "manifest_upload_helper.R"))
 
 option_list <- list(
   make_option(
@@ -359,15 +361,9 @@ wnba_pbp_games <- function(y) {
         generated_at_utc = format(Sys.time(), tz = "UTC", usetz = TRUE),
         source_endpoint = "derived from espn_wnba pbp"
       )
-      if (file.exists(shots_manifest_path)) {
-        data.table::fwrite(
-          shots_manifest_row,
-          shots_manifest_path,
-          append = TRUE
-        )
-      } else {
-        data.table::fwrite(shots_manifest_row, shots_manifest_path)
-      }
+      # One row per season; see upsert_manifest_row() in
+      # R/manifest_upload_helper.R.
+      upsert_manifest_row(shots_manifest_path, shots_manifest_row, y)
 
       rm(shots_df)
     } else {

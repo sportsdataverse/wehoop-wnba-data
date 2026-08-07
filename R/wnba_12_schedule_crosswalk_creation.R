@@ -12,6 +12,8 @@ suppressPackageStartupMessages(suppressMessages(library(glue)))
 suppressPackageStartupMessages(suppressMessages(library(optparse)))
 suppressPackageStartupMessages(suppressMessages(library(tibble)))
 suppressPackageStartupMessages(suppressMessages(library(rlang)))
+# Sourced up-front: upsert_manifest_row() is called inside the season loop.
+source(file.path("R", "manifest_upload_helper.R"))
 
 option_list <- list(
   make_option(
@@ -118,11 +120,9 @@ build_season_schedule_crosswalk <- function(y) {
     generated_at_utc = format(Sys.time(), tz = "UTC", usetz = TRUE),
     source_endpoint  = "wehoop::wnba_schedule_crosswalk()"
   )
-  if (file.exists(manifest_path)) {
-    data.table::fwrite(manifest_row, manifest_path, append = TRUE)
-  } else {
-    data.table::fwrite(manifest_row, manifest_path)
-  }
+  # One row per season; see upsert_manifest_row() in
+  # R/manifest_upload_helper.R.
+  upsert_manifest_row(manifest_path, manifest_row, y)
 
   rm(schedule_crosswalk)
   gc()

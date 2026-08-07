@@ -13,6 +13,8 @@ suppressPackageStartupMessages(suppressMessages(library(optparse)))
 suppressPackageStartupMessages(suppressMessages(library(tibble)))
 suppressPackageStartupMessages(suppressMessages(library(tidyr)))
 suppressPackageStartupMessages(suppressMessages(library(rlang)))
+# Sourced up-front: upsert_manifest_row() is called inside the season loop.
+source(file.path("R", "manifest_upload_helper.R"))
 
 option_list <- list(
   make_option(
@@ -127,11 +129,9 @@ write_manifest_row <- function(season, row_count, source_endpoint) {
     generated_at_utc = format(Sys.time(), tz = "UTC", usetz = TRUE),
     source_endpoint = source_endpoint
   )
-  if (file.exists(manifest_path)) {
-    data.table::fwrite(row, manifest_path, append = TRUE)
-  } else {
-    data.table::fwrite(row, manifest_path)
-  }
+  # One row per season; see upsert_manifest_row() in
+  # R/manifest_upload_helper.R.
+  upsert_manifest_row(manifest_path, row, season)
   invisible(NULL)
 }
 
