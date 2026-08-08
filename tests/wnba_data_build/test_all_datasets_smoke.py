@@ -1,9 +1,10 @@
 """Every implemented dataset builds end-to-end from the fixture raw tree.
 
 All datasets build from the 2025 fixture season except ``draft``, whose raw
-tree and release both start at 2026. The three crosswalks raise
-NotImplementedError (they build from live ESPN+Torvik+Fox inputs via the
-retained R scripts, not from the raw repo).
+tree and release both start at 2026. The three crosswalks are excluded: they
+read LIVE ESPN + WNBA Stats + Fox rather than the raw fixture tree, so there
+is nothing offline to build them from. Their output contract is covered by
+``test_crosswalk_io.py``.
 """
 
 from pathlib import Path
@@ -34,9 +35,7 @@ _SEASON = {
 @pytest.mark.parametrize("dataset", sorted(REGISTRY))
 def test_each_dataset_builds(dataset, tmp_path):
     if dataset.endswith("_crosswalk"):
-        with pytest.raises(NotImplementedError):
-            build_season(dataset, 2026, base=tmp_path, raw_root=FX / "raw")
-        return
+        pytest.skip("live-source dataset; see test_crosswalk_io.py for its contract")
     season = _SEASON[dataset]
     if dataset == "shots":  # shots read the built pbp parquet
         build_season("pbp", season, base=tmp_path, raw_root=FX / "raw")

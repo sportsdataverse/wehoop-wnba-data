@@ -55,8 +55,9 @@ END = "<!-- END GENERATED: datasets -->"
 
 #: dataset -> the numbered script that carries its stage identity. The daily
 #: driver iterates registry keys through `python -m wnba_data_build`; the
-#: numbered shims are the per-dataset entry points. The three crosswalks are
-#: still R-built in production (see scripts/daily_wnba_data_processor.sh).
+#: numbered shims are the per-dataset entry points. Every dataset -- the three
+#: crosswalks included -- is Python-built in production; the R twins are the
+#: `-l R` rollback path (see scripts/daily_wnba_data_processor.sh).
 BUILDER = {
     "pbp": "python/espn_wnba_01_pbp_creation.py",
     "team_box": "python/espn_wnba_02_team_box_creation.py",
@@ -68,9 +69,9 @@ BUILDER = {
     "draft": "python/espn_wnba_08_draft_creation.py",
     "game_rosters": "python/espn_wnba_09_game_rosters_creation.py",
     "officials": "python/espn_wnba_10_officials_creation.py",
-    "team_crosswalk": "R/wnba_11_team_crosswalk_creation.R",
-    "schedule_crosswalk": "R/wnba_12_schedule_crosswalk_creation.R",
-    "player_crosswalk": "R/wnba_13_player_crosswalk_creation.R",
+    "team_crosswalk": "python/espn_wnba_11_team_crosswalk_creation.py",
+    "schedule_crosswalk": "python/espn_wnba_12_schedule_crosswalk_creation.py",
+    "player_crosswalk": "python/espn_wnba_13_player_crosswalk_creation.py",
     "schedules": "python/espn_wnba_14_schedules_creation.py",
     "shots": "python/espn_wnba_15_shots_creation.py",
     "player_core": "python/espn_wnba_16_player_core_creation.py",
@@ -79,8 +80,8 @@ BUILDER = {
 AUTOMATION = (
     "`.github/workflows/daily_wnba.yml` — cron 07:00 UTC in season, plus "
     "`repository_dispatch` from `wehoop-wnba-raw`. Runs "
-    "`scripts/daily_wnba_data_processor.sh` (Python build + the R crosswalk "
-    "tail). Draft refreshes annually via `annual_wnba_draft.yml`; rosters "
+    "`scripts/daily_wnba_data_processor.sh` (Python build, crosswalks "
+    "included). Draft refreshes annually via `annual_wnba_draft.yml`; rosters "
     "additionally refresh weekly via `weekly_wnba.yml`."
 )
 
@@ -236,8 +237,8 @@ def dataset_page(dataset: str, *, live: bool) -> str:
 def summary_table(*, live: bool) -> str:
     """The block embedded in README.md and CLAUDE.md."""
 
-    # Sort by the script NUMBER, not the path: sorting by path would put the R
-    # crosswalks (R/wnba_11_...) ahead of python/espn_wnba_01_....
+    # Sort by the script NUMBER, not the path -- the stage number is the
+    # ordering, and a path sort would not give it.
     def _order(dataset: str) -> int:
         stem_parts = Path(BUILDER[dataset]).stem.split("_")
         for part in stem_parts:

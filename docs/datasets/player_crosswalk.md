@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Builder** | [`R/wnba_13_player_crosswalk_creation.R`](../../R/wnba_13_player_crosswalk_creation.R) |
+| **Builder** | [`python/espn_wnba_13_player_crosswalk_creation.py`](../../python/espn_wnba_13_player_crosswalk_creation.py) |
 | **Release tag** | [`wnba_crosswalk`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/wnba_crosswalk) |
 | **File stem** | `wnba_player_crosswalk_{season}.{parquet,csv,rds}` |
 | **Seasons built** | 2026 (1 season) |
@@ -12,7 +12,7 @@
 
 ## Automation
 
-`.github/workflows/daily_wnba.yml` — cron 07:00 UTC in season, plus `repository_dispatch` from `wehoop-wnba-raw`. Runs `scripts/daily_wnba_data_processor.sh` (Python build + the R crosswalk tail). Draft refreshes annually via `annual_wnba_draft.yml`; rosters additionally refresh weekly via `weekly_wnba.yml`.
+`.github/workflows/daily_wnba.yml` — cron 07:00 UTC in season, plus `repository_dispatch` from `wehoop-wnba-raw`. Runs `scripts/daily_wnba_data_processor.sh` (Python build, crosswalks included). Draft refreshes annually via `annual_wnba_draft.yml`; rosters additionally refresh weekly via `weekly_wnba.yml`.
 
 ## Columns
 

@@ -54,12 +54,11 @@ def build_season(
     """
     spec = REGISTRY[dataset]
     if dataset not in reshapers.SEASON_BUILDERS and spec.reshaper not in reshapers.RESHAPERS:
-        # The three crosswalks build from LIVE ESPN+Torvik+Fox inputs (not the
-        # raw repo) via wehoop::wnba_*_crosswalk; they stay on the R scripts
-        # (wnba_1{1,2,3}_*_creation.R) until the Torvik/Fox source surfaces are
-        # ported to sportsdataverse.
-        raise NotImplementedError(f"{dataset}: crosswalks still build via the R creation scripts")
-    root = ingest.raw_root(raw_root)
+        raise NotImplementedError(f"{dataset}: no builder registered")
+    # The crosswalks read LIVE ESPN/Stats/Fox, never the raw repo -- resolving
+    # the raw root for them would make a crosswalk build fail on a machine
+    # with no wehoop-wnba-raw checkout, for an input it never opens.
+    root = None if dataset in reshapers.NO_RAW_INPUT else ingest.raw_root(raw_root)
     started = time.monotonic()
     mode = "http" if isinstance(root, str) else "disk"
     if dataset in reshapers.SEASON_BUILDERS:

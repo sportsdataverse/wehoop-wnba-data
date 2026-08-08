@@ -52,6 +52,9 @@ export PYTHONIOENCODING=utf-8
 # Dependency order: pbp/team_box/player_box first (schedules reads their
 # game-id sets; shots read the pbp parquet), then the rest.
 PY_DATASETS="pbp team_box player_box player_core schedules shots rosters player_season_stats team_season_stats standings game_rosters officials"
+# Crosswalks (stages 11-13). Python is production; `-l R` still runs the R
+# scripts unchanged (design D20 rollback).
+PY_CROSSWALKS="team_crosswalk schedule_crosswalk player_crosswalk"
 R_CROSSWALKS=(R/wnba_11_team_crosswalk_creation.R R/wnba_12_schedule_crosswalk_creation.R R/wnba_13_player_crosswalk_creation.R)
 # The `-l R` rollback path. R has no counterpart for player_core, schedules or
 # shots (espn_wnba_01 writes the schedules + shots subsets inline) -- hence the
@@ -107,15 +110,25 @@ for i in $(seq "${START_YEAR}" "${END_YEAR}"); do
       for ds in $PY_DATASETS; do run_py "$ds"; done
     fi
 
-    for SCRIPT in "${R_CROSSWALKS[@]}"; do
-      echo "::group::$SCRIPT $i"
-      # Crosswalks build from LIVE ESPN+Torvik+Fox sources and are known-fragile
-      # (segfault/timeout on external flakiness). Best-effort: warn only, do NOT
-      # flip SEASON_RC -- the 11 core python datasets are the daily deliverable
-      # and must not be reported as failed because of a live external source.
-      Rscript "$SCRIPT" -s "$i" -e "$i" || echo "::warning ::$SCRIPT for season $i exited with code $? (crosswalk; non-fatal, live external source)"
-      echo "::endgroup::"
-    done
+    # Crosswalks build from LIVE ESPN+WNBA Stats+Fox sources and are
+    # known-fragile (timeout on external flakiness). Best-effort in BOTH modes:
+    # warn only, do NOT flip SEASON_RC -- the 11 core datasets are the daily
+    # deliverable and must not be reported as failed because of a live
+    # external source.
+    if [ "$LANG_MODE" = "R" ]; then
+      for SCRIPT in "${R_CROSSWALKS[@]}"; do
+        echo "::group::$SCRIPT $i"
+        Rscript "$SCRIPT" -s "$i" -e "$i" || echo "::warning ::$SCRIPT for season $i exited with code $? (crosswalk; non-fatal, live external source)"
+        echo "::endgroup::"
+      done
+    else
+      for ds in $PY_CROSSWALKS; do
+        echo "::group::wnba_data_build $ds $i"
+        (cd python && uv run python -m wnba_data_build --dataset "$ds" --base ../wnba -s "$i" -e "$i" --publish) \
+          || echo "::warning ::wnba_data_build $ds for season $i exited with code $? (crosswalk; non-fatal, live external source)"
+        echo "::endgroup::"
+      done
+    fi
 
 
     echo "RSCRIPT_RC=$SEASON_RC" > "/tmp/_rc_${i}"

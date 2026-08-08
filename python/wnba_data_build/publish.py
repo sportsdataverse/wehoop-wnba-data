@@ -72,15 +72,23 @@ def _manifest_asset(spec: DatasetSpec, base: Path) -> Path | None:
 
 
 def _dataset_files(spec: DatasetSpec, season: int, base: Path) -> list[Path]:
-    root = base / spec.dataset
+    root = build_io.dataset_dir(spec, base)
+    pq = root / "parquet" / f"{spec.stem}_{season}.parquet"
     cands = [
-        root / "parquet" / f"{spec.stem}_{season}.parquet",
+        pq,
         # .rds is wehoop::load_wnba_*'s ONLY read path -- publishing the parquet
         # without it silently freezes every downstream loader.
         root / "rds" / f"{spec.stem}_{season}.rds",
         root / "csv" / f"{spec.stem}_{season}.csv",
     ]
     files = [f for f in cands if f.exists()]
+    if not spec.write_tree_csv and pq.exists():
+        # Crosswalks commit no tree csv (their crosswalk/*.csv IS the
+        # manifest), but R's file_types = c("rds", "csv", "parquet") still
+        # ships a plain .csv asset -- generate it from the parquet.
+        tmp = Path(tempfile.mkdtemp(prefix="wnba_publish_")) / f"{spec.stem}_{season}.csv"
+        pl.read_parquet(pq).write_csv(tmp)
+        files.append(tmp)
     # Manifest asset name == file name (R manifest_upload_helper contract).
     manifest = _manifest_asset(spec, base)
     if manifest is not None:

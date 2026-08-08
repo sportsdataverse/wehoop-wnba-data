@@ -411,6 +411,26 @@ def draft_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFrame:
     return helper_wnba_draft(payload, season=season)
 
 
+def _crosswalk_builder(kind: str):
+    """Season builder for one crosswalk -- ``sportsdataverse.wnba.wnba_<kind>_crosswalk``.
+
+    The crosswalks read LIVE ESPN + WNBA Stats + Fox, not the raw repo, so
+    ``raw_root``/``base`` are accepted and ignored (the SEASON_BUILDERS
+    signature). The sdv-py functions raise when a source returns nothing, so
+    a silently-empty crosswalk cannot reach the tree; the error propagates
+    and the stage fails loudly.
+    """
+
+    def build(season: int, *, raw_root: Path, base: Path) -> pl.DataFrame:
+        from sportsdataverse.wnba import wnba_crosswalk
+
+        fn = getattr(wnba_crosswalk, f"wnba_{kind}_crosswalk")
+        return fn(season=season)
+
+    build.__name__ = f"{kind}_crosswalk_builder"
+    return build
+
+
 SEASON_BUILDERS: dict = {
     "schedules": schedules_builder,
     "shots": shots_builder,
@@ -422,7 +442,14 @@ SEASON_BUILDERS: dict = {
     "player_core": player_core_builder,
     "standings": standings_builder,
     "draft": draft_builder,
+    "team_crosswalk": _crosswalk_builder("team"),
+    "schedule_crosswalk": _crosswalk_builder("schedule"),
+    "player_crosswalk": _crosswalk_builder("player"),
 }
+
+#: Datasets whose builder never opens the raw repo (live-source crosswalks).
+#: ``build_season`` skips the raw-root resolution for these.
+NO_RAW_INPUT: frozenset = frozenset({"team_crosswalk", "schedule_crosswalk", "player_crosswalk"})
 
 
 # --- season-level post-processing (after the per-game concat) -----------------

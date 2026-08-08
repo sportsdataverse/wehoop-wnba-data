@@ -35,8 +35,17 @@ def _utc_now_str() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
 
+def dataset_dir(spec: DatasetSpec, base: Path) -> Path:
+    """Where this dataset's ``parquet/``/``rds/``/``csv/`` + manifest live.
+
+    Almost always ``{base}/{dataset}``; the three crosswalks share one
+    ``{base}/crosswalk`` dir (``spec.out_dir``).
+    """
+    return base / (spec.out_dir or spec.dataset)
+
+
 def manifest_path(spec: DatasetSpec, base: Path) -> Path:
-    return base / spec.dataset / f"{_LEAGUE}_{spec.dataset}_in_data_repo.csv"
+    return dataset_dir(spec, base) / f"{_LEAGUE}_{spec.dataset}_in_data_repo.csv"
 
 
 def _append_manifest(spec: DatasetSpec, season: int, row_count: int, base: Path) -> Path | None:
@@ -46,6 +55,10 @@ def _append_manifest(spec: DatasetSpec, season: int, row_count: int, base: Path)
     committed manifests carry 140-155 rows). ``publish`` is what collapses it to
     one row per season for the release asset. Rewriting the tree file as an
     upsert here would silently destroy that published history.
+
+    The crosswalks are the exception (``spec.manifest_upsert``): their
+    committed manifests carry exactly ONE row per season, so a daily re-run
+    must replace the season's row rather than grow a duplicate.
     """
     if spec.manifest_endpoint is None:
         return None  # R does not manifest this dataset; see DatasetSpec
@@ -61,6 +74,8 @@ def _append_manifest(spec: DatasetSpec, season: int, row_count: int, base: Path)
     )
     if f.exists():
         row = pl.concat([pl.read_csv(f), row], how="diagonal_relaxed")
+        if spec.manifest_upsert:
+            row = row.unique(subset=["season"], keep="last", maintain_order=True).sort("season")
     row.write_csv(f)
     return f
 
@@ -70,25 +85,28 @@ def write_dataset(
 ) -> list[Path]:
     """Write parquet + csv + manifest for one dataset/season; return parquet+csv paths."""
     base = Path(base)
-    pq_dir = base / spec.dataset / "parquet"
-    csv_dir = base / spec.dataset / "csv"
+    root = dataset_dir(spec, base)
+    pq_dir = root / "parquet"
     pq_dir.mkdir(parents=True, exist_ok=True)
-    csv_dir.mkdir(parents=True, exist_ok=True)
     pq = pq_dir / f"{spec.stem}_{season}.parquet"
-    csv = csv_dir / f"{spec.stem}_{season}{spec.csv_suffix}"
+    csv = None
     df.write_parquet(pq)
-    if spec.csv_suffix.endswith(".gz"):
-        buf = BytesIO()
-        df.write_csv(buf)
-        with gzip.open(csv, "wb") as fh:
-            fh.write(buf.getvalue())
-    else:
-        df.write_csv(csv)
+    if spec.write_tree_csv:
+        csv_dir = root / "csv"
+        csv_dir.mkdir(parents=True, exist_ok=True)
+        csv = csv_dir / f"{spec.stem}_{season}{spec.csv_suffix}"
+        if spec.csv_suffix.endswith(".gz"):
+            buf = BytesIO()
+            df.write_csv(buf)
+            with gzip.open(csv, "wb") as fh:
+                fh.write(buf.getvalue())
+        else:
+            df.write_csv(csv)
     # .rds is wehoop::load_wnba_*'s ONLY read path -- written natively here, in the
     # same pass as the parquet, so the two can never drift apart. The NBA
     # sibling proved they do: its rds was left to a retained R step it never
     # had, so the parquet updated daily while the rds froze.
-    rds_dir = base / spec.dataset / "rds"
+    rds_dir = root / "rds"
     rds_dir.mkdir(parents=True, exist_ok=True)
     rds = rds_dir / f"{spec.stem}_{season}.rds"
     stamped = datetime.now(timezone.utc)
@@ -100,8 +118,9 @@ def write_dataset(
         # pair first, sportsdataverse_save appends its own).
         attributes={
             f"{RDS_ATTR_PREFIX}_timestamp": stamped,
-            f"{RDS_ATTR_PREFIX}_type": RDS_TYPE_TEMPLATE.format(dataset=spec.dataset),
-            "sportsdataverse_type": f"{spec.dataset} data",
+            f"{RDS_ATTR_PREFIX}_type": spec.rds_type
+            or RDS_TYPE_TEMPLATE.format(dataset=spec.dataset),
+            "sportsdataverse_type": spec.sdv_type or f"{spec.dataset} data",
             "sportsdataverse_timestamp": stamped,
         },
     )
@@ -110,15 +129,15 @@ def write_dataset(
         "wrote %s (%s) + %s (%s) + %s (%s), %d rows x %d cols; manifest %s",
         pq,
         human_size(pq.stat().st_size),
-        csv.name,
-        human_size(csv.stat().st_size),
+        csv.name if csv else "-",
+        human_size(csv.stat().st_size) if csv else "no tree csv",
         rds.name,
         human_size(rds.stat().st_size),
         df.height,
         df.width,
         f"{manifest.name} appended" if manifest else "n/a (not manifested)",
     )
-    return [pq, rds, csv]
+    return [pq, rds] + ([csv] if csv else [])
 
 
 def write_schedule_extras(

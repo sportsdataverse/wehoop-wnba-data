@@ -52,6 +52,25 @@ class DatasetSpec:
             template here have a ``load_wnba_*_manifest()`` loader in wehoop;
             writing a manifest for the others would publish an asset nothing
             reads.
+        write_tree_csv: whether a local csv copy is committed at all. The
+            three crosswalks write none -- the ``wnba/crosswalk/*.csv``
+            files are the MANIFESTS, not a tree copy of the data -- but the
+            release asset csv is still built from the parquet at publish
+            time (R ``file_types = c("rds", "csv", "parquet")``).
+        out_dir: directory under ``wnba/`` when it is NOT the dataset name.
+            The three crosswalks share one ``wnba/crosswalk/`` dir (their R
+            scripts hard-code it); the manifest FILE name still carries the
+            dataset (``wnba_team_crosswalk_in_data_repo.csv``).
+        manifest_upsert: replace the season's row instead of appending. The
+            per-game datasets' manifests are append LOGS (one row per run)
+            and ``publish`` collapses them for the release asset. One row
+            per season IS the crosswalk manifest's contract, so a daily
+            re-run must replace, not grow a duplicate.
+        rds_type: ``wehoop_type`` attribute override. Defaults to
+            ``RDS_TYPE_TEMPLATE``; the crosswalks carry the bespoke string
+            ``wehoop::wnba_*_crosswalk()`` stamps on the frame.
+        sdv_type: ``sportsdataverse_type`` attribute override. Defaults to
+            ``"{dataset} data"``; R passes the spaced form for crosswalks.
     """
 
     dataset: str
@@ -60,6 +79,11 @@ class DatasetSpec:
     reshaper: str
     csv_suffix: str = ".csv"
     manifest_endpoint: str | None = None
+    write_tree_csv: bool = True
+    out_dir: str | None = None
+    manifest_upsert: bool = False
+    rds_type: str | None = None
+    sdv_type: str | None = None
 
 
 REGISTRY: dict[str, DatasetSpec] = {
@@ -151,13 +175,43 @@ REGISTRY: dict[str, DatasetSpec] = {
     # release tag "wnba_crosswalk" (not the per-dataset espn_wnba_* prefix
     # used by the per-game datasets above); stems match each script's
     # `file_name = glue::glue("wnba_{...}_crosswalk_{y}")`.
+    # They also share one output dir (wnba/crosswalk/), write no tree csv
+    # (the wnba/crosswalk/*.csv files are the MANIFESTS), and upsert their
+    # manifest row -- all verbatim from wnba_1{1,2,3}_*_crosswalk_creation.R.
     "team_crosswalk": DatasetSpec(
-        "team_crosswalk", "wnba_team_crosswalk", "wnba_crosswalk", "team_crosswalk"
+        "team_crosswalk",
+        "wnba_team_crosswalk",
+        "wnba_crosswalk",
+        "team_crosswalk",
+        manifest_endpoint="wehoop::wnba_team_crosswalk()",
+        write_tree_csv=False,
+        out_dir="crosswalk",
+        manifest_upsert=True,
+        rds_type="WNBA team crosswalk (ESPN / WNBA Stats / Fox)",
+        sdv_type="team crosswalk data",
     ),
     "schedule_crosswalk": DatasetSpec(
-        "schedule_crosswalk", "wnba_schedule_crosswalk", "wnba_crosswalk", "schedule_crosswalk"
+        "schedule_crosswalk",
+        "wnba_schedule_crosswalk",
+        "wnba_crosswalk",
+        "schedule_crosswalk",
+        manifest_endpoint="wehoop::wnba_schedule_crosswalk()",
+        write_tree_csv=False,
+        out_dir="crosswalk",
+        manifest_upsert=True,
+        rds_type="WNBA schedule crosswalk (ESPN / WNBA Stats)",
+        sdv_type="schedule crosswalk data",
     ),
     "player_crosswalk": DatasetSpec(
-        "player_crosswalk", "wnba_player_crosswalk", "wnba_crosswalk", "player_crosswalk"
+        "player_crosswalk",
+        "wnba_player_crosswalk",
+        "wnba_crosswalk",
+        "player_crosswalk",
+        manifest_endpoint="wehoop::wnba_player_crosswalk()",
+        write_tree_csv=False,
+        out_dir="crosswalk",
+        manifest_upsert=True,
+        rds_type="WNBA player crosswalk (ESPN / WNBA Stats / Fox)",
+        sdv_type="player crosswalk data",
     ),
 }

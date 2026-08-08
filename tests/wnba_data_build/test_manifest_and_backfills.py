@@ -23,12 +23,18 @@ EXPECTED_ENDPOINT = {
     "draft": f"{_RAW}/draft/json/2026.json",
     "game_rosters": f"{_RAW}/game_rosters/json/<game_id>.json",
     "officials": f"{_RAW}/officials/json/<game_id>.json",
+    # Crosswalks read no raw payload at all -- R records the producer call
+    # as the source_endpoint (wnba_1{1,2,3}_*_crosswalk_creation.R).
+    "team_crosswalk": "wehoop::wnba_team_crosswalk()",
+    "schedule_crosswalk": "wehoop::wnba_schedule_crosswalk()",
+    "player_crosswalk": "wehoop::wnba_player_crosswalk()",
 }
 
 
-def test_exactly_the_eight_r_manifested_datasets_have_a_manifest():
-    # wehoop exports exactly 8 load_wnba_*_manifest() loaders; a manifest on any
-    # other dataset would publish an asset nothing reads.
+def test_exactly_the_r_manifested_datasets_have_a_manifest():
+    # wehoop exports 8 load_wnba_*_manifest() loaders plus the three crosswalk
+    # manifests under wnba/crosswalk/; a manifest on any other dataset would
+    # publish an asset nothing reads.
     manifested = {k for k, v in REGISTRY.items() if v.manifest_endpoint is not None}
     assert manifested == set(EXPECTED_ENDPOINT)
 
