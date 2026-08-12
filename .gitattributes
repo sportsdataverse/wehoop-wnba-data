@@ -1,1 +1,9 @@
 *.sh text eol=lf
+
+* text=auto eol=lf
+
+*.parquet binary
+*.rds binary
+*.qs binary
+*.png binary
+*.gz binary
