@@ -71,7 +71,7 @@ jobs:
             ropensci/piggyback
 
       - name: Set up uv + Python
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@v8.1.0
         with:
           python-version: '3.12'
           enable-cache: true
