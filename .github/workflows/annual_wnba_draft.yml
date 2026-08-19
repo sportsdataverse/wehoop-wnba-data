@@ -1,5 +1,21 @@
 name: Annual WNBA Draft
 
+# Serialize every workflow in this repo that commits to it. Two runs in flight
+# put one of them behind origin and its push is rejected -- and because the git
+# calls are wrapped in `>/dev/null` with no rc check, that lands as a GREEN job
+# that published nothing. wehoop-wnba-data runs 32192069433 + 32192069566
+# (2026-08-18) are the worked example.
+#
+# The group is REPO-wide, not per-workflow: the daily, weekly and annual jobs all
+# commit to the same branch, so a per-workflow group would still let the daily
+# race the weekly.
+#
+# cancel-in-progress is FALSE on purpose -- these runs also upload release
+# assets, and cancelling mid-upload leaves a tag half-updated. Queue instead.
+concurrency:
+  group: ${{ github.repository }}-commit
+  cancel-in-progress: false
+
 on:
   schedule:
     # WNBA draft is mid-April. First run on the 15th, second on the 16th to

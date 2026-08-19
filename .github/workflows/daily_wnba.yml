@@ -1,6 +1,6 @@
 name: Update WNBA Data
 
-# Serialize. This workflow commits to its own repo, so two runs in flight put one
+# Serialize every workflow in this repo that commits to it. Two runs in flight put one
 # of them behind origin and its push is rejected. That is not hypothetical: on
 # 2026-08-18 two repository_dispatch events minutes apart produced runs
 # 32192069433 and 32192069566, and the loser silently published nothing.
@@ -9,7 +9,7 @@ name: Update WNBA Data
 # and cancelling mid-upload would leave a tag half-updated. Queue instead --
 # the second run rebuilds on top of the first's commit.
 concurrency:
-  group: update-wnba-data
+  group: ${{ github.repository }}-commit
   cancel-in-progress: false
 
 on:
