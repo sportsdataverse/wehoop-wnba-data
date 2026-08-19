@@ -74,6 +74,46 @@ R_DATASETS=(
 
 mkdir -p logs
 ANY_FAILED=0
+
+# Commit + push, surviving a remote that moved while the build was running.
+#
+# The previous form pulled BEFORE staging, which can only ever abort: the build
+# has just rewritten 23 tracked parquet/csv files, so `git pull` refuses with
+# "Your local changes would be overwritten by merge". It then committed anyway,
+# pushed into a non-fast-forward rejection, and swallowed the whole thing in
+# `>/dev/null` with no rc check -- so the job went green having published
+# nothing to the repo. (Release assets upload separately and were fine.)
+#
+# Order matters: stage and commit FIRST so the tree is clean, and only then
+# reconcile with origin. `rebase --merge` rather than `pull --rebase` because
+# git's default am backend base64-encodes every parquet blob it replays.
+sdv_commit_push() {
+  local msg="$1"; shift
+  git add -- "$@" >/dev/null 2>&1 || true
+  if git diff --cached --quiet; then
+    echo "nothing to commit for: $msg"
+    return 0
+  fi
+  git commit -m "$msg" >/dev/null || { echo "::warning ::commit failed: $msg"; return 1; }
+
+  local attempt
+  for attempt in 1 2 3; do
+    if git push origin HEAD >/dev/null 2>&1; then
+      echo "pushed: $msg (attempt $attempt)"
+      return 0
+    fi
+    echo "push rejected (attempt $attempt); syncing with origin"
+    git fetch --quiet origin main || true
+    if ! git rebase --merge origin/main >/dev/null 2>&1; then
+      git rebase --abort >/dev/null 2>&1 || true
+      echo "::error ::cannot rebase onto origin/main for: $msg"
+      return 1
+    fi
+  done
+  echo "::error ::push still rejected after 3 attempts: $msg"
+  return 1
+}
+
 for i in $(seq "${START_YEAR}" "${END_YEAR}"); do
   LOGFILE="logs/wehoop_wnba_data_logfile_${i}.log"
   TMPLOG=$(mktemp "/tmp/wehoop_wnba_data_${i}.XXXXXX.log")
@@ -136,20 +176,13 @@ for i in $(seq "${START_YEAR}" "${END_YEAR}"); do
     echo "season $i EXIT=$SEASON_RC"
     # Commit whatever datasets succeeded even if one step errored -- the
     # per-dataset error handling keeps partial output usable.
-    git pull >/dev/null
-    git add wnba/* >/dev/null 2>&1 || true
     # Load-bearing subject: downstream tooling parses the years out of it.
-    git commit -m "WNBA Data Update (Start: $i End: $i)" || echo "No changes to commit"
-    git pull >/dev/null
-    git push >/dev/null
+    sdv_commit_push "WNBA Data Update (Start: $i End: $i)" wnba || PUSH_RC=1
   } 2>&1 | tee "$TMPLOG"
 
   RSCRIPT_RC=$(sed 's/RSCRIPT_RC=//' "/tmp/_rc_${i}" 2>/dev/null); rm -f "/tmp/_rc_${i}"
   cp "$TMPLOG" "$LOGFILE"
-  git pull --rebase >/dev/null || true
-  git add "$LOGFILE"
-  git commit -m "WNBA Data log update (Start: $i End: $i)" >/dev/null || echo "No log changes to commit"
-  git push >/dev/null
+  sdv_commit_push "WNBA Data log update (Start: $i End: $i)" "$LOGFILE" || PUSH_RC=1
   rm -f "$TMPLOG"
   if [ "${RSCRIPT_RC:-0}" != "0" ]; then
     echo "::error ::At least one creation step for season $i exited with code $RSCRIPT_RC"
@@ -164,5 +197,13 @@ if [ "$LANG_MODE" = "R" ]; then
   Rscript R/run_summary.R -s "$START_YEAR" -e "$END_YEAR" || true
 else
   ( cd python && uv run python -m wnba_data_build.summary --logs ../logs -s "$START_YEAR" -e "$END_YEAR" ) || true
+fi
+# A rejected push is a FAILED run, not a green one. Release assets upload on a
+# separate path and can succeed while the repo mirror is left stale -- which is
+# exactly how a concurrent-run race produced a green job that published nothing
+# to the repo (2026-08-18, runs 32192069433 + 32192069566).
+if [ "${PUSH_RC:-0}" != "0" ]; then
+  echo "::error ::At least one commit failed to reach origin; the repo mirror is stale."
+  ANY_FAILED=1
 fi
 [ "${ANY_FAILED:-0}" = "0" ] || exit 1

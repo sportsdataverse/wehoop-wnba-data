@@ -1,5 +1,17 @@
 name: Update WNBA Data
 
+# Serialize. This workflow commits to its own repo, so two runs in flight put one
+# of them behind origin and its push is rejected. That is not hypothetical: on
+# 2026-08-18 two repository_dispatch events minutes apart produced runs
+# 32192069433 and 32192069566, and the loser silently published nothing.
+#
+# cancel-in-progress is FALSE on purpose: the run also uploads release assets,
+# and cancelling mid-upload would leave a tag half-updated. Queue instead --
+# the second run rebuilds on top of the first's commit.
+concurrency:
+  group: update-wnba-data
+  cancel-in-progress: false
+
 on:
   schedule:
     - cron: '0 7 18-31 10 *'   # late October (preseason tail)
