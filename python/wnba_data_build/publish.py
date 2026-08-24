@@ -34,18 +34,29 @@ log = get_logger()
 
 
 def _gh(args: list[str]) -> None:
-    subprocess.run(["gh", *args], check=True)
+    subprocess.run(["gh", *args], check=True, stderr=subprocess.PIPE, text=True)
 
 
 def _gh_release_exists(tag: str, repo: str) -> bool:
-    return (
-        subprocess.run(
-            ["gh", "release", "view", tag, "--repo", repo],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-        ).returncode
-        == 0
+    """True when ``tag`` exists on ``repo``.
+
+    Only a genuine "not found" answer from ``gh`` counts as absence -- a rate
+    limit / auth / network failure must never be read as "release missing"
+    (that misreading is what makes the caller run ``release create`` on a tag
+    that already exists and crash the whole publish run).
+    """
+    proc = subprocess.run(
+        ["gh", "release", "view", tag, "--repo", repo],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.PIPE,
+        text=True,
     )
+    if proc.returncode == 0:
+        return True
+    stderr = (proc.stderr or "").strip()
+    if "release not found" in stderr.lower():
+        return False
+    raise RuntimeError(f"gh release view {tag} --repo {repo} failed: {stderr}")
 
 
 def _manifest_asset(spec: DatasetSpec, base: Path) -> Path | None:
@@ -143,19 +154,28 @@ def publish_dataset(
         log.warning("%s %s: no files to publish under %s", spec.dataset, season, base)
     if not dry_run and not exists(spec.tag, repo):
         log.info("release %s missing on %s -- creating it", spec.tag, repo)
-        run(
-            [
-                "release",
-                "create",
-                spec.tag,
-                "--repo",
-                repo,
-                "--title",
-                spec.tag,
-                "--notes",
-                f"{spec.tag} (WNBA dataset, Python-built).",
-            ]
-        )
+        try:
+            run(
+                [
+                    "release",
+                    "create",
+                    spec.tag,
+                    "--repo",
+                    repo,
+                    "--title",
+                    spec.tag,
+                    "--notes",
+                    f"{spec.tag} (WNBA dataset, Python-built).",
+                ]
+            )
+        except subprocess.CalledProcessError as exc:
+            # Belt-and-suspenders for the race exists() didn't catch (e.g. a
+            # concurrent run created the tag between the check and here).
+            stderr = (exc.stderr or "").lower() if isinstance(exc.stderr, str) else ""
+            if "already exists" in stderr:
+                log.info("release %s already exists on %s -- continuing", spec.tag, repo)
+            else:
+                raise
     count = 0
     for f in files:
         size = human_size(f.stat().st_size)
