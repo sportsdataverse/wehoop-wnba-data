@@ -7,14 +7,14 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '7-12'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '27-11'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-11'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-5'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-6'}]","",[]
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-6'}]","",[]
 401857219,s:40~l:59~e:401857219~c:401857219,2026-09-25T02:00Z,0.0,true,false,false,false,2026-09-25T02:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, September 24th at 10:00 PM EDT",9/24 - 10:00 PM EDT,4.0,11,s:40~l:59~t:11,Phoenix,Mercury,PHX,Phoenix Mercury,Mercury,3c286e,fa4b0a,true,1949,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png,0,,17,s:40~l:59~t:17,Las Vegas,Aces,LV,Las Vegas Aces,Aces,true,780,0,,401857219,2026,2,1949,Mortgage Matchup Center,Phoenix,AZ,,true,a7a8aa,000000,https://a.espncdn.com/i/teamlogos/wnba/500/lv.png,,false,,2026-09-24T22:00:00.000000-0400,2026-09-24,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-25'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-13'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-26'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-14'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '8-12'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -35,9 +35,9 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
 401857216,s:40~l:59~e:401857216~c:401857216,2026-09-24T23:30Z,0.0,true,false,false,false,2026-09-24T23:30Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, September 24th at 7:30 PM EDT",9/24 - 7:30 PM EDT,4.0,16,s:40~l:59~t:16,Washington,Mystics,WSH,Washington Mystics,Mystics,e03a3e,002b5c,true,5946,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png,0,,19,s:40~l:59~t:19,Chicago,Sky,CHI,Chicago Sky,Sky,true,977,0,,401857216,2026,2,1823,Capital One Arena,Washington,DC,,true,5091cd,ffd520,https://a.espncdn.com/i/teamlogos/wnba/500/chi.png,,false,,2026-09-24T19:30:00.000000-0400,2026-09-24,false,false,false,false,away,CW26,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '24-15'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-7'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-8'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '11-8'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '15-24'}
@@ -68,8 +68,8 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
 401857213,s:40~l:59~e:401857213~c:401857213,2026-09-24T00:00Z,0.0,true,false,false,false,2026-09-24T00:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Wed, September 23rd at 8:00 PM EDT",9/23 - 8:00 PM EDT,4.0,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,86cebc,000000,true,3559,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,0,,20,s:40~l:59~t:20,Atlanta,Dream,ATL,Atlanta Dream,Dream,true,6282,0,,401857213,2026,2,3559,Barclays Center,Brooklyn,NY,,true,e31837,5091cc,https://a.espncdn.com/i/teamlogos/wnba/500/atl.png,,false,,2026-09-23T20:00:00.000000-0400,2026-09-23,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-5'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-6'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -95,9 +95,9 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '7-12'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '27-11'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-11'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-5'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-6'}]","",[]
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-6'}]","",[]
 401857209,s:40~l:59~e:401857209~c:401857209,2026-09-23T00:00Z,0.0,true,false,false,false,2026-09-23T00:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Tue, September 22nd at 8:00 PM EDT",9/22 - 8:00 PM EDT,4.0,5,s:40~l:59~t:5,Indiana,Fever,IND,Indiana Fever,Fever,002d62,e03a3e,true,2183,https://a.espncdn.com/i/teamlogos/wnba/500/ind.png,0,,8,s:40~l:59~t:8,Minnesota,Lynx,MIN,Minnesota Lynx,Lynx,true,2029,0,,401857209,2026,2,2183,Gainbridge Fieldhouse,Indianapolis,IN,,true,266092,79bc43,https://a.espncdn.com/i/teamlogos/wnba/500/min.png,,false,,2026-09-22T20:00:00.000000-0400,2026-09-22,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -123,9 +123,9 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
 401857208,s:40~l:59~e:401857208~c:401857208,2026-09-22T23:30Z,0.0,true,false,false,false,2026-09-22T23:30Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Tue, September 22nd at 7:30 PM EDT",9/22 - 7:30 PM EDT,4.0,16,s:40~l:59~t:16,Washington,Mystics,WSH,Washington Mystics,Mystics,e03a3e,002b5c,true,5946,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png,0,,18,s:40~l:59~t:18,Connecticut,Sun,CON,Connecticut Sun,Sun,true,2160,0,,401857208,2026,2,5946,CareFirst Arena,Washington,DC,,true,f05023,0a2240,https://a.espncdn.com/i/teamlogos/wnba/500/con.png,,false,,2026-09-22T19:30:00.000000-0400,2026-09-22,false,false,false,false,away,NBC Sports BO,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '24-15'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-7'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-8'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '11-8'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '10-28'}
@@ -134,8 +134,8 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
 401857207,s:40~l:59~e:401857207~c:401857207,2026-09-22T02:00Z,0.0,true,false,false,false,2026-09-22T02:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Mon, September 21st at 10:00 PM EDT",9/21 - 10:00 PM EDT,4.0,11,s:40~l:59~t:11,Phoenix,Mercury,PHX,Phoenix Mercury,Mercury,3c286e,fa4b0a,true,1949,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png,0,,3,s:40~l:59~t:3,Dallas,Wings,DAL,Dallas Wings,Wings,true,3416,0,,401857207,2026,2,1949,Mortgage Matchup Center,Phoenix,AZ,,true,002b5c,c4d600,https://a.espncdn.com/i/teamlogos/wnba/500/dal.png,,false,,2026-09-21T22:00:00.000000-0400,2026-09-21,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-25'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-13'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-26'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-14'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '8-12'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -145,8 +145,8 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
 401857206,s:40~l:59~e:401857206~c:401857206,2026-09-22T00:00Z,0.0,true,false,false,false,2026-09-22T00:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Mon, September 21st at 8:00 PM EDT",9/21 - 8:00 PM EDT,4.0,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,86cebc,000000,true,3559,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,0,,20,s:40~l:59~t:20,Atlanta,Dream,ATL,Atlanta Dream,Dream,true,6282,0,,401857206,2026,2,3559,Barclays Center,Brooklyn,NY,,true,e31837,5091cc,https://a.espncdn.com/i/teamlogos/wnba/500/atl.png,,false,,2026-09-21T20:00:00.000000-0400,2026-09-21,false,false,false,false,national,Peacock,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-5'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-6'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -183,9 +183,9 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-8'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '24-15'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-7'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-8'}]",NBA TV,[]
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '11-8'}]",NBA TV,[]
 401857202,s:40~l:59~e:401857202~c:401857202,2026-09-20T19:00Z,0.0,true,false,false,false,2026-09-20T19:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 20th at 3:00 PM EDT",9/20 - 3:00 PM EDT,4.0,131935,s:40~l:59~t:131935,Toronto,Tempo,TOR,Toronto Tempo,Tempo,33476D,7B1B38,true,7546,https://a.espncdn.com/i/teamlogos/wnba/500/tor.png,0,,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,true,3559,0,,401857202,2026,2,7546,Coca-Cola Coliseum,Toronto,ON,,true,86cebc,000000,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,,false,,2026-09-20T15:00:00.000000-0400,2026-09-20,false,false,false,false,away,WWOR-TV,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -194,8 +194,8 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '4-14'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-5'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-6'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]","",[]
 401857201,s:40~l:59~e:401857201~c:401857201,2026-09-20T17:00Z,0.0,true,false,false,false,2026-09-20T17:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 20th at 1:00 PM EDT",9/20 - 1:00 PM EDT,4.0,18,s:40~l:59~t:18,Connecticut,Sun,CON,Connecticut Sun,Sun,f05023,0a2240,true,2160,https://a.espncdn.com/i/teamlogos/wnba/500/con.png,0,,8,s:40~l:59~t:8,Minnesota,Lynx,MIN,Minnesota Lynx,Lynx,true,2029,0,,401857201,2026,2,2160,Mohegan Sun Arena,Uncasville,CT,,true,266092,79bc43,https://a.espncdn.com/i/teamlogos/wnba/500/min.png,,false,,2026-09-20T13:00:00.000000-0400,2026-09-20,false,false,false,false,home,NBC Sports BO,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -211,9 +211,9 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
 401857200,s:40~l:59~e:401857200~c:401857200,2026-09-20T01:00Z,0.0,true,false,false,false,2026-09-20T01:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sat, September 19th at 9:00 PM EDT",9/19 - 9:00 PM EDT,4.0,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,b38fcf,000000,true,6270,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,0,,14,s:40~l:59~t:14,Seattle,Storm,SEA,Seattle Storm,Storm,true,2184,0,,401857200,2026,2,6270,Chase Center,San Francisco,CA,,true,2c5235,fee11a,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png,,false,,2026-09-19T21:00:00.000000-0400,2026-09-19,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '27-11'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-11'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-5'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-6'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-6'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '8-31'}
@@ -238,15 +238,15 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-25'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-13'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-26'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-14'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '8-12'}]",CBS/Paramount+,[]
 401857197,s:40~l:59~e:401857197~c:401857197,2026-09-19T02:00Z,0.0,true,false,false,false,2026-09-19T02:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Fri, September 18th at 10:00 PM EDT",9/18 - 10:00 PM EDT,4.0,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,b38fcf,000000,true,6270,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,0,,132052,s:40~l:59~t:132052,Portland,Fire,POR,Portland Fire,Fire,true,3423,0,,401857197,2026,2,6270,Chase Center,San Francisco,CA,,true,cee5eb,000000,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png,,false,,2026-09-18T22:00:00.000000-0400,2026-09-18,false,false,false,false,national,ION,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '27-11'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-11'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-5'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-6'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-6'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '15-23'}
@@ -271,8 +271,8 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '17-2'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-5'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-6'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]",ION,[]
 401857193,s:40~l:59~e:401857193~c:401857193,2026-09-18T02:00Z,0.0,true,false,false,false,2026-09-18T02:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, September 17th at 10:00 PM EDT",9/17 - 10:00 PM EDT,4.0,132052,s:40~l:59~t:132052,Portland,Fire,POR,Portland Fire,Fire,cee5eb,000000,true,3423,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png,0,,11,s:40~l:59~t:11,Phoenix,Mercury,PHX,Phoenix Mercury,Mercury,true,1949,0,,401857193,2026,2,3423,Moda Center,Portland,OR,,true,3c286e,fa4b0a,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png,,false,,2026-09-17T22:00:00.000000-0400,2026-09-17,false,false,false,false,home,Fox 12 Plus,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -282,8 +282,8 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '7-12'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-25'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-13'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-26'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-14'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '8-12'}]","",[]
 401857194,s:40~l:59~e:401857194~c:401857194,2026-09-18T02:00Z,0.0,true,false,false,false,2026-09-18T02:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, September 17th at 10:00 PM EDT",9/17 - 10:00 PM EDT,4.0,14,s:40~l:59~t:14,Seattle,Storm,SEA,Seattle Storm,Storm,2c5235,fee11a,true,2184,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png,0,,17,s:40~l:59~t:17,Las Vegas,Aces,LV,Las Vegas Aces,Aces,true,780,0,,401857194,2026,2,7224,Climate Pledge Arena,Seattle,WA,,true,a7a8aa,000000,https://a.espncdn.com/i/teamlogos/wnba/500/lv.png,,false,,2026-09-17T22:00:00.000000-0400,2026-09-17,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -304,9 +304,9 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '5-14'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '24-15'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-7'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-8'}]","",[]
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '11-8'}]","",[]
 401857192,s:40~l:59~e:401857192~c:401857192,2026-09-18T00:00Z,0.0,true,false,false,false,2026-09-18T00:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, September 17th at 8:00 PM EDT",9/17 - 8:00 PM EDT,4.0,3,s:40~l:59~t:3,Dallas,Wings,DAL,Dallas Wings,Wings,002b5c,c4d600,true,3416,https://a.espncdn.com/i/teamlogos/wnba/500/dal.png,0,,6,s:40~l:59~t:6,Los Angeles,Sparks,LA,Los Angeles Sparks,Sparks,true,1841,0,,401857192,2026,2,3416,College Park Center,Arlington,TX,,true,552583,fdb927,https://a.espncdn.com/i/teamlogos/wnba/500/la.png,,false,,2026-09-17T20:00:00.000000-0400,2026-09-17,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -348,9 +348,9 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '7-12'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '27-11'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-11'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-5'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-6'}]","",[]
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-6'}]","",[]
 401857187,s:40~l:59~e:401857187~c:401857187,2026-08-30T21:00Z,0.0,true,false,false,false,2026-08-30T21:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, August 30th at 5:00 PM EDT",8/30 - 5:00 PM EDT,4.0,14,s:40~l:59~t:14,Seattle,Storm,SEA,Seattle Storm,Storm,2c5235,fee11a,true,2184,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png,0,,6,s:40~l:59~t:6,Los Angeles,Sparks,LA,Los Angeles Sparks,Sparks,true,1841,0,,401857187,2026,2,7224,Climate Pledge Arena,Seattle,WA,,true,552583,fdb927,https://a.espncdn.com/i/teamlogos/wnba/500/la.png,,false,,2026-08-30T17:00:00.000000-0400,2026-08-30,false,false,false,false,away,WNBA League Pass,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -376,8 +376,8 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
 401857185,s:40~l:59~e:401857185~c:401857185,2026-08-30T02:00Z,0.0,true,false,false,false,2026-08-30T02:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sat, August 29th at 10:00 PM EDT",8/29 - 10:00 PM EDT,4.0,11,s:40~l:59~t:11,Phoenix,Mercury,PHX,Phoenix Mercury,Mercury,3c286e,fa4b0a,true,1949,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png,0,,131935,s:40~l:59~t:131935,Toronto,Tempo,TOR,Toronto Tempo,Tempo,true,7546,0,,401857185,2026,2,1949,Mortgage Matchup Center,Phoenix,AZ,,true,33476D,7B1B38,https://a.espncdn.com/i/teamlogos/wnba/500/tor.png,,false,,2026-08-29T22:00:00.000000-0400,2026-08-29,false,false,false,false,away,WNBA League Pass,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-25'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-13'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-26'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-14'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '8-12'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -387,8 +387,8 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
 401857184,s:40~l:59~e:401857184~c:401857184,2026-08-29T17:00Z,0.0,true,false,false,false,2026-08-29T17:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sat, August 29th at 1:00 PM EDT",8/29 - 1:00 PM EDT,4.0,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,86cebc,000000,true,3559,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,0,,19,s:40~l:59~t:19,Chicago,Sky,CHI,Chicago Sky,Sky,true,977,0,,401857184,2026,2,3559,Barclays Center,Brooklyn,NY,,true,5091cd,ffd520,https://a.espncdn.com/i/teamlogos/wnba/500/chi.png,,false,,2026-08-29T13:00:00.000000-0400,2026-08-29,false,false,false,false,national,CBS,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-5'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-6'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -414,9 +414,9 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '7-12'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '24-15'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-7'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-8'}]",ION,[]
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '11-8'}]",ION,[]
 401857180,s:40~l:59~e:401857180~c:401857180,2026-08-28T23:30Z,0.0,true,false,false,false,2026-08-28T23:30Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Fri, August 28th at 7:30 PM EDT",8/28 - 7:30 PM EDT,4.0,20,s:40~l:59~t:20,Atlanta,Dream,ATL,Atlanta Dream,Dream,e31837,5091cc,true,6282,https://a.espncdn.com/i/teamlogos/wnba/500/atl.png,0,,132052,s:40~l:59~t:132052,Portland,Fire,POR,Portland Fire,Fire,true,3423,0,,401857180,2026,2,6282,Gateway Center,College Park,GA,,true,cee5eb,000000,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png,,false,,2026-08-28T19:30:00.000000-0400,2026-08-28,false,false,false,false,national,ION,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
@@ -439,28 +439,46 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '10-28'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '7-13'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '3-15'}]",ION,[]
-401857179,s:40~l:59~e:401857179~c:401857179,2026-08-28T02:00Z,0.0,true,false,false,false,2026-08-28T02:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, August 27th at 10:00 PM EDT",8/27 - 10:00 PM EDT,4.0,11,s:40~l:59~t:11,Phoenix,Mercury,PHX,Phoenix Mercury,Mercury,3c286e,fa4b0a,true,1949,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png,0,,16,s:40~l:59~t:16,Washington,Mystics,WSH,Washington Mystics,Mystics,true,5946,0,,401857179,2026,2,1949,Mortgage Matchup Center,Phoenix,AZ,,true,e03a3e,002b5c,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png,,false,,2026-08-27T22:00:00.000000-0400,2026-08-27,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '13-25'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-13'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '8-12'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
+401857179,s:40~l:59~e:401857179~c:401857179,2026-08-28T02:00Z,9040.0,true,false,false,false,2026-08-28T02:00Z,"","",1,STD,600.0,10:00,4.0,3,STATUS_FINAL,post,true,Final,Final,Final,4.0,11,s:40~l:59~t:11,Phoenix,Mercury,PHX,Phoenix Mercury,Mercury,3c286e,fa4b0a,true,1949,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png,73,false,16,s:40~l:59~t:16,Washington,Mystics,WSH,Washington Mystics,Mystics,true,5946,80,true,401857179,2026,2,1949,Mortgage Matchup Center,Phoenix,AZ,,true,e03a3e,002b5c,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png,,true,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/json/final/401857179.json,2026-08-27T22:00:00.000000-0400,2026-08-27,true,true,true,true,national,Prime Video,"[{'value': 18.0, 'displayValue': '18', 'period': 1.0}
+ {'value': 19.0, 'displayValue': '19', 'period': 2.0}
+ {'value': 20.0, 'displayValue': '20', 'period': 3.0}
+ {'value': 16.0, 'displayValue': '16', 'period': 4.0}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '13-26'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '5-14'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '8-12'}]","[{'value': 20.0, 'displayValue': '20', 'period': 1.0}
+ {'value': 20.0, 'displayValue': '20', 'period': 2.0}
+ {'value': 13.0, 'displayValue': '13', 'period': 3.0}
+ {'value': 27.0, 'displayValue': '27', 'period': 4.0}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '24-15'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-7'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-8'}]",Prime Video,[]
-401857178,s:40~l:59~e:401857178~c:401857178,2026-08-28T00:00Z,0.0,true,false,false,false,2026-08-28T00:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, August 27th at 8:00 PM EDT",8/27 - 8:00 PM EDT,4.0,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,86cebc,000000,true,3559,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,0,,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,true,6270,0,,401857178,2026,2,3559,Barclays Center,Brooklyn,NY,,true,b38fcf,000000,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,,false,,2026-08-27T20:00:00.000000-0400,2026-08-27,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-5'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '27-11'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '11-8'}]",Prime Video,"[{'id': 49749416, 'cerebroId': '6a910ca04221792bb8447089', 'source': 'espn', 'headline': 'Phoenix Mercury vs. Washington Mystics - Game Highlights', 'description': 'Watch the Game Highlights from Phoenix Mercury vs. Washington Mystics, 08/27/2026', 'lastModified': '2026-08-28T04:21:09Z', 'originalPublishDate': '2026-08-28T04:20:48Z', 'duration': 69, 'timeRestrictions': {'embargoDate': '2026-08-28T04:20:41Z', 'expirationDate': '2026-11-30T05:00:00Z'}, 'deviceRestrictions': {'devices': array(['settop', 'tablet', 'handset', 'ipad', 'desktop'], dtype=object), 'type': 'whitelist'}, 'geoRestrictions': {'countries': array(['PR', 'HN', 'PW', 'PY', 'HT', 'AG', 'ZA', 'AI', 'AM', 'AO', 'AR',
+        'AS', 'RE', 'ZM', 'AU', 'AW', 'ZW', 'BB', 'JM', 'BF', 'RW', 'BI',
+        'BJ', 'BM', 'BO', 'BQ', 'BR', 'SC', 'BS', 'BW', 'BZ', 'SL', 'KE',
+        'SN', 'SR', 'SS', 'CD', 'ST', 'KM', 'SV', 'CF', 'KN', 'CG', 'SX',
+        'CI', 'SZ', 'CL', 'CM', 'CO', 'KY', 'CR', 'TC', 'CU', 'TG', 'CV',
+        'LC', 'TT', 'LR', 'TZ', 'LS', 'DO', 'UG', 'UK', 'UM', 'MF', 'MG',
+        'MH', 'US', 'EC', 'ML', 'MP', 'MQ', 'UY', 'MS', 'MU', 'MW', 'MX',
+        'VC', 'ER', 'MZ', 'ET', 'VE', 'VG', 'VI', 'NA', 'NE', 'NG', 'NI',
+        'FJ', 'FM', 'NZ', 'GA', 'GB', 'GD', 'GF', 'GH', 'GM', 'GN', 'GP',
+        'GQ', 'GT', 'GU', 'GW', 'PA', 'GY', 'PE'], dtype=object), 'type': 'whitelist'}, 'thumbnail': 'https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd.jpg', 'links': {'api': {'artwork': {'href': 'https://artwork.api.espn.com/artwork/collections/media/bd58b15a-78d7-4dab-ba0b-d94bf8259365'}, 'self': {'href': 'https://content.core.api.espn.com/v1/video/clips/49749416'}}, 'mobile': {'href': 'https://watch.auth.api.espn.com/video/auth/brightcove/bd58b15a-78d7-4dab-ba0b-d94bf8259365/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49749416/phoenix-mercury-vs-washington-mystics-game-highlights', 'alert': {'href': 'https://m.espn.com/general/video/videoAlert?vid=49749416'}, 'progressiveDownload': {'href': 'https://watch.auth.api.espn.com/video/auth/brightcove/bd58b15a-78d7-4dab-ba0b-d94bf8259365/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49749416/phoenix-mercury-vs-washington-mystics-game-highlights'}, 'source': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd.mp4'}, 'streaming': {'href': 'https://watch.auth.api.espn.com/video/auth/brightcove/bd58b15a-78d7-4dab-ba0b-d94bf8259365/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49749416/phoenix-mercury-vs-washington-mystics-game-highlights'}}, 'source': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd.mp4', 'HD': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd.mp4'}, 'HLS': {'href': 'https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd/playlist.m3u8', '9x16': {'href': 'https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd/playlist.m3u8'}, 'HD': {'href': 'https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd/playlist.m3u8'}, 'cmaf': {'href': 'https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd/playlist.m3u8', '9x16': {'href': 'https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd/playlist.m3u8'}, 'cmb': {'href': 'https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd/playlist.m3u8'}}, 'shield': {'href': 'https://watch.auth.api.espn.com/video/auth/media/bd58b15a-78d7-4dab-ba0b-d94bf8259365/asset'}, 'cmb': {'href': 'https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd/playlist.m3u8'}}, 'flash': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd.mp4'}, 'full': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd.mp4'}, 'hds': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd.mp4'}, 'mezzanine': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/dd72931e-4bac-4901-a991-d0c6904b2ffd/dd72931e-4bac-4901-a991-d0c6904b2ffd.mp4'}}, 'sportscenter': {'href': 'sportscenter://x-callback-url/showVideo?videoID=49749416&videoDSI=34f7fc9cf8966'}, 'web': {'href': 'https://www.espn.com/video/clip/_/id/49749416/phoenix-mercury-vs-washington-mystics-game-highlights', 'self': {'href': 'https://www.espn.com/video/clip/_/id/49749416/phoenix-mercury-vs-washington-mystics-game-highlights', 'dsi': {'href': 'https://www.espn.com/video/clip?id=34f7fc9cf8966'}}}}, 'ad': {'bundle': 'wnba_top_plays_highlights', 'sport': 'wnba'}, 'tracking': {'coverageType': 'Final Game Highlight', 'leagueName': 'WNBA', 'program': 'WNBA', 'sportName': 'basketball', 'trackingId': 'dm_20260828_WNBA_phoenix_mercury_vs_washington_mystics_game_highlights', 'trackingName': 'WNBA_One-Play (Phoenix Mercury vs. Washington Mystics - Game Highlights) 2026/08/28 ESHEET'}}]"
+401857178,s:40~l:59~e:401857178~c:401857178,2026-08-28T00:00Z,17579.0,true,false,false,false,2026-08-28T00:00Z,"","",1,STD,600.0,10:00,4.0,3,STATUS_FINAL,post,true,Final,Final,Final,4.0,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,86cebc,000000,true,3559,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,60,false,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,true,6270,79,true,401857178,2026,2,3559,Barclays Center,Brooklyn,NY,,true,b38fcf,000000,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,,true,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/json/final/401857178.json,2026-08-27T20:00:00.000000-0400,2026-08-27,true,true,true,true,national,Prime Video,"[{'value': 19.0, 'displayValue': '19', 'period': 1.0}
+ {'value': 11.0, 'displayValue': '11', 'period': 2.0}
+ {'value': 17.0, 'displayValue': '17', 'period': 3.0}
+ {'value': 13.0, 'displayValue': '13', 'period': 4.0}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '23-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-6'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]","[{'value': 21.0, 'displayValue': '21', 'period': 1.0}
+ {'value': 21.0, 'displayValue': '21', 'period': 2.0}
+ {'value': 17.0, 'displayValue': '17', 'period': 3.0}
+ {'value': 20.0, 'displayValue': '20', 'period': 4.0}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '28-11'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-5'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-6'}]",Prime Video,[]
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-6'}]",Prime Video,"[{'id': 49748570, 'cerebroId': '6a90ee4b8868f6641a73ee52', 'source': 'espn', 'headline': 'New York Liberty vs. Golden State Valkyries - Game Highlights', 'description': 'Watch the Game Highlights from New York Liberty vs. Golden State Valkyries, 08/27/2026', 'lastModified': '2026-08-28T02:11:44Z', 'originalPublishDate': '2026-08-28T02:11:23Z', 'duration': 69, 'timeRestrictions': {'embargoDate': '2026-08-28T02:11:17Z', 'expirationDate': '2026-11-30T05:00:00Z'}, 'deviceRestrictions': {'devices': array(['settop', 'tablet', 'handset', 'ipad', 'desktop'], dtype=object), 'type': 'whitelist'}, 'geoRestrictions': {'countries': array(['PR', 'HN', 'PW', 'PY', 'HT', 'AG', 'ZA', 'AI', 'AM', 'AO', 'AR',
+        'AS', 'ZM', 'RE', 'AU', 'AW', 'ZW', 'BB', 'JM', 'BF', 'RW', 'BI',
+        'BJ', 'BM', 'BO', 'BQ', 'SC', 'BR', 'BS', 'BW', 'BZ', 'SL', 'KE',
+        'SN', 'SR', 'SS', 'CD', 'ST', 'KM', 'CF', 'SV', 'KN', 'CG', 'SX',
+        'CI', 'SZ', 'CL', 'CM', 'CO', 'KY', 'TC', 'CR', 'CU', 'CV', 'TG',
+        'LC', 'TT', 'LR', 'TZ', 'LS', 'DO', 'UG', 'UK', 'UM', 'MF', 'MG',
+        'MH', 'US', 'EC', 'ML', 'MP', 'MQ', 'UY', 'MS', 'MU', 'MW', 'MX',
+        'VC', 'MZ', 'ER', 'VE', 'ET', 'VG', 'NA', 'VI', 'NE', 'NG', 'NI',
+        'FJ', 'FM', 'NZ', 'GA', 'GB', 'GD', 'GF', 'GH', 'GM', 'GN', 'GP',
+        'GQ', 'GT', 'GU', 'GW', 'PA', 'GY', 'PE'], dtype=object), 'type': 'whitelist'}, 'thumbnail': 'https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57.jpg', 'links': {'api': {'artwork': {'href': 'https://artwork.api.espn.com/artwork/collections/media/5c15553d-3333-42e7-bc26-6f3467b4327f'}, 'self': {'href': 'https://content.core.api.espn.com/v1/video/clips/49748570'}}, 'mobile': {'href': 'https://watch.auth.api.espn.com/video/auth/brightcove/5c15553d-3333-42e7-bc26-6f3467b4327f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49748570/new-york-liberty-vs-golden-state-valkyries-game-highlights', 'alert': {'href': 'https://m.espn.com/general/video/videoAlert?vid=49748570'}, 'progressiveDownload': {'href': 'https://watch.auth.api.espn.com/video/auth/brightcove/5c15553d-3333-42e7-bc26-6f3467b4327f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49748570/new-york-liberty-vs-golden-state-valkyries-game-highlights'}, 'source': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57.mp4'}, 'streaming': {'href': 'https://watch.auth.api.espn.com/video/auth/brightcove/5c15553d-3333-42e7-bc26-6f3467b4327f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49748570/new-york-liberty-vs-golden-state-valkyries-game-highlights'}}, 'source': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57.mp4', 'HD': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57.mp4'}, 'HLS': {'href': 'https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57/playlist.m3u8', '9x16': {'href': 'https://cmp-espn.media.dssott.com/opp/hls/espn/9x16/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57/playlist.m3u8'}, 'HD': {'href': 'https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57/playlist.m3u8'}, 'cmaf': {'href': 'https://cmp-espn.media.dssott.com/opp/cmaf/espn/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57/playlist.m3u8', '9x16': {'href': 'https://cmp-espn.media.dssott.com/opp/cmaf/espn/9x16/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57/playlist.m3u8'}, 'cmb': {'href': 'https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57/playlist.m3u8'}}, 'shield': {'href': 'https://watch.auth.api.espn.com/video/auth/media/5c15553d-3333-42e7-bc26-6f3467b4327f/asset'}, 'cmb': {'href': 'https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57/playlist.m3u8'}}, 'flash': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57.mp4'}, 'full': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57.mp4'}, 'hds': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57.mp4'}, 'mezzanine': {'href': 'https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2026/0828/915de522-5a8e-4d2c-807f-3f3791b3be57/915de522-5a8e-4d2c-807f-3f3791b3be57.mp4'}}, 'sportscenter': {'href': 'sportscenter://x-callback-url/showVideo?videoID=49748570&videoDSI=3b59419924c4a'}, 'web': {'href': 'https://www.espn.com/video/clip/_/id/49748570/new-york-liberty-vs-golden-state-valkyries-game-highlights', 'self': {'href': 'https://www.espn.com/video/clip/_/id/49748570/new-york-liberty-vs-golden-state-valkyries-game-highlights', 'dsi': {'href': 'https://www.espn.com/video/clip?id=3b59419924c4a'}}}}, 'ad': {'bundle': 'wnba_top_plays_highlights', 'sport': 'wnba'}, 'tracking': {'coverageType': 'Final Game Highlight', 'leagueName': 'WNBA', 'program': 'WNBA', 'sportName': 'basketball', 'trackingId': 'dm_20260828_WNBA_new_york_liberty_vs_golden_state_valkyries_game_highlights', 'trackingName': 'WNBA_One-Play (New York Liberty vs. Golden State Valkyries - Game Highlights) 2026/08/28 ESHEET'}}]"
 401857177,s:40~l:59~e:401857177~c:401857177,2026-08-27T02:00Z,11558.0,true,false,false,false,2026-08-27T02:00Z,"","",1,STD,0.0,0.0,4.0,3,STATUS_FINAL,post,true,Final,Final,Final,4.0,14,s:40~l:59~t:14,Seattle,Storm,SEA,Seattle Storm,Storm,2c5235,fee11a,true,2184,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png,90,true,131935,s:40~l:59~t:131935,Toronto,Tempo,TOR,Toronto Tempo,Tempo,true,7546,78,false,401857177,2026,2,7224,Climate Pledge Arena,Seattle,WA,,true,33476D,7B1B38,https://a.espncdn.com/i/teamlogos/wnba/500/tor.png,,true,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/json/final/401857177.json,2026-08-26T22:00:00.000000-0400,2026-08-26,true,true,true,true,national,USA Net,"[{'value': 23.0, 'displayValue': '23', 'period': 1.0}
  {'value': 20.0, 'displayValue': '20', 'period': 2.0}
  {'value': 21.0, 'displayValue': '21', 'period': 3.0}
@@ -2609,8 +2627,8 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
         'GQ', 'GT', 'GU', 'GW', 'PA', 'GY', 'PE'], dtype=object), 'type': 'whitelist'}, 'thumbnail': 'https://a.espncdn.com/media/motion/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a.jpg', 'links': {'api': {'artwork': {'href': 'https://artwork.api.espn.com/artwork/collections/media/9bf432e2-cf6b-4ee2-9e12-42c3a73a7f5f'}, 'self': {'href': 'https://content.core.api.espn.com/v1/video/clips/49387681'}}, 'mobile': {'href': 'https://watch.auth.api.espn.com/video/auth/brightcove/9bf432e2-cf6b-4ee2-9e12-42c3a73a7f5f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49387681/chicago-sky-vs-los-angeles-sparks-game-highlights', 'alert': {'href': 'https://m.espn.com/general/video/videoAlert?vid=49387681'}, 'progressiveDownload': {'href': 'https://watch.auth.api.espn.com/video/auth/brightcove/9bf432e2-cf6b-4ee2-9e12-42c3a73a7f5f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49387681/chicago-sky-vs-los-angeles-sparks-game-highlights'}, 'source': {'href': 'https://media.video-cdn.espn.com/motion/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a.mp4'}, 'streaming': {'href': 'https://watch.auth.api.espn.com/video/auth/brightcove/9bf432e2-cf6b-4ee2-9e12-42c3a73a7f5f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49387681/chicago-sky-vs-los-angeles-sparks-game-highlights'}}, 'source': {'href': 'https://media.video-cdn.espn.com/motion/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a_360p30_1464k.mp4', 'HD': {'href': 'https://media.video-cdn.espn.com/motion/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a_720p30_2896k.mp4'}, 'HLS': {'href': 'https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/playlist.m3u8', '9x16': {'href': 'https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/playlist.m3u8'}, 'HD': {'href': 'https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/playlist.m3u8'}, 'cmaf': {'href': 'https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/playlist.m3u8', '9x16': {'href': 'https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/playlist.m3u8'}, 'cmb': None}, 'shield': {'href': 'https://watch.auth.api.espn.com/video/auth/media/9bf432e2-cf6b-4ee2-9e12-42c3a73a7f5f/asset'}, 'cmb': None}, 'flash': {'href': 'https://media.video-cdn.espn.com/motion/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a.smil'}, 'full': {'href': 'https://media.video-cdn.espn.com/motion/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a_360p30_1464k.mp4'}, 'hds': {'href': 'https://hds.video-cdn.espn.com/z/motion/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a_rel.smil/manifest.f4m'}, 'mezzanine': {'href': 'https://media.video-origin.espn.com/espnvideo/wsc/2026/0718/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a/6f5d6704-b943-4cb7-9ef5-c9381cb90f8a.mp4'}}, 'sportscenter': {'href': 'sportscenter://x-callback-url/showVideo?videoID=49387681&videoDSI=e3a1080563324'}, 'web': {'href': 'https://www.espn.com/video/clip/_/id/49387681/chicago-sky-vs-los-angeles-sparks-game-highlights', 'self': {'href': 'https://www.espn.com/video/clip/_/id/49387681/chicago-sky-vs-los-angeles-sparks-game-highlights', 'dsi': {'href': 'https://www.espn.com/video/clip?id=e3a1080563324'}}}}, 'ad': {'bundle': 'wnba_top_plays_highlights', 'sport': 'wnba'}, 'tracking': {'coverageType': 'Final Game Highlight', 'leagueName': 'WNBA', 'program': 'ION', 'sportName': 'basketball', 'trackingId': 'dm_20260717_WNBA_chicago_sky_vs_los_angeles_sparks_game_highlights', 'trackingName': 'WNBA_One-Play (Chicago Sky vs. Los Angeles Sparks - Game Highlights) 2026/07/17 ESHEET'}}]"
 401857072,s:40~l:59~e:401857072~c:401857072,2026-07-17T01:00Z,0.0,true,false,false,false,2026-07-17T01:00Z,event,Travel Issues - Makeup date July 20,1,STD,0.0,0.0,0.0,6,STATUS_POSTPONED,post,false,Postponed,Postponed,Postponed,4.0,3,s:40~l:59~t:3,Dallas,Wings,DAL,Dallas Wings,Wings,002b5c,c4d600,true,3416,https://a.espncdn.com/i/teamlogos/wnba/500/dal.png,0,,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,true,3559,0,,401857072,2026,2,3416,College Park Center,Arlington,TX,,true,86cebc,000000,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,,false,,2026-07-16T21:00:00.000000-0400,2026-07-16,false,false,false,false,"","",,"[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-16'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-6'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]",,"[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-15'}
- {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-5'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]",,"[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '23-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '13-6'}
  {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '10-10'}]","",[]
 401857071,s:40~l:59~e:401857071~c:401857071,2026-07-16T23:00Z,4200.0,true,false,false,false,2026-07-16T23:00Z,"","",1,STD,600.0,10:00,4.0,3,STATUS_FINAL,post,true,Final,Final,Final,4.0,16,s:40~l:59~t:16,Washington,Mystics,WSH,Washington Mystics,Mystics,e03a3e,002b5c,true,5946,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png,56,false,132052,s:40~l:59~t:132052,Portland,Fire,POR,Portland Fire,Fire,true,3423,75,true,401857071,2026,2,5946,CareFirst Arena,Washington,DC,,true,cee5eb,000000,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png,,true,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/json/final/401857071.json,2026-07-16T19:00:00.000000-0400,2026-07-16,true,true,true,true,national,NBA TV,"[{'value': 13.0, 'displayValue': '13', 'period': 1.0}
  {'value': 18.0, 'displayValue': '18', 'period': 2.0}
