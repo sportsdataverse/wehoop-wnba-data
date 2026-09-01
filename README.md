@@ -118,6 +118,78 @@ daily drivers (the `00` role); stage numbers are intended build order, not run o
 [ESPN WNBA Player Boxscores](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_player_boxscores)
 
 
+## Repository layout
+
+<!-- BEGIN GENERATED: layout -->
+
+```
+wehoop-wnba-data/
+├── R/   # R pipeline stages and publish toolchain
+│   ├── espn_wnba_01_pbp_creation.R
+│   ├── espn_wnba_02_team_box_creation.R
+│   ├── espn_wnba_03_player_box_creation.R
+│   ├── espn_wnba_04_rosters_creation.R
+│   ├── espn_wnba_05_player_season_stats_creation.R
+│   ├── espn_wnba_06_team_season_stats_creation.R
+│   ├── espn_wnba_07_standings_creation.R
+│   ├── espn_wnba_08_draft_creation.R
+│   ├── espn_wnba_09_game_rosters_creation.R
+│   ├── espn_wnba_10_officials_creation.R
+│   ├── espn_wnba_16_player_core_creation.R
+│   ├── manifest_upload_helper.R
+│   ├── minify_json_folders.R
+│   ├── run_summary.R
+│   ├── wnba_11_team_crosswalk_creation.R
+│   ├── wnba_12_schedule_crosswalk_creation.R
+│   └── wnba_13_player_crosswalk_creation.R
+├── docs/   # explainers, model reports and dataset docs
+│   └── datasets/
+├── logs/   # per-run logs (gitignored where large)
+├── ops/   # cron definitions and runbooks
+│   ├── init/
+│   ├── _r_no_publish.R
+│   └── output_parity.sh
+├── python/   # Python pipeline stages, numbered in build order
+│   ├── wehoop_wnba_data_build.egg-info/
+│   ├── wnba_data_build/
+│   ├── espn_wnba_01_pbp_creation.py
+│   ├── espn_wnba_02_team_box_creation.py
+│   ├── espn_wnba_03_player_box_creation.py
+│   ├── espn_wnba_04_rosters_creation.py
+│   ├── espn_wnba_05_player_season_stats_creation.py
+│   ├── espn_wnba_06_team_season_stats_creation.py
+│   ├── espn_wnba_07_standings_creation.py
+│   ├── espn_wnba_08_draft_creation.py
+│   ├── espn_wnba_09_game_rosters_creation.py
+│   ├── espn_wnba_10_officials_creation.py
+│   ├── espn_wnba_11_team_crosswalk_creation.py
+│   ├── espn_wnba_12_schedule_crosswalk_creation.py
+│   ├── espn_wnba_13_player_crosswalk_creation.py
+│   ├── espn_wnba_14_schedules_creation.py
+│   └── … 2 more
+├── scripts/   # bash drivers (the daily/weekly entry points)
+│   ├── daily_wnba_R_processor.sh
+│   └── daily_wnba_data_processor.sh
+├── tests/   # test suite
+│   ├── fixtures/
+│   ├── wnba_data_build/
+│   ├── __init__.py
+│   └── test_r_python_parity.py
+├── themes/   # plot themes
+└── wnba/
+    ├── crosswalk/
+    ├── draft/
+    ├── game_rosters/
+    ├── officials/
+    ├── pbp/
+    ├── player_box/
+    ├── player_core/
+    ├── player_season_stats/
+    └── … 6 more
+```
+
+<!-- END GENERATED: layout -->
+
 ## Datasets
 
 <!-- BEGIN GENERATED: datasets -->
