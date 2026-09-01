@@ -194,3 +194,31 @@ daily drivers (the `00` role); stage numbers are intended build order, not run o
 | [`wnba_crosswalk`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/wnba_crosswalk) | 16 | 0.1 MB | 2026-08-24 |
 
 <!-- END GENERATED: status -->
+
+## Consumers
+
+The packages that read what this repo produces:
+
+- **R:** [wehoop](https://wehoop.sportsdataverse.org) — docs at <https://wehoop.sportsdataverse.org>
+- **Python:** [`sportsdataverse.wnba`](https://github.com/sportsdataverse/sportsdataverse-py) — docs at <https://py.sportsdataverse.org>
+
+## Stage inventory
+
+Every numbered pipeline stage in `python/` (auto-listed; run subsets with the `scripts/*.sh` drivers by number or name):
+
+- `python/espn_wnba_01_pbp_creation.py`
+- `python/espn_wnba_02_team_box_creation.py`
+- `python/espn_wnba_03_player_box_creation.py`
+- `python/espn_wnba_04_rosters_creation.py`
+- `python/espn_wnba_05_player_season_stats_creation.py`
+- `python/espn_wnba_06_team_season_stats_creation.py`
+- `python/espn_wnba_07_standings_creation.py`
+- `python/espn_wnba_08_draft_creation.py`
+- `python/espn_wnba_09_game_rosters_creation.py`
+- `python/espn_wnba_10_officials_creation.py`
+- `python/espn_wnba_11_team_crosswalk_creation.py`
+- `python/espn_wnba_12_schedule_crosswalk_creation.py`
+- `python/espn_wnba_13_player_crosswalk_creation.py`
+- `python/espn_wnba_14_schedules_creation.py`
+- `python/espn_wnba_15_shots_creation.py`
+- `python/espn_wnba_16_player_core_creation.py`
