@@ -6,6 +6,9 @@ import pytest
 from wnba_data_build import io, publish
 from wnba_data_build.config import REGISTRY
 
+#: release metadata sidecars -- asserted separately, not a data asset
+SIDECARS = ("timestamp.", "package_function.")
+
 
 def test_publish_uploads_each_file_with_clobber(tmp_path):
     spec = REGISTRY["team_box"]
@@ -18,7 +21,11 @@ def test_publish_uploads_each_file_with_clobber(tmp_path):
         runner=lambda args: calls.append(args),
         exists_check=lambda tag, repo: True,  # release already exists
     )
-    uploads = [c for c in calls if c[:2] == ["release", "upload"]]
+    uploads = [
+        c
+        for c in calls
+        if c[:2] == ["release", "upload"] and not Path(c[3]).name.startswith(SIDECARS)
+    ]
     # team_box is not manifested -> parquet + rds + csv. The tree csv is gzipped,
     # but the release asset contract is plain .csv (decompressed to a temp file).
     # rds is NOT optional: wehoop::load_wnba_* reads rds exclusively, so a
@@ -41,7 +48,11 @@ def test_publish_uploads_manifest_for_manifested_datasets(tmp_path):
         runner=lambda args: calls.append(args),
         exists_check=lambda tag, repo: True,
     )
-    uploads = [c for c in calls if c[:2] == ["release", "upload"]]
+    uploads = [
+        c
+        for c in calls
+        if c[:2] == ["release", "upload"] and not Path(c[3]).name.startswith(SIDECARS)
+    ]
     assets = sorted(Path(c[3]).name for c in uploads)
     # The manifest is load-bearing: wehoop exports load_wnba_standings_manifest().
     assert assets == [
@@ -130,6 +141,10 @@ def test_publish_tolerates_create_race(tmp_path):
         runner=runner,
         exists_check=lambda tag, repo: False,
     )
-    uploads = [c for c in calls if c[:2] == ["release", "upload"]]
+    uploads = [
+        c
+        for c in calls
+        if c[:2] == ["release", "upload"] and not Path(c[3]).name.startswith(SIDECARS)
+    ]
     assert len(uploads) == 3
     assert res["uploaded"] == 3
