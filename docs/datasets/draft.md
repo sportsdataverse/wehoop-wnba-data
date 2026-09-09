@@ -6,9 +6,9 @@
 | **Release tag** | [`espn_wnba_draft`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_draft) |
 | **File stem** | `draft_{season}.{parquet,csv,rds}` |
 | **Seasons built** | 2026 (1 season) |
-| **Last published** | — (newest release asset) |
-| **Tag created** | — |
-| **Release assets** | — |
+| **Last published** | 2026-07-16 (newest release asset) |
+| **Tag created** | 2026-05-11 |
+| **Release assets** | 24 |
 
 ## Automation
 
