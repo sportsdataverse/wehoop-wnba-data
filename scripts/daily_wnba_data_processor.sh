@@ -190,6 +190,31 @@ for i in $(seq "${START_YEAR}" "${END_YEAR}"); do
   fi
 done
 
+# ---- Refresh the generated docs the tests job gates on ----
+# docs/datasets/*.md embed each season's BUILD STAMP, read from the parquet
+# this run just rewrote, and tests.yml gates on those files being current
+# (`wnba_data_build.docs --check --no-live`). Nothing regenerated them, so every
+# SUCCESSFUL daily run made the docs stale and turned the next tests run red --
+# a gate reporting on its own pipeline working. wehoop-wbb-data sat red from
+# 2026-09-06 for exactly this: rosters rebuilt, row count unchanged at 9,778,
+# only the stamp moved.
+#
+# Live, not --no-live: offline mode renders the release-metadata fields as an
+# em dash (the --check gate ignores them, so it never notices), and committing
+# that would erase real information. release_status() swallows every exception
+# and returns empty, so a network failure looks exactly like offline mode --
+# hence the blank-detector below. Fail closed: keep stale docs over blanked
+# ones.
+( cd python && uv run python -m wnba_data_build.docs ) || echo "::warning ::docs regeneration failed"
+if git diff --quiet -- docs README.md CLAUDE.md; then
+  echo "generated docs already current"
+elif git diff -- docs README.md CLAUDE.md | grep -q '^+.*| — |'; then
+  echo "::warning ::docs regeneration lost release metadata (release API unreachable) -- not committing"
+  git checkout -- docs README.md CLAUDE.md
+else
+  sdv_commit_push "docs: refresh generated dataset tables" docs README.md CLAUDE.md || PUSH_RC=1
+fi
+
 # ---- Run summary: updated releases + remaining warnings/errors ----
 # Prints a cli summary to the Action log and (when set) writes markdown to
 # $GITHUB_STEP_SUMMARY so the run's Summary tab shows what landed and what didn't.
