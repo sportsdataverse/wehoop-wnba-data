@@ -108,6 +108,31 @@ for p in "${R_PARQUET}" "${PY_PARQUET}"; do
   [ -f "$p" ] || { echo "::error ::expected artifact missing: $p" >&2; exit 1; }
 done
 
+# --- validation harness ------------------------------------------------------
+# `tools.validation` lives in sportsdataverse-py's REPO, not in its wheel: the
+# package allowlist (`include = ["sportsdataverse*"]`, sdv-py 9a5810fc,
+# 2026-08-27) ships the library and nothing else. This script resolved the
+# import for months anyway, because the previous DENYLIST forgot `tools*` and
+# auto-discovery installed it as a TOP-LEVEL package -- so `import tools` in any
+# downstream project could resolve to sdv-py's. Closing that leak was right;
+# depending on it was not, and this step broke the first week the `@main` git
+# pin re-resolved past the fix. Nothing in this repo changed that day.
+#
+# So point at a CHECKOUT, and expose only `tools` out of it. A symlink in an
+# otherwise-empty dir rather than `PYTHONPATH="${SDV_PY_DIR}"`: sdv-py is
+# flat-layout, so putting its root on the path would ALSO shadow the installed,
+# LOCKED `sportsdataverse` with main's working tree -- quietly comparing the two
+# pipelines against a different library than either of them actually runs.
+SDV_PY_DIR="${SDV_PY_DIR:-${REPO_DIR}/../sportsdataverse-py}"
+if [ ! -d "${SDV_PY_DIR}/tools/validation" ]; then
+  echo "::error ::validation harness not found -- set SDV_PY_DIR to a sportsdataverse-py checkout" >&2
+  echo "looked in: ${SDV_PY_DIR}/tools/validation" >&2
+  exit 2
+fi
+HARNESS="${WORK}/harness"
+mkdir -p "${HARNESS}"
+ln -s "$(cd "${SDV_PY_DIR}" && pwd)/tools" "${HARNESS}/tools"
+
 echo "=== compare ==="
 # --json, then parse. The CLI exits 1 for "findings were reported" AND python
 # exits 1 for "the tool blew up", so the exit code alone cannot tell a real
@@ -117,7 +142,7 @@ echo "=== compare ==="
 FINDINGS="${WORK}/findings.json"
 # JOIN_KEYS is an intentional multi-word list, so it must stay unquoted here.
 # shellcheck disable=SC2086
-( cd "${REPO_DIR}/python" && uv run python -m tools.validation.cli compare \
+( cd "${REPO_DIR}/python" && PYTHONPATH="${HARNESS}" uv run python -m tools.validation.cli compare \
     --dataset "wnba_${DATASET}" --domain wnba \
     --r-parquet "${R_PARQUET}" --py-parquet "${PY_PARQUET}" \
     --join-keys ${JOIN_KEYS} --json ) > "${FINDINGS}" 2> "${WORK}/compare.err"
