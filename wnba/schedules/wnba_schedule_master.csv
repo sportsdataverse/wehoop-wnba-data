@@ -1,4 +1,323 @@
 id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,start_date,notes_type,notes_headline,type_id,type_abbreviation,status_clock,status_display_clock,status_period,status_type_id,status_type_name,status_type_state,status_type_completed,status_type_description,status_type_detail,status_type_short_detail,format_regulation_periods,home_id,home_uid,home_location,home_name,home_abbreviation,home_display_name,home_short_display_name,home_color,home_alternate_color,home_is_active,home_venue_id,home_logo,home_score,home_winner,away_id,away_uid,away_location,away_name,away_abbreviation,away_display_name,away_short_display_name,away_is_active,away_venue_id,away_score,away_winner,game_id,season,season_type,venue_id,venue_full_name,venue_address_city,venue_address_state,venue_capacity,venue_indoor,away_color,away_alternate_color,away_logo,status_type_alt_detail,game_json,game_json_url,game_date_time,game_date,PBP,team_box,player_box,play_by_play_available,broadcast_market,broadcast_name,home_linescores,home_records,away_linescores,away_records,broadcast,highlights
+401918311,s:40~l:59~e:401918311~c:401918311,2026-11-01T00:00Z,0.0,true,false,false,false,2026-11-01T00:00Z,event,WNBA Finals - Game 7 If Necessary,17,FINAL,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sat, October 31st at 8:00 PM EDT",10/31 - 8:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918311,2026,3,,,,,,,,,,,false,,2026-10-31T20:00:00.000000-0400,2026-10-31,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
+401918310,s:40~l:59~e:401918310~c:401918310,2026-10-30T00:00Z,0.0,true,false,false,false,2026-10-30T00:00Z,event,WNBA Finals - Game 6 If Necessary,17,FINAL,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, October 29th at 8:00 PM EDT",10/29 - 8:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918310,2026,3,,,,,,,,,,,false,,2026-10-29T20:00:00.000000-0400,2026-10-29,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
+401918309,s:40~l:59~e:401918309~c:401918309,2026-10-27T00:00Z,0.0,true,false,false,false,2026-10-27T00:00Z,event,WNBA Finals - Game 5 If Necessary,17,FINAL,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Mon, October 26th at 8:00 PM EDT",10/26 - 8:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918309,2026,3,,,,,,,,,,,false,,2026-10-26T20:00:00.000000-0400,2026-10-26,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
+401918308,s:40~l:59~e:401918308~c:401918308,2026-10-24T19:30Z,0.0,true,false,false,false,2026-10-24T19:30Z,event,WNBA Finals - Game 4,17,FINAL,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sat, October 24th at 3:30 PM EDT",10/24 - 3:30 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918308,2026,3,,,,,,,,,,,false,,2026-10-24T15:30:00.000000-0400,2026-10-24,false,false,false,false,national,NBC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",NBC,[]
+401918307,s:40~l:59~e:401918307~c:401918307,2026-10-23T00:00Z,0.0,true,false,false,false,2026-10-23T00:00Z,event,WNBA Finals - Game 3,17,FINAL,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, October 22nd at 8:00 PM EDT",10/22 - 8:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918307,2026,3,,,,,,,,,,,false,,2026-10-22T20:00:00.000000-0400,2026-10-22,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
+401918306,s:40~l:59~e:401918306~c:401918306,2026-10-20T00:00Z,0.0,true,false,false,false,2026-10-20T00:00Z,event,WNBA Finals - Game 2,17,FINAL,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Mon, October 19th at 8:00 PM EDT",10/19 - 8:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918306,2026,3,,,,,,,,,,,false,,2026-10-19T20:00:00.000000-0400,2026-10-19,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
+401918305,s:40~l:59~e:401918305~c:401918305,2026-10-17T19:30Z,0.0,true,false,false,false,2026-10-17T19:30Z,event,WNBA Finals - Game 1,17,FINAL,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sat, October 17th at 3:30 PM EDT",10/17 - 3:30 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918305,2026,3,,,,,,,,,,,false,,2026-10-17T15:30:00.000000-0400,2026-10-17,false,false,false,false,national,NBC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",NBC,[]
+401918303,s:40~l:59~e:401918303~c:401918303,2026-10-14T04:00Z,0.0,false,false,false,false,2026-10-14T04:00Z,event,Semifinals - Game 5 If Necessary,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/14 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918303,2026,3,,,,,,,,,,,false,,2026-10-14T00:00:00.000000-0400,2026-10-14,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN,[]
+401918304,s:40~l:59~e:401918304~c:401918304,2026-10-14T04:00Z,0.0,false,false,false,false,2026-10-14T04:00Z,event,Semifinals - Game 5 If Necessary,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/14 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918304,2026,3,,,,,,,,,,,false,,2026-10-14T00:00:00.000000-0400,2026-10-14,false,false,false,false,national,Peacock,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",Peacock,[]
+401918301,s:40~l:59~e:401918301~c:401918301,2026-10-11T04:00Z,0.0,false,false,false,false,2026-10-11T04:00Z,event,Semifinals - Game 4 If Necessary,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/11 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918301,2026,3,,,,,,,,,,,false,,2026-10-11T00:00:00.000000-0400,2026-10-11,false,false,false,false,national,ABC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ABC,[]
+401918302,s:40~l:59~e:401918302~c:401918302,2026-10-11T04:00Z,0.0,false,false,false,false,2026-10-11T04:00Z,event,Semifinals - Game 4 If Necessary,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/11 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918302,2026,3,,,,,,,,,,,false,,2026-10-11T00:00:00.000000-0400,2026-10-11,false,false,false,false,national,NBC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",NBC,[]
+401918299,s:40~l:59~e:401918299~c:401918299,2026-10-09T04:00Z,0.0,false,false,false,false,2026-10-09T04:00Z,event,Semifinals - Game 3,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/9 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918299,2026,3,,,,,,,,,,,false,,2026-10-09T00:00:00.000000-0400,2026-10-09,false,false,false,false,national,ESPN2,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN2,[]
+401918300,s:40~l:59~e:401918300~c:401918300,2026-10-09T04:00Z,0.0,false,false,false,false,2026-10-09T04:00Z,event,Semifinals - Game 3,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/9 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918300,2026,3,,,,,,,,,,,false,,2026-10-09T00:00:00.000000-0400,2026-10-09,false,false,false,false,national,Peacock,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",Peacock,[]
+401918297,s:40~l:59~e:401918297~c:401918297,2026-10-07T04:00Z,0.0,false,false,false,false,2026-10-07T04:00Z,event,Semifinals - Game 2,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/7 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918297,2026,3,,,,,,,,,,,false,,2026-10-07T00:00:00.000000-0400,2026-10-07,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN,[]
+401918298,s:40~l:59~e:401918298~c:401918298,2026-10-07T04:00Z,0.0,false,false,false,false,2026-10-07T04:00Z,event,Semifinals - Game 2,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/7 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918298,2026,3,,,,,,,,,,,false,,2026-10-07T00:00:00.000000-0400,2026-10-07,false,false,false,false,national,Peacock,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",Peacock,[]
+401918295,s:40~l:59~e:401918295~c:401918295,2026-10-04T04:00Z,0.0,false,false,false,false,2026-10-04T04:00Z,event,Semifinals - Game 1,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/4 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918295,2026,3,,,,,,,,,,,false,,2026-10-04T00:00:00.000000-0400,2026-10-04,false,false,false,false,national,ABC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ABC,[]
+401918296,s:40~l:59~e:401918296~c:401918296,2026-10-04T04:00Z,0.0,false,false,false,false,2026-10-04T04:00Z,event,Semifinals - Game 1,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/4 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918296,2026,3,,,,,,,,,,,false,,2026-10-04T00:00:00.000000-0400,2026-10-04,false,false,false,false,national,NBC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",NBC,[]
+401918293,s:40~l:59~e:401918293~c:401918293,2026-10-02T04:00Z,0.0,false,false,false,false,2026-10-02T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/2 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918293,2026,3,,,,,,,,,,,false,,2026-10-02T00:00:00.000000-0400,2026-10-02,false,false,false,false,national,ESPN2,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN2,[]
+401918294,s:40~l:59~e:401918294~c:401918294,2026-10-02T04:00Z,0.0,false,false,false,false,2026-10-02T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/2 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918294,2026,3,,,,,,,,,,,false,,2026-10-02T00:00:00.000000-0400,2026-10-02,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",Prime Video,[]
+401918021,s:40~l:59~e:401918021~c:401918021,2026-10-01T04:00Z,0.0,false,false,false,false,2026-10-01T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/1 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918021,2026,3,,,,,,,,,,,false,,2026-10-01T00:00:00.000000-0400,2026-10-01,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN,[]
+401918022,s:40~l:59~e:401918022~c:401918022,2026-10-01T04:00Z,0.0,false,false,false,false,2026-10-01T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/1 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918022,2026,3,,,,,,,,,,,false,,2026-10-01T00:00:00.000000-0400,2026-10-01,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
+401918019,s:40~l:59~e:401918019~c:401918019,2026-09-30T04:00Z,0.0,false,false,false,false,2026-09-30T04:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/30 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918019,2026,3,,,,,,,,,,,false,,2026-09-30T00:00:00.000000-0400,2026-09-30,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN,[]
+401918020,s:40~l:59~e:401918020~c:401918020,2026-09-30T04:00Z,0.0,false,false,false,false,2026-09-30T04:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/30 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918020,2026,3,,,,,,,,,,,false,,2026-09-30T00:00:00.000000-0400,2026-09-30,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN,[]
+401918017,s:40~l:59~e:401918017~c:401918017,2026-09-29T04:00Z,0.0,false,false,false,false,2026-09-29T04:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/29 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918017,2026,3,,,,,,,,,,,false,,2026-09-29T00:00:00.000000-0400,2026-09-29,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
+401918018,s:40~l:59~e:401918018~c:401918018,2026-09-29T04:00Z,0.0,false,false,false,false,2026-09-29T04:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/29 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918018,2026,3,,,,,,,,,,,false,,2026-09-29T00:00:00.000000-0400,2026-09-29,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",Prime Video,[]
+401918016,s:40~l:59~e:401918016~c:401918016,2026-09-28T01:00Z,0.0,true,false,false,false,2026-09-28T01:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 9:00 PM EDT",9/27 - 9:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918016,2026,3,,,,,,,,,,,false,,2026-09-27T21:00:00.000000-0400,2026-09-27,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
+401918015,s:40~l:59~e:401918015~c:401918015,2026-09-27T20:00Z,0.0,true,false,false,false,2026-09-27T20:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 4:00 PM EDT",9/27 - 4:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918015,2026,3,,,,,,,,,,,false,,2026-09-27T16:00:00.000000-0400,2026-09-27,false,false,false,false,national,ABC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ABC,[]
+401918014,s:40~l:59~e:401918014~c:401918014,2026-09-27T18:00Z,0.0,true,false,false,false,2026-09-27T18:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 2:00 PM EDT",9/27 - 2:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918014,2026,3,,,,,,,,,,,false,,2026-09-27T14:00:00.000000-0400,2026-09-27,false,false,false,false,national,ABC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ABC,[]
+401918013,s:40~l:59~e:401918013~c:401918013,2026-09-27T04:00Z,0.0,false,false,false,false,2026-09-27T04:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/27 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918013,2026,3,,,,,,,,,,,false,,2026-09-27T00:00:00.000000-0400,2026-09-27,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
+ {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
+ {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",Prime Video,[]
 401857218,s:40~l:59~e:401857218~c:401857218,2026-09-25T02:00Z,0.0,true,false,false,false,2026-09-25T02:00Z,"","",1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Thu, September 24th at 10:00 PM EDT",9/24 - 10:00 PM EDT,4.0,6,s:40~l:59~t:6,Los Angeles,Sparks,LA,Los Angeles Sparks,Sparks,552583,fdb927,true,1841,https://a.espncdn.com/i/teamlogos/wnba/500/la.png,0,,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,true,6270,0,,401857218,2026,2,1841,crypto.com Arena,Los Angeles,CA,,true,b38fcf,000000,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,,false,,2026-09-24T22:00:00.000000-0400,2026-09-24,false,false,false,false,away,KPIX+,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
