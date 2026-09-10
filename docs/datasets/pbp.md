@@ -6,7 +6,7 @@
 | **Release tag** | [`espn_wnba_pbp`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_pbp) |
 | **File stem** | `play_by_play_{season}.{parquet,csv,rds}` |
 | **Seasons built** | — |
-| **Last published** | 2026-09-09 (newest release asset) |
+| **Last published** | 2026-09-10 (newest release asset) |
 | **Tag created** | 2023-03-30 |
 | **Release assets** | 79 |
 
