@@ -6,7 +6,7 @@
 | **Release tag** | [`espn_wnba_player_boxscores`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_player_boxscores) |
 | **File stem** | `player_box_{season}.{parquet,csv,rds}` |
 | **Seasons built** | — |
-| **Last published** | 2026-09-11 (newest release asset) |
+| **Last published** | 2026-09-12 (newest release asset) |
 | **Tag created** | 2023-03-30 |
 | **Release assets** | 79 |
 
