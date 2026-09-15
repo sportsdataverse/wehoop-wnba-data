@@ -83,8 +83,14 @@ jobs:
 
       - name: Resolve season from repository_dispatch payload
         if: ${{ github.event.client_payload.event_name == 'annual_wnba_draft' }}
+        # The subject ("WNBA Draft Update (Start: YYYY End: YYYY)") reaches the shell only
+        # through env, and only an explicit `Start: YYYY` counts -- the old first-4-digits
+        # grep took any year-shaped number in a non-scrape subject.
+        env:
+          COMMIT_MESSAGE: ${{ github.event.client_payload.commit_message }}
         run: |
-          echo SEASON=$(echo "${{ github.event.client_payload.commit_message }}" | grep -o -E '[0-9]{4}' | head -1) >> $GITHUB_ENV
+          season=$(printf '%s' "$COMMIT_MESSAGE" | grep -oE 'Start: *[0-9]{4}' | head -1 | grep -oE '[0-9]{4}')
+          echo "SEASON=$season" >> "$GITHUB_ENV"
 
       - name: Default season to current year when empty
         if: ${{ env.SEASON == '' }}
