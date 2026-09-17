@@ -49,6 +49,13 @@ export WEHOOP_WNBA_RAW_ROOT="${WEHOOP_WNBA_RAW_ROOT:-https://raw.githubuserconte
 export PYTHONUNBUFFERED=1
 export PYTHONIOENCODING=utf-8
 
+# The crosswalk builders' stats.nba.com / stats.wnba.com fetches raise on a
+# refused or throttled request (sportsdataverse-py #522) instead of emitting
+# null ids, and sdv-py retries nothing by default. Retry transient throttles
+# first: 3 retries, linear backoff 5s/10s/15s. Override either from the env.
+export SDV_PY_NBA_STATS_RETRIES="${SDV_PY_NBA_STATS_RETRIES:-3}"
+export SDV_PY_NBA_STATS_BACKOFF="${SDV_PY_NBA_STATS_BACKOFF:-5}"
+
 # Dependency order: pbp/team_box/player_box first (schedules reads their
 # game-id sets; shots read the pbp parquet), then the rest.
 PY_DATASETS="pbp team_box player_box player_core schedules shots rosters player_season_stats team_season_stats standings game_rosters officials"
