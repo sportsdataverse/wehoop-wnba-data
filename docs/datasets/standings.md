@@ -6,7 +6,7 @@
 | **Release tag** | [`espn_wnba_standings`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_standings) |
 | **File stem** | `standings_{season}.{parquet,csv,rds}` |
 | **Seasons built** | 2002–2026 (25 seasons) |
-| **Last published** | 2026-09-21 (newest release asset) |
+| **Last published** | 2026-09-22 (newest release asset) |
 | **Tag created** | 2026-05-11 |
 | **Release assets** | 76 |
 
@@ -293,3 +293,4 @@
 | 2026 | 345 | 2026-09-19 10:39:25 UTC |
 | 2026 | 345 | 2026-09-20 10:40:42 UTC |
 | 2026 | 345 | 2026-09-21 10:40:31 UTC |
+| 2026 | 345 | 2026-09-22 10:39:49 UTC |
