@@ -55,10 +55,31 @@ jobs:
       # `tools` into the wheel as a top-level package; when that leak closed,
       # this job started failing with ModuleNotFoundError on a run where
       # nothing in this repo had changed. Check out the source instead.
-      - name: Checkout sportsdataverse-py (validation harness)
+      #
+      # ...at the SAME commit uv.lock installs, never @main. The harness imports
+      # the installed `sportsdataverse`, and `uv sync` installs the LOCKED sha,
+      # so a @main checkout pairs new tools with an old package: since sdv-py
+      # #553 main's tools import `sportsdataverse.validation`, which the locked
+      # package lacks (runs 35618529923 / 35634979748, ModuleNotFoundError).
+      # Reading the sha from uv.lock keeps them in lockstep -- a lock bump
+      # moves both.
+      - name: Resolve the locked sportsdataverse-py commit
+        id: sdvpy
+        shell: bash
+        run: |
+          sha="$(python3 -c 'import tomllib; l = tomllib.load(open("uv.lock", "rb")); print(next(p["source"]["git"] for p in l["package"] if p["name"] == "sportsdataverse").rsplit("#", 1)[1])')" || sha=""
+          if [[ ! "${sha}" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "::error ::could not read a git commit for sportsdataverse from uv.lock (got '${sha}') -- the harness checkout must match the locked package"
+            exit 1
+          fi
+          echo "sha=${sha}" >> "$GITHUB_OUTPUT"
+          echo "sportsdataverse-py locked at ${sha}"
+
+      - name: Checkout sportsdataverse-py (validation harness, locked commit)
         uses: actions/checkout@v6
         with:
           repository: sportsdataverse/sportsdataverse-py
+          ref: ${{ steps.sdvpy.outputs.sha }}
           path: .sdv-py
 
       - name: Setting up R
