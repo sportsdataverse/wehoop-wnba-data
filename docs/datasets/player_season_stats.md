@@ -6,7 +6,7 @@
 | **Release tag** | [`espn_wnba_player_season_stats`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_player_season_stats) |
 | **File stem** | `player_season_stats_{season}.{parquet,csv,rds}` |
 | **Seasons built** | 2002–2026 (24 seasons, non-contiguous) |
-| **Last published** | 2026-09-25 (newest release asset) |
+| **Last published** | 2026-09-26 (newest release asset) |
 | **Tag created** | 2026-05-11 |
 | **Release assets** | 75 |
 
@@ -286,3 +286,4 @@
 | 2026 | 10,338 | 2026-09-23 10:39:35 UTC |
 | 2026 | 10,338 | 2026-09-24 10:39:25 UTC |
 | 2026 | 10,371 | 2026-09-25 10:39:49 UTC |
+| 2026 | 10,396 | 2026-09-26 10:40:49 UTC |
