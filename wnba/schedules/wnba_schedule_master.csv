@@ -186,138 +186,138 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
  {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
  {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",NBC,[]
-401918293,s:40~l:59~e:401918293~c:401918293,2026-10-02T04:00Z,0.0,false,false,false,false,2026-10-02T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/2 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918293,2026,3,,,,,,,,,,,false,,2026-10-02T00:00:00.000000-0400,2026-10-02,false,false,false,false,national,ESPN2,"[{'value': 0.0, 'displayValue': None, 'period': None}
+401918293,s:40~l:59~e:401918293~c:401918293,2026-10-02T04:00Z,0.0,false,false,false,false,2026-10-02T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/2 - TBD,TBD,4.0,20,s:40~l:59~t:20,Atlanta,Dream,ATL,Atlanta Dream,Dream,e31837,5091cc,true,6282,https://a.espncdn.com/i/teamlogos/wnba/500/atl.png,0,,16,s:40~l:59~t:16,Washington,Mystics,WSH,Washington Mystics,Mystics,true,5946,0,,401918293,2026,3,1827,State Farm Arena,Atlanta,GA,,true,e03a3e,002b5c,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png,,false,,2026-10-02T00:00:00.000000-0400,2026-10-02,false,false,false,false,"","","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '30-14'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '15-7'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN2,[]
-401918294,s:40~l:59~e:401918294~c:401918294,2026-10-02T04:00Z,0.0,false,false,false,false,2026-10-02T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/2 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918294,2026,3,,,,,,,,,,,false,,2026-10-02T00:00:00.000000-0400,2026-10-02,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-9'}]","",[]
+401918294,s:40~l:59~e:401918294~c:401918294,2026-10-02T04:00Z,0.0,false,false,false,false,2026-10-02T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/2 - TBD,TBD,4.0,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,b38fcf,000000,true,6270,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,0,,3,s:40~l:59~t:3,Dallas,Wings,DAL,Dallas Wings,Wings,true,3416,0,,401918294,2026,3,6270,Chase Center,San Francisco,CA,,true,002b5c,c4d600,https://a.espncdn.com/i/teamlogos/wnba/500/dal.png,,false,,2026-10-02T00:00:00.000000-0400,2026-10-02,false,false,false,false,"","","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '32-12'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '17-5'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '15-7'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",Prime Video,[]
-401918021,s:40~l:59~e:401918021~c:401918021,2026-10-01T04:00Z,0.0,false,false,false,false,2026-10-01T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/1 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918021,2026,3,,,,,,,,,,,false,,2026-10-01T00:00:00.000000-0400,2026-10-01,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '27-17'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '16-6'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '11-11'}]","",[]
+401918021,s:40~l:59~e:401918021~c:401918021,2026-10-01T04:00Z,0.0,false,false,false,false,2026-10-01T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/1 - TBD,TBD,4.0,8,s:40~l:59~t:8,Minnesota,Lynx,MIN,Minnesota Lynx,Lynx,266092,79bc43,true,2029,https://a.espncdn.com/i/teamlogos/wnba/500/min.png,0,,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,true,3559,0,,401918021,2026,3,2029,Target Center,Minneapolis,MN,,true,86cebc,000000,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,,false,,2026-10-01T00:00:00.000000-0400,2026-10-01,false,false,false,false,"","","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '33-11'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '18-4'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN,[]
-401918022,s:40~l:59~e:401918022~c:401918022,2026-10-01T04:00Z,0.0,false,false,false,false,2026-10-01T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/1 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918022,2026,3,,,,,,,,,,,false,,2026-10-01T00:00:00.000000-0400,2026-10-01,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '26-18'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '14-8'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-10'}]","",[]
+401918022,s:40~l:59~e:401918022~c:401918022,2026-10-01T04:00Z,0.0,false,false,false,false,2026-10-01T04:00Z,event,First Round - Game 3 If Necessary,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,10/1 - TBD,TBD,4.0,17,s:40~l:59~t:17,Las Vegas,Aces,LV,Las Vegas Aces,Aces,a7a8aa,000000,true,780,https://a.espncdn.com/i/teamlogos/wnba/500/lv.png,0,,5,s:40~l:59~t:5,Indiana,Fever,IND,Indiana Fever,Fever,true,2183,0,,401918022,2026,3,4005,Michelob ULTRA Arena,Las Vegas,NV,,true,002d62,e03a3e,https://a.espncdn.com/i/teamlogos/wnba/500/ind.png,,false,,2026-10-01T00:00:00.000000-0400,2026-10-01,false,false,false,false,"","","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '31-13'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '16-6'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
-401918019,s:40~l:59~e:401918019~c:401918019,2026-09-30T04:00Z,0.0,false,false,false,false,2026-09-30T04:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/30 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918019,2026,3,,,,,,,,,,,false,,2026-09-30T00:00:00.000000-0400,2026-09-30,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-9'}]","",[]
+401918020,s:40~l:59~e:401918020~c:401918020,2026-10-01T01:00Z,0.0,true,false,false,false,2026-10-01T01:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Wed, September 30th at 9:00 PM EDT",9/30 - 9:00 PM EDT,4.0,3,s:40~l:59~t:3,Dallas,Wings,DAL,Dallas Wings,Wings,002b5c,c4d600,true,3416,https://a.espncdn.com/i/teamlogos/wnba/500/dal.png,0,,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,true,6270,0,,401918020,2026,3,3416,College Park Center,Arlington,TX,,true,b38fcf,000000,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,,false,,2026-09-30T21:00:00.000000-0400,2026-09-30,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '27-17'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '16-6'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '11-11'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN,[]
-401918020,s:40~l:59~e:401918020~c:401918020,2026-09-30T04:00Z,0.0,false,false,false,false,2026-09-30T04:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/30 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918020,2026,3,,,,,,,,,,,false,,2026-09-30T00:00:00.000000-0400,2026-09-30,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '32-12'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '17-5'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '15-7'}]",ESPN,[]
+401918019,s:40~l:59~e:401918019~c:401918019,2026-09-30T23:00Z,0.0,true,false,false,false,2026-09-30T23:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Wed, September 30th at 7:00 PM EDT",9/30 - 7:00 PM EDT,4.0,16,s:40~l:59~t:16,Washington,Mystics,WSH,Washington Mystics,Mystics,e03a3e,002b5c,true,5946,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png,0,,20,s:40~l:59~t:20,Atlanta,Dream,ATL,Atlanta Dream,Dream,true,6282,0,,401918019,2026,3,5946,CareFirst Arena,Washington,DC,,true,e31837,5091cc,https://a.espncdn.com/i/teamlogos/wnba/500/atl.png,,false,,2026-09-30T19:00:00.000000-0400,2026-09-30,false,false,false,false,national,ESPN,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-9'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ESPN,[]
-401918017,s:40~l:59~e:401918017~c:401918017,2026-09-29T04:00Z,0.0,false,false,false,false,2026-09-29T04:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/29 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918017,2026,3,,,,,,,,,,,false,,2026-09-29T00:00:00.000000-0400,2026-09-29,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '30-14'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '15-7'}]",ESPN,[]
+401918017,s:40~l:59~e:401918017~c:401918017,2026-09-30T00:30Z,0.0,true,false,false,false,2026-09-30T00:30Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Tue, September 29th at 8:30 PM EDT",9/29 - 8:30 PM EDT,4.0,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,86cebc,000000,true,3559,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,0,,8,s:40~l:59~t:8,Minnesota,Lynx,MIN,Minnesota Lynx,Lynx,true,2029,0,,401918017,2026,3,3559,Barclays Center,Brooklyn,NY,,true,266092,79bc43,https://a.espncdn.com/i/teamlogos/wnba/500/min.png,,false,,2026-09-29T20:30:00.000000-0400,2026-09-29,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '26-18'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '14-8'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-10'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
-401918018,s:40~l:59~e:401918018~c:401918018,2026-09-29T04:00Z,0.0,false,false,false,false,2026-09-29T04:00Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/29 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918018,2026,3,,,,,,,,,,,false,,2026-09-29T00:00:00.000000-0400,2026-09-29,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '33-11'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '18-4'}]",USA Net/CNBC,[]
+401918018,s:40~l:59~e:401918018~c:401918018,2026-09-29T22:30Z,0.0,true,false,false,false,2026-09-29T22:30Z,event,First Round - Game 2,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Tue, September 29th at 6:30 PM EDT",9/29 - 6:30 PM EDT,4.0,5,s:40~l:59~t:5,Indiana,Fever,IND,Indiana Fever,Fever,002d62,e03a3e,true,2183,https://a.espncdn.com/i/teamlogos/wnba/500/ind.png,0,,17,s:40~l:59~t:17,Las Vegas,Aces,LV,Las Vegas Aces,Aces,true,780,0,,401918018,2026,3,2183,Gainbridge Fieldhouse,Indianapolis,IN,,true,a7a8aa,000000,https://a.espncdn.com/i/teamlogos/wnba/500/lv.png,,false,,2026-09-29T18:30:00.000000-0400,2026-09-29,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-9'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",Prime Video,[]
-401918016,s:40~l:59~e:401918016~c:401918016,2026-09-28T01:00Z,0.0,true,false,false,false,2026-09-28T01:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 9:00 PM EDT",9/27 - 9:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918016,2026,3,,,,,,,,,,,false,,2026-09-27T21:00:00.000000-0400,2026-09-27,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '31-13'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '16-6'}]",Prime Video,[]
+401918016,s:40~l:59~e:401918016~c:401918016,2026-09-28T01:00Z,0.0,true,false,false,false,2026-09-28T01:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 9:00 PM EDT",9/27 - 9:00 PM EDT,4.0,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,b38fcf,000000,true,6270,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,0,,3,s:40~l:59~t:3,Dallas,Wings,DAL,Dallas Wings,Wings,true,3416,0,,401918016,2026,3,6270,Chase Center,San Francisco,CA,,true,002b5c,c4d600,https://a.espncdn.com/i/teamlogos/wnba/500/dal.png,,false,,2026-09-27T21:00:00.000000-0400,2026-09-27,false,false,false,false,national,USA Net,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '32-12'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '17-5'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '15-7'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",USA Net,[]
-401918015,s:40~l:59~e:401918015~c:401918015,2026-09-27T20:00Z,0.0,true,false,false,false,2026-09-27T20:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 4:00 PM EDT",9/27 - 4:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918015,2026,3,,,,,,,,,,,false,,2026-09-27T16:00:00.000000-0400,2026-09-27,false,false,false,false,national,ABC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '27-17'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '16-6'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '11-11'}]",USA Net/CNBC,[]
+401918013,s:40~l:59~e:401918013~c:401918013,2026-09-27T23:00Z,0.0,true,false,false,false,2026-09-27T23:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 7:00 PM EDT",9/27 - 7:00 PM EDT,4.0,20,s:40~l:59~t:20,Atlanta,Dream,ATL,Atlanta Dream,Dream,e31837,5091cc,true,6282,https://a.espncdn.com/i/teamlogos/wnba/500/atl.png,0,,16,s:40~l:59~t:16,Washington,Mystics,WSH,Washington Mystics,Mystics,true,5946,0,,401918013,2026,3,1827,State Farm Arena,Atlanta,GA,,true,e03a3e,002b5c,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png,,false,,2026-09-27T19:00:00.000000-0400,2026-09-27,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '30-14'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '15-7'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ABC,[]
-401918014,s:40~l:59~e:401918014~c:401918014,2026-09-27T18:00Z,0.0,true,false,false,false,2026-09-27T18:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 2:00 PM EDT",9/27 - 2:00 PM EDT,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918014,2026,3,,,,,,,,,,,false,,2026-09-27T14:00:00.000000-0400,2026-09-27,false,false,false,false,national,ABC,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-9'}]",Prime Video,[]
+401918015,s:40~l:59~e:401918015~c:401918015,2026-09-27T20:00Z,0.0,true,false,false,false,2026-09-27T20:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 4:00 PM EDT",9/27 - 4:00 PM EDT,4.0,17,s:40~l:59~t:17,Las Vegas,Aces,LV,Las Vegas Aces,Aces,a7a8aa,000000,true,780,https://a.espncdn.com/i/teamlogos/wnba/500/lv.png,0,,5,s:40~l:59~t:5,Indiana,Fever,IND,Indiana Fever,Fever,true,2183,0,,401918015,2026,3,4005,Michelob ULTRA Arena,Las Vegas,NV,,true,002d62,e03a3e,https://a.espncdn.com/i/teamlogos/wnba/500/ind.png,,false,,2026-09-27T16:00:00.000000-0400,2026-09-27,false,false,false,false,national,ABC,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '31-13'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '16-6'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",ABC,[]
-401918013,s:40~l:59~e:401918013~c:401918013,2026-09-27T04:00Z,0.0,false,false,false,false,2026-09-27T04:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,9/27 - TBD,TBD,4.0,-1,s:40~l:59~t:-1,TBD,TBD,TBD,TBD,TBD,,,false,,,0,,-2,s:40~l:59~t:-2,TBD,TBD,TBD,TBD,TBD,false,,0,,401918013,2026,3,,,,,,,,,,,false,,2026-09-27T00:00:00.000000-0400,2026-09-27,false,false,false,false,national,Prime Video,"[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '28-16'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '13-9'}]",ABC,[]
+401918014,s:40~l:59~e:401918014~c:401918014,2026-09-27T18:00Z,0.0,true,false,false,false,2026-09-27T18:00Z,event,First Round - Game 1,14,RD16,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, September 27th at 2:00 PM EDT",9/27 - 2:00 PM EDT,4.0,8,s:40~l:59~t:8,Minnesota,Lynx,MIN,Minnesota Lynx,Lynx,266092,79bc43,true,2029,https://a.espncdn.com/i/teamlogos/wnba/500/min.png,0,,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,true,3559,0,,401918014,2026,3,2029,Target Center,Minneapolis,MN,,true,86cebc,000000,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,,false,,2026-09-27T14:00:00.000000-0400,2026-09-27,false,false,false,false,national,ABC,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '33-11'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '18-4'}]","[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
- {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Game', 'type': 'total', 'summary': '0-0'}
- {'name': 'Home', 'abbreviation': 'null', 'type': 'home', 'summary': '0-0'}
- {'name': 'Road', 'abbreviation': 'null', 'type': 'road', 'summary': '0-0'}]",Prime Video,[]
+ {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '26-18'}
+ {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '14-8'}
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '12-10'}]",ABC,[]
 401857218,s:40~l:59~e:401857218~c:401857218,2026-09-25T02:00Z,15965.0,true,false,false,false,2026-09-25T02:00Z,"","",1,STD,0.0,0.0,4.0,3,STATUS_FINAL,post,true,Final,Final,Final,4.0,6,s:40~l:59~t:6,Los Angeles,Sparks,LA,Los Angeles Sparks,Sparks,552583,fdb927,true,1841,https://a.espncdn.com/i/teamlogos/wnba/500/la.png,75,false,129689,s:40~l:59~t:129689,Golden State,Valkyries,GS,Golden State Valkyries,Valkyries,true,6270,76,true,401857218,2026,2,1841,crypto.com Arena,Los Angeles,CA,,true,b38fcf,000000,https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png,,true,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/json/final/401857218.json,2026-09-24T22:00:00.000000-0400,2026-09-24,true,true,true,true,away,WNBA League Pass,"[{'value': 13.0, 'displayValue': '13', 'period': 1.0}
  {'value': 22.0, 'displayValue': '22', 'period': 2.0}
  {'value': 20.0, 'displayValue': '20', 'period': 3.0}
