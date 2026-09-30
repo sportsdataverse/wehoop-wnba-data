@@ -35,6 +35,10 @@ env:
 
 jobs:
   espn_wnba_draft:
+    # A dispatch from a code-only push to the raw repo carries no 'Start: YYYY':
+    # skip the job rather than build a default season (or fail the parse step
+    # under bash -e, as it did until 2026-09-30). Schedule/manual runs are unaffected.
+    if: "${{ github.event_name != 'repository_dispatch' || contains(github.event.client_payload.commit_message, 'Start:') }}"
     runs-on: ${{ matrix.config.os }}
     name: ESPN WNBA Draft ${{ inputs.season }}
     strategy:
