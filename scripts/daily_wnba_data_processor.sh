@@ -96,6 +96,10 @@ ANY_FAILED=0
 # git's default am backend base64-encodes every parquet blob it replays.
 sdv_commit_push() {
   local msg="$1"; shift
+  # Rotate any tracked *.log over 50 MiB before staging: GitHub's pre-receive hook rejects a
+  # push carrying a blob over 100 MiB, and every later push then carries it too (2026-09-30,
+  # cfb_player_stats_logfile_2026.log at 105 MB). A no-op where the droplet helper is absent.
+  [ -x "${SDV_ROTATE_LOGS:-/mnt/sdv_repos/bin/rotate_tracked_logs.sh}" ] && "${SDV_ROTATE_LOGS:-/mnt/sdv_repos/bin/rotate_tracked_logs.sh}" -- "$@"
   git add -- "$@" >/dev/null 2>&1 || true
   if git diff --cached --quiet; then
     echo "nothing to commit for: $msg"
