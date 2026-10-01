@@ -6,7 +6,7 @@
 | **Release tag** | [`espn_wnba_officials`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_officials) |
 | **File stem** | `officials_{season}.{parquet,csv,rds}` |
 | **Seasons built** | 2003–2026 (24 seasons) |
-| **Last published** | 2026-09-30 (newest release asset) |
+| **Last published** | 2026-10-01 (newest release asset) |
 | **Tag created** | 2026-05-11 |
 | **Release assets** | 73 |
 
@@ -288,3 +288,4 @@
 | 2026 | 1,011 | 2026-09-28 10:41:57 UTC |
 | 2026 | 1,011 | 2026-09-29 10:42:30 UTC |
 | 2026 | 1,019 | 2026-09-30 10:43:47 UTC |
+| 2026 | 1,027 | 2026-10-01 10:42:16 UTC |
