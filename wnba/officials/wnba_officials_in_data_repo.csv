@@ -255,3 +255,4 @@ season,row_count,generated_at_utc,source_endpoint
 2026,1019,2026-09-30 10:43:47 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/<game_id>.json
 2026,1027,2026-10-01 10:42:16 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/<game_id>.json
 2026,1031,2026-10-02 10:42:59 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/<game_id>.json
+2026,1035,2026-10-03 10:41:29 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/officials/json/<game_id>.json
