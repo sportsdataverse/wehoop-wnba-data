@@ -6,7 +6,7 @@
 | **Release tag** | [`espn_wnba_game_rosters`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_game_rosters) |
 | **File stem** | `game_rosters_{season}.{parquet,csv,rds}` |
 | **Seasons built** | 2002–2026 (25 seasons) |
-| **Last published** | 2026-10-03 (newest release asset) |
+| **Last published** | 2026-10-04 (newest release asset) |
 | **Tag created** | 2026-05-11 |
 | **Release assets** | 80 |
 
@@ -299,3 +299,4 @@
 | 2026 | 8,246 | 2026-10-01 10:41:58 UTC |
 | 2026 | 8,267 | 2026-10-02 10:42:35 UTC |
 | 2026 | 8,293 | 2026-10-03 10:41:10 UTC |
+| 2026 | 8,293 | 2026-10-04 10:41:51 UTC |
