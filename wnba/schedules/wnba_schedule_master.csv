@@ -174,7 +174,7 @@ id,uid,date,attendance,time_valid,neutral_site,conference_competition,recent,sta
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}]","[{'name': 'overall', 'abbreviation': 'Total', 'type': 'total', 'summary': '31-13'}
  {'name': 'Home', 'abbreviation': None, 'type': 'home', 'summary': '15-7'}
- {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '16-6'}]",NBC,[]
+ {'name': 'Road', 'abbreviation': None, 'type': 'road', 'summary': '16-6'}]",NBC/Peacock,[]
 401918295,s:40~l:59~e:401918295~c:401918295,2026-10-04T18:00Z,0.0,true,false,false,false,2026-10-04T18:00Z,event,Semifinals - Game 1,1,STD,0.0,0.0,0.0,1,STATUS_SCHEDULED,pre,false,Scheduled,"Sun, October 4th at 2:00 PM EDT",10/4 - 2:00 PM EDT,4.0,20,s:40~l:59~t:20,Atlanta,Dream,ATL,Atlanta Dream,Dream,e31837,5091cc,true,6282,https://a.espncdn.com/i/teamlogos/wnba/500/atl.png,0,,9,s:40~l:59~t:9,New York,Liberty,NY,New York Liberty,Liberty,true,3559,0,,401918295,2026,3,1827,State Farm Arena,Atlanta,GA,,true,86cebc,000000,https://a.espncdn.com/i/teamlogos/wnba/500/ny.png,,false,,2026-10-04T14:00:00.000000-0400,2026-10-04,false,false,false,false,national,ABC,"[{'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
  {'value': 0.0, 'displayValue': None, 'period': None}
