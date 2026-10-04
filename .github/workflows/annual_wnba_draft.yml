@@ -53,8 +53,13 @@ jobs:
       SEASON: ${{ github.event.inputs.season }}
 
     steps:
+      # A run queued in the concurrency group would otherwise check out the SHA of
+      # its trigger, not the branch as it is when the job starts, and build on a
+      # stale tree (wehoop-wnba-stats-data run 37207505807, 2026-10-04).
       - name: Checkout repo
         uses: actions/checkout@v5
+        with:
+          ref: main
 
       - name: Setting up R
         uses: r-lib/actions/setup-r@v2
