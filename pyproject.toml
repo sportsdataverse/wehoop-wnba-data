@@ -11,7 +11,7 @@ dependencies = [
     # null instead of failing, which is the exact silent-defect this producer
     # must not ship.
     "curl_cffi>=0.7",
-    "polars>=1.0,<2.0",
+    "polars>=1.0",
     "pyarrow>=15.0",
     "requests>=2.28",
     "tqdm>=4.66",
