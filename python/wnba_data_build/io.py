@@ -168,3 +168,21 @@ def write_schedule_extras(
         )
         out.extend([pq, csv])
     return out
+
+
+def write_unmatched(
+    df: pl.DataFrame, spec: DatasetSpec, season: int, base: str | Path = "wnba"
+) -> Path | None:
+    """Write a crosswalk's unmatched rows to ``crosswalk/unmatched/`` for triage.
+
+    Not a release asset: ``publish`` only uploads ``{stem}_{season}.*``. Unmatched
+    means ``match_method`` is ``unmatched`` (team, player) or not ``both`` (schedule).
+    """
+    if "match_method" not in df.columns:
+        return None
+    miss = df.filter(pl.col("match_method").is_in(["unmatched", "espn_only", "stats_only"]))
+    out_dir = dataset_dir(spec, Path(base)) / "unmatched"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / f"{spec.stem}_{season}_unmatched.csv"
+    miss.write_csv(path)
+    return path

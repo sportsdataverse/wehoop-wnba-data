@@ -8,6 +8,7 @@ this module is just the registry + per-game glue. Signature contract:
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 import polars as pl
@@ -429,6 +430,30 @@ def _crosswalk_builder(kind: str):
 
     build.__name__ = f"{kind}_crosswalk_builder"
     return build
+
+
+#: Default stats archive for ``--from-archive``: the sibling ``wehoop-wnba-stats-raw`` checkout.
+STATS_ARCHIVE_ROOT = Path(__file__).resolve().parents[3] / "wehoop-wnba-stats-raw/wnba_stats/json"
+
+
+def crosswalk_from_archive(
+    kind: str, season: int, *, archive_root: Path, stats_root: Path | None = None
+) -> pl.DataFrame:
+    """One crosswalk for a PAST season, built offline (``--from-archive``).
+
+    Reads the committed ESPN schedule and game-roster parquet under
+    ``archive_root`` (the repo's ``wnba/`` tree) and the local stats box-score
+    archive, then calls ``sportsdataverse.wnba.wnba_crosswalks_from_archive``.
+    No live ESPN / stats.wnba.com call is made. ``stats_root`` defaults to
+    ``$WEHOOP_WNBA_STATS_RAW_ROOT`` or the sibling checkout.
+    """
+    from sportsdataverse.wnba import wnba_crosswalks_from_archive
+
+    stats = Path(stats_root or os.environ.get("WEHOOP_WNBA_STATS_RAW_ROOT") or STATS_ARCHIVE_ROOT)
+    root = Path(archive_root)
+    schedule = pl.read_parquet(root / "schedules" / "parquet" / f"wnba_schedule_{season}.parquet")
+    rosters = pl.read_parquet(root / "game_rosters" / "parquet" / f"game_rosters_{season}.parquet")
+    return wnba_crosswalks_from_archive(season, schedule, rosters, stats)[kind]
 
 
 SEASON_BUILDERS: dict = {

@@ -31,6 +31,9 @@ def build_season(
     raw_root: str | Path | None = None,
     publish_release: bool = False,
     dry_run: bool = False,
+    from_archive: bool = False,
+    archive_root: str | Path | None = None,
+    stats_root: str | Path | None = None,
 ) -> pl.DataFrame:
     """Build one dataset/season from the raw checkout: reshape, union, write, (opt) publish.
 
@@ -41,6 +44,12 @@ def build_season(
         raw_root: Sibling ``wehoop-wnba-raw`` checkout root (arg > ``WEHOOP_WNBA_RAW_ROOT`` env).
         publish_release: If True, upload the written files via ``publish.publish_dataset``.
         dry_run: If True, run the publish step in dry-run mode (no ``gh`` calls).
+        from_archive: Crosswalks only -- build a past season offline from the
+            ESPN schedule / game-roster parquet under ``archive_root`` (default
+            ``base``) and the stats box-score archive at ``stats_root``, instead
+            of the live sources. Writes a ``crosswalk/unmatched/`` triage csv.
+        archive_root: ESPN parquet tree for ``from_archive`` (default ``base``).
+        stats_root: Stats JSON archive root for ``from_archive``.
 
     Returns:
         pl.DataFrame: The built season frame, or an empty frame if no games qualified.
@@ -65,7 +74,18 @@ def build_season(
         # Season-level datasets (schedules/shots/...) build from the raw season
         # tree and/or already-built parquets -- no per-game loop.
         log.info("%s %s: season-level build starting (raw=%s via %s)", dataset, season, root, mode)
-        out = reshapers.SEASON_BUILDERS[dataset](season, raw_root=root, base=Path(base))
+        if from_archive:
+            if dataset not in reshapers.NO_RAW_INPUT:
+                raise ValueError(f"--from-archive applies to the crosswalks only, not {dataset}")
+            out = reshapers.crosswalk_from_archive(
+                dataset.removesuffix("_crosswalk"),
+                season,
+                archive_root=Path(archive_root or base),
+                stats_root=Path(stats_root) if stats_root else None,
+            )
+            io.write_unmatched(out, spec, season, base=base)
+        else:
+            out = reshapers.SEASON_BUILDERS[dataset](season, raw_root=root, base=Path(base))
         if out.height == 0:
             log.warning(
                 "%s %s: season-level build produced 0 rows; nothing written", dataset, season

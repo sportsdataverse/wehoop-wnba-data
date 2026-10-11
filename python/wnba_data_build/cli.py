@@ -18,6 +18,15 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("-e", "--end", type=int, required=True)
     p.add_argument("--base", default="wnba")
     p.add_argument("--raw-root", default=None)
+    p.add_argument(
+        "--from-archive",
+        action="store_true",
+        help="crosswalks only: build past seasons offline from ESPN parquet + stats box scores",
+    )
+    p.add_argument(
+        "--archive-root", default=None, help="ESPN parquet tree for --from-archive (default --base)"
+    )
+    p.add_argument("--stats-root", default=None, help="stats JSON archive root for --from-archive")
     g = p.add_mutually_exclusive_group()
     g.add_argument("--publish", action="store_true")
     g.add_argument("--dry-run", action="store_true")
@@ -30,6 +39,9 @@ def main(argv: list[str] | None = None) -> int:
             raw_root=a.raw_root,
             publish_release=a.publish,
             dry_run=a.dry_run,
+            from_archive=a.from_archive,
+            archive_root=a.archive_root,
+            stats_root=a.stats_root,
         )
         log.info("%s %s: season complete -- %d rows", a.dataset, season, df.height)
     return 0
