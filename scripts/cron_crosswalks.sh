@@ -4,7 +4,7 @@
 # so daily_wnba.yml skips the crosswalks (SDV_SKIP_CROSSWALKS=1) and this builds them
 # OFFLINE (--from-archive): the committed ESPN schedule + game-roster parquet, joined to the
 # droplet's wehoop-wnba-stats-raw box-score archive (its daily_refresh cron runs at 09:00).
-# The archive path leaves the Fox/Yahoo columns null.
+# The archive path adds the Fox team/player ids live (current season); Yahoo player ids stay null.
 #
 #   bash scripts/cron_crosswalks.sh [-s YYYY] [-n]    # -n = dry run into a temp tree, no commit
 #

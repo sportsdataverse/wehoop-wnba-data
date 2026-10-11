@@ -444,16 +444,19 @@ def crosswalk_from_archive(
     Reads the committed ESPN schedule and game-roster parquet under
     ``archive_root`` (the repo's ``wnba/`` tree) and the local stats box-score
     archive, then calls ``sportsdataverse.wnba.wnba_crosswalks_from_archive``.
-    No live ESPN / stats.wnba.com call is made. ``stats_root`` defaults to
+    No live ESPN / stats.wnba.com call is made. For the current season the team and
+    player crosswalks add the live Fox legs (``fox=True``; Fox rosters are today's,
+    so a past season keeps them null). ``stats_root`` defaults to
     ``$WEHOOP_WNBA_STATS_RAW_ROOT`` or the sibling checkout.
     """
-    from sportsdataverse.wnba import wnba_crosswalks_from_archive
+    from sportsdataverse.wnba import most_recent_wnba_season, wnba_crosswalks_from_archive
 
     stats = Path(stats_root or os.environ.get("WEHOOP_WNBA_STATS_RAW_ROOT") or STATS_ARCHIVE_ROOT)
     root = Path(archive_root)
     schedule = pl.read_parquet(root / "schedules" / "parquet" / f"wnba_schedule_{season}.parquet")
     rosters = pl.read_parquet(root / "game_rosters" / "parquet" / f"game_rosters_{season}.parquet")
-    return wnba_crosswalks_from_archive(season, schedule, rosters, stats)[kind]
+    fox = kind != "schedule" and season == most_recent_wnba_season()
+    return wnba_crosswalks_from_archive(season, schedule, rosters, stats, fox=fox)[kind]
 
 
 SEASON_BUILDERS: dict = {
