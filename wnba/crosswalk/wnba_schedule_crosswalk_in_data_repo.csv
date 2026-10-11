@@ -8,4 +8,5 @@ season,row_count,generated_at_utc,source_endpoint
 2008,259,2026-10-11 16:54:20 UTC,wehoop::wnba_schedule_crosswalk()
 2009,243,2026-10-11 16:56:08 UTC,wehoop::wnba_schedule_crosswalk()
 2010,221,2026-10-11 16:57:59 UTC,wehoop::wnba_schedule_crosswalk()
+2011,225,2026-10-11 16:59:51 UTC,wehoop::wnba_schedule_crosswalk()
 2026,403,2026-09-29 10:43:12 UTC,wehoop::wnba_schedule_crosswalk()
