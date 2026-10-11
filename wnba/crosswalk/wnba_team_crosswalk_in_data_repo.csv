@@ -11,4 +11,5 @@ season,row_count,generated_at_utc,source_endpoint
 2011,14,2026-10-11 16:59:35 UTC,wehoop::wnba_team_crosswalk()
 2012,12,2026-10-11 17:01:25 UTC,wehoop::wnba_team_crosswalk()
 2013,14,2026-10-11 17:03:15 UTC,wehoop::wnba_team_crosswalk()
+2014,14,2026-10-11 17:05:09 UTC,wehoop::wnba_team_crosswalk()
 2026,15,2026-09-29 10:42:45 UTC,wehoop::wnba_team_crosswalk()
