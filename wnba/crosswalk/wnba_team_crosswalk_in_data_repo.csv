@@ -18,7 +18,7 @@ season,row_count,generated_at_utc,source_endpoint
 2018,12,2026-10-11 19:00:57 UTC,wehoop::wnba_team_crosswalk()
 2019,12,2026-10-11 19:02:47 UTC,wehoop::wnba_team_crosswalk()
 2020,12,2026-10-11 19:04:37 UTC,wehoop::wnba_team_crosswalk()
-2021,14,2026-10-11 17:17:56 UTC,wehoop::wnba_team_crosswalk()
+2021,12,2026-10-11 19:06:27 UTC,wehoop::wnba_team_crosswalk()
 2022,14,2026-10-11 17:19:48 UTC,wehoop::wnba_team_crosswalk()
 2023,14,2026-10-11 17:21:36 UTC,wehoop::wnba_team_crosswalk()
 2024,14,2026-10-11 17:23:24 UTC,wehoop::wnba_team_crosswalk()

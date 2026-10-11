@@ -18,7 +18,7 @@ season,row_count,generated_at_utc,source_endpoint
 2018,169,2026-10-11 19:01:13 UTC,wehoop::wnba_player_crosswalk()
 2019,170,2026-10-11 19:03:02 UTC,wehoop::wnba_player_crosswalk()
 2020,163,2026-10-11 19:04:51 UTC,wehoop::wnba_player_crosswalk()
-2021,199,2026-10-11 17:18:34 UTC,wehoop::wnba_player_crosswalk()
+2021,175,2026-10-11 19:06:41 UTC,wehoop::wnba_player_crosswalk()
 2022,208,2026-10-11 17:20:36 UTC,wehoop::wnba_player_crosswalk()
 2023,198,2026-10-11 17:22:07 UTC,wehoop::wnba_player_crosswalk()
 2024,195,2026-10-11 17:23:57 UTC,wehoop::wnba_player_crosswalk()
