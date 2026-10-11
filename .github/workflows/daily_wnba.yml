@@ -119,6 +119,7 @@ jobs:
         env:
           GITHUB_PAT: ${{ secrets.SDV_GH_TOKEN }}   # R piggyback/sportsdataversedata + contents API
           GH_TOKEN: ${{ secrets.SDV_GH_TOKEN }}      # gh CLI publish (wnba_data_build)
+          SDV_SKIP_CROSSWALKS: '1'   # built on the droplet (scripts/cron_crosswalks.sh)
           SPORTSDATAVERSE.UPLOAD.QUIET: FALSE
           SPORTSDATAVERSE.UPLOAD.MAX_TIMES: 20
         run: |

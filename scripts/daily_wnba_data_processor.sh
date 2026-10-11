@@ -63,6 +63,9 @@ PY_DATASETS="pbp team_box player_box player_core schedules shots rosters player_
 # scripts unchanged (design D20 rollback).
 PY_CROSSWALKS="team_crosswalk schedule_crosswalk player_crosswalk"
 R_CROSSWALKS=(R/wnba_11_team_crosswalk_creation.R R/wnba_12_schedule_crosswalk_creation.R R/wnba_13_player_crosswalk_creation.R)
+# stats.wnba.com times out from GitHub runners: daily_wnba.yml sets SDV_SKIP_CROSSWALKS=1 and the
+# droplet builds them from the stats archive instead (scripts/cron_crosswalks.sh, 2026-10-11).
+[ "${SDV_SKIP_CROSSWALKS:-0}" = "1" ] && { PY_CROSSWALKS=""; R_CROSSWALKS=(); }
 # The `-l R` rollback path. R has no counterpart for player_core, schedules or
 # shots (espn_wnba_01 writes the schedules + shots subsets inline) -- hence the
 # gaps, which are deliberate. Draft (08) is annual cadence and intentionally
