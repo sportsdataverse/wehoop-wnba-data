@@ -3,4 +3,5 @@ season,row_count,generated_at_utc,source_endpoint
 2003,208,2026-10-11 16:45:28 UTC,wehoop::wnba_player_crosswalk()
 2004,173,2026-10-11 16:47:37 UTC,wehoop::wnba_player_crosswalk()
 2005,228,2026-10-11 16:49:09 UTC,wehoop::wnba_player_crosswalk()
+2006,213,2026-10-11 16:50:58 UTC,wehoop::wnba_player_crosswalk()
 2026,221,2026-09-29 10:43:33 UTC,wehoop::wnba_player_crosswalk()
