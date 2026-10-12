@@ -458,7 +458,7 @@ def crosswalk_from_archive(
     fox = kind != "schedule"  # Fox team ids join by name for any season; sdv-py fills Fox player ids only for the current season
     # Fox game ids cost one Fox call per game date, so only the current season fetches them.
     fox_games = kind == "schedule" and season == most_recent_wnba_season()
-    return wnba_crosswalks_from_archive(season, schedule, rosters, stats, fox=fox, fox_games=fox_games)[kind]
+    return wnba_crosswalks_from_archive(season, schedule, rosters, stats, fox=fox, fox_games=fox_games, yahoo=kind != "player")[kind]
 
 
 SEASON_BUILDERS: dict = {
