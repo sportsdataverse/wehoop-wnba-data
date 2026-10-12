@@ -14,6 +14,7 @@ loaders, so the manifest assets are load-bearing.
 from __future__ import annotations
 
 import gzip
+import hashlib
 import shutil
 import subprocess
 import tempfile
@@ -38,26 +39,38 @@ def _gh(args: list[str]) -> None:
     subprocess.run(["gh", *args], check=True, stderr=subprocess.PIPE, text=True)
 
 
-def _gh_release_exists(tag: str, repo: str) -> bool:
-    """True when ``tag`` exists on ``repo``.
+def _release_digests(tag: str, repo: str) -> dict[str, str] | None:
+    """``{asset name: "sha256:<hex>"}`` for *tag* in ONE API call; ``None`` = no release.
 
-    Only a genuine "not found" answer from ``gh`` counts as absence -- a rate
-    limit / auth / network failure must never be read as "release missing"
-    (that misreading is what makes the caller run ``release create`` on a tag
-    that already exists and crash the whole publish run).
+    The release object embeds every asset with a GitHub-computed ``digest``, so
+    one listing answers both "does the release exist" and "which assets
+    changed" -- the droplet shares one 5,000/h quota. Only a 404 counts as
+    absence; a rate limit / auth / network failure raises.
     """
     proc = subprocess.run(
-        ["gh", "release", "view", tag, "--repo", repo],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.PIPE,
+        [
+            "gh",
+            "api",
+            f"repos/{repo}/releases/tags/{tag}",
+            "--jq",
+            r'.assets[] | "\(.name)\t\(.digest)"',
+        ],
+        capture_output=True,
         text=True,
+        timeout=120,
     )
-    if proc.returncode == 0:
-        return True
-    stderr = (proc.stderr or "").strip()
-    if "release not found" in stderr.lower():
-        return False
-    raise RuntimeError(f"gh release view {tag} --repo {repo} failed: {stderr}")
+    if proc.returncode:
+        if "404" in (proc.stderr or ""):
+            return None
+        raise RuntimeError(
+            f"gh api releases/tags/{tag} --repo {repo} failed: {proc.stderr.strip()}"
+        )
+    return dict(ln.split("\t", 1) for ln in proc.stdout.splitlines() if "\t" in ln)
+
+
+def _sha256(path: Path) -> str:
+    with open(path, "rb") as fh:
+        return "sha256:" + hashlib.file_digest(fh, "sha256").hexdigest()
 
 
 def _manifest_asset(spec: DatasetSpec, base: Path) -> Path | None:
@@ -165,11 +178,17 @@ def publish_dataset(
             publish.publish_dataset(REGISTRY["team_box"], 2025)
     """
     run = runner or _gh
-    exists = exists_check or _gh_release_exists
     files = _dataset_files(spec, season, Path(base))
     if not files:
         log.warning("%s %s: no files to publish under %s", spec.dataset, season, base)
-    if not dry_run and not exists(spec.tag, repo):
+    remote: dict[str, str] | None = {}
+    if dry_run:
+        pass
+    elif exists_check is not None:  # tests: old existence probe, upload everything
+        remote = {} if exists_check(spec.tag, repo) else None
+    else:
+        remote = _release_digests(spec.tag, repo)
+    if remote is None:
         log.info("release %s missing on %s -- creating it", spec.tag, repo)
         try:
             run(
@@ -193,11 +212,30 @@ def publish_dataset(
                 log.info("release %s already exists on %s -- continuing", spec.tag, repo)
             else:
                 raise
+        remote = {}
+    # The rds embeds a write timestamp and the manifest a generated_at, so neither
+    # ever matches itself; both (and the csv) derive from the parquet. A season
+    # whose parquet matches and whose siblings are all on the release is skipped
+    # whole. The parquet uploads LAST, so a matching parquet means its siblings'
+    # previous upload completed.
+    files.sort(key=lambda f: f.suffix == ".parquet")
+    pq_asset = files[-1] if files and files[-1].suffix == ".parquet" else None
+    if (
+        not dry_run
+        and pq_asset is not None
+        and remote.get(pq_asset.name) == _sha256(pq_asset)
+        and all(f.name in remote for f in files)
+    ):
+        log.info("%s %s: unchanged on %s -- skipped", spec.dataset, season, spec.tag)
+        return {"tag": spec.tag, "files": [str(f) for f in files], "uploaded": 0}
     count = 0
     for f in files:
         size = human_size(f.stat().st_size)
         if dry_run:
             log.info("[dry-run] upload %s (%s) -> %s:%s", f, size, repo, spec.tag)
+            continue
+        if f is not pq_asset and remote.get(f.name) == _sha256(f):
+            log.info("unchanged %s on %s -- skipped", f.name, spec.tag)
             continue
         log.info("uploading %s (%s) -> %s:%s", f.name, size, repo, spec.tag)
         run(["release", "upload", spec.tag, str(f), "--repo", repo, "--clobber"])
@@ -234,11 +272,15 @@ def publish_files(
         dict: ``{"tag": ..., "files": [...], "uploaded": <count>}``.
     """
     run = runner or _gh
+    remote = {} if dry_run or runner is not None else (_release_digests(tag, repo) or {})
     count = 0
     for f in files:
         size = human_size(f.stat().st_size)
         if dry_run:
             log.info("[dry-run] upload %s (%s) -> %s:%s", f, size, repo, tag)
+            continue
+        if remote.get(f.name) == _sha256(f):
+            log.info("unchanged %s on %s -- skipped", f.name, tag)
             continue
         log.info("uploading %s (%s) -> %s:%s", f.name, size, repo, tag)
         run(["release", "upload", tag, str(f), "--repo", repo, "--clobber"])

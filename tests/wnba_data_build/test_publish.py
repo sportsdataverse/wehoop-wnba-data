@@ -93,32 +93,36 @@ def test_publish_creates_release_when_missing(tmp_path):
     assert any(c[:2] == ["release", "create"] for c in calls)
 
 
-def test_gh_release_exists_true_on_zero_exit(monkeypatch):
+def test_release_digests_parses_the_listing(monkeypatch):
     def fake_run(*args, **kwargs):
-        return subprocess.CompletedProcess(args, 0, stdout="", stderr="")
+        return subprocess.CompletedProcess(
+            args, 0, stdout="a.parquet\tsha256:aa\nb.rds\tnull\n", stderr=""
+        )
 
     monkeypatch.setattr(publish.subprocess, "run", fake_run)
-    assert publish._gh_release_exists("tag", "repo") is True
+    assert publish._release_digests("tag", "repo") == {"a.parquet": "sha256:aa", "b.rds": "null"}
 
 
-def test_gh_release_exists_false_on_genuine_not_found(monkeypatch):
+def test_release_digests_none_on_genuine_not_found(monkeypatch):
     def fake_run(*args, **kwargs):
-        return subprocess.CompletedProcess(args, 1, stdout="", stderr="release not found")
+        return subprocess.CompletedProcess(args, 1, stdout="", stderr="gh: Not Found (HTTP 404)")
 
     monkeypatch.setattr(publish.subprocess, "run", fake_run)
-    assert publish._gh_release_exists("tag", "repo") is False
+    assert publish._release_digests("tag", "repo") is None
 
 
-def test_gh_release_exists_raises_loudly_on_other_failure(monkeypatch):
+def test_release_digests_raises_loudly_on_other_failure(monkeypatch):
     # Regression: a rate-limit / auth / network failure must never be read as
     # "release missing" -- that's the 2026-08-23 incident (fail-open crashed
     # a backfill mid-publish because `gh release create` ran on a live tag).
     def fake_run(*args, **kwargs):
-        return subprocess.CompletedProcess(args, 1, stdout="", stderr="API rate limit exceeded")
+        return subprocess.CompletedProcess(
+            args, 1, stdout="", stderr="API rate limit exceeded (HTTP 403)"
+        )
 
     monkeypatch.setattr(publish.subprocess, "run", fake_run)
     with pytest.raises(RuntimeError, match="rate limit"):
-        publish._gh_release_exists("tag", "repo")
+        publish._release_digests("tag", "repo")
 
 
 def test_publish_tolerates_create_race(tmp_path):
@@ -148,3 +152,54 @@ def test_publish_tolerates_create_race(tmp_path):
     ]
     assert len(uploads) == 3
     assert res["uploaded"] == 3
+
+
+def _standings(tmp_path):
+    spec = REGISTRY["standings"]  # manifested: parquet + rds + csv + manifest
+    io.write_dataset(pl.DataFrame({"team_id": [1]}), spec, 2025, base=tmp_path)
+    return spec, publish._dataset_files(spec, 2025, tmp_path)
+
+
+def _publish_against(monkeypatch, tmp_path, spec, listing):
+    monkeypatch.setattr(publish, "_release_digests", lambda tag, repo: listing)
+    calls = []
+    res = publish.publish_dataset(spec, 2025, base=tmp_path, runner=calls.append)
+    return res, [Path(c[3]).name for c in calls if c[:2] == ["release", "upload"]], calls
+
+
+def test_unchanged_parquet_skips_season_even_though_rds_and_manifest_restamped(
+    tmp_path, monkeypatch
+):
+    spec, files = _standings(tmp_path)
+    listing = {f.name: "sha256:yesterdays-bytes" for f in files}
+    pq = next(f for f in files if f.suffix == ".parquet")
+    listing[pq.name] = publish._sha256(pq)
+    res, uploads, calls = _publish_against(monkeypatch, tmp_path, spec, listing)
+    assert res["uploaded"] == 0 and calls == []  # no upload, no sidecar stamp
+
+
+def test_changed_parquet_uploads_changed_files_parquet_last_then_stamps(tmp_path, monkeypatch):
+    spec, files = _standings(tmp_path)
+    listing = {f.name: publish._sha256(f) for f in files}
+    pq = next(f for f in files if f.suffix == ".parquet")
+    rds = next(f for f in files if f.suffix == ".rds")
+    listing[pq.name] = listing[rds.name] = "sha256:stale"
+    res, uploads, _calls = _publish_against(monkeypatch, tmp_path, spec, listing)
+    assert uploads[:2] == [rds.name, pq.name]  # csv + manifest unchanged -> skipped
+    assert len(uploads) == 2 + 4 and res["uploaded"] == 2
+
+
+def test_missing_sibling_uploads_even_when_parquet_matches(tmp_path, monkeypatch):
+    spec, files = _standings(tmp_path)
+    pq = next(f for f in files if f.suffix == ".parquet")
+    _res, uploads, _calls = _publish_against(
+        monkeypatch, tmp_path, spec, {pq.name: publish._sha256(pq)}
+    )
+    assert uploads[: len(files)][-1] == pq.name and len(uploads) == len(files) + 4
+
+
+def test_no_release_creates_it_then_uploads_everything(tmp_path, monkeypatch):
+    spec, files = _standings(tmp_path)
+    res, uploads, calls = _publish_against(monkeypatch, tmp_path, spec, None)
+    assert calls[0][:3] == ["release", "create", spec.tag]
+    assert res["uploaded"] == len(files) and uploads[len(files) - 1].endswith(".parquet")
