@@ -5,10 +5,10 @@
 | **Builder** | [`python/espn_wnba_11_team_crosswalk_creation.py`](../../python/espn_wnba_11_team_crosswalk_creation.py) |
 | **Release tag** | [`wnba_crosswalk`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/wnba_crosswalk) |
 | **File stem** | `wnba_team_crosswalk_{season}.{parquet,csv,rds}` |
-| **Seasons built** | 2026 (1 season) |
-| **Last published** | 2026-09-29 (newest release asset) |
+| **Seasons built** | 2002–2026 (25 seasons) |
+| **Last published** | 2026-10-12 (newest release asset) |
 | **Tag created** | 2026-06-13 |
-| **Release assets** | 16 |
+| **Release assets** | 232 |
 
 ## Automation
 
@@ -42,4 +42,28 @@
 
 | season | rows | built (UTC) |
 |---:|---:|---|
-| 2026 | 15 | 2026-09-29 10:42:45 UTC |
+| 2002 | 16 | 2026-10-11 20:38:02 UTC |
+| 2003 | 14 | 2026-10-11 20:38:43 UTC |
+| 2004 | 13 | 2026-10-11 20:39:28 UTC |
+| 2005 | 13 | 2026-10-11 20:40:13 UTC |
+| 2006 | 14 | 2026-10-11 20:40:58 UTC |
+| 2007 | 13 | 2026-10-11 20:41:43 UTC |
+| 2008 | 14 | 2026-10-11 20:42:28 UTC |
+| 2009 | 13 | 2026-10-11 20:43:13 UTC |
+| 2010 | 12 | 2026-10-11 20:43:58 UTC |
+| 2011 | 12 | 2026-10-11 20:44:42 UTC |
+| 2012 | 12 | 2026-10-11 20:45:32 UTC |
+| 2013 | 12 | 2026-10-11 20:46:14 UTC |
+| 2014 | 12 | 2026-10-11 20:46:58 UTC |
+| 2015 | 12 | 2026-10-11 20:47:43 UTC |
+| 2016 | 12 | 2026-10-11 20:48:29 UTC |
+| 2017 | 12 | 2026-10-11 20:49:13 UTC |
+| 2018 | 12 | 2026-10-11 20:49:59 UTC |
+| 2019 | 12 | 2026-10-11 20:50:43 UTC |
+| 2020 | 12 | 2026-10-11 20:51:29 UTC |
+| 2021 | 12 | 2026-10-11 20:52:14 UTC |
+| 2022 | 12 | 2026-10-11 20:52:58 UTC |
+| 2023 | 12 | 2026-10-11 20:53:43 UTC |
+| 2024 | 12 | 2026-10-11 20:54:29 UTC |
+| 2025 | 13 | 2026-10-11 20:55:14 UTC |
+| 2026 | 15 | 2026-10-11 20:56:10 UTC |
