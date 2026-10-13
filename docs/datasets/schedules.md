@@ -8,7 +8,7 @@
 | **Seasons built** | — |
 | **Last published** | 2026-10-13 (newest release asset) |
 | **Tag created** | 2023-03-30 |
-| **Release assets** | 88 |
+| **Release assets** | 91 |
 
 ## Automation
 
