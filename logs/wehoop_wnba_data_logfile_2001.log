@@ -1,0 +1,97 @@
+From https://github.com/sportsdataverse/wehoop-wnba-data
+ * [new branch]        AE/remove-qs           -> origin/AE/remove-qs
+ * [new branch]        feat/release-sidecars  -> origin/feat/release-sidecars
+ * [new branch]        feat/wnba-ci-cutover-python -> origin/feat/wnba-ci-cutover-python
+ * [new branch]        feat/wnba-native-rds   -> origin/feat/wnba-native-rds
+ * [new branch]        feat/wnba-parallel-repoint -> origin/feat/wnba-parallel-repoint
+ * [new branch]        feat/wnba-player-core-daily -> origin/feat/wnba-player-core-daily
+ * [new branch]        feat/wnba-player-core-dataset -> origin/feat/wnba-player-core-dataset
+ * [new branch]        feat/wnba-player-core-rds -> origin/feat/wnba-player-core-rds
+ * [new branch]        feat/wnba-player-core-tree -> origin/feat/wnba-player-core-tree
+ * [new branch]        feat/wnba-python-producer -> origin/feat/wnba-python-producer
+ * [new branch]        feat/wnba-python-rollback-gate -> origin/feat/wnba-python-rollback-gate
+ * [new branch]        fix/player-core-manifest -> origin/fix/player-core-manifest
+ * [new branch]        fix/uv-source-git-main -> origin/fix/uv-source-git-main
+::group::wnba_data_build pbp 2001
+2026-10-13 23:16:45 [INFO] wnba_data_build: pbp 2001: per-game build starting -- 22 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:16:45 [WARNING] wnba_data_build: pbp 2001: 0 games reshaped; nothing written
+2026-10-13 23:16:45 [INFO] wnba_data_build: pbp 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build team_box 2001
+2026-10-13 23:16:47 [INFO] wnba_data_build: team_box 2001: per-game build starting -- 22 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:16:47 [WARNING] wnba_data_build: team_box 2001: 0 games reshaped; nothing written
+2026-10-13 23:16:47 [INFO] wnba_data_build: team_box 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build player_box 2001
+2026-10-13 23:16:49 [INFO] wnba_data_build: player_box 2001: per-game build starting -- 22 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:16:49 [WARNING] wnba_data_build: player_box 2001: 0 games reshaped; nothing written
+2026-10-13 23:16:49 [INFO] wnba_data_build: player_box 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build player_core 2001
+2026-10-13 23:16:50 [INFO] wnba_data_build: player_core 2001: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:16:50 [WARNING] wnba_data_build: player_core 2001: no built player_box parquet at ../wnba/player_box/parquet/player_box_2001.parquet -- cannot resolve which athletes played this season (build player_box first)
+2026-10-13 23:16:50 [WARNING] wnba_data_build: player_core 2001: season-level build produced 0 rows; nothing written
+2026-10-13 23:16:50 [INFO] wnba_data_build: player_core 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build schedules 2001
+2026-10-13 23:16:52 [INFO] wnba_data_build: schedules 2001: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:16:52 [WARNING] wnba_data_build: pbp 2001: no built parquet at ../wnba/pbp/parquet/play_by_play_2001.parquet -- schedule flags for it will all be False
+2026-10-13 23:16:52 [WARNING] wnba_data_build: team_box 2001: no built parquet at ../wnba/team_box/parquet/team_box_2001.parquet -- schedule flags for it will all be False
+2026-10-13 23:16:52 [WARNING] wnba_data_build: player_box 2001: no built parquet at ../wnba/player_box/parquet/player_box_2001.parquet -- schedule flags for it will all be False
+2026-10-13 23:16:52 [INFO] wnba_data_build: wrote ../wnba/schedules/parquet/wnba_schedule_2001.parquet (51.2KB) + wnba_schedule_2001.csv (387.0KB) + wnba_schedule_2001.rds (26.7KB), 280 rows x 78 cols; manifest n/a (not manifested)
+2026-10-13 23:16:53 [INFO] wnba_data_build: uploading wnba_schedule_2001.rds (26.7KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-13 23:16:54 [INFO] wnba_data_build: uploaded wnba_schedule_2001.rds -> espn_wnba_schedules (asset 1/3)
+2026-10-13 23:16:54 [INFO] wnba_data_build: uploading wnba_schedule_2001.csv (387.0KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-13 23:16:56 [INFO] wnba_data_build: uploaded wnba_schedule_2001.csv -> espn_wnba_schedules (asset 2/3)
+2026-10-13 23:16:56 [INFO] wnba_data_build: uploading wnba_schedule_2001.parquet (51.2KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-13 23:16:57 [INFO] wnba_data_build: uploaded wnba_schedule_2001.parquet -> espn_wnba_schedules (asset 3/3)
+2026-10-13 23:17:03 [INFO] wnba_data_build: stamped espn_wnba_schedules with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-13 23:17:04 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_schedule_master.parquet (502.9KB), 6620 rows x 80 cols
+2026-10-13 23:17:04 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_games_in_data_repo.parquet (463.4KB), 5980 rows x 80 cols
+2026-10-13 23:17:04 [INFO] wnba_data_build: uploading wnba_schedule_master.parquet (502.9KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-13 23:17:06 [INFO] wnba_data_build: uploaded wnba_schedule_master.parquet -> espn_wnba_schedules (asset 1/4)
+2026-10-13 23:17:06 [INFO] wnba_data_build: uploading wnba_schedule_master.csv (7.7MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-13 23:17:08 [INFO] wnba_data_build: uploaded wnba_schedule_master.csv -> espn_wnba_schedules (asset 2/4)
+2026-10-13 23:17:08 [INFO] wnba_data_build: unchanged wnba_games_in_data_repo.parquet on espn_wnba_schedules -- skipped
+2026-10-13 23:17:08 [INFO] wnba_data_build: unchanged wnba_games_in_data_repo.csv on espn_wnba_schedules -- skipped
+2026-10-13 23:17:15 [INFO] wnba_data_build: stamped espn_wnba_schedules with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-13 23:17:15 [INFO] wnba_data_build: schedules 2001: done -- 280 rows in 22.7s
+2026-10-13 23:17:15 [INFO] wnba_data_build: schedules 2001: season complete -- 280 rows
+::endgroup::
+::group::wnba_data_build shots 2001
+2026-10-13 23:17:16 [INFO] wnba_data_build: shots 2001: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:17:16 [WARNING] wnba_data_build: shots 2001: season-level build produced 0 rows; nothing written
+2026-10-13 23:17:16 [INFO] wnba_data_build: shots 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build rosters 2001
+2026-10-13 23:17:18 [INFO] wnba_data_build: rosters 2001: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:17:18 [WARNING] wnba_data_build: rosters 2001: season-level build produced 0 rows; nothing written
+2026-10-13 23:17:18 [INFO] wnba_data_build: rosters 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build player_season_stats 2001
+2026-10-13 23:17:20 [INFO] wnba_data_build: player_season_stats 2001: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:17:20 [WARNING] wnba_data_build: player_season_stats 2001: season-level build produced 0 rows; nothing written
+2026-10-13 23:17:20 [INFO] wnba_data_build: player_season_stats 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build team_season_stats 2001
+2026-10-13 23:17:22 [INFO] wnba_data_build: team_season_stats 2001: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:17:22 [WARNING] wnba_data_build: team_season_stats 2001: season-level build produced 0 rows; nothing written
+2026-10-13 23:17:22 [INFO] wnba_data_build: team_season_stats 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build standings 2001
+2026-10-13 23:17:24 [INFO] wnba_data_build: standings 2001: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:17:24 [WARNING] wnba_data_build: standings 2001: season-level build produced 0 rows; nothing written
+2026-10-13 23:17:24 [INFO] wnba_data_build: standings 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build game_rosters 2001
+2026-10-13 23:17:25 [INFO] wnba_data_build: game_rosters 2001: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:17:26 [WARNING] wnba_data_build: game_rosters 2001: season-level build produced 0 rows; nothing written
+2026-10-13 23:17:26 [INFO] wnba_data_build: game_rosters 2001: season complete -- 0 rows
+::endgroup::
+::group::wnba_data_build officials 2001
+2026-10-13 23:17:28 [INFO] wnba_data_build: officials 2001: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-13 23:17:28 [WARNING] wnba_data_build: officials 2001: season-level build produced 0 rows; nothing written
+2026-10-13 23:17:28 [INFO] wnba_data_build: officials 2001: season complete -- 0 rows
+::endgroup::
+season 2001 EXIT=0
+pushed: WNBA Data Update (Start: 2001 End: 2001) (attempt 1)
