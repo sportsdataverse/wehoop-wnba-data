@@ -164,6 +164,102 @@ def _built_game_ids(base: Path, dataset: str, stem: str, season: int) -> list[in
     )
 
 
+# Scoreboard-shaped dtypes (the current raw scraper's) so helper_wnba_schedule
+# renders the filled columns with the same released repr as 2023+ rows.
+_RECORDS_DTYPE = pl.List(
+    pl.Struct({"name": pl.Utf8, "abbreviation": pl.Utf8, "type": pl.Utf8, "summary": pl.Utf8})
+)
+_LINESCORES_DTYPE = pl.List(
+    pl.Struct({"value": pl.Float64, "displayValue": pl.Utf8, "period": pl.Float64})
+)
+# ESPN scoreboard record names by record type.
+_RECORD_NAMES = {"total": "overall", "home": "Home", "road": "Road"}
+
+
+def _float_or_none(v: object) -> float | None:
+    try:
+        return float(v)  # type: ignore[arg-type]
+    except (TypeError, ValueError):
+        return None
+
+
+def _final_competitor_cols(final: dict | None) -> dict[str, list | None]:
+    """``{home,away}_{records,linescores}`` from a final's header competitors."""
+    out: dict[str, list | None] = {}
+    comps = (
+        ((((final or {}).get("header") or {}).get("competitions") or [{}])[0]).get("competitors")
+        or []
+    )
+    for side in ("home", "away"):
+        c = next((c for c in comps if c.get("homeAway") == side), None)
+        if c is None:
+            out[f"{side}_records"] = out[f"{side}_linescores"] = None
+            continue
+        out[f"{side}_records"] = [
+            {
+                "name": _RECORD_NAMES.get(r.get("type")),
+                "abbreviation": None,
+                "type": r.get("type"),
+                "summary": r.get("summary"),
+            }
+            for r in c.get("record") or []
+        ]
+        out[f"{side}_linescores"] = [
+            {
+                "value": _float_or_none(ls.get("displayValue")),
+                "displayValue": ls.get("displayValue"),
+                "period": float(i),
+            }
+            for i, ls in enumerate(c.get("linescores") or [], start=1)
+        ]
+    return out
+
+
+def _fill_records_linescores(raw: pl.DataFrame, raw_root: Path | str) -> pl.DataFrame:
+    """Add record/linescore columns the raw schedule lacks, from each game's final.
+
+    wehoop-wnba-raw's 2002-2022 schedule parquets were last scraped 2023-04-08 by
+    a scoreboard parser that emitted no ``{home,away}_{records,linescores}``, so
+    those seasons shipped without them. The final summary carries both under
+    ``header.competitions[0].competitors[]``. Seasons whose raw schedule has the
+    columns (1997-2001, 2023+) pass through untouched.
+    """
+    from wnba_data_build import ingest
+
+    cols = {
+        "home_linescores": _LINESCORES_DTYPE,
+        "home_records": _RECORDS_DTYPE,
+        "away_linescores": _LINESCORES_DTYPE,
+        "away_records": _RECORDS_DTYPE,
+    }
+    # ponytail: fills wholly-absent columns only; per-row nulls in a present
+    # column are left alone (none observed -- coalesce there if that changes).
+    missing = [c for c in cols if c not in raw.columns]
+    if not missing:
+        return raw
+    gids = raw.get_column("game_id").cast(pl.Int64).to_list()
+    has_json = (
+        raw.get_column("game_json").fill_null(False).to_list()
+        if "game_json" in raw.columns
+        else [True] * raw.height
+    )
+
+    def _one(i: int) -> dict[str, list | None]:
+        if gids[i] is None or not has_json[i]:
+            return {}
+        return _final_competitor_cols(ingest.read_final(gids[i], raw_root=raw_root))
+
+    per_row = ingest.parallel_map(_one, range(raw.height))
+    log.info(
+        "schedules: raw lacks %s -- filled from %d final summaries",
+        missing,
+        sum(1 for r in per_row if r.get("home_records") is not None),
+    )
+    return raw.with_columns(
+        [pl.Series(c, [r.get(c) for r in per_row], dtype=cols[c]) for c in missing]
+    )
+
+
 def schedules_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFrame:
     """Released schedule = raw schedule + casts/dates + PBP/team_box/player_box flags."""
     from wnba_data_build import ingest
@@ -176,6 +272,7 @@ def schedules_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFram
         raise FileNotFoundError(
             f"raw wnba schedule parquet for {season} not found under {raw_root}"
         )
+    raw = _fill_records_linescores(raw, raw_root)
     return helper_wnba_schedule(
         raw,
         pbp_game_ids=_built_game_ids(base, "pbp", "play_by_play", season),
@@ -455,10 +552,14 @@ def crosswalk_from_archive(
     root = Path(archive_root)
     schedule = pl.read_parquet(root / "schedules" / "parquet" / f"wnba_schedule_{season}.parquet")
     rosters = pl.read_parquet(root / "game_rosters" / "parquet" / f"game_rosters_{season}.parquet")
-    fox = kind != "schedule"  # Fox team ids join by name for any season; sdv-py fills Fox player ids only for the current season
+    fox = (
+        kind != "schedule"
+    )  # Fox team ids join by name for any season; sdv-py fills Fox player ids only for the current season
     # Fox game ids cost one Fox call per game date, so only the current season fetches them.
     fox_games = kind == "schedule" and season == most_recent_wnba_season()
-    return wnba_crosswalks_from_archive(season, schedule, rosters, stats, fox=fox, fox_games=fox_games, yahoo=kind != "player")[kind]
+    return wnba_crosswalks_from_archive(
+        season, schedule, rosters, stats, fox=fox, fox_games=fox_games, yahoo=kind != "player"
+    )[kind]
 
 
 SEASON_BUILDERS: dict = {

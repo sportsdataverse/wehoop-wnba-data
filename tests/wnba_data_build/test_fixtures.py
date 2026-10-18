@@ -12,9 +12,10 @@ def test_released_oracle_present_and_small():
 
 
 def test_raw_fixtures_present():
-    # 3 season-2025 games + 3 season-2026 games (second fixture wave).
+    # 3 season-2025 games + 3 season-2026 games (second fixture wave) + one
+    # 2005 game (raw schedule without records/linescores columns).
     finals = list((FX / "raw" / "wnba" / "json" / "final").glob("*.json"))
-    assert len(finals) == 6
+    assert len(finals) == 7
     for season in (2025, 2026):
         sched = pl.read_parquet(
             FX / "raw" / "wnba" / "schedules" / "parquet" / f"wnba_schedule_{season}.parquet"

@@ -18,6 +18,7 @@ real checkout. Captured 2026-07-12.
 | `wnba/player_season_stats/json/2025/{924,2529047,2955898,3058893,3142055}.json` | five athletes of those teams |
 | `wnba/standings/json/2025.json`, `wnba/draft/json/2026.json` | whole-season payloads |
 | `wnba/schedules/parquet/wnba_schedule_{2025,2026}.parquet` | **trimmed** to the three fixture games of each season (the only edit to any raw file — a row filter, no column or value changes) |
+| `wnba/json/final/250603003.json` + `wnba/schedules/parquet/wnba_schedule_2005.parquet` | 2005 game NYL @ TUL (captured 2026-10-18); schedule **trimmed** to that one game. The 2005 raw schedule has no records/linescores columns (2002-2022 raw schedules predate them) |
 
 The `json/final/*.json` payloads are the *processed* sdv-py vintage the raw repo
 actually commits (flat dotted play keys, engineered features baked in), not the
