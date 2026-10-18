@@ -45,6 +45,9 @@ def test_pbp_parity(season, tmp_path):
     )
     oracle = FX / "released" / f"play_by_play_{season}.parquet"
     sample = [c for c in pl.read_parquet_schema(str(oracle)) if c not in KEYS and c not in SCORE_COLS]
+    assert "score_source" in py.columns
+    for c in SCORE_COLS:  # left the value comparison; keep the dtype contract
+        assert py.schema[c] == pl.read_parquet_schema(str(oracle))[c], c
     assert_parquet_parity(
         py,
         oracle,
