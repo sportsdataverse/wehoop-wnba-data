@@ -24,6 +24,11 @@ KEYS = ["game_id", "game_play_number"]
 
 
 NAME_COLS = ("athlete_name_1", "athlete_name_2", "athlete_name_3")
+# sdv-py >= the score-repair PR rebuilds home_score/away_score from the scoring plays and adds
+# score_source; sdv-py's tests/test_basketball_score_repair.py owns that contract, so the two
+# score columns leave the oracle comparison and score_source is an allowed additive column.
+SCORE_COLS = ("home_score", "away_score")
+ADDITIVE_COLS = (*NAME_COLS, "score_source")
 
 
 @pytest.mark.parametrize("season", [2025, 2026])
@@ -39,13 +44,16 @@ def test_pbp_parity(season, tmp_path):
         f"athlete_name_1 resolved on {matched}/{has_id.height} id-bearing rows"
     )
     oracle = FX / "released" / f"play_by_play_{season}.parquet"
-    sample = [c for c in pl.read_parquet_schema(str(oracle)) if c not in KEYS]
+    sample = [c for c in pl.read_parquet_schema(str(oracle)) if c not in KEYS and c not in SCORE_COLS]
+    assert "score_source" in py.columns
+    for c in SCORE_COLS:  # left the value comparison; keep the dtype contract
+        assert py.schema[c] == pl.read_parquet_schema(str(oracle))[c], c
     assert_parquet_parity(
         py,
         oracle,
         keys=KEYS,
         sample_cols=sample,
-        py_only_additive=NAME_COLS,
+        py_only_additive=ADDITIVE_COLS,
         # pbp column order is payload-first-seen; the raw repo has been
         # re-scraped since the oracle was compiled (the released 2025 and
         # 2026 assets already disagree on order), so order is not asserted.
