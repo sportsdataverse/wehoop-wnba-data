@@ -20,7 +20,7 @@ season,row_count,generated_at_utc,source_endpoint
 2020,147,2026-10-26 13:31:37 UTC,wehoop::wnba_schedule_crosswalk()
 2021,211,2026-10-26 13:32:20 UTC,wehoop::wnba_schedule_crosswalk()
 2022,241,2026-10-26 13:33:04 UTC,wehoop::wnba_schedule_crosswalk()
-2023,263,2026-10-11 17:21:51 UTC,wehoop::wnba_schedule_crosswalk()
+2023,263,2026-10-26 13:33:52 UTC,wehoop::wnba_schedule_crosswalk()
 2024,264,2026-10-11 17:23:40 UTC,wehoop::wnba_schedule_crosswalk()
 2025,312,2026-10-11 17:25:38 UTC,wehoop::wnba_schedule_crosswalk()
 2026,356,2026-10-25 15:15:52 UTC,wehoop::wnba_schedule_crosswalk()
