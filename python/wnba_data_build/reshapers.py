@@ -557,9 +557,81 @@ def crosswalk_from_archive(
     )  # Fox team ids join by name for any season; sdv-py fills Fox player ids only for the current season
     # Fox game ids cost one Fox call per game date, so only the current season fetches them.
     fox_games = kind == "schedule" and season == most_recent_wnba_season()
-    return wnba_crosswalks_from_archive(
-        season, schedule, rosters, stats, fox=fox, fox_games=fox_games, yahoo=kind != "player"
+    # The parsed Fox / Yahoo history fills the player legs offline. Passed only when the season
+    # has it, so an sdv-py without alt_root= fails loudly here instead of dropping those legs.
+    alt_root = _alt_root(season)
+    alt = {"alt_root": alt_root} if kind == "player" and alt_root else {}
+    out = wnba_crosswalks_from_archive(
+        season,
+        schedule,
+        rosters,
+        stats,
+        fox=fox,
+        fox_games=fox_games,
+        yahoo=kind != "player",
+        **alt,
     )[kind]
+    # The parsed Fox / Yahoo games fill the past seasons' game legs.
+    if kind == "schedule" and alt_root:
+        from sportsdataverse._crosswalk_alt import with_alt_game_legs
+
+        out = with_alt_game_legs("wnba", season, out, schedule, rosters, alt_root)
+    return out
+
+
+#: The private wehoop-wnba-alt-data checkout (parsed Fox / Yahoo history), a sibling by default.
+ALT_DATA_ROOT = Path(__file__).resolve().parents[3] / "wehoop-wnba-alt-data"
+
+
+def _alt_root(season: int) -> Path | None:
+    """``$WEHOOP_WNBA_ALT_DATA_ROOT`` or the sibling checkout, when it holds a parsed ``season``."""
+    root = Path(os.environ.get("WEHOOP_WNBA_ALT_DATA_ROOT") or ALT_DATA_ROOT)
+    parsed = (
+        root / p / "game_rosters" / "parquet" / f"wnba_{p}_game_rosters_{season}.parquet"
+        for p in ("fox", "yahoo")
+    )
+    return root if any(f.exists() for f in parsed) else None
+
+
+def crosswalk_fill_alt(kind: str, season: int, *, base: Path, archive_root: Path) -> pl.DataFrame:
+    """Fill the committed player or schedule crosswalk's Fox / Yahoo legs from wehoop-wnba-alt-data (``--fill-alt``).
+
+    Offline and narrow: reads ``crosswalk/parquet/wnba_{kind}_crosswalk_{season}.parquet``, the
+    season's ESPN schedule + game rosters under ``archive_root``, and the parsed provider
+    seasons, then fills only null provider ids: the player legs ``fox_athlete_id`` /
+    ``fox_player`` / ``yahoo_player_id`` / ``yahoo_player_name``
+    (``sportsdataverse._crosswalk_alt.with_alt_player_legs``) or the game legs ``fox_game_id`` /
+    ``fox_home_team_id`` / ``fox_away_team_id`` / ``yahoo_game_id`` (``with_alt_game_legs``).
+    Every other column is the committed file's. Raises if any column would lose non-null values.
+    """
+    from sportsdataverse._crosswalk_alt import with_alt_game_legs, with_alt_player_legs
+
+    if kind not in ("player", "schedule"):
+        raise ValueError(f"--fill-alt applies to the player and schedule crosswalks, not {kind}")
+    alt_root = _alt_root(season)
+    current = pl.read_parquet(
+        Path(base) / "crosswalk" / "parquet" / f"wnba_{kind}_crosswalk_{season}.parquet"
+    )
+    if alt_root is None:
+        log.info("%s_crosswalk %s: no parsed Fox / Yahoo season; unchanged", kind, season)
+        return current
+    root = Path(archive_root)
+    schedule = pl.read_parquet(root / "schedules" / "parquet" / f"wnba_schedule_{season}.parquet")
+    rosters = pl.read_parquet(root / "game_rosters" / "parquet" / f"game_rosters_{season}.parquet")
+    fill = with_alt_player_legs if kind == "player" else with_alt_game_legs
+    out = fill("wnba", season, current, schedule, rosters, alt_root)
+    before = current.select(pl.all().is_not_null().sum()).row(0, named=True)
+    after = out.select(pl.all().is_not_null().sum()).row(0, named=True)
+    lost = {c: (before[c], after[c]) for c in before if after[c] < before[c]}
+    if out.columns != current.columns or out.height != current.height or lost:
+        raise RuntimeError(
+            f"{kind}_crosswalk {season}: fill would drop data {lost or 'rows/columns'}"
+        )
+    gained = {c: f"{before[c]}->{after[c]}" for c in before if after[c] != before[c]}
+    log.info(
+        "%s_crosswalk %s: %d rows, non-null %s", kind, season, out.height, gained or "unchanged"
+    )
+    return out
 
 
 SEASON_BUILDERS: dict = {

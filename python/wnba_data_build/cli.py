@@ -27,6 +27,11 @@ def main(argv: list[str] | None = None) -> int:
         "--archive-root", default=None, help="ESPN parquet tree for --from-archive (default --base)"
     )
     p.add_argument("--stats-root", default=None, help="stats JSON archive root for --from-archive")
+    p.add_argument(
+        "--fill-alt",
+        action="store_true",
+        help="player/schedule crosswalk only: fill the committed seasons' Fox / Yahoo ids from wehoop-wnba-alt-data",
+    )
     g = p.add_mutually_exclusive_group()
     g.add_argument("--publish", action="store_true")
     g.add_argument("--dry-run", action="store_true")
@@ -42,6 +47,7 @@ def main(argv: list[str] | None = None) -> int:
             from_archive=a.from_archive,
             archive_root=a.archive_root,
             stats_root=a.stats_root,
+            fill_alt=a.fill_alt,
         )
         log.info("%s %s: season complete -- %d rows", a.dataset, season, df.height)
     return 0

@@ -34,6 +34,7 @@ def build_season(
     from_archive: bool = False,
     archive_root: str | Path | None = None,
     stats_root: str | Path | None = None,
+    fill_alt: bool = False,
 ) -> pl.DataFrame:
     """Build one dataset/season from the raw checkout: reshape, union, write, (opt) publish.
 
@@ -50,6 +51,9 @@ def build_season(
             of the live sources. Writes a ``crosswalk/unmatched/`` triage csv.
         archive_root: ESPN parquet tree for ``from_archive`` (default ``base``).
         stats_root: Stats JSON archive root for ``from_archive``.
+        fill_alt: Player or schedule crosswalk -- fill the committed season's null
+            Fox / Yahoo player or game ids from wehoop-wnba-alt-data
+            (``reshapers.crosswalk_fill_alt``), offline, leaving every other column as committed.
 
     Returns:
         pl.DataFrame: The built season frame, or an empty frame if no games qualified.
@@ -74,7 +78,16 @@ def build_season(
         # Season-level datasets (schedules/shots/...) build from the raw season
         # tree and/or already-built parquets -- no per-game loop.
         log.info("%s %s: season-level build starting (raw=%s via %s)", dataset, season, root, mode)
-        if from_archive:
+        if fill_alt:
+            if dataset not in reshapers.NO_RAW_INPUT:
+                raise ValueError(f"--fill-alt applies to the crosswalks only, not {dataset}")
+            out = reshapers.crosswalk_fill_alt(
+                dataset.removesuffix("_crosswalk"),
+                season,
+                base=Path(base),
+                archive_root=Path(archive_root or base),
+            )
+        elif from_archive:
             if dataset not in reshapers.NO_RAW_INPUT:
                 raise ValueError(f"--from-archive applies to the crosswalks only, not {dataset}")
             out = reshapers.crosswalk_from_archive(
