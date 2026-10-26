@@ -6,7 +6,7 @@
 | **Release tag** | [`wnba_crosswalk`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/wnba_crosswalk) |
 | **File stem** | `wnba_schedule_crosswalk_{season}.{parquet,csv,rds}` |
 | **Seasons built** | 2002–2026 (25 seasons) |
-| **Last published** | 2026-10-25 (newest release asset) |
+| **Last published** | 2026-10-26 (newest release asset) |
 | **Tag created** | 2026-06-13 |
 | **Release assets** | 232 |
 
@@ -56,11 +56,11 @@
 | 2016 | 220 | 2026-10-11 17:09:06 UTC |
 | 2017 | 220 | 2026-10-11 17:10:54 UTC |
 | 2018 | 222 | 2026-10-11 17:12:47 UTC |
-| 2019 | 221 | 2026-10-11 17:14:42 UTC |
-| 2020 | 147 | 2026-10-11 17:16:29 UTC |
-| 2021 | 211 | 2026-10-11 17:18:16 UTC |
-| 2022 | 241 | 2026-10-11 17:20:14 UTC |
-| 2023 | 263 | 2026-10-11 17:21:51 UTC |
-| 2024 | 264 | 2026-10-11 17:23:40 UTC |
-| 2025 | 312 | 2026-10-11 17:25:38 UTC |
+| 2019 | 221 | 2026-10-26 13:30:53 UTC |
+| 2020 | 147 | 2026-10-26 13:31:37 UTC |
+| 2021 | 211 | 2026-10-26 13:32:20 UTC |
+| 2022 | 241 | 2026-10-26 13:33:04 UTC |
+| 2023 | 263 | 2026-10-26 13:33:52 UTC |
+| 2024 | 264 | 2026-10-26 13:34:36 UTC |
+| 2025 | 312 | 2026-10-26 13:35:21 UTC |
 | 2026 | 356 | 2026-10-25 15:15:52 UTC |
