@@ -112,4 +112,4 @@ also uploads to its release tag on `sportsdataverse-data` (asset shape
 
 `bash scripts/cron_alt_fill.sh -s YYYY [-e YYYY] [-n]` runs on the droplet, not in a workflow:
 `/mnt/sdv_repos/bin/alt_daily.sh` (12:45 ET) calls it after parsing the season's CBS / Fox / Yahoo
-box scores into `wehoop-wnba-alt-data`. It fills the WNBA schedule + player crosswalks' Fox / Yahoo legs (`python -m wnba_data_build --fill-alt`: offline, fills only null provider ids, refuses to drop data); a crosswalk is published, committed and pushed only when its parquet changed. `-n` is a dry run into a temp tree.
+box scores into `wehoop-wnba-alt-data`. It fills the WNBA schedule + player crosswalks' Fox / Yahoo legs (`python -m wnba_data_build --fill-alt`: offline, fills only the null Fox / Yahoo legs (ids and names: `fox_player`, `yahoo_player_name`, ...), refuses to drop data); a crosswalk is published, committed and pushed only when its parquet changed. `-n` is a dry run into a temp tree.
