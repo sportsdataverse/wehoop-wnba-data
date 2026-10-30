@@ -15,97 +15,172 @@ From https://github.com/sportsdataverse/wehoop-wnba-data
  * [new branch]        fix/schedule-records-linescores-from-finals -> origin/fix/schedule-records-linescores-from-finals
  * [new branch]        fix/uv-source-git-main -> origin/fix/uv-source-git-main
 ::group::wnba_data_build pbp 2026
-2026-10-29 14:18:04 [INFO] wnba_data_build: pbp 2026: per-game build starting -- 353 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:18:16 [INFO] wnba_data_build: pbp 2026: 250/353 games collected
-2026-10-29 14:18:35 [INFO] wnba_data_build: wrote ../wnba/pbp/parquet/play_by_play_2026.parquet (4.6MB) + play_by_play_2026.csv.gz (7.1MB) + play_by_play_2026.rds (5.2MB), 144023 rows x 68 cols; manifest n/a (not manifested)
-2026-10-29 14:18:36 [INFO] wnba_data_build: pbp 2026: unchanged on espn_wnba_pbp -- skipped
-2026-10-29 14:18:36 [INFO] wnba_data_build: pbp 2026: done -- 144023 rows from 353/353 games in 32.0s
-2026-10-29 14:18:36 [INFO] wnba_data_build: pbp 2026: season complete -- 144023 rows
+2026-10-30 10:41:29 [INFO] wnba_data_build: pbp 2026: per-game build starting -- 354 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:41:37 [INFO] wnba_data_build: pbp 2026: 250/354 games collected
+2026-10-30 10:41:52 [INFO] wnba_data_build: wrote ../wnba/pbp/parquet/play_by_play_2026.parquet (4.7MB) + play_by_play_2026.csv.gz (7.1MB) + play_by_play_2026.rds (5.2MB), 144409 rows x 68 cols; manifest n/a (not manifested)
+2026-10-30 10:41:52 [INFO] wnba_data_build: uploading play_by_play_2026.csv (61.3MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_pbp
+2026-10-30 10:41:56 [INFO] wnba_data_build: uploaded play_by_play_2026.csv -> espn_wnba_pbp (asset 1/3)
+2026-10-30 10:41:56 [INFO] wnba_data_build: uploading play_by_play_2026.rds (5.2MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_pbp
+2026-10-30 10:41:59 [INFO] wnba_data_build: uploaded play_by_play_2026.rds -> espn_wnba_pbp (asset 2/3)
+2026-10-30 10:41:59 [INFO] wnba_data_build: uploading play_by_play_2026.parquet (4.7MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_pbp
+2026-10-30 10:42:01 [INFO] wnba_data_build: uploaded play_by_play_2026.parquet -> espn_wnba_pbp (asset 3/3)
+2026-10-30 10:42:09 [INFO] wnba_data_build: stamped espn_wnba_pbp with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:42:09 [INFO] wnba_data_build: pbp 2026: done -- 144409 rows from 354/354 games in 40.1s
+2026-10-30 10:42:09 [INFO] wnba_data_build: pbp 2026: season complete -- 144409 rows
 ::endgroup::
 ::group::wnba_data_build team_box 2026
-2026-10-29 14:18:37 [INFO] wnba_data_build: team_box 2026: per-game build starting -- 353 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:18:40 [INFO] wnba_data_build: team_box 2026: 250/353 games collected
-2026-10-29 14:18:40 [INFO] wnba_data_build: wrote ../wnba/team_box/parquet/team_box_2026.parquet (55.1KB) + team_box_2026.csv.gz (32.5KB) + team_box_2026.rds (46.8KB), 706 rows x 59 cols; manifest n/a (not manifested)
-2026-10-29 14:18:40 [INFO] wnba_data_build: team_box 2026: unchanged on espn_wnba_team_boxscores -- skipped
-2026-10-29 14:18:40 [INFO] wnba_data_build: team_box 2026: done -- 706 rows from 353/353 games in 3.1s
-2026-10-29 14:18:40 [INFO] wnba_data_build: team_box 2026: season complete -- 706 rows
+2026-10-30 10:42:11 [INFO] wnba_data_build: team_box 2026: per-game build starting -- 354 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:42:13 [INFO] wnba_data_build: team_box 2026: 250/354 games collected
+2026-10-30 10:42:13 [INFO] wnba_data_build: wrote ../wnba/team_box/parquet/team_box_2026.parquet (55.2KB) + team_box_2026.csv.gz (32.6KB) + team_box_2026.rds (46.9KB), 708 rows x 59 cols; manifest n/a (not manifested)
+2026-10-30 10:42:13 [INFO] wnba_data_build: uploading team_box_2026.csv (304.3KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_team_boxscores
+2026-10-30 10:42:15 [INFO] wnba_data_build: uploaded team_box_2026.csv -> espn_wnba_team_boxscores (asset 1/3)
+2026-10-30 10:42:15 [INFO] wnba_data_build: uploading team_box_2026.rds (46.9KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_team_boxscores
+2026-10-30 10:42:17 [INFO] wnba_data_build: uploaded team_box_2026.rds -> espn_wnba_team_boxscores (asset 2/3)
+2026-10-30 10:42:17 [INFO] wnba_data_build: uploading team_box_2026.parquet (55.2KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_team_boxscores
+2026-10-30 10:42:19 [INFO] wnba_data_build: uploaded team_box_2026.parquet -> espn_wnba_team_boxscores (asset 3/3)
+2026-10-30 10:42:26 [INFO] wnba_data_build: stamped espn_wnba_team_boxscores with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:42:26 [INFO] wnba_data_build: team_box 2026: done -- 708 rows from 354/354 games in 15.9s
+2026-10-30 10:42:26 [INFO] wnba_data_build: team_box 2026: season complete -- 708 rows
 ::endgroup::
 ::group::wnba_data_build player_box 2026
-2026-10-29 14:18:42 [INFO] wnba_data_build: player_box 2026: per-game build starting -- 353 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:18:45 [INFO] wnba_data_build: player_box 2026: 250/353 games collected
-2026-10-29 14:18:46 [INFO] wnba_data_build: wrote ../wnba/player_box/parquet/player_box_2026.parquet (153.5KB) + player_box_2026.csv.gz (409.7KB) + player_box_2026.rds (190.5KB), 8568 rows x 57 cols; manifest n/a (not manifested)
-2026-10-29 14:18:46 [INFO] wnba_data_build: player_box 2026: unchanged on espn_wnba_player_boxscores -- skipped
-2026-10-29 14:18:46 [INFO] wnba_data_build: player_box 2026: done -- 8568 rows from 353/353 games in 4.4s
-2026-10-29 14:18:46 [INFO] wnba_data_build: player_box 2026: season complete -- 8568 rows
+2026-10-30 10:42:28 [INFO] wnba_data_build: player_box 2026: per-game build starting -- 354 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:42:30 [INFO] wnba_data_build: player_box 2026: 250/354 games collected
+2026-10-30 10:42:31 [INFO] wnba_data_build: wrote ../wnba/player_box/parquet/player_box_2026.parquet (153.8KB) + player_box_2026.csv.gz (410.2KB) + player_box_2026.rds (191.0KB), 8593 rows x 57 cols; manifest n/a (not manifested)
+2026-10-30 10:42:32 [INFO] wnba_data_build: uploading player_box_2026.csv (4.1MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_player_boxscores
+2026-10-30 10:42:34 [INFO] wnba_data_build: uploaded player_box_2026.csv -> espn_wnba_player_boxscores (asset 1/3)
+2026-10-30 10:42:34 [INFO] wnba_data_build: uploading player_box_2026.rds (191.0KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_player_boxscores
+2026-10-30 10:42:36 [INFO] wnba_data_build: uploaded player_box_2026.rds -> espn_wnba_player_boxscores (asset 2/3)
+2026-10-30 10:42:36 [INFO] wnba_data_build: uploading player_box_2026.parquet (153.8KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_player_boxscores
+2026-10-30 10:42:38 [INFO] wnba_data_build: uploaded player_box_2026.parquet -> espn_wnba_player_boxscores (asset 3/3)
+2026-10-30 10:42:46 [INFO] wnba_data_build: stamped espn_wnba_player_boxscores with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:42:46 [INFO] wnba_data_build: player_box 2026: done -- 8593 rows from 354/354 games in 17.7s
+2026-10-30 10:42:46 [INFO] wnba_data_build: player_box 2026: season complete -- 8593 rows
 ::endgroup::
 ::group::wnba_data_build player_core 2026
-2026-10-29 14:18:48 [INFO] wnba_data_build: player_core 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:18:52 [INFO] wnba_data_build: wrote ../wnba/player_core/parquet/player_core_2026.parquet (37.6KB) + player_core_2026.csv (77.6KB) + player_core_2026.rds (24.8KB), 245 rows x 36 cols; manifest n/a (not manifested)
-2026-10-29 14:18:53 [INFO] wnba_data_build: player_core 2026: unchanged on espn_wnba_player_core -- skipped
-2026-10-29 14:18:53 [INFO] wnba_data_build: player_core 2026: done -- 245 rows in 4.7s
-2026-10-29 14:18:53 [INFO] wnba_data_build: player_core 2026: season complete -- 245 rows
+2026-10-30 10:42:47 [INFO] wnba_data_build: player_core 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:42:50 [INFO] wnba_data_build: wrote ../wnba/player_core/parquet/player_core_2026.parquet (37.6KB) + player_core_2026.csv (77.6KB) + player_core_2026.rds (24.8KB), 245 rows x 36 cols; manifest n/a (not manifested)
+2026-10-30 10:42:50 [INFO] wnba_data_build: uploading player_core_2026.rds (24.8KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_player_core
+2026-10-30 10:42:52 [INFO] wnba_data_build: uploaded player_core_2026.rds -> espn_wnba_player_core (asset 1/3)
+2026-10-30 10:42:52 [INFO] wnba_data_build: uploading player_core_2026.csv (77.6KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_player_core
+2026-10-30 10:42:54 [INFO] wnba_data_build: uploaded player_core_2026.csv -> espn_wnba_player_core (asset 2/3)
+2026-10-30 10:42:54 [INFO] wnba_data_build: uploading player_core_2026.parquet (37.6KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_player_core
+2026-10-30 10:42:56 [INFO] wnba_data_build: uploaded player_core_2026.parquet -> espn_wnba_player_core (asset 3/3)
+2026-10-30 10:43:04 [INFO] wnba_data_build: stamped espn_wnba_player_core with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:43:04 [INFO] wnba_data_build: player_core 2026: done -- 245 rows in 16.9s
+2026-10-30 10:43:04 [INFO] wnba_data_build: player_core 2026: season complete -- 245 rows
 ::endgroup::
 ::group::wnba_data_build schedules 2026
-2026-10-29 14:18:54 [INFO] wnba_data_build: schedules 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:18:55 [INFO] wnba_data_build: wrote ../wnba/schedules/parquet/wnba_schedule_2026.parquet (165.8KB) + wnba_schedule_2026.csv (2.5MB) + wnba_schedule_2026.rds (154.5KB), 356 rows x 79 cols; manifest n/a (not manifested)
-2026-10-29 14:18:55 [INFO] wnba_data_build: schedules 2026: unchanged on espn_wnba_schedules -- skipped
-2026-10-29 14:18:55 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_schedule_master.parquet (637.1KB), 6620 rows x 80 cols
-2026-10-29 14:18:55 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_games_in_data_repo.parquet (598.5KB), 5985 rows x 80 cols
-2026-10-29 14:18:56 [INFO] wnba_data_build: unchanged wnba_schedule_master.parquet on espn_wnba_schedules -- skipped
-2026-10-29 14:18:56 [INFO] wnba_data_build: unchanged wnba_schedule_master.csv on espn_wnba_schedules -- skipped
-2026-10-29 14:18:56 [INFO] wnba_data_build: unchanged wnba_games_in_data_repo.parquet on espn_wnba_schedules -- skipped
-2026-10-29 14:18:56 [INFO] wnba_data_build: unchanged wnba_games_in_data_repo.csv on espn_wnba_schedules -- skipped
-2026-10-29 14:18:56 [INFO] wnba_data_build: schedules 2026: done -- 356 rows in 1.7s
-2026-10-29 14:18:56 [INFO] wnba_data_build: schedules 2026: season complete -- 356 rows
+2026-10-30 10:43:06 [INFO] wnba_data_build: schedules 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:43:06 [INFO] wnba_data_build: wrote ../wnba/schedules/parquet/wnba_schedule_2026.parquet (165.9KB) + wnba_schedule_2026.csv (2.5MB) + wnba_schedule_2026.rds (154.7KB), 356 rows x 79 cols; manifest n/a (not manifested)
+2026-10-30 10:43:06 [INFO] wnba_data_build: uploading wnba_schedule_2026.rds (154.7KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-30 10:43:08 [INFO] wnba_data_build: uploaded wnba_schedule_2026.rds -> espn_wnba_schedules (asset 1/3)
+2026-10-30 10:43:08 [INFO] wnba_data_build: uploading wnba_schedule_2026.csv (2.5MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-30 10:43:11 [INFO] wnba_data_build: uploaded wnba_schedule_2026.csv -> espn_wnba_schedules (asset 2/3)
+2026-10-30 10:43:11 [INFO] wnba_data_build: uploading wnba_schedule_2026.parquet (165.9KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-30 10:43:13 [INFO] wnba_data_build: uploaded wnba_schedule_2026.parquet -> espn_wnba_schedules (asset 3/3)
+2026-10-30 10:43:20 [INFO] wnba_data_build: stamped espn_wnba_schedules with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:43:20 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_schedule_master.parquet (637.2KB), 6620 rows x 80 cols
+2026-10-30 10:43:20 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_games_in_data_repo.parquet (598.7KB), 5986 rows x 80 cols
+2026-10-30 10:43:21 [INFO] wnba_data_build: uploading wnba_schedule_master.parquet (637.2KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-30 10:43:23 [INFO] wnba_data_build: uploaded wnba_schedule_master.parquet -> espn_wnba_schedules (asset 1/4)
+2026-10-30 10:43:23 [INFO] wnba_data_build: uploading wnba_schedule_master.csv (10.9MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-30 10:43:26 [INFO] wnba_data_build: uploaded wnba_schedule_master.csv -> espn_wnba_schedules (asset 2/4)
+2026-10-30 10:43:26 [INFO] wnba_data_build: uploading wnba_games_in_data_repo.parquet (598.7KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-30 10:43:27 [INFO] wnba_data_build: uploaded wnba_games_in_data_repo.parquet -> espn_wnba_schedules (asset 3/4)
+2026-10-30 10:43:27 [INFO] wnba_data_build: uploading wnba_games_in_data_repo.csv (10.1MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_schedules
+2026-10-30 10:43:30 [INFO] wnba_data_build: uploaded wnba_games_in_data_repo.csv -> espn_wnba_schedules (asset 4/4)
+2026-10-30 10:43:37 [INFO] wnba_data_build: stamped espn_wnba_schedules with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:43:37 [INFO] wnba_data_build: schedules 2026: done -- 356 rows in 31.4s
+2026-10-30 10:43:37 [INFO] wnba_data_build: schedules 2026: season complete -- 356 rows
 ::endgroup::
 ::group::wnba_data_build shots 2026
-2026-10-29 14:18:58 [INFO] wnba_data_build: shots 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:19:01 [INFO] wnba_data_build: wrote ../wnba/shots/parquet/shots_2026.parquet (770.9KB) + shots_2026.csv (7.5MB) + shots_2026.rds (867.1KB), 63116 rows x 20 cols; manifest wnba_shots_in_data_repo.csv appended
-2026-10-29 14:19:01 [INFO] wnba_data_build: shots 2026: unchanged on espn_wnba_shots -- skipped
-2026-10-29 14:19:01 [INFO] wnba_data_build: shots 2026: done -- 63116 rows in 3.4s
-2026-10-29 14:19:01 [INFO] wnba_data_build: shots 2026: season complete -- 63116 rows
+2026-10-30 10:43:39 [INFO] wnba_data_build: shots 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:43:41 [INFO] wnba_data_build: wrote ../wnba/shots/parquet/shots_2026.parquet (773.1KB) + shots_2026.csv (7.5MB) + shots_2026.rds (868.8KB), 63285 rows x 20 cols; manifest wnba_shots_in_data_repo.csv appended
+2026-10-30 10:43:42 [INFO] wnba_data_build: uploading shots_2026.rds (868.8KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_shots
+2026-10-30 10:43:44 [INFO] wnba_data_build: uploaded shots_2026.rds -> espn_wnba_shots (asset 1/4)
+2026-10-30 10:43:44 [INFO] wnba_data_build: uploading shots_2026.csv (7.5MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_shots
+2026-10-30 10:43:46 [INFO] wnba_data_build: uploaded shots_2026.csv -> espn_wnba_shots (asset 2/4)
+2026-10-30 10:43:46 [INFO] wnba_data_build: uploading wnba_shots_in_data_repo.csv (1.6KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_shots
+2026-10-30 10:43:48 [INFO] wnba_data_build: uploaded wnba_shots_in_data_repo.csv -> espn_wnba_shots (asset 3/4)
+2026-10-30 10:43:48 [INFO] wnba_data_build: uploading shots_2026.parquet (773.1KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_shots
+2026-10-30 10:43:50 [INFO] wnba_data_build: uploaded shots_2026.parquet -> espn_wnba_shots (asset 4/4)
+2026-10-30 10:43:57 [INFO] wnba_data_build: stamped espn_wnba_shots with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:43:57 [INFO] wnba_data_build: shots 2026: done -- 63285 rows in 18.1s
+2026-10-30 10:43:57 [INFO] wnba_data_build: shots 2026: season complete -- 63285 rows
 ::endgroup::
 ::group::wnba_data_build rosters 2026
-2026-10-29 14:19:03 [INFO] wnba_data_build: rosters 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:19:04 [INFO] wnba_data_build: wrote ../wnba/rosters/parquet/rosters_2026.parquet (39.3KB) + rosters_2026.csv (91.7KB) + rosters_2026.rds (25.2KB), 221 rows x 36 cols; manifest wnba_rosters_in_data_repo.csv appended
-2026-10-29 14:19:05 [INFO] wnba_data_build: rosters 2026: unchanged on espn_wnba_rosters -- skipped
-2026-10-29 14:19:05 [INFO] wnba_data_build: rosters 2026: done -- 221 rows in 1.8s
-2026-10-29 14:19:05 [INFO] wnba_data_build: rosters 2026: season complete -- 221 rows
+2026-10-30 10:43:59 [INFO] wnba_data_build: rosters 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:43:59 [INFO] wnba_data_build: wrote ../wnba/rosters/parquet/rosters_2026.parquet (39.3KB) + rosters_2026.csv (91.7KB) + rosters_2026.rds (25.2KB), 221 rows x 36 cols; manifest wnba_rosters_in_data_repo.csv appended
+2026-10-30 10:44:00 [INFO] wnba_data_build: uploading rosters_2026.rds (25.2KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_rosters
+2026-10-30 10:44:01 [INFO] wnba_data_build: uploaded rosters_2026.rds -> espn_wnba_rosters (asset 1/4)
+2026-10-30 10:44:01 [INFO] wnba_data_build: uploading rosters_2026.csv (91.7KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_rosters
+2026-10-30 10:44:03 [INFO] wnba_data_build: uploaded rosters_2026.csv -> espn_wnba_rosters (asset 2/4)
+2026-10-30 10:44:03 [INFO] wnba_data_build: uploading wnba_rosters_in_data_repo.csv (491B) -> sportsdataverse/sportsdataverse-data:espn_wnba_rosters
+2026-10-30 10:44:05 [INFO] wnba_data_build: uploaded wnba_rosters_in_data_repo.csv -> espn_wnba_rosters (asset 3/4)
+2026-10-30 10:44:05 [INFO] wnba_data_build: uploading rosters_2026.parquet (39.3KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_rosters
+2026-10-30 10:44:07 [INFO] wnba_data_build: uploaded rosters_2026.parquet -> espn_wnba_rosters (asset 4/4)
+2026-10-30 10:44:14 [INFO] wnba_data_build: stamped espn_wnba_rosters with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:44:14 [INFO] wnba_data_build: rosters 2026: done -- 221 rows in 15.4s
+2026-10-30 10:44:14 [INFO] wnba_data_build: rosters 2026: season complete -- 221 rows
 ::endgroup::
 ::group::wnba_data_build player_season_stats 2026
-2026-10-29 14:19:06 [INFO] wnba_data_build: player_season_stats 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:19:12 [INFO] wnba_data_build: wrote ../wnba/player_season_stats/parquet/player_season_stats_2026.parquet (56.7KB) + player_season_stats_2026.csv (2.0MB) + player_season_stats_2026.rds (64.7KB), 10396 rows x 16 cols; manifest wnba_player_season_stats_in_data_repo.csv appended
-2026-10-29 14:19:12 [INFO] wnba_data_build: player_season_stats 2026: unchanged on espn_wnba_player_season_stats -- skipped
-2026-10-29 14:19:12 [INFO] wnba_data_build: player_season_stats 2026: done -- 10396 rows in 6.1s
-2026-10-29 14:19:12 [INFO] wnba_data_build: player_season_stats 2026: season complete -- 10396 rows
+2026-10-30 10:44:16 [INFO] wnba_data_build: player_season_stats 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:44:20 [INFO] wnba_data_build: wrote ../wnba/player_season_stats/parquet/player_season_stats_2026.parquet (56.7KB) + player_season_stats_2026.csv (2.0MB) + player_season_stats_2026.rds (64.7KB), 10396 rows x 16 cols; manifest wnba_player_season_stats_in_data_repo.csv appended
+2026-10-30 10:44:20 [INFO] wnba_data_build: player_season_stats 2026: unchanged on espn_wnba_player_season_stats -- skipped
+2026-10-30 10:44:20 [INFO] wnba_data_build: player_season_stats 2026: done -- 10396 rows in 4.0s
+2026-10-30 10:44:20 [INFO] wnba_data_build: player_season_stats 2026: season complete -- 10396 rows
 ::endgroup::
 ::group::wnba_data_build team_season_stats 2026
-2026-10-29 14:19:14 [INFO] wnba_data_build: team_season_stats 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:19:15 [INFO] wnba_data_build: wrote ../wnba/team_season_stats/parquet/team_season_stats_2026.parquet (13.7KB) + team_season_stats_2026.csv (141.0KB) + team_season_stats_2026.rds (8.1KB), 675 rows x 16 cols; manifest wnba_team_season_stats_in_data_repo.csv appended
-2026-10-29 14:19:15 [INFO] wnba_data_build: team_season_stats 2026: unchanged on espn_wnba_team_season_stats -- skipped
-2026-10-29 14:19:15 [INFO] wnba_data_build: team_season_stats 2026: done -- 675 rows in 1.4s
-2026-10-29 14:19:15 [INFO] wnba_data_build: team_season_stats 2026: season complete -- 675 rows
+2026-10-30 10:44:22 [INFO] wnba_data_build: team_season_stats 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:44:22 [INFO] wnba_data_build: wrote ../wnba/team_season_stats/parquet/team_season_stats_2026.parquet (13.7KB) + team_season_stats_2026.csv (141.1KB) + team_season_stats_2026.rds (8.1KB), 675 rows x 16 cols; manifest wnba_team_season_stats_in_data_repo.csv appended
+2026-10-30 10:44:23 [INFO] wnba_data_build: uploading team_season_stats_2026.rds (8.1KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_team_season_stats
+2026-10-30 10:44:25 [INFO] wnba_data_build: uploaded team_season_stats_2026.rds -> espn_wnba_team_season_stats (asset 1/4)
+2026-10-30 10:44:25 [INFO] wnba_data_build: uploading team_season_stats_2026.csv (141.1KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_team_season_stats
+2026-10-30 10:44:27 [INFO] wnba_data_build: uploaded team_season_stats_2026.csv -> espn_wnba_team_season_stats (asset 2/4)
+2026-10-30 10:44:27 [INFO] wnba_data_build: uploading wnba_team_season_stats_in_data_repo.csv (3.4KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_team_season_stats
+2026-10-30 10:44:29 [INFO] wnba_data_build: uploaded wnba_team_season_stats_in_data_repo.csv -> espn_wnba_team_season_stats (asset 3/4)
+2026-10-30 10:44:29 [INFO] wnba_data_build: uploading team_season_stats_2026.parquet (13.7KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_team_season_stats
+2026-10-30 10:44:31 [INFO] wnba_data_build: uploaded team_season_stats_2026.parquet -> espn_wnba_team_season_stats (asset 4/4)
+2026-10-30 10:44:38 [INFO] wnba_data_build: stamped espn_wnba_team_season_stats with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:44:38 [INFO] wnba_data_build: team_season_stats 2026: done -- 675 rows in 16.1s
+2026-10-30 10:44:38 [INFO] wnba_data_build: team_season_stats 2026: season complete -- 675 rows
 ::endgroup::
 ::group::wnba_data_build standings 2026
-2026-10-29 14:19:17 [INFO] wnba_data_build: standings 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:19:17 [INFO] wnba_data_build: wrote ../wnba/standings/parquet/standings_2026.parquet (13.7KB) + standings_2026.csv (71.6KB) + standings_2026.rds (4.4KB), 345 rows x 24 cols; manifest wnba_standings_in_data_repo.csv appended
-2026-10-29 14:19:17 [INFO] wnba_data_build: standings 2026: unchanged on espn_wnba_standings -- skipped
-2026-10-29 14:19:17 [INFO] wnba_data_build: standings 2026: done -- 345 rows in 0.7s
-2026-10-29 14:19:17 [INFO] wnba_data_build: standings 2026: season complete -- 345 rows
+2026-10-30 10:44:40 [INFO] wnba_data_build: standings 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:44:40 [INFO] wnba_data_build: wrote ../wnba/standings/parquet/standings_2026.parquet (13.7KB) + standings_2026.csv (71.6KB) + standings_2026.rds (4.4KB), 345 rows x 24 cols; manifest wnba_standings_in_data_repo.csv appended
+2026-10-30 10:44:41 [INFO] wnba_data_build: standings 2026: unchanged on espn_wnba_standings -- skipped
+2026-10-30 10:44:41 [INFO] wnba_data_build: standings 2026: done -- 345 rows in 0.7s
+2026-10-30 10:44:41 [INFO] wnba_data_build: standings 2026: season complete -- 345 rows
 ::endgroup::
 ::group::wnba_data_build game_rosters 2026
-2026-10-29 14:19:19 [INFO] wnba_data_build: game_rosters 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:19:28 [INFO] wnba_data_build: wrote ../wnba/game_rosters/parquet/game_rosters_2026.parquet (62.9KB) + game_rosters_2026.csv (2.0MB) + game_rosters_2026.rds (87.8KB), 8568 rows x 22 cols; manifest wnba_game_rosters_in_data_repo.csv appended
-2026-10-29 14:19:29 [INFO] wnba_data_build: game_rosters 2026: unchanged on espn_wnba_game_rosters -- skipped
-2026-10-29 14:19:29 [INFO] wnba_data_build: game_rosters 2026: done -- 8568 rows in 9.5s
-2026-10-29 14:19:29 [INFO] wnba_data_build: game_rosters 2026: season complete -- 8568 rows
+2026-10-30 10:44:42 [INFO] wnba_data_build: game_rosters 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:44:49 [INFO] wnba_data_build: wrote ../wnba/game_rosters/parquet/game_rosters_2026.parquet (63.1KB) + game_rosters_2026.csv (2.1MB) + game_rosters_2026.rds (88.0KB), 8593 rows x 22 cols; manifest wnba_game_rosters_in_data_repo.csv appended
+2026-10-30 10:44:49 [INFO] wnba_data_build: uploading game_rosters_2026.rds (88.0KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_game_rosters
+2026-10-30 10:44:51 [INFO] wnba_data_build: uploaded game_rosters_2026.rds -> espn_wnba_game_rosters (asset 1/4)
+2026-10-30 10:44:51 [INFO] wnba_data_build: uploading game_rosters_2026.csv (2.1MB) -> sportsdataverse/sportsdataverse-data:espn_wnba_game_rosters
+2026-10-30 10:44:53 [INFO] wnba_data_build: uploaded game_rosters_2026.csv -> espn_wnba_game_rosters (asset 2/4)
+2026-10-30 10:44:53 [INFO] wnba_data_build: uploading wnba_game_rosters_in_data_repo.csv (3.5KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_game_rosters
+2026-10-30 10:44:55 [INFO] wnba_data_build: uploaded wnba_game_rosters_in_data_repo.csv -> espn_wnba_game_rosters (asset 3/4)
+2026-10-30 10:44:55 [INFO] wnba_data_build: uploading game_rosters_2026.parquet (63.1KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_game_rosters
+2026-10-30 10:44:57 [INFO] wnba_data_build: uploaded game_rosters_2026.parquet -> espn_wnba_game_rosters (asset 4/4)
+2026-10-30 10:45:05 [INFO] wnba_data_build: stamped espn_wnba_game_rosters with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:45:05 [INFO] wnba_data_build: game_rosters 2026: done -- 8593 rows in 22.7s
+2026-10-30 10:45:05 [INFO] wnba_data_build: game_rosters 2026: season complete -- 8593 rows
 ::endgroup::
 ::group::wnba_data_build officials 2026
-2026-10-29 14:19:30 [INFO] wnba_data_build: officials 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-10-29 14:19:37 [INFO] wnba_data_build: wrote ../wnba/officials/parquet/officials_2026.parquet (11.0KB) + officials_2026.csv (87.2KB) + officials_2026.rds (9.1KB), 1075 rows x 11 cols; manifest wnba_officials_in_data_repo.csv appended
-2026-10-29 14:19:37 [INFO] wnba_data_build: officials 2026: unchanged on espn_wnba_officials -- skipped
-2026-10-29 14:19:37 [INFO] wnba_data_build: officials 2026: done -- 1075 rows in 7.2s
-2026-10-29 14:19:37 [INFO] wnba_data_build: officials 2026: season complete -- 1075 rows
+2026-10-30 10:45:07 [INFO] wnba_data_build: officials 2026: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-10-30 10:45:11 [INFO] wnba_data_build: wrote ../wnba/officials/parquet/officials_2026.parquet (11.0KB) + officials_2026.csv (87.5KB) + officials_2026.rds (9.1KB), 1078 rows x 11 cols; manifest wnba_officials_in_data_repo.csv appended
+2026-10-30 10:45:11 [INFO] wnba_data_build: uploading officials_2026.rds (9.1KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_officials
+2026-10-30 10:45:13 [INFO] wnba_data_build: uploaded officials_2026.rds -> espn_wnba_officials (asset 1/4)
+2026-10-30 10:45:13 [INFO] wnba_data_build: uploading officials_2026.csv (87.5KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_officials
+2026-10-30 10:45:15 [INFO] wnba_data_build: uploaded officials_2026.csv -> espn_wnba_officials (asset 2/4)
+2026-10-30 10:45:15 [INFO] wnba_data_build: uploading wnba_officials_in_data_repo.csv (3.3KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_officials
+2026-10-30 10:45:17 [INFO] wnba_data_build: uploaded wnba_officials_in_data_repo.csv -> espn_wnba_officials (asset 3/4)
+2026-10-30 10:45:17 [INFO] wnba_data_build: uploading officials_2026.parquet (11.0KB) -> sportsdataverse/sportsdataverse-data:espn_wnba_officials
+2026-10-30 10:45:19 [INFO] wnba_data_build: uploaded officials_2026.parquet -> espn_wnba_officials (asset 4/4)
+2026-10-30 10:45:26 [INFO] wnba_data_build: stamped espn_wnba_officials with timestamp.txt, timestamp.json, package_function.txt, package_function.json
+2026-10-30 10:45:26 [INFO] wnba_data_build: officials 2026: done -- 1078 rows in 19.4s
+2026-10-30 10:45:26 [INFO] wnba_data_build: officials 2026: season complete -- 1078 rows
 ::endgroup::
 season 2026 EXIT=0
 pushed: WNBA Data Update (Start: 2026 End: 2026) (attempt 1)
