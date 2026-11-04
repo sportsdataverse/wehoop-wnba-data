@@ -56,7 +56,11 @@ export WEHOOP_WNBA_RAW_ROOT="${WEHOOP_WNBA_RAW_ROOT:-https://raw.githubuserconte
 case "${DATASET}" in
   team_box)   JOIN_KEYS="game_id team_id" ;;
   player_box) JOIN_KEYS="game_id athlete_id" ;;
-  pbp)        JOIN_KEYS="game_id id" ;;
+  # `id` cannot key pbp: R/jsonlite reads it as Float64 (no int64) and Python as
+  # Int64, so the compare aborts on the dtype check, and a cast would collide
+  # above 2^53. (game_id, game_play_number) is unique: wnba 2025 121,342 rows,
+  # wbb 2014 524,623 / 2026 2,824,090 rows, measured 2026-11-04.
+  pbp)        JOIN_KEYS="game_id game_play_number" ;;
   *)
     echo "::error ::no verified join key for '${DATASET}'." >&2
     echo "Add one only after confirming it is unique on a real season -- do not guess." >&2
@@ -102,8 +106,13 @@ for f in "${REPO_DIR}"/R/espn_wnba_[0-9][0-9]_*_creation.R; do
   fi
 done
 
-R_PARQUET="${R_OUT}/wnba/${DATASET}/parquet/${DATASET}_${SEASON}.parquet"
-PY_PARQUET="${PY_OUT}/${DATASET}/parquet/${DATASET}_${SEASON}.parquet"
+# The output file STEM can differ from the dataset key (pbp -> play_by_play).
+case "${DATASET}" in
+  pbp) STEM="play_by_play" ;;
+  *)   STEM="${DATASET}" ;;
+esac
+R_PARQUET="${R_OUT}/wnba/${DATASET}/parquet/${STEM}_${SEASON}.parquet"
+PY_PARQUET="${PY_OUT}/${DATASET}/parquet/${STEM}_${SEASON}.parquet"
 for p in "${R_PARQUET}" "${PY_PARQUET}"; do
   [ -f "$p" ] || { echo "::error ::expected artifact missing: $p" >&2; exit 1; }
 done
