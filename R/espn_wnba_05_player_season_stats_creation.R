@@ -163,8 +163,32 @@ build_athlete_identity_lookup <- function(season) {
   lookup
 }
 
-parse_one_category <- function(season, athlete_id, athlete_meta, category) {
-  totals <- category[["totals"]] %||% category[["values"]] %||% list()
+# One category's row for `season`: list(row = the statistics[] entry or NULL,
+# vals = its values). A category's flat `totals` is ESPN's CAREER line; the
+# season line is the statistics[] entry whose season.year matches
+# (wehoop-wnba-data#29). A traded player has one stint per team plus a
+# "{season} Totals" row: prefer it, else the last stint. `legacy` (no category
+# of the payload has a `statistics` key) is the only case that reads `totals`.
+# Same rule as sportsdataverse-py's helper_wbb_player_season_stats (#1094).
+season_row <- function(category, season, legacy) {
+  if (legacy) {
+    return(list(row = NULL, vals = category[["totals"]] %||% category[["values"]] %||% list()))
+  }
+  matches <- Filter(function(s) {
+    identical(suppressWarnings(as.integer(safe_chr(s[["season"]][["year"]]))), as.integer(season))
+  }, category[["statistics"]] %||% list())
+  if (length(matches) == 0) return(list(row = NULL, vals = list()))
+  for (s in matches) {
+    slug <- safe_chr(s[["teamSlug"]])
+    if (!is.na(slug) && grepl("totals", slug, ignore.case = TRUE)) {
+      return(list(row = s, vals = s[["stats"]] %||% list()))
+    }
+  }
+  last <- matches[[length(matches)]]
+  list(row = last, vals = last[["stats"]] %||% list())
+}
+
+parse_one_category <- function(season, athlete_id, athlete_meta, category, totals) {
   if (length(totals) == 0) return(NULL)
 
   labels <- unlist(category[["labels"]] %||% list(), use.names = FALSE)
@@ -214,24 +238,18 @@ parse_one_category <- function(season, athlete_id, athlete_meta, category) {
   )
 }
 
-extract_athlete_meta <- function(raw, athlete_id, identity_lookup) {
+extract_athlete_meta <- function(raw, athlete_id, identity_lookup, chosen = NULL) {
   ident <- identity_lookup[[as.character(athlete_id)]]
   if (is.null(ident)) ident <- list()
 
-  # team_display_name lives in the stats JSON's `teams` map keyed by slug;
-  # the slug is on each `categories[].statistics[0].teamSlug`. Pull the
-  # first non-NA slug to look it up.
+  # Team fields come from the chosen season row (season_row()): its teamId,
+  # and its teamSlug looked up in the stats JSON's `teams` map. A traded
+  # player's Totals row names no team, so both fall back to the roster identity.
   teams_map <- raw[["teams"]] %||% list()
-  team_slug <- NULL
-  for (cat in raw[["categories"]] %||% list()) {
-    for (s in cat[["statistics"]] %||% list()) {
-      cand <- safe_chr(s[["teamSlug"]])
-      if (!is.na(cand) && nzchar(cand)) { team_slug <- cand; break }
-    }
-    if (!is.null(team_slug)) break
-  }
-  team_block <- if (!is.null(team_slug)) teams_map[[team_slug]] else list()
+  team_slug <- safe_chr(chosen[["teamSlug"]])
+  team_block <- if (!is.na(team_slug)) teams_map[[team_slug]] %||% list() else list()
   team_display <- safe_chr(team_block[["displayName"]])
+  row_team_id <- suppressWarnings(as.integer(safe_chr(chosen[["teamId"]])))
 
   list(
     display_name          = ident$display_name          %|% safe_chr(raw[["athlete"]][["displayName"]]),
@@ -239,7 +257,7 @@ extract_athlete_meta <- function(raw, athlete_id, identity_lookup) {
     last_name             = ident$last_name             %|% safe_chr(raw[["athlete"]][["lastName"]]),
     position_abbreviation = ident$position_abbreviation %|% safe_chr(raw[["athlete"]][["position"]][["abbreviation"]]),
     jersey                = ident$jersey                %|% safe_chr(raw[["athlete"]][["jersey"]]),
-    team_id               = ident$team_id               %|% suppressWarnings(as.integer(safe_chr(team_block[["id"]]))),
+    team_id               = row_team_id %|% ident$team_id %|% suppressWarnings(as.integer(safe_chr(team_block[["id"]]))),
     team_display_name     = team_display                %|% ident$team_display_name
   )
 }
@@ -266,10 +284,13 @@ parse_one_athlete <- function(season, athlete_id, identity_lookup, raw_base) {
     list()
   if (length(categories) == 0) return(NULL)
 
-  meta <- extract_athlete_meta(raw, athlete_id, identity_lookup)
+  legacy <- all(vapply(categories, function(cat) is.null(cat[["statistics"]]), logical(1)))
+  rows <- lapply(categories, season_row, season = season, legacy = legacy)
+  chosen <- Find(Negate(is.null), lapply(rows, `[[`, "row"))
+  meta <- extract_athlete_meta(raw, athlete_id, identity_lookup, chosen)
 
-  purrr::map_dfr(categories, function(cat) {
-    parse_one_category(season, athlete_id, meta, cat)
+  purrr::map_dfr(seq_along(categories), function(i) {
+    parse_one_category(season, athlete_id, meta, categories[[i]], rows[[i]]$vals)
   })
 }
 
