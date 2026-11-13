@@ -5,10 +5,10 @@
 | **Builder** | [`python/espn_wnba_05_player_season_stats_creation.py`](../../python/espn_wnba_05_player_season_stats_creation.py) |
 | **Release tag** | [`espn_wnba_player_season_stats`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_player_season_stats) |
 | **File stem** | `player_season_stats_{season}.{parquet,csv,rds}` |
-| **Seasons built** | 2002–2026 (25 seasons) |
-| **Last published** | 2026-11-10 (newest release asset) |
+| **Seasons built** | 1997–2026 (30 seasons) |
+| **Last published** | 2026-11-13 (newest release asset) |
 | **Tag created** | 2026-05-11 |
-| **Release assets** | 80 |
+| **Release assets** | 95 |
 
 ## Automation
 
@@ -39,6 +39,21 @@
 
 | season | rows | built (UTC) |
 |---:|---:|---|
+| 1997 | 4,141 | 2026-11-13 14:10:36 UTC |
+| 1997 | 4,141 | 2026-11-13 14:11:27 UTC |
+| 1997 | 4,141 | 2026-11-13 14:31:20 UTC |
+| 1998 | 5,461 | 2026-11-13 14:10:37 UTC |
+| 1998 | 5,461 | 2026-11-13 14:11:42 UTC |
+| 1998 | 5,461 | 2026-11-13 14:31:54 UTC |
+| 1999 | 6,410 | 2026-11-13 14:10:39 UTC |
+| 1999 | 6,410 | 2026-11-13 14:11:57 UTC |
+| 1999 | 6,410 | 2026-11-13 14:32:27 UTC |
+| 2000 | 8,709 | 2026-11-13 14:10:40 UTC |
+| 2000 | 8,709 | 2026-11-13 14:12:12 UTC |
+| 2000 | 8,709 | 2026-11-13 14:32:59 UTC |
+| 2001 | 8,851 | 2026-11-13 14:10:41 UTC |
+| 2001 | 8,851 | 2026-11-13 14:12:26 UTC |
+| 2001 | 8,851 | 2026-11-13 14:33:32 UTC |
 | 2002 | 6,708 | 2026-07-16 21:33:56 UTC |
 | 2002 | 6,665 | 2026-11-10 07:11:26 UTC |
 | 2002 | 6,665 | 2026-11-13 10:18:28 UTC |
