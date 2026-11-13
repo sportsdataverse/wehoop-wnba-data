@@ -50,6 +50,7 @@ def _gh_release_assets(tag: str, repo: str) -> list[str]:
         capture_output=True,
         text=True,
         check=True,
+        timeout=120,  # a stalled gh must not hang the post-publish check
     )
     return proc.stdout.split()
 
