@@ -10,6 +10,22 @@
 | **Tag created** | 2023-03-30 |
 | **Release assets** | 79 |
 
+## Load it
+
+| | |
+|---|---|
+| **R** | `wehoop::load_wnba_pbp()` |
+| **Python** | `sportsdataverse.wnba.load_wnba_pbp()` |
+
+## Join keys
+
+| column | joins to |
+|---|---|
+| `team_id` | ESPN team id. Shared by every ESPN dataset here; `team_crosswalk.espn_team_id` maps it to WNBA Stats / Fox / Yahoo team ids. |
+| `game_id` | ESPN game id. `schedules` has one row per game; `pbp`, `shots`, `team_box`, `player_box`, `game_rosters` and `officials` key on it. `schedule_crosswalk.espn_game_id` maps it to WNBA Stats / Fox / Yahoo game ids. |
+| `home_team_id` | ESPN team id; the same id in every ESPN dataset here (joins `team_id`). |
+| `away_team_id` | ESPN team id; the same id in every ESPN dataset here (joins `team_id`). |
+
 ## Automation
 
 `.github/workflows/daily_wnba.yml` — cron 07:00 UTC in season, plus `repository_dispatch` from `wehoop-wnba-raw`. Runs `scripts/daily_wnba_data_processor.sh` (Python build, crosswalks included). Draft refreshes annually via `annual_wnba_draft.yml`; rosters additionally refresh weekly via `weekly_wnba.yml`.
