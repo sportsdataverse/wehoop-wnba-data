@@ -390,6 +390,44 @@ def team_season_stats_builder(season: int, *, raw_root: Path, base: Path) -> pl.
     )
 
 
+def _player_box_identity(base: Path, season: int) -> dict:
+    """athlete_id -> identity from the season's built player_box (empty when absent)."""
+    from sportsdataverse.nba import build_nba_player_identity_lookup
+
+    pb = base / "player_box" / "parquet" / f"player_box_{season}.parquet"
+    if not pb.exists():
+        return {}
+    frame = pl.read_parquet(pb)
+    # The helper keeps each athlete's LAST row; player_box is written newest game
+    # first, so sort oldest first to keep the latest team / jersey of the season.
+    if "game_date" in frame.columns:
+        frame = frame.sort("game_date", nulls_last=False, maintain_order=True)
+    return build_nba_player_identity_lookup(frame)
+
+
+def _byathlete_identity(raw_root: Path, season: int) -> dict:
+    """athlete_id -> names from ``player_season_stats/byathlete/{season}.json`` (pre-2002).
+
+    The payload has no position, jersey or team; the season's team comes from
+    the stats row itself.
+    """
+    from wnba_data_build import ingest
+
+    body = (
+        ingest.read_final(season, raw_root=raw_root, subdir="player_season_stats/byathlete") or {}
+    )
+    out = {}
+    for row in body.get("athletes") or []:
+        ath = row.get("athlete") or {}
+        if str(ath.get("id", "")).isdigit():
+            out[str(int(ath["id"]))] = {
+                "display_name": ath.get("displayName"),
+                "first_name": ath.get("firstName"),
+                "last_name": ath.get("lastName"),
+            }
+    return out
+
+
 def player_season_stats_builder(season: int, *, raw_root: Path, base: Path) -> pl.DataFrame:
     from sportsdataverse.wnba import build_athlete_identity_lookup, helper_wnba_player_season_stats
 
@@ -401,7 +439,12 @@ def player_season_stats_builder(season: int, *, raw_root: Path, base: Path) -> p
         return tid, ingest.read_final(tid, raw_root=raw_root, subdir=f"team_rosters/json/{season}")
 
     rosters = dict(ingest.parallel_map(_read_roster, team_ids))
-    lookup = build_athlete_identity_lookup({t: r for t, r in rosters.items() if r})
+    # Team rosters are current-only (ESPN ignores the season), so before them the
+    # season's own player_box names the athlete, with their team and jersey that
+    # season; before 2002 (no player_box) the statistics/byathlete payload the raw
+    # scraper keeps names them. A roster entry still wins where both exist.
+    lookup = _player_box_identity(base, season) or _byathlete_identity(raw_root, season)
+    lookup.update(build_athlete_identity_lookup({t: r for t, r in rosters.items() if r}))
 
     def _helper(payload: dict, *, season: int, athlete_id: int) -> pl.DataFrame:
         return helper_wnba_player_season_stats(
