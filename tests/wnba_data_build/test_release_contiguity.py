@@ -22,11 +22,13 @@ def test_interior_hole_is_reported_and_edges_are_not():
     assert publish.missing_interior_seasons(SPEC, _assets(2019, 2022, 2023)) == [2020, 2021]
 
 
-def test_known_gap_is_excused():
-    spec = REGISTRY["schedules"]
-    assert 1998 in publish.KNOWN_GAPS["schedules"]
-    names = [f"{spec.stem}_{s}.parquet" for s in (1998 - 1, 1998 + 1)]
+def test_known_gap_is_excused(monkeypatch):
+    spec = REGISTRY["standings"]
+    monkeypatch.setitem(publish.KNOWN_GAPS, "standings", frozenset({2005}))
+    names = [f"{spec.stem}_{s}.parquet" for s in (2004, 2006)]
     assert publish.missing_interior_seasons(spec, names) == []
+    monkeypatch.delitem(publish.KNOWN_GAPS, "standings")
+    assert publish.missing_interior_seasons(spec, names) == [2005]
 
 
 def test_check_raises_on_a_hole():
