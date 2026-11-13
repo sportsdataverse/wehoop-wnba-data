@@ -406,7 +406,9 @@ def _byathlete_identity(raw_root: Path, season: int) -> dict:
     """
     from wnba_data_build import ingest
 
-    body = ingest.read_final(season, raw_root=raw_root, subdir="player_season_stats/byathlete") or {}
+    body = (
+        ingest.read_final(season, raw_root=raw_root, subdir="player_season_stats/byathlete") or {}
+    )
     out = {}
     for row in body.get("athletes") or []:
         ath = row.get("athlete") or {}
