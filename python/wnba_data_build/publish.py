@@ -32,6 +32,67 @@ _LEAGUE = "wnba"
 
 DEFAULT_REPO = "sportsdataverse/sportsdataverse-data"
 
+#: Interior seasons a dataset's release is known to lack (measured on the releases 2026-11-13).
+#: ``check_release_contiguous`` fails a publish run on any other hole (wehoop-wbb-data#44).
+#: When one of these is filled, drop it here.
+KNOWN_GAPS: dict[str, frozenset[int]] = {
+    "schedules": frozenset({1998, 2000}),  # present before this check; not yet investigated
+}
+
+
+class SeasonGapError(RuntimeError):
+    """A release is missing an interior season that ``KNOWN_GAPS`` does not list."""
+
+
+def _gh_release_assets(tag: str, repo: str) -> list[str]:
+    proc = subprocess.run(
+        ["gh", "release", "view", tag, "--repo", repo, "--json", "assets", "-q", ".assets[].name"],
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    return proc.stdout.split()
+
+
+def missing_interior_seasons(spec: DatasetSpec, asset_names: list[str]) -> list[int]:
+    """Seasons between a dataset's first and last ``{stem}_{season}.parquet`` with no asset.
+
+    Seasons in ``KNOWN_GAPS`` don't count.
+    """
+    prefix, suffix = f"{spec.stem}_", ".parquet"
+    seasons = {
+        int(n[len(prefix) : -len(suffix)])
+        for n in asset_names
+        if n.startswith(prefix) and n.endswith(suffix) and n[len(prefix) : -len(suffix)].isdigit()
+    }
+    if not seasons:
+        return []
+    known = KNOWN_GAPS.get(spec.dataset, frozenset())
+    return sorted(set(range(min(seasons), max(seasons) + 1)) - seasons - known)
+
+
+def check_release_contiguous(
+    spec: DatasetSpec,
+    repo: str = DEFAULT_REPO,
+    *,
+    lister: Callable[[str, str], list[str]] | None = None,
+) -> None:
+    """Raise :class:`SeasonGapError` when the release lacks an interior season.
+
+    A season missing in the middle of a dataset's range ships silently: a
+    multi-season load just returns fewer seasons. Run after a publish (the CLI
+    does, unless ``--allow-gaps``).
+    """
+    missing = missing_interior_seasons(spec, (lister or _gh_release_assets)(spec.tag, repo))
+    if missing:
+        raise SeasonGapError(
+            f"{spec.tag}: interior season(s) {missing} missing from the release "
+            f"({spec.stem}_<season>.parquet). Backfill them, or add them to "
+            "publish.KNOWN_GAPS with the reason."
+        )
+    log.info("%s: release seasons are contiguous", spec.tag)
+
+
 log = get_logger()
 
 

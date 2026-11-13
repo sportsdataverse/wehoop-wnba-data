@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 
+from wnba_data_build import publish
 from wnba_data_build._logging import get_logger
 from wnba_data_build.build import build_season
 from wnba_data_build.config import REGISTRY
@@ -35,6 +36,11 @@ def main(argv: list[str] | None = None) -> int:
     g = p.add_mutually_exclusive_group()
     g.add_argument("--publish", action="store_true")
     g.add_argument("--dry-run", action="store_true")
+    p.add_argument(
+        "--allow-gaps",
+        action="store_true",
+        help="skip the release season-contiguity check after --publish (a backfill filling a hole season by season)",
+    )
     a = p.parse_args(argv)
     for season in range(a.start, a.end + 1):
         df = build_season(
@@ -50,4 +56,10 @@ def main(argv: list[str] | None = None) -> int:
             fill_alt=a.fill_alt,
         )
         log.info("%s %s: season complete -- %d rows", a.dataset, season, df.height)
+    if a.publish and not a.allow_gaps:
+        try:
+            publish.check_release_contiguous(REGISTRY[a.dataset])
+        except publish.SeasonGapError as exc:
+            log.error("%s", exc)
+            return 1
     return 0
