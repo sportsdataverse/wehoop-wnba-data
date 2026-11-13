@@ -334,3 +334,13 @@ season,row_count,generated_at_utc,source_endpoint
 2026,10267,2026-11-12 15:44:16 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2026/<athlete_id>.json
 2002,6665,2026-11-13 10:18:28 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2002/<athlete_id>.json
 2002,6665,2026-11-13 13:17:47 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2002/<athlete_id>.json
+1997,4141,2026-11-13 14:10:36 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/1997/<athlete_id>.json
+1998,5461,2026-11-13 14:10:37 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/1998/<athlete_id>.json
+1999,6410,2026-11-13 14:10:39 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/1999/<athlete_id>.json
+2000,8709,2026-11-13 14:10:40 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2000/<athlete_id>.json
+2001,8851,2026-11-13 14:10:41 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2001/<athlete_id>.json
+1997,4141,2026-11-13 14:11:27 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/1997/<athlete_id>.json
+1998,5461,2026-11-13 14:11:42 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/1998/<athlete_id>.json
+1999,6410,2026-11-13 14:11:57 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/1999/<athlete_id>.json
+2000,8709,2026-11-13 14:12:12 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2000/<athlete_id>.json
+2001,8851,2026-11-13 14:12:26 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2001/<athlete_id>.json
