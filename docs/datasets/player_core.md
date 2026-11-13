@@ -6,9 +6,9 @@
 | **Release tag** | [`espn_wnba_player_core`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_player_core) |
 | **File stem** | `player_core_{season}.{parquet,csv,rds}` |
 | **Seasons built** | — |
-| **Last published** | 2026-10-31 (newest release asset) |
+| **Last published** | 2026-11-13 (newest release asset) |
 | **Tag created** | 2026-07-17 |
-| **Release assets** | 76 |
+| **Release assets** | 79 |
 
 ## Automation
 

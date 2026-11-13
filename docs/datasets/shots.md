@@ -6,7 +6,7 @@
 | **Release tag** | [`espn_wnba_shots`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_shots) |
 | **File stem** | `shots_{season}.{parquet,csv,rds}` |
 | **Seasons built** | 2002–2026 (25 seasons) |
-| **Last published** | 2026-10-30 (newest release asset) |
+| **Last published** | 2026-11-13 (newest release asset) |
 | **Tag created** | 2026-05-11 |
 | **Release assets** | 80 |
 
@@ -40,6 +40,7 @@
 |---:|---:|---|
 | 2002 | 40,441 | 2026-07-16 21:33:43 UTC |
 | 2002 | 40,441 | 2026-07-29 03:17:27 UTC |
+| 2002 | 40,441 | 2026-11-13 10:18:04 UTC |
 | 2003 | 39,327 | 2026-07-16 21:35:33 UTC |
 | 2003 | 39,327 | 2026-07-29 03:17:42 UTC |
 | 2004 | 36,254 | 2026-07-16 21:37:25 UTC |

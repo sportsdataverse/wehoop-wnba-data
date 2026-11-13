@@ -6,9 +6,9 @@
 | **Release tag** | [`espn_wnba_schedules`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_schedules) |
 | **File stem** | `wnba_schedule_{season}.{parquet,csv,rds}` |
 | **Seasons built** | — |
-| **Last published** | 2026-10-31 (newest release asset) |
+| **Last published** | 2026-11-13 (newest release asset) |
 | **Tag created** | 2023-03-30 |
-| **Release assets** | 94 |
+| **Release assets** | 100 |
 
 ## Automation
 

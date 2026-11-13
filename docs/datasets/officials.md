@@ -6,9 +6,9 @@
 | **Release tag** | [`espn_wnba_officials`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_officials) |
 | **File stem** | `officials_{season}.{parquet,csv,rds}` |
 | **Seasons built** | 2003–2026 (24 seasons) |
-| **Last published** | 2026-10-30 (newest release asset) |
+| **Last published** | 2026-11-13 (newest release asset) |
 | **Tag created** | 2026-05-11 |
-| **Release assets** | 73 |
+| **Release assets** | 77 |
 
 ## Automation
 
@@ -54,7 +54,9 @@
 | 2020 | 449 | 2026-07-16 22:08:03 UTC |
 | 2021 | 616 | 2026-07-16 22:09:57 UTC |
 | 2022 | 740 | 2026-07-16 22:11:38 UTC |
+| 2022 | 740 | 2026-11-13 08:21:38 UTC |
 | 2023 | 795 | 2026-07-16 22:29:27 UTC |
+| 2023 | 795 | 2026-11-13 08:22:47 UTC |
 | 2024 | 804 | 2026-05-12 00:58:05 UTC |
 | 2024 | 804 | 2026-05-12 01:25:15 UTC |
 | 2025 | 955 | 2026-05-12 01:17:25 UTC |
