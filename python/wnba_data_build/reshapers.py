@@ -395,7 +395,14 @@ def _player_box_identity(base: Path, season: int) -> dict:
     from sportsdataverse.nba import build_nba_player_identity_lookup
 
     pb = base / "player_box" / "parquet" / f"player_box_{season}.parquet"
-    return build_nba_player_identity_lookup(pl.read_parquet(pb)) if pb.exists() else {}
+    if not pb.exists():
+        return {}
+    frame = pl.read_parquet(pb)
+    # The helper keeps each athlete's LAST row; player_box is written newest game
+    # first, so sort oldest first to keep the latest team / jersey of the season.
+    if "game_date" in frame.columns:
+        frame = frame.sort("game_date", nulls_last=False, maintain_order=True)
+    return build_nba_player_identity_lookup(frame)
 
 
 def _byathlete_identity(raw_root: Path, season: int) -> dict:
