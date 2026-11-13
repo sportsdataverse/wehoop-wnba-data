@@ -5,10 +5,10 @@
 | **Builder** | [`python/espn_wnba_08_draft_creation.py`](../../python/espn_wnba_08_draft_creation.py) |
 | **Release tag** | [`espn_wnba_draft`](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_wnba_draft) |
 | **File stem** | `draft_{season}.{parquet,csv,rds}` |
-| **Seasons built** | 2026 (1 season) |
+| **Seasons built** | 2018–2026 (9 seasons) |
 | **Last published** | 2026-11-13 (newest release asset) |
 | **Tag created** | 2026-05-11 |
-| **Release assets** | 27 |
+| **Release assets** | 32 |
 
 ## Automation
 
@@ -58,4 +58,12 @@
 
 | season | rows | built (UTC) |
 |---:|---:|---|
+| 2018 | 36 | 2026-11-13 11:13:10 UTC |
+| 2019 | 36 | 2026-11-13 11:13:32 UTC |
+| 2020 | 36 | 2026-11-13 11:13:52 UTC |
+| 2021 | 36 | 2026-11-13 11:14:14 UTC |
+| 2022 | 36 | 2026-11-13 11:14:34 UTC |
+| 2023 | 36 | 2026-11-13 11:14:55 UTC |
+| 2024 | 36 | 2026-11-13 11:15:26 UTC |
+| 2025 | 38 | 2026-11-13 11:15:50 UTC |
 | 2026 | 45 | 2026-05-30 07:00:05 UTC |
