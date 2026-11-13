@@ -367,3 +367,4 @@ season,row_count,generated_at_utc,source_endpoint
 2006,7657,2026-11-13 15:49:33 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2006/<athlete_id>.json
 2007,6754,2026-11-13 15:50:03 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2007/<athlete_id>.json
 2008,7463,2026-11-13 15:50:38 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2008/<athlete_id>.json
+2009,6397,2026-11-13 15:51:09 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/player_season_stats/json/2009/<athlete_id>.json
