@@ -10,6 +10,20 @@
 | **Tag created** | 2026-07-17 |
 | **Release assets** | 79 |
 
+## Load it
+
+| | |
+|---|---|
+| **R** | `wehoop::load_wnba_player_core()` |
+| **Python** | `sportsdataverse.wnba.load_wnba_player_core()` |
+
+## Join keys
+
+| column | joins to |
+|---|---|
+| `athlete_id` | ESPN athlete id. `player_core` holds identity + bio; `player_box`, `rosters`, `player_season_stats`, `game_rosters` and `draft` key on it. `player_crosswalk.espn_athlete_id` maps it to WNBA Stats / Fox / Yahoo player ids. |
+| `current_team_id` | ESPN team id; the same id in every ESPN dataset here (joins `team_id`). |
+
 ## Automation
 
 `.github/workflows/daily_wnba.yml` — cron 07:00 UTC in season, plus `repository_dispatch` from `wehoop-wnba-raw`. Runs `scripts/daily_wnba_data_processor.sh` (Python build, crosswalks included). Draft refreshes annually via `annual_wnba_draft.yml`; rosters additionally refresh weekly via `weekly_wnba.yml`.

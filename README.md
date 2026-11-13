@@ -99,6 +99,8 @@ daily drivers (the `00` role); stage numbers are intended build order, not run o
 
 [ncaa-wbb-hoops-data repository (source: stats.ncaa.org)](https://github.com/sportsdataverse/ncaa-wbb-hoops-data)
 
+[hoopR-nba-data repository (sibling league: NBA, source: ESPN)](https://github.com/sportsdataverse/hoopR-nba-data)
+
 ## Women's Basketball Data Releases
 
 [ESPN Women's College Basketball Schedules](https://github.com/sportsdataverse/sportsdataverse-data/releases/tag/espn_womens_college_basketball_schedules)

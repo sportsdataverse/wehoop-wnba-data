@@ -10,6 +10,28 @@
 | **Tag created** | 2026-06-13 |
 | **Release assets** | 232 |
 
+## Load it
+
+| | |
+|---|---|
+| **R** | `wehoop::load_wnba_schedule_crosswalk()` |
+| **Python** | `sportsdataverse.wnba.load_wnba_schedule_crosswalk()` |
+
+## Join keys
+
+| column | joins to |
+|---|---|
+| `home_espn_team_id` | ESPN team id; the same id in every ESPN dataset here (joins `team_id`). |
+| `away_espn_team_id` | ESPN team id; the same id in every ESPN dataset here (joins `team_id`). |
+| `espn_game_id` | ESPN game id; joins `game_id`. |
+| `wnba_game_id` | WNBA Stats API id; joins the `wnba_stats_*` releases (wehoop-wnba-stats-data). |
+| `wnba_home_team_id` | WNBA Stats API id; joins the `wnba_stats_*` releases (wehoop-wnba-stats-data). |
+| `wnba_away_team_id` | WNBA Stats API id; joins the `wnba_stats_*` releases (wehoop-wnba-stats-data). |
+| `fox_game_id` | Fox Sports id. |
+| `fox_home_team_id` | Fox Sports id. |
+| `fox_away_team_id` | Fox Sports id. |
+| `yahoo_game_id` | Yahoo Sports id. |
+
 ## Automation
 
 `.github/workflows/daily_wnba.yml` — cron 07:00 UTC in season, plus `repository_dispatch` from `wehoop-wnba-raw`. Runs `scripts/daily_wnba_data_processor.sh` (Python build, crosswalks included). Draft refreshes annually via `annual_wnba_draft.yml`; rosters additionally refresh weekly via `weekly_wnba.yml`.

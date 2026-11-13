@@ -8,7 +8,21 @@
 | **Seasons built** | 1997–2026 (30 seasons) |
 | **Last published** | 2026-11-13 (newest release asset) |
 | **Tag created** | 2026-05-11 |
-| **Release assets** | 95 |
+| **Release assets** | 94 |
+
+## Load it
+
+| | |
+|---|---|
+| **R** | `wehoop::load_wnba_player_stats()` |
+| **Python** | `sportsdataverse.wnba.load_wnba_player_season_stats()` |
+
+## Join keys
+
+| column | joins to |
+|---|---|
+| `athlete_id` | ESPN athlete id. `player_core` holds identity + bio; `player_box`, `rosters`, `player_season_stats`, `game_rosters` and `draft` key on it. `player_crosswalk.espn_athlete_id` maps it to WNBA Stats / Fox / Yahoo player ids. |
+| `team_id` | ESPN team id. Shared by every ESPN dataset here; `team_crosswalk.espn_team_id` maps it to WNBA Stats / Fox / Yahoo team ids. |
 
 ## Automation
 

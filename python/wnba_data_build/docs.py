@@ -85,6 +85,92 @@ AUTOMATION = (
     "additionally refresh weekly via `weekly_wnba.yml`."
 )
 
+#: dataset -> (R loader, Python loader) that reads its release. R names are
+#: wehoop's exported `load_wnba_*()`; Python names are sportsdataverse-py's
+#: generated loaders (`tools/codegen/endpoints/releases.yaml`, matched on tag
+#: + file stem). Unlike `config.PKG_FUNCTION` (the per-TAG sidecar string,
+#: frozen to what R once published), this names the loader per DATASET.
+LOADERS: dict[str, tuple[str, str]] = {
+    "pbp": ("wehoop::load_wnba_pbp()", "sportsdataverse.wnba.load_wnba_pbp()"),
+    "schedules": ("wehoop::load_wnba_schedule()", "sportsdataverse.wnba.load_wnba_schedule()"),
+    "shots": ("wehoop::load_wnba_shots()", "sportsdataverse.wnba.load_wnba_shots()"),
+    "team_box": ("wehoop::load_wnba_team_box()", "sportsdataverse.wnba.load_wnba_team_boxscore()"),
+    "player_box": (
+        "wehoop::load_wnba_player_box()",
+        "sportsdataverse.wnba.load_wnba_player_boxscore()",
+    ),
+    "rosters": ("wehoop::load_wnba_rosters()", "sportsdataverse.wnba.load_wnba_rosters()"),
+    "player_season_stats": (
+        "wehoop::load_wnba_player_stats()",
+        "sportsdataverse.wnba.load_wnba_player_season_stats()",
+    ),
+    "player_core": (
+        "wehoop::load_wnba_player_core()",
+        "sportsdataverse.wnba.load_wnba_player_core()",
+    ),
+    "team_season_stats": (
+        "wehoop::load_wnba_team_stats()",
+        "sportsdataverse.wnba.load_wnba_team_season_stats()",
+    ),
+    "standings": ("wehoop::load_wnba_standings()", "sportsdataverse.wnba.load_wnba_standings()"),
+    "game_rosters": (
+        "wehoop::load_wnba_game_rosters()",
+        "sportsdataverse.wnba.load_wnba_game_rosters()",
+    ),
+    "officials": ("wehoop::load_wnba_officials()", "sportsdataverse.wnba.load_wnba_officials()"),
+    "draft": ("wehoop::load_wnba_draft()", "sportsdataverse.wnba.load_wnba_draft()"),
+    "team_crosswalk": (
+        "wehoop::load_wnba_team_crosswalk()",
+        "sportsdataverse.wnba.load_wnba_team_crosswalk()",
+    ),
+    "schedule_crosswalk": (
+        "wehoop::load_wnba_schedule_crosswalk()",
+        "sportsdataverse.wnba.load_wnba_schedule_crosswalk()",
+    ),
+    "player_crosswalk": (
+        "wehoop::load_wnba_player_crosswalk()",
+        "sportsdataverse.wnba.load_wnba_player_crosswalk()",
+    ),
+}
+assert set(LOADERS) == set(REGISTRY), "LOADERS must cover exactly the registry's datasets"
+
+_TEAM = "ESPN team id; the same id in every ESPN dataset here (joins `team_id`)."
+#: id column -> what it joins to. A page lists the ones its schema carries, so
+#: the section follows the columns instead of going stale beside them.
+JOIN_KEYS: dict[str, str] = {
+    "game_id": (
+        "ESPN game id. `schedules` has one row per game; `pbp`, `shots`, `team_box`, "
+        "`player_box`, `game_rosters` and `officials` key on it. "
+        "`schedule_crosswalk.espn_game_id` maps it to WNBA Stats / Fox / Yahoo game ids."
+    ),
+    "team_id": (
+        "ESPN team id. Shared by every ESPN dataset here; "
+        "`team_crosswalk.espn_team_id` maps it to WNBA Stats / Fox / Yahoo team ids."
+    ),
+    "athlete_id": (
+        "ESPN athlete id. `player_core` holds identity + bio; `player_box`, `rosters`, "
+        "`player_season_stats`, `game_rosters` and `draft` key on it. "
+        "`player_crosswalk.espn_athlete_id` maps it to WNBA Stats / Fox / Yahoo player ids."
+    ),
+    "opponent_team_id": _TEAM,
+    "home_team_id": _TEAM,
+    "away_team_id": _TEAM,
+    "home_id": _TEAM,
+    "away_id": _TEAM,
+    "current_team_id": _TEAM,
+    "espn_team_id": _TEAM,
+    "home_espn_team_id": _TEAM,
+    "away_espn_team_id": _TEAM,
+    "espn_game_id": "ESPN game id; joins `game_id`.",
+    "espn_athlete_id": "ESPN athlete id; joins `athlete_id`.",
+}
+#: Provider-prefixed crosswalk ids, matched by prefix.
+_JOIN_PREFIXES = (
+    ("wnba_", "WNBA Stats API id; joins the `wnba_stats_*` releases (wehoop-wnba-stats-data)."),
+    ("fox_", "Fox Sports id."),
+    ("yahoo_", "Yahoo Sports id."),
+)
+
 #: Manifests that don't live at the default `wnba/<ds>/wnba_<ds>_in_data_repo.csv`
 #: path: the three crosswalks share the `wnba/crosswalk/` directory.
 _MANIFEST_OVERRIDES = {
@@ -170,6 +256,34 @@ def column_table(dataset: str) -> str:
     return "\n".join(lines) + "\n"
 
 
+def load_table(dataset: str) -> str:
+    """The R + Python loader that reads this dataset's release."""
+    r_loader, py_loader = LOADERS[dataset]
+    return f"| | |\n|---|---|\n| **R** | `{r_loader}` |\n| **Python** | `{py_loader}` |\n"
+
+
+def _join_target(column: str) -> str | None:
+    if column in JOIN_KEYS:
+        return JOIN_KEYS[column]
+    if column.endswith("_id"):
+        return next((text for prefix, text in _JOIN_PREFIXES if column.startswith(prefix)), None)
+    return None
+
+
+def join_table(dataset: str) -> str:
+    """The id columns this dataset carries and what each joins to."""
+    if dataset not in MODELS:
+        return "_No schema model yet._\n"
+    rows = [
+        f"| `{name}` | {target} |"
+        for name in polars_schema(dataset)
+        if (target := _join_target(name))
+    ]
+    if not rows:
+        return "_No id columns._\n"
+    return "\n".join(["| column | joins to |", "|---|---|", *rows]) + "\n"
+
+
 def coverage_table(dataset: str) -> str:
     manifest = _manifest(dataset)
     if manifest is None or manifest.is_empty():
@@ -222,6 +336,12 @@ def dataset_page(dataset: str, *, live: bool) -> str:
 | **Tag created** | {status.get("created") or "—"} |
 | **Release assets** | {status.get("assets") or "—"} |
 
+## Load it
+
+{load_table(dataset)}
+## Join keys
+
+{join_table(dataset)}
 ## Automation
 
 {AUTOMATION}
