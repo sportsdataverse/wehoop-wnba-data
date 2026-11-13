@@ -321,3 +321,4 @@ season,row_count,generated_at_utc,source_endpoint
 2002,630,2026-11-13 13:17:50 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/team_stats/json/2002/<team_id>.json
 1997,315,2026-11-13 14:31:23 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/team_stats/json/1997/<team_id>.json
 1998,405,2026-11-13 14:31:57 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/team_stats/json/1998/<team_id>.json
+1999,495,2026-11-13 14:32:29 UTC,https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main/wnba/team_stats/json/1999/<team_id>.json
