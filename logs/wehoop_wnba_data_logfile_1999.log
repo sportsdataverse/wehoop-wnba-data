@@ -1,90 +1,90 @@
 ::group::wnba_data_build pbp 1999
-2026-11-13 14:32:09 [INFO] wnba_data_build: pbp 1999: per-game build starting -- 10 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:09 [WARNING] wnba_data_build: pbp 1999: 0 games reshaped; nothing written
-2026-11-13 14:32:09 [INFO] wnba_data_build: pbp 1999: season complete -- 0 rows
-2026-11-13 14:32:09 [INFO] wnba_data_build: espn_wnba_pbp: release seasons are contiguous
+2026-11-13 15:32:13 [INFO] wnba_data_build: pbp 1999: per-game build starting -- 10 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:13 [WARNING] wnba_data_build: pbp 1999: 0 games reshaped; nothing written
+2026-11-13 15:32:13 [INFO] wnba_data_build: pbp 1999: season complete -- 0 rows
+2026-11-13 15:32:14 [INFO] wnba_data_build: espn_wnba_pbp: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build team_box 1999
-2026-11-13 14:32:11 [INFO] wnba_data_build: team_box 1999: per-game build starting -- 10 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:11 [WARNING] wnba_data_build: team_box 1999: 0 games reshaped; nothing written
-2026-11-13 14:32:11 [INFO] wnba_data_build: team_box 1999: season complete -- 0 rows
-2026-11-13 14:32:12 [INFO] wnba_data_build: espn_wnba_team_boxscores: release seasons are contiguous
+2026-11-13 15:32:16 [INFO] wnba_data_build: team_box 1999: per-game build starting -- 10 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:16 [WARNING] wnba_data_build: team_box 1999: 0 games reshaped; nothing written
+2026-11-13 15:32:16 [INFO] wnba_data_build: team_box 1999: season complete -- 0 rows
+2026-11-13 15:32:16 [INFO] wnba_data_build: espn_wnba_team_boxscores: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build player_box 1999
-2026-11-13 14:32:13 [INFO] wnba_data_build: player_box 1999: per-game build starting -- 10 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:13 [WARNING] wnba_data_build: player_box 1999: 0 games reshaped; nothing written
-2026-11-13 14:32:13 [INFO] wnba_data_build: player_box 1999: season complete -- 0 rows
-2026-11-13 14:32:14 [INFO] wnba_data_build: espn_wnba_player_boxscores: release seasons are contiguous
+2026-11-13 15:32:18 [INFO] wnba_data_build: player_box 1999: per-game build starting -- 10 games (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:18 [WARNING] wnba_data_build: player_box 1999: 0 games reshaped; nothing written
+2026-11-13 15:32:18 [INFO] wnba_data_build: player_box 1999: season complete -- 0 rows
+2026-11-13 15:32:19 [INFO] wnba_data_build: espn_wnba_player_boxscores: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build player_core 1999
-2026-11-13 14:32:16 [INFO] wnba_data_build: player_core 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:16 [WARNING] wnba_data_build: player_core 1999: no built player_box parquet at ../wnba/player_box/parquet/player_box_1999.parquet -- cannot resolve which athletes played this season (build player_box first)
-2026-11-13 14:32:16 [WARNING] wnba_data_build: player_core 1999: season-level build produced 0 rows; nothing written
-2026-11-13 14:32:16 [INFO] wnba_data_build: player_core 1999: season complete -- 0 rows
-2026-11-13 14:32:16 [INFO] wnba_data_build: espn_wnba_player_core: release seasons are contiguous
+2026-11-13 15:32:21 [INFO] wnba_data_build: player_core 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:21 [WARNING] wnba_data_build: player_core 1999: no built player_box parquet at ../wnba/player_box/parquet/player_box_1999.parquet -- cannot resolve which athletes played this season (build player_box first)
+2026-11-13 15:32:21 [WARNING] wnba_data_build: player_core 1999: season-level build produced 0 rows; nothing written
+2026-11-13 15:32:21 [INFO] wnba_data_build: player_core 1999: season complete -- 0 rows
+2026-11-13 15:32:21 [INFO] wnba_data_build: espn_wnba_player_core: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build schedules 1999
-2026-11-13 14:32:18 [INFO] wnba_data_build: schedules 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:18 [WARNING] wnba_data_build: pbp 1999: no built parquet at ../wnba/pbp/parquet/play_by_play_1999.parquet -- schedule flags for it will all be False
-2026-11-13 14:32:18 [WARNING] wnba_data_build: team_box 1999: no built parquet at ../wnba/team_box/parquet/team_box_1999.parquet -- schedule flags for it will all be False
-2026-11-13 14:32:18 [WARNING] wnba_data_build: player_box 1999: no built parquet at ../wnba/player_box/parquet/player_box_1999.parquet -- schedule flags for it will all be False
-2026-11-13 14:32:18 [INFO] wnba_data_build: wrote ../wnba/schedules/parquet/wnba_schedule_1999.parquet (43.5KB) + wnba_schedule_1999.csv (278.8KB) + wnba_schedule_1999.rds (17.7KB), 203 rows x 76 cols; manifest n/a (not manifested)
-2026-11-13 14:32:18 [INFO] wnba_data_build: schedules 1999: unchanged on espn_wnba_schedules -- skipped
-2026-11-13 14:32:18 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_schedule_master.parquet (660.7KB), 7042 rows x 80 cols
-2026-11-13 14:32:18 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_games_in_data_repo.parquet (598.7KB), 5986 rows x 80 cols
-2026-11-13 14:32:19 [INFO] wnba_data_build: unchanged wnba_schedule_master.parquet on espn_wnba_schedules -- skipped
-2026-11-13 14:32:19 [INFO] wnba_data_build: unchanged wnba_schedule_master.csv on espn_wnba_schedules -- skipped
-2026-11-13 14:32:19 [INFO] wnba_data_build: unchanged wnba_games_in_data_repo.parquet on espn_wnba_schedules -- skipped
-2026-11-13 14:32:19 [INFO] wnba_data_build: unchanged wnba_games_in_data_repo.csv on espn_wnba_schedules -- skipped
-2026-11-13 14:32:19 [INFO] wnba_data_build: schedules 1999: done -- 203 rows in 0.9s
-2026-11-13 14:32:19 [INFO] wnba_data_build: schedules 1999: season complete -- 203 rows
-2026-11-13 14:32:19 [INFO] wnba_data_build: espn_wnba_schedules: release seasons are contiguous
+2026-11-13 15:32:23 [INFO] wnba_data_build: schedules 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:23 [WARNING] wnba_data_build: pbp 1999: no built parquet at ../wnba/pbp/parquet/play_by_play_1999.parquet -- schedule flags for it will all be False
+2026-11-13 15:32:23 [WARNING] wnba_data_build: team_box 1999: no built parquet at ../wnba/team_box/parquet/team_box_1999.parquet -- schedule flags for it will all be False
+2026-11-13 15:32:23 [WARNING] wnba_data_build: player_box 1999: no built parquet at ../wnba/player_box/parquet/player_box_1999.parquet -- schedule flags for it will all be False
+2026-11-13 15:32:23 [INFO] wnba_data_build: wrote ../wnba/schedules/parquet/wnba_schedule_1999.parquet (43.5KB) + wnba_schedule_1999.csv (278.8KB) + wnba_schedule_1999.rds (17.7KB), 203 rows x 76 cols; manifest n/a (not manifested)
+2026-11-13 15:32:24 [INFO] wnba_data_build: schedules 1999: unchanged on espn_wnba_schedules -- skipped
+2026-11-13 15:32:24 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_schedule_master.parquet (660.7KB), 7042 rows x 80 cols
+2026-11-13 15:32:24 [INFO] wnba_data_build: wrote ../wnba/schedules/wnba_games_in_data_repo.parquet (598.7KB), 5986 rows x 80 cols
+2026-11-13 15:32:24 [INFO] wnba_data_build: unchanged wnba_schedule_master.parquet on espn_wnba_schedules -- skipped
+2026-11-13 15:32:24 [INFO] wnba_data_build: unchanged wnba_schedule_master.csv on espn_wnba_schedules -- skipped
+2026-11-13 15:32:24 [INFO] wnba_data_build: unchanged wnba_games_in_data_repo.parquet on espn_wnba_schedules -- skipped
+2026-11-13 15:32:24 [INFO] wnba_data_build: unchanged wnba_games_in_data_repo.csv on espn_wnba_schedules -- skipped
+2026-11-13 15:32:24 [INFO] wnba_data_build: schedules 1999: done -- 203 rows in 1.0s
+2026-11-13 15:32:24 [INFO] wnba_data_build: schedules 1999: season complete -- 203 rows
+2026-11-13 15:32:25 [INFO] wnba_data_build: espn_wnba_schedules: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build shots 1999
-2026-11-13 14:32:21 [INFO] wnba_data_build: shots 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:21 [WARNING] wnba_data_build: shots 1999: season-level build produced 0 rows; nothing written
-2026-11-13 14:32:21 [INFO] wnba_data_build: shots 1999: season complete -- 0 rows
-2026-11-13 14:32:21 [INFO] wnba_data_build: espn_wnba_shots: release seasons are contiguous
+2026-11-13 15:32:27 [INFO] wnba_data_build: shots 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:27 [WARNING] wnba_data_build: shots 1999: season-level build produced 0 rows; nothing written
+2026-11-13 15:32:27 [INFO] wnba_data_build: shots 1999: season complete -- 0 rows
+2026-11-13 15:32:27 [INFO] wnba_data_build: espn_wnba_shots: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build rosters 1999
-2026-11-13 14:32:23 [INFO] wnba_data_build: rosters 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:23 [WARNING] wnba_data_build: rosters 1999: season-level build produced 0 rows; nothing written
-2026-11-13 14:32:23 [INFO] wnba_data_build: rosters 1999: season complete -- 0 rows
-2026-11-13 14:32:23 [INFO] wnba_data_build: espn_wnba_rosters: release seasons are contiguous
+2026-11-13 15:32:29 [INFO] wnba_data_build: rosters 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:29 [WARNING] wnba_data_build: rosters 1999: season-level build produced 0 rows; nothing written
+2026-11-13 15:32:29 [INFO] wnba_data_build: rosters 1999: season complete -- 0 rows
+2026-11-13 15:32:30 [INFO] wnba_data_build: espn_wnba_rosters: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build player_season_stats 1999
-2026-11-13 14:32:25 [INFO] wnba_data_build: player_season_stats 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:27 [INFO] wnba_data_build: wrote ../wnba/player_season_stats/parquet/player_season_stats_1999.parquet (31.5KB) + player_season_stats_1999.csv (1.0MB) + player_season_stats_1999.rds (34.3KB), 6410 rows x 16 cols; manifest wnba_player_season_stats_in_data_repo.csv appended
-2026-11-13 14:32:27 [INFO] wnba_data_build: player_season_stats 1999: unchanged on espn_wnba_player_season_stats -- skipped
-2026-11-13 14:32:27 [INFO] wnba_data_build: player_season_stats 1999: done -- 6410 rows in 1.7s
-2026-11-13 14:32:27 [INFO] wnba_data_build: player_season_stats 1999: season complete -- 6410 rows
-2026-11-13 14:32:27 [INFO] wnba_data_build: espn_wnba_player_season_stats: release seasons are contiguous
+2026-11-13 15:32:32 [INFO] wnba_data_build: player_season_stats 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:33 [INFO] wnba_data_build: wrote ../wnba/player_season_stats/parquet/player_season_stats_1999.parquet (31.5KB) + player_season_stats_1999.csv (1.0MB) + player_season_stats_1999.rds (34.3KB), 6410 rows x 16 cols; manifest wnba_player_season_stats_in_data_repo.csv appended
+2026-11-13 15:32:34 [INFO] wnba_data_build: player_season_stats 1999: unchanged on espn_wnba_player_season_stats -- skipped
+2026-11-13 15:32:34 [INFO] wnba_data_build: player_season_stats 1999: done -- 6410 rows in 1.9s
+2026-11-13 15:32:34 [INFO] wnba_data_build: player_season_stats 1999: season complete -- 6410 rows
+2026-11-13 15:32:34 [INFO] wnba_data_build: espn_wnba_player_season_stats: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build team_season_stats 1999
-2026-11-13 14:32:29 [INFO] wnba_data_build: team_season_stats 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:29 [INFO] wnba_data_build: wrote ../wnba/team_season_stats/parquet/team_season_stats_1999.parquet (12.0KB) + team_season_stats_1999.csv (102.5KB) + team_season_stats_1999.rds (6.6KB), 495 rows x 16 cols; manifest wnba_team_season_stats_in_data_repo.csv appended
-2026-11-13 14:32:29 [INFO] wnba_data_build: team_season_stats 1999: unchanged on espn_wnba_team_season_stats -- skipped
-2026-11-13 14:32:29 [INFO] wnba_data_build: team_season_stats 1999: done -- 495 rows in 0.6s
-2026-11-13 14:32:29 [INFO] wnba_data_build: team_season_stats 1999: season complete -- 495 rows
-2026-11-13 14:32:30 [INFO] wnba_data_build: espn_wnba_team_season_stats: release seasons are contiguous
+2026-11-13 15:32:36 [INFO] wnba_data_build: team_season_stats 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:37 [INFO] wnba_data_build: wrote ../wnba/team_season_stats/parquet/team_season_stats_1999.parquet (12.0KB) + team_season_stats_1999.csv (102.5KB) + team_season_stats_1999.rds (6.6KB), 495 rows x 16 cols; manifest wnba_team_season_stats_in_data_repo.csv appended
+2026-11-13 15:32:37 [INFO] wnba_data_build: team_season_stats 1999: unchanged on espn_wnba_team_season_stats -- skipped
+2026-11-13 15:32:37 [INFO] wnba_data_build: team_season_stats 1999: done -- 495 rows in 0.7s
+2026-11-13 15:32:37 [INFO] wnba_data_build: team_season_stats 1999: season complete -- 495 rows
+2026-11-13 15:32:37 [INFO] wnba_data_build: espn_wnba_team_season_stats: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build standings 1999
-2026-11-13 14:32:32 [INFO] wnba_data_build: standings 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:32 [WARNING] wnba_data_build: standings 1999: season-level build produced 0 rows; nothing written
-2026-11-13 14:32:32 [INFO] wnba_data_build: standings 1999: season complete -- 0 rows
-2026-11-13 14:32:32 [INFO] wnba_data_build: espn_wnba_standings: release seasons are contiguous
+2026-11-13 15:32:40 [INFO] wnba_data_build: standings 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:40 [WARNING] wnba_data_build: standings 1999: season-level build produced 0 rows; nothing written
+2026-11-13 15:32:40 [INFO] wnba_data_build: standings 1999: season complete -- 0 rows
+2026-11-13 15:32:40 [INFO] wnba_data_build: espn_wnba_standings: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build game_rosters 1999
-2026-11-13 14:32:34 [INFO] wnba_data_build: game_rosters 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:34 [WARNING] wnba_data_build: game_rosters 1999: season-level build produced 0 rows; nothing written
-2026-11-13 14:32:34 [INFO] wnba_data_build: game_rosters 1999: season complete -- 0 rows
-2026-11-13 14:32:34 [INFO] wnba_data_build: espn_wnba_game_rosters: release seasons are contiguous
+2026-11-13 15:32:42 [INFO] wnba_data_build: game_rosters 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:42 [WARNING] wnba_data_build: game_rosters 1999: season-level build produced 0 rows; nothing written
+2026-11-13 15:32:42 [INFO] wnba_data_build: game_rosters 1999: season complete -- 0 rows
+2026-11-13 15:32:43 [INFO] wnba_data_build: espn_wnba_game_rosters: release seasons are contiguous
 ::endgroup::
 ::group::wnba_data_build officials 1999
-2026-11-13 14:32:36 [INFO] wnba_data_build: officials 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
-2026-11-13 14:32:36 [WARNING] wnba_data_build: officials 1999: season-level build produced 0 rows; nothing written
-2026-11-13 14:32:36 [INFO] wnba_data_build: officials 1999: season complete -- 0 rows
-2026-11-13 14:32:36 [INFO] wnba_data_build: espn_wnba_officials: release seasons are contiguous
+2026-11-13 15:32:45 [INFO] wnba_data_build: officials 1999: season-level build starting (raw=https://raw.githubusercontent.com/sportsdataverse/wehoop-wnba-raw/main via http)
+2026-11-13 15:32:45 [WARNING] wnba_data_build: officials 1999: season-level build produced 0 rows; nothing written
+2026-11-13 15:32:45 [INFO] wnba_data_build: officials 1999: season complete -- 0 rows
+2026-11-13 15:32:45 [INFO] wnba_data_build: espn_wnba_officials: release seasons are contiguous
 ::endgroup::
 season 1999 EXIT=0
 pushed: WNBA Data Update (Start: 1999 End: 1999) (attempt 1)
