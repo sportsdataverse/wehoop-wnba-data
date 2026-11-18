@@ -48,6 +48,19 @@ jobs:
         # --frozen: a PR must not silently re-resolve the lockfile.
         run: uv sync --frozen --dev
 
+      # tests/test_r_player_season_stats.py runs the R stage's parsers against
+      # sdv-py's helper. It used to skip here for want of R, so the R-vs-Python
+      # parity check only ever ran on a dev box. Only the packages the R driver
+      # loads -- not the DESCRIPTION's wehoop/arrow stack.
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: any::jsonlite, any::purrr, any::tibble, any::glue, any::rlang
+          install-pandoc: false
+
       - name: Tests
         # --no-sync: `uv run` would otherwise re-sync and undo the --frozen
         # install above.
